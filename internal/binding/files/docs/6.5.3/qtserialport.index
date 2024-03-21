@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt Serial Port Reference Documentation" version="6.5.3" project="QtSerialPort" indexTitle="Qt Serial Port">
+    <namespace name="" status="active" access="public" module="qtserialport">
+        <page name="blockingreceiver" href="qtserialport-blockingreceiver-example.html" status="active" location="blockingreceiver.qdoc" filepath="/home/qt/work/qt/qt5/qtserialport/examples/serialport/doc/blockingreceiver.qdoc" lineno="5" documented="true" groups="category Connectivity,qtserialport-examples" subtype="example" title="Blocking Receiver" fulltitle="Blocking Receiver" subtitle="" brief="Shows how to use the synchronous API of QSerialPort in a non-GUI thread">
+            <contents name="running-the-example" title="Running the Example" level="1"/>
+            <page name="blockingreceiver/dialog.cpp" href="qtserialport-blockingreceiver-dialog-cpp.html" status="active" subtype="file" title="" fulltitle="dialog.cpp Example File" subtitle="blockingreceiver/dialog.cpp"/>
+            <page name="blockingreceiver/dialog.h" href="qtserialport-blockingreceiver-dialog-h.html" status="active" subtype="file" title="" fulltitle="dialog.h Example File" subtitle="blockingreceiver/dialog.h"/>
+            <page name="blockingreceiver/receiverthread.cpp" href="qtserialport-blockingreceiver-receiverthread-cpp.html" status="active" subtype="file" title="" fulltitle="receiverthread.cpp Example File" subtitle="blockingreceiver/receiverthread.cpp"/>
+            <page name="blockingreceiver/receiverthread.h" href="qtserialport-blockingreceiver-receiverthread-h.html" status="active" subtype="file" title="" fulltitle="receiverthread.h Example File" subtitle="blockingreceiver/receiverthread.h"/>
+            <page name="blockingreceiver/main.cpp" href="qtserialport-blockingreceiver-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="blockingreceiver/main.cpp"/>
+            <page name="blockingreceiver/CMakeLists.txt" href="qtserialport-blockingreceiver-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="blockingreceiver/CMakeLists.txt"/>
+            <page name="blockingreceiver/blockingreceiver.pro" href="qtserialport-blockingreceiver-blockingreceiver-pro.html" status="active" subtype="file" title="" fulltitle="blockingreceiver.pro Example File" subtitle="blockingreceiver/blockingreceiver.pro"/>
+        </page>
+        <page name="blockingsender" href="qtserialport-blockingsender-example.html" status="active" location="blockingsender.qdoc" filepath="/home/qt/work/qt/qt5/qtserialport/examples/serialport/doc/blockingsender.qdoc" lineno="6" documented="true" groups="category Connectivity,qtserialport-examples" subtype="example" title="Blocking Sender" fulltitle="Blocking Sender" subtitle="" brief="Shows how to use the synchronous API of QSerialPort in a worker thread">
+            <contents name="running-the-example" title="Running the Example" level="1"/>
+            <page name="blockingsender/dialog.cpp" href="qtserialport-blockingsender-dialog-cpp.html" status="active" subtype="file" title="" fulltitle="dialog.cpp Example File" subtitle="blockingsender/dialog.cpp"/>
+            <page name="blockingsender/dialog.h" href="qtserialport-blockingsender-dialog-h.html" status="active" subtype="file" title="" fulltitle="dialog.h Example File" subtitle="blockingsender/dialog.h"/>
+            <page name="blockingsender/senderthread.cpp" href="qtserialport-blockingsender-senderthread-cpp.html" status="active" subtype="file" title="" fulltitle="senderthread.cpp Example File" subtitle="blockingsender/senderthread.cpp"/>
+            <page name="blockingsender/senderthread.h" href="qtserialport-blockingsender-senderthread-h.html" status="active" subtype="file" title="" fulltitle="senderthread.h Example File" subtitle="blockingsender/senderthread.h"/>
+            <page name="blockingsender/main.cpp" href="qtserialport-blockingsender-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="blockingsender/main.cpp"/>
+            <page name="blockingsender/CMakeLists.txt" href="qtserialport-blockingsender-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="blockingsender/CMakeLists.txt"/>
+            <page name="blockingsender/blockingsender.pro" href="qtserialport-blockingsender-blockingsender-pro.html" status="active" subtype="file" title="" fulltitle="blockingsender.pro Example File" subtitle="blockingsender/blockingsender.pro"/>
+        </page>
+        <page name="qtserialport-changes-qt6.html" href="qtserialport-changes-qt6.html" status="active" location="qt6-changes.qdoc" filepath="/home/qt/work/qt/qt5/qtserialport/src/serialport/doc/src/qt6-changes.qdoc" lineno="3" documented="true" groups="changes-qt-5-to-6" subtype="page" title="Changes to Qt SerialPort" fulltitle="Changes to Qt SerialPort" subtitle="" brief="Migrate Qt SerialPort to Qt 6">
+            <contents name="changes-overview" title="Changes overview" level="1"/>
+            <contents name="build-system" title="Build system" level="1"/>
+        </page>
+        <class threadsafety="reentrant" name="QSerialPort" href="qserialport.html" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="17" documented="true" groups="serialport-main" bases="QIODevice" module="QtSerialPort" brief="Provides functions to access serial ports">
+            <function name="QSerialPort" fullname="QSerialPort::QSerialPort" href="qserialport.html#QSerialPort" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="125" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" type="" signature="QSerialPort(QObject *parent)">
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QSerialPort" fullname="QSerialPort::QSerialPort" href="qserialport.html#QSerialPort-1" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="126" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="1" type="" signature="QSerialPort(const QString &amp;name, QObject *parent)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QSerialPort" fullname="QSerialPort::QSerialPort" href="qserialport.html#QSerialPort-2" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="127" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="2" type="" signature="QSerialPort(const QSerialPortInfo &amp;serialPortInfo, QObject *parent)">
+                <parameter type="const QSerialPortInfo &amp;" name="serialPortInfo" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="baudRate" fullname="QSerialPort::baudRate" href="qserialport.html#baudRate-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="139" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="baudRate" type="qint32" signature="qint32 baudRate(QSerialPort::Directions directions) const">
+                <parameter type="QSerialPort::Directions" name="directions" default="AllDirections"/>
+            </function>
+            <function name="baudRateChanged" fullname="QSerialPort::baudRateChanged" href="qserialport.html#baudRateChanged" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="191" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="baudRate" type="void" signature="void baudRateChanged(qint32 baudRate, QSerialPort::Directions directions)">
+                <parameter type="qint32" name="baudRate" default=""/>
+                <parameter type="QSerialPort::Directions" name="directions" default=""/>
+            </function>
+            <function name="bindableDataBits" fullname="QSerialPort::bindableDataBits" href="qserialport.html#dataBits-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="143" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="dataBits" type="QBindable&lt;QSerialPort::DataBits&gt;" signature="QBindable&lt;QSerialPort::DataBits&gt; bindableDataBits()"/>
+            <function name="bindableError" fullname="QSerialPort::bindableError" href="qserialport.html#error-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="170" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="error" type="QBindable&lt;QSerialPort::SerialPortError&gt;" signature="QBindable&lt;QSerialPort::SerialPortError&gt; bindableError() const"/>
+            <function name="bindableFlowControl" fullname="QSerialPort::bindableFlowControl" href="qserialport.html#flowControl-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="155" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="flowControl" type="QBindable&lt;QSerialPort::FlowControl&gt;" signature="QBindable&lt;QSerialPort::FlowControl&gt; bindableFlowControl()"/>
+            <function name="bindableIsBreakEnabled" fullname="QSerialPort::bindableIsBreakEnabled" href="qserialport.html#breakEnabled-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="186" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="breakEnabled" type="QBindable&lt;bool&gt;" signature="QBindable&lt;bool&gt; bindableIsBreakEnabled()"/>
+            <function name="bindableParity" fullname="QSerialPort::bindableParity" href="qserialport.html#parity-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="147" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="parity" type="QBindable&lt;QSerialPort::Parity&gt;" signature="QBindable&lt;QSerialPort::Parity&gt; bindableParity()"/>
+            <function name="bindableStopBits" fullname="QSerialPort::bindableStopBits" href="qserialport.html#stopBits-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="151" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="stopBits" type="QBindable&lt;bool&gt;" signature="QBindable&lt;bool&gt; bindableStopBits()"/>
+            <function name="breakEnabledChanged" fullname="QSerialPort::breakEnabledChanged" href="qserialport.html#breakEnabled-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="199" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="breakEnabled" type="void" signature="void breakEnabledChanged(bool set)">
+                <parameter type="bool" name="set" default=""/>
+            </function>
+            <function name="bytesAvailable" fullname="QSerialPort::bytesAvailable" href="qserialport.html#bytesAvailable" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="177" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="qint64" signature="qint64 bytesAvailable() const override"/>
+            <function name="bytesToWrite" fullname="QSerialPort::bytesToWrite" href="qserialport.html#bytesToWrite" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="178" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="qint64" signature="qint64 bytesToWrite() const override"/>
+            <function name="canReadLine" fullname="QSerialPort::canReadLine" href="qserialport.html#canReadLine" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="179" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="bool" signature="bool canReadLine() const override"/>
+            <function name="clear" fullname="QSerialPort::clear" href="qserialport.html#clear" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="166" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool clear(QSerialPort::Directions directions)">
+                <parameter type="QSerialPort::Directions" name="directions" default="AllDirections"/>
+            </function>
+            <function name="clearError" fullname="QSerialPort::clearError" href="qserialport.html#error-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="169" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="error" type="void" signature="void clearError()"/>
+            <function name="close" fullname="QSerialPort::close" href="qserialport.html#close" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="136" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void" signature="void close() override"/>
+            <function name="dataBits" fullname="QSerialPort::dataBits" href="qserialport.html#dataBits-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="142" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="dataBits" type="QSerialPort::DataBits" signature="QSerialPort::DataBits dataBits() const"/>
+            <function name="dataBitsChanged" fullname="QSerialPort::dataBitsChanged" href="qserialport.html#dataBitsChanged" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="192" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="dataBits" type="void" signature="void dataBitsChanged(QSerialPort::DataBits dataBits)">
+                <parameter type="QSerialPort::DataBits" name="dataBits" default=""/>
+            </function>
+            <function name="dataTerminalReadyChanged" fullname="QSerialPort::dataTerminalReadyChanged" href="qserialport.html#dataTerminalReadyChanged" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="196" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="dataTerminalReady" type="void" signature="void dataTerminalReadyChanged(bool set)">
+                <parameter type="bool" name="set" default=""/>
+            </function>
+            <function name="error" fullname="QSerialPort::error" href="qserialport.html#error-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="168" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="error" type="QSerialPort::SerialPortError" signature="QSerialPort::SerialPortError error() const"/>
+            <function name="errorOccurred" fullname="QSerialPort::errorOccurred" href="qserialport.html#errorOccurred" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="198" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="error" type="void" signature="void errorOccurred(QSerialPort::SerialPortError error)">
+                <parameter type="QSerialPort::SerialPortError" name="error" default=""/>
+            </function>
+            <function name="flowControl" fullname="QSerialPort::flowControl" href="qserialport.html#flowControl-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="154" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="flowControl" type="QSerialPort::FlowControl" signature="QSerialPort::FlowControl flowControl() const"/>
+            <function name="flowControlChanged" fullname="QSerialPort::flowControlChanged" href="qserialport.html#flowControlChanged" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="195" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="flowControl" type="void" signature="void flowControlChanged(QSerialPort::FlowControl flow)">
+                <parameter type="QSerialPort::FlowControl" name="flow" default=""/>
+            </function>
+            <function name="flush" fullname="QSerialPort::flush" href="qserialport.html#flush" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="165" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool flush()"/>
+            <function name="handle" fullname="QSerialPort::handle" href="qserialport.html#handle" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="188" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QSerialPort::Handle" signature="QSerialPort::Handle handle() const"/>
+            <function name="isBreakEnabled" fullname="QSerialPort::isBreakEnabled" href="qserialport.html#breakEnabled-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="185" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="breakEnabled" type="bool" signature="bool isBreakEnabled() const"/>
+            <function name="isDataTerminalReady" fullname="QSerialPort::isDataTerminalReady" href="qserialport.html#dataTerminalReady-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="158" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="dataTerminalReady" type="bool" signature="bool isDataTerminalReady()"/>
+            <function name="isRequestToSend" fullname="QSerialPort::isRequestToSend" href="qserialport.html#requestToSend-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="161" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="requestToSend" type="bool" signature="bool isRequestToSend()"/>
+            <function name="isSequential" fullname="QSerialPort::isSequential" href="qserialport.html#isSequential" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="175" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="bool" signature="bool isSequential() const override"/>
+            <function name="open" fullname="QSerialPort::open" href="qserialport.html#open" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="135" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="bool" signature="bool open(QIODeviceBase::OpenMode mode) override">
+                <parameter type="QIODeviceBase::OpenMode" name="mode" default=""/>
+            </function>
+            <function name="parity" fullname="QSerialPort::parity" href="qserialport.html#parity-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="146" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="parity" type="QSerialPort::Parity" signature="QSerialPort::Parity parity() const"/>
+            <function name="parityChanged" fullname="QSerialPort::parityChanged" href="qserialport.html#parityChanged" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="193" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="parity" type="void" signature="void parityChanged(QSerialPort::Parity parity)">
+                <parameter type="QSerialPort::Parity" name="parity" default=""/>
+            </function>
+            <function name="pinoutSignals" fullname="QSerialPort::pinoutSignals" href="qserialport.html#pinoutSignals" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="163" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QSerialPort::PinoutSignals" signature="QSerialPort::PinoutSignals pinoutSignals()"/>
+            <function name="portName" fullname="QSerialPort::portName" href="qserialport.html#portName" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="131" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString portName() const"/>
+            <function name="readBufferSize" fullname="QSerialPort::readBufferSize" href="qserialport.html#readBufferSize" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="172" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="qint64" signature="qint64 readBufferSize() const"/>
+            <function name="readData" fullname="QSerialPort::readData" href="qserialport.html#readData" status="active" access="protected" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="202" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="qint64" signature="qint64 readData(char *data, qint64 maxSize) override">
+                <parameter type="char *" name="data" default=""/>
+                <parameter type="qint64" name="maxSize" default=""/>
+            </function>
+            <function name="readLineData" fullname="QSerialPort::readLineData" href="qserialport.html#readLineData" status="active" access="protected" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="203" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="qint64" signature="qint64 readLineData(char *data, qint64 maxSize) override">
+                <parameter type="char *" name="data" default=""/>
+                <parameter type="qint64" name="maxSize" default=""/>
+            </function>
+            <function name="requestToSendChanged" fullname="QSerialPort::requestToSendChanged" href="qserialport.html#requestToSendChanged" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="197" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="requestToSend" type="void" signature="void requestToSendChanged(bool set)">
+                <parameter type="bool" name="set" default=""/>
+            </function>
+            <function name="setBaudRate" fullname="QSerialPort::setBaudRate" href="qserialport.html#baudRate-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="138" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="baudRate" type="bool" signature="bool setBaudRate(qint32 baudRate, QSerialPort::Directions directions)">
+                <parameter type="qint32" name="baudRate" default=""/>
+                <parameter type="QSerialPort::Directions" name="directions" default="AllDirections"/>
+            </function>
+            <function name="setBreakEnabled" fullname="QSerialPort::setBreakEnabled" href="qserialport.html#breakEnabled-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="184" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="breakEnabled" type="bool" signature="bool setBreakEnabled(bool set)">
+                <parameter type="bool" name="set" default="true"/>
+            </function>
+            <function name="setDataBits" fullname="QSerialPort::setDataBits" href="qserialport.html#dataBits-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="141" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="dataBits" type="bool" signature="bool setDataBits(QSerialPort::DataBits dataBits)">
+                <parameter type="QSerialPort::DataBits" name="dataBits" default=""/>
+            </function>
+            <function name="setDataTerminalReady" fullname="QSerialPort::setDataTerminalReady" href="qserialport.html#dataTerminalReady-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="157" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="dataTerminalReady" type="bool" signature="bool setDataTerminalReady(bool set)">
+                <parameter type="bool" name="set" default=""/>
+            </function>
+            <function name="setFlowControl" fullname="QSerialPort::setFlowControl" href="qserialport.html#flowControl-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="153" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="flowControl" type="bool" signature="bool setFlowControl(QSerialPort::FlowControl flowControl)">
+                <parameter type="QSerialPort::FlowControl" name="flowControl" default=""/>
+            </function>
+            <function name="setParity" fullname="QSerialPort::setParity" href="qserialport.html#parity-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="145" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="parity" type="bool" signature="bool setParity(QSerialPort::Parity parity)">
+                <parameter type="QSerialPort::Parity" name="parity" default=""/>
+            </function>
+            <function name="setPort" fullname="QSerialPort::setPort" href="qserialport.html#setPort" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="133" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void setPort(const QSerialPortInfo &amp;serialPortInfo)">
+                <parameter type="const QSerialPortInfo &amp;" name="serialPortInfo" default=""/>
+            </function>
+            <function name="setPortName" fullname="QSerialPort::setPortName" href="qserialport.html#setPortName" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="130" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void setPortName(const QString &amp;name)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+            </function>
+            <function name="setReadBufferSize" fullname="QSerialPort::setReadBufferSize" href="qserialport.html#setReadBufferSize" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="173" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void setReadBufferSize(qint64 size)">
+                <parameter type="qint64" name="size" default=""/>
+            </function>
+            <function name="setRequestToSend" fullname="QSerialPort::setRequestToSend" href="qserialport.html#requestToSend-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="160" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="requestToSend" type="bool" signature="bool setRequestToSend(bool set)">
+                <parameter type="bool" name="set" default=""/>
+            </function>
+            <function name="setStopBits" fullname="QSerialPort::setStopBits" href="qserialport.html#stopBits-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="149" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="stopBits" type="bool" signature="bool setStopBits(QSerialPort::StopBits stopBits)">
+                <parameter type="QSerialPort::StopBits" name="stopBits" default=""/>
+            </function>
+            <function name="stopBits" fullname="QSerialPort::stopBits" href="qserialport.html#stopBits-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="150" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="stopBits" type="QSerialPort::StopBits" signature="QSerialPort::StopBits stopBits() const"/>
+            <function name="stopBitsChanged" fullname="QSerialPort::stopBitsChanged" href="qserialport.html#stopBitsChanged" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="194" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="stopBits" type="void" signature="void stopBitsChanged(QSerialPort::StopBits stopBits)">
+                <parameter type="QSerialPort::StopBits" name="stopBits" default=""/>
+            </function>
+            <function name="waitForBytesWritten" fullname="QSerialPort::waitForBytesWritten" href="qserialport.html#waitForBytesWritten" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="182" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="bool" signature="bool waitForBytesWritten(int msecs) override">
+                <parameter type="int" name="msecs" default="30000"/>
+            </function>
+            <function name="waitForReadyRead" fullname="QSerialPort::waitForReadyRead" href="qserialport.html#waitForReadyRead" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="181" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="bool" signature="bool waitForReadyRead(int msecs) override">
+                <parameter type="int" name="msecs" default="30000"/>
+            </function>
+            <function name="writeData" fullname="QSerialPort::writeData" href="qserialport.html#writeData" status="active" access="protected" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="204" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="qint64" signature="qint64 writeData(const char *data, qint64 maxSize) override">
+                <parameter type="const char *" name="data" default=""/>
+                <parameter type="qint64" name="maxSize" default=""/>
+            </function>
+            <function name="~QSerialPort" fullname="QSerialPort::~QSerialPort" href="qserialport.html#dtor.QSerialPort" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="128" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QSerialPort()"/>
+            <enum name="BaudRate" fullname="QSerialPort::BaudRate" href="qserialport.html#BaudRate-enum" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="53" documented="true">
+                <value name="Baud1200" value="1200"/>
+                <value name="Baud2400" value="2400"/>
+                <value name="Baud4800" value="4800"/>
+                <value name="Baud9600" value="9600"/>
+                <value name="Baud19200" value="19200"/>
+                <value name="Baud38400" value="38400"/>
+                <value name="Baud57600" value="57600"/>
+                <value name="Baud115200" value="115200"/>
+            </enum>
+            <enum name="DataBits" fullname="QSerialPort::DataBits" href="qserialport.html#DataBits-enum" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="65" documented="true">
+                <value name="Data5" value="5"/>
+                <value name="Data6" value="6"/>
+                <value name="Data7" value="7"/>
+                <value name="Data8" value="8"/>
+            </enum>
+            <enum name="Direction" fullname="QSerialPort::Direction" href="qserialport.html#Direction-enum" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="45" documented="true" typedef="QSerialPort::Directions">
+                <value name="Input" value="1"/>
+                <value name="Output" value="2"/>
+                <value name="AllDirections" value="Input | Output"/>
+            </enum>
+            <enum name="FlowControl" fullname="QSerialPort::FlowControl" href="qserialport.html#FlowControl-enum" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="89" documented="true">
+                <value name="NoFlowControl" value="0"/>
+                <value name="HardwareControl" value="1"/>
+                <value name="SoftwareControl" value="2"/>
+            </enum>
+            <enum name="Parity" fullname="QSerialPort::Parity" href="qserialport.html#Parity-enum" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="73" documented="true">
+                <value name="NoParity" value="0"/>
+                <value name="EvenParity" value="2"/>
+                <value name="OddParity" value="3"/>
+                <value name="SpaceParity" value="4"/>
+                <value name="MarkParity" value="5"/>
+            </enum>
+            <enum name="PinoutSignal" fullname="QSerialPort::PinoutSignal" href="qserialport.html#PinoutSignal-enum" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="96" documented="true" typedef="QSerialPort::PinoutSignals">
+                <value name="NoSignal" value="0x00"/>
+                <value name="DataTerminalReadySignal" value="0x04"/>
+                <value name="DataCarrierDetectSignal" value="0x08"/>
+                <value name="DataSetReadySignal" value="0x10"/>
+                <value name="RingIndicatorSignal" value="0x20"/>
+                <value name="RequestToSendSignal" value="0x40"/>
+                <value name="ClearToSendSignal" value="0x80"/>
+                <value name="SecondaryTransmittedDataSignal" value="0x100"/>
+                <value name="SecondaryReceivedDataSignal" value="0x200"/>
+            </enum>
+            <enum name="SerialPortError" fullname="QSerialPort::SerialPortError" href="qserialport.html#SerialPortError-enum" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="110" documented="true">
+                <value name="NoError" value="0"/>
+                <value name="DeviceNotFoundError" value="1"/>
+                <value name="PermissionError" value="2"/>
+                <value name="OpenError" value="3"/>
+                <value name="WriteError" value="4"/>
+                <value name="ReadError" value="5"/>
+                <value name="ResourceError" value="6"/>
+                <value name="UnsupportedOperationError" value="7"/>
+                <value name="UnknownError" value="8"/>
+                <value name="TimeoutError" value="9"/>
+                <value name="NotOpenError" value="10"/>
+            </enum>
+            <enum name="StopBits" fullname="QSerialPort::StopBits" href="qserialport.html#StopBits-enum" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="82" documented="true">
+                <value name="OneStop" value="1"/>
+                <value name="OneAndHalfStop" value="3"/>
+                <value name="TwoStop" value="2"/>
+            </enum>
+            <typedef name="Directions" fullname="QSerialPort::Directions" href="qserialport.html#Direction-enum" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="51" enum="QSerialPort::Direction"/>
+            <typedef name="PinoutSignals" fullname="QSerialPort::PinoutSignals" href="qserialport.html#PinoutSignal-enum" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="108" enum="QSerialPort::PinoutSignal"/>
+            <property name="baudRate" fullname="QSerialPort::baudRate" href="qserialport.html#baudRate-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="22" documented="true" brief="The data baud rate for the desired direction">
+                <getter name="baudRate"/>
+                <setter name="setBaudRate"/>
+                <notifier name="baudRateChanged"/>
+            </property>
+            <property name="breakEnabled" fullname="QSerialPort::breakEnabled" href="qserialport.html#breakEnabled-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="34" documented="true" bindable="true" brief="The state of the transmission line in break">
+                <getter name="isBreakEnabled"/>
+                <setter name="setBreakEnabled"/>
+                <notifier name="breakEnabledChanged"/>
+                <bindable name="bindableIsBreakEnabled"/>
+            </property>
+            <property name="dataBits" fullname="QSerialPort::dataBits" href="qserialport.html#dataBits-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="23" documented="true" bindable="true" brief="The data bits in a frame">
+                <getter name="dataBits"/>
+                <setter name="setDataBits"/>
+                <notifier name="dataBitsChanged"/>
+                <bindable name="bindableDataBits"/>
+            </property>
+            <property name="dataTerminalReady" fullname="QSerialPort::dataTerminalReady" href="qserialport.html#dataTerminalReady-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="30" documented="true" brief="The state (high or low) of the line signal DTR">
+                <getter name="isDataTerminalReady"/>
+                <setter name="setDataTerminalReady"/>
+                <notifier name="dataTerminalReadyChanged"/>
+            </property>
+            <property name="error" fullname="QSerialPort::error" href="qserialport.html#error-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="33" documented="true" bindable="true" writable="false" brief="The error status of the serial port">
+                <getter name="error"/>
+                <resetter name="clearError"/>
+                <notifier name="errorOccurred"/>
+                <bindable name="bindableError"/>
+            </property>
+            <property name="flowControl" fullname="QSerialPort::flowControl" href="qserialport.html#flowControl-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="28" documented="true" bindable="true" brief="The desired flow control mode">
+                <getter name="flowControl"/>
+                <setter name="setFlowControl"/>
+                <notifier name="flowControlChanged"/>
+                <bindable name="bindableFlowControl"/>
+            </property>
+            <property name="parity" fullname="QSerialPort::parity" href="qserialport.html#parity-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="25" documented="true" bindable="true" brief="The parity checking mode">
+                <getter name="parity"/>
+                <setter name="setParity"/>
+                <notifier name="parityChanged"/>
+                <bindable name="bindableParity"/>
+            </property>
+            <property name="requestToSend" fullname="QSerialPort::requestToSend" href="qserialport.html#requestToSend-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="32" documented="true" brief="The state (high or low) of the line signal RTS">
+                <getter name="isRequestToSend"/>
+                <setter name="setRequestToSend"/>
+                <notifier name="requestToSendChanged"/>
+            </property>
+            <property name="stopBits" fullname="QSerialPort::stopBits" href="qserialport.html#stopBits-prop" status="active" access="public" location="qserialport.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialport.h" lineno="26" documented="true" bindable="true" brief="The number of stop bits in a frame">
+                <getter name="stopBits"/>
+                <setter name="setStopBits"/>
+                <notifier name="stopBitsChanged"/>
+                <bindable name="bindableStopBits"/>
+            </property>
+        </class>
+        <class name="QSerialPortInfo" href="qserialportinfo.html" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="18" documented="true" groups="serialport-main" module="QtSerialPort" brief="Provides information about existing serial ports">
+            <contents name="example-usage" title="Example Usage" level="1"/>
+            <function name="QSerialPortInfo" fullname="QSerialPortInfo::QSerialPortInfo" href="qserialportinfo.html#QSerialPortInfo" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="22" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QSerialPortInfo()"/>
+            <function name="QSerialPortInfo" fullname="QSerialPortInfo::QSerialPortInfo" href="qserialportinfo.html#QSerialPortInfo-1" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="23" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="1" type="" signature="QSerialPortInfo(const QSerialPort &amp;port)">
+                <parameter type="const QSerialPort &amp;" name="port" default=""/>
+            </function>
+            <function name="QSerialPortInfo" fullname="QSerialPortInfo::QSerialPortInfo" href="qserialportinfo.html#QSerialPortInfo-2" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="24" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="2" type="" signature="QSerialPortInfo(const QString &amp;name)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+            </function>
+            <function name="QSerialPortInfo" fullname="QSerialPortInfo::QSerialPortInfo" href="qserialportinfo.html#QSerialPortInfo-3" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="25" documented="true" meta="copy-constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="3" type="" signature="QSerialPortInfo(const QSerialPortInfo &amp;other)">
+                <parameter type="const QSerialPortInfo &amp;" name="other" default=""/>
+            </function>
+            <function name="availablePorts" fullname="QSerialPortInfo::availablePorts" href="qserialportinfo.html#availablePorts" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="46" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="QList&lt;QSerialPortInfo&gt;" signature="QList&lt;QSerialPortInfo&gt; availablePorts()"/>
+            <function name="description" fullname="QSerialPortInfo::description" href="qserialportinfo.html#description" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="33" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString description() const"/>
+            <function name="hasProductIdentifier" fullname="QSerialPortInfo::hasProductIdentifier" href="qserialportinfo.html#hasProductIdentifier" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="41" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool hasProductIdentifier() const"/>
+            <function name="hasVendorIdentifier" fullname="QSerialPortInfo::hasVendorIdentifier" href="qserialportinfo.html#hasVendorIdentifier" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="40" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool hasVendorIdentifier() const"/>
+            <function name="isNull" fullname="QSerialPortInfo::isNull" href="qserialportinfo.html#isNull" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="43" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool isNull() const"/>
+            <function name="manufacturer" fullname="QSerialPortInfo::manufacturer" href="qserialportinfo.html#manufacturer" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="34" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString manufacturer() const"/>
+            <function name="operator=" fullname="QSerialPortInfo::operator=" href="qserialportinfo.html#operator-eq" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="28" documented="true" meta="copy-assign" virtual="non" const="false" static="false" final="false" override="false" type="QSerialPortInfo &amp;" signature="QSerialPortInfo &amp; operator=(const QSerialPortInfo &amp;other)">
+                <parameter type="const QSerialPortInfo &amp;" name="other" default=""/>
+            </function>
+            <function name="portName" fullname="QSerialPortInfo::portName" href="qserialportinfo.html#portName" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="31" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString portName() const"/>
+            <function name="productIdentifier" fullname="QSerialPortInfo::productIdentifier" href="qserialportinfo.html#productIdentifier" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="38" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="quint16" signature="quint16 productIdentifier() const"/>
+            <function name="serialNumber" fullname="QSerialPortInfo::serialNumber" href="qserialportinfo.html#serialNumber" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="35" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString serialNumber() const"/>
+            <function name="standardBaudRates" fullname="QSerialPortInfo::standardBaudRates" href="qserialportinfo.html#standardBaudRates" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="45" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="QList&lt;qint32&gt;" signature="QList&lt;qint32&gt; standardBaudRates()"/>
+            <function name="swap" fullname="QSerialPortInfo::swap" href="qserialportinfo.html#swap" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="29" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void swap(QSerialPortInfo &amp;other)">
+                <parameter type="QSerialPortInfo &amp;" name="other" default=""/>
+            </function>
+            <function name="systemLocation" fullname="QSerialPortInfo::systemLocation" href="qserialportinfo.html#systemLocation" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="32" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString systemLocation() const"/>
+            <function name="vendorIdentifier" fullname="QSerialPortInfo::vendorIdentifier" href="qserialportinfo.html#vendorIdentifier" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="37" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="quint16" signature="quint16 vendorIdentifier() const"/>
+            <function name="~QSerialPortInfo" fullname="QSerialPortInfo::~QSerialPortInfo" href="qserialportinfo.html#dtor.QSerialPortInfo" status="active" access="public" location="qserialportinfo.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSerialPort/../../../qtserialport/src/serialport/qserialportinfo.h" lineno="26" documented="true" meta="destructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="~QSerialPortInfo()"/>
+        </class>
+        <page name="qtserialport-index.html" href="qtserialport-index.html" status="active" location="index.qdoc" filepath="/home/qt/work/qt/qt5/qtserialport/src/serialport/doc/src/index.qdoc" lineno="4" documented="true" subtype="page" title="Qt Serial Port" fulltitle="Qt Serial Port" subtitle="" brief="Provides an API to make serial programming simple and portable">
+            <contents name="using-the-module" title="Using the Module" level="1"/>
+            <contents name="building-with-cmake" title="Building with CMake" level="2"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="2"/>
+            <contents name="module-evolution" title="Module Evolution" level="1"/>
+            <contents name="related-information" title="Related Information" level="1"/>
+        </page>
+        <page name="terminal" href="qtserialport-terminal-example.html" status="active" location="terminal.qdoc" filepath="/home/qt/work/qt/qt5/qtserialport/examples/serialport/doc/terminal.qdoc" lineno="5" documented="true" groups="category Connectivity,qtserialport-examples" subtype="example" title="Serial Terminal" fulltitle="Serial Terminal" subtitle="" brief="Shows how to use various features of QSerialPort">
+            <contents name="writing-data" title="Writing Data" level="2"/>
+            <contents name="reading-data" title="Reading Data" level="2"/>
+            <contents name="running-the-example" title="Running the Example" level="1"/>
+            <page name="terminal/console.cpp" href="qtserialport-terminal-console-cpp.html" status="active" subtype="file" title="" fulltitle="console.cpp Example File" subtitle="terminal/console.cpp"/>
+            <page name="terminal/console.h" href="qtserialport-terminal-console-h.html" status="active" subtype="file" title="" fulltitle="console.h Example File" subtitle="terminal/console.h"/>
+            <page name="terminal/mainwindow.cpp" href="qtserialport-terminal-mainwindow-cpp.html" status="active" subtype="file" title="" fulltitle="mainwindow.cpp Example File" subtitle="terminal/mainwindow.cpp"/>
+            <page name="terminal/mainwindow.h" href="qtserialport-terminal-mainwindow-h.html" status="active" subtype="file" title="" fulltitle="mainwindow.h Example File" subtitle="terminal/mainwindow.h"/>
+            <page name="terminal/mainwindow.ui" href="qtserialport-terminal-mainwindow-ui.html" status="active" subtype="file" title="" fulltitle="mainwindow.ui Example File" subtitle="terminal/mainwindow.ui"/>
+            <page name="terminal/settingsdialog.cpp" href="qtserialport-terminal-settingsdialog-cpp.html" status="active" subtype="file" title="" fulltitle="settingsdialog.cpp Example File" subtitle="terminal/settingsdialog.cpp"/>
+            <page name="terminal/settingsdialog.h" href="qtserialport-terminal-settingsdialog-h.html" status="active" subtype="file" title="" fulltitle="settingsdialog.h Example File" subtitle="terminal/settingsdialog.h"/>
+            <page name="terminal/settingsdialog.ui" href="qtserialport-terminal-settingsdialog-ui.html" status="active" subtype="file" title="" fulltitle="settingsdialog.ui Example File" subtitle="terminal/settingsdialog.ui"/>
+            <page name="terminal/main.cpp" href="qtserialport-terminal-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="terminal/main.cpp"/>
+            <page name="terminal/CMakeLists.txt" href="qtserialport-terminal-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="terminal/CMakeLists.txt"/>
+            <page name="terminal/terminal.pro" href="qtserialport-terminal-terminal-pro.html" status="active" subtype="file" title="" fulltitle="terminal.pro Example File" subtitle="terminal/terminal.pro"/>
+            <page name="terminal/terminal.qrc" href="qtserialport-terminal-terminal-qrc.html" status="active" subtype="file" title="" fulltitle="terminal.qrc Example File" subtitle="terminal/terminal.qrc"/>
+            <page name="terminal/images/application-exit.png" href="qtserialport-terminal-images-application-exit-png.html" status="active" subtype="image" title="" fulltitle="application-exit.png Image File" subtitle="terminal/images/application-exit.png"/>
+            <page name="terminal/images/clear.png" href="qtserialport-terminal-images-clear-png.html" status="active" subtype="image" title="" fulltitle="clear.png Image File" subtitle="terminal/images/clear.png"/>
+            <page name="terminal/images/connect.png" href="qtserialport-terminal-images-connect-png.html" status="active" subtype="image" title="" fulltitle="connect.png Image File" subtitle="terminal/images/connect.png"/>
+            <page name="terminal/images/disconnect.png" href="qtserialport-terminal-images-disconnect-png.html" status="active" subtype="image" title="" fulltitle="disconnect.png Image File" subtitle="terminal/images/disconnect.png"/>
+            <page name="terminal/images/settings.png" href="qtserialport-terminal-images-settings-png.html" status="active" subtype="image" title="" fulltitle="settings.png Image File" subtitle="terminal/images/settings.png"/>
+        </page>
+        <group name="category Connectivity" href="category-connectivity.html" status="internal" seen="false" title=""/>
+        <group name="changes-qt-5-to-6" href="changes-qt-5-to-6.html" status="internal" seen="false" title=""/>
+        <group name="modules" href="modules.html" status="internal" seen="false" title=""/>
+        <group name="qtserialport-examples" href="qtserialport-examples.html" status="active" location="qtserialport-examples.qdoc" filepath="/home/qt/work/qt/qt5/qtserialport/src/serialport/doc/src/qtserialport-examples.qdoc" lineno="6" documented="true" seen="true" title="Qt Serial Port Examples" brief="List of serial port examples">
+            <contents name="running-the-examples" title="Running the Examples" level="1"/>
+        </group>
+        <group name="serialport-main" href="serialport-main.html" status="internal" seen="false" title=""/>
+        <module name="QtCore" href="qtcore-module.html" status="internal" seen="false" title=""/>
+        <module name="QtSerialPort" href="qtserialport-module.html" status="active" location="qtserialport-module.qdoc" filepath="/home/qt/work/qt/qt5/qtserialport/src/serialport/doc/src/qtserialport-module.qdoc" lineno="4" documented="true" groups="modules" seen="true" title="Qt Serial Port C++ Classes" brief="List of C++ classes that enable access to a serial port"/>
+    </namespace>
+</INDEX>

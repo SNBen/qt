@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt TextToSpeech Documentation" version="6.5.3" project="QtTextToSpeech" indexTitle="Qt TextToSpeech">
+    <namespace name="" status="active" access="public" module="qttexttospeech">
+        <page name="qttexttospeech-changes-qt6.html" href="qttexttospeech-changes-qt6.html" status="active" location="qt6-changes.qdoc" filepath="/home/qt/work/qt/qt5/qtspeech/src/tts/doc/src/qt6-changes.qdoc" lineno="4" documented="true" groups="changes-qt-5-to-6" subtype="page" title="Changes to Qt TextToSpeech" fulltitle="Changes to Qt TextToSpeech" subtitle="" brief="Migrate Qt TextToSpeech to Qt 6">
+            <contents name="available-engines" title="Available Engines" level="1"/>
+            <contents name="api-changes" title="API changes" level="1"/>
+            <contents name="the-qtexttospeech-class" title="The QTextToSpeech class" level="2"/>
+            <contents name="the-qvoice-class" title="The QVoice class" level="2"/>
+            <contents name="the-qtexttospeechengine-and-qtexttospeechplugin-classes" title="The QTextToSpeechEngine and QTextToSpeechPlugin classes" level="2"/>
+        </page>
+        <page name="hello_speak" href="qttexttospeech-hello-speak-example.html" status="active" location="hellospeakex.qdoc" filepath="/home/qt/work/qt/qt5/qtspeech/examples/speech/hello_speak/doc/src/hellospeakex.qdoc" lineno="4" documented="true" groups="category Data Processing &amp; I/O,qttexttospeech_examples" subtype="example" title="Hello Speak Example" fulltitle="Hello Speak Example" subtitle="" brief="Hello Speak example reads out user-provided text">
+            <page name="hello_speak/mainwindow.cpp" href="qttexttospeech-hello-speak-mainwindow-cpp.html" status="active" subtype="file" title="" fulltitle="mainwindow.cpp Example File" subtitle="hello_speak/mainwindow.cpp"/>
+            <page name="hello_speak/mainwindow.h" href="qttexttospeech-hello-speak-mainwindow-h.html" status="active" subtype="file" title="" fulltitle="mainwindow.h Example File" subtitle="hello_speak/mainwindow.h"/>
+            <page name="hello_speak/mainwindow.ui" href="qttexttospeech-hello-speak-mainwindow-ui.html" status="active" subtype="file" title="" fulltitle="mainwindow.ui Example File" subtitle="hello_speak/mainwindow.ui"/>
+            <page name="hello_speak/main.cpp" href="qttexttospeech-hello-speak-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="hello_speak/main.cpp"/>
+            <page name="hello_speak/CMakeLists.txt" href="qttexttospeech-hello-speak-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="hello_speak/CMakeLists.txt"/>
+            <page name="hello_speak/hello_speak.pro" href="qttexttospeech-hello-speak-hello-speak-pro.html" status="active" subtype="file" title="" fulltitle="hello_speak.pro Example File" subtitle="hello_speak/hello_speak.pro"/>
+        </page>
+        <class name="QTextToSpeech" href="qtexttospeech.html" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="20" documented="true" bases="QObject" module="QtTextToSpeech" brief="Convenient access to text-to-speech engines">
+            <function name="QTextToSpeech" fullname="QTextToSpeech::QTextToSpeech" href="qtexttospeech.html#QTextToSpeech" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="57" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" type="" signature="QTextToSpeech(QObject *parent)">
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QTextToSpeech" fullname="QTextToSpeech::QTextToSpeech" href="qtexttospeech.html#QTextToSpeech-1" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="58" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="1" type="" signature="QTextToSpeech(const QString &amp;engine, QObject *parent)">
+                <parameter type="const QString &amp;" name="engine" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QTextToSpeech" fullname="QTextToSpeech::QTextToSpeech" href="qtexttospeech.html#QTextToSpeech-2" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="59" documented="true" since="6.4" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="2" type="" signature="QTextToSpeech(const QString &amp;engine, const QVariantMap &amp;params, QObject *parent)">
+                <parameter type="const QString &amp;" name="engine" default=""/>
+                <parameter type="const QVariantMap &amp;" name="params" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="availableEngines" fullname="QTextToSpeech::availableEngines" href="qtexttospeech.html#availableEngines" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="80" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="QStringList" signature="QStringList availableEngines()"/>
+            <function name="availableLocales" fullname="QTextToSpeech::availableLocales" href="qtexttospeech.html#availableLocales" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="70" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QList&lt;QLocale&gt;" signature="QList&lt;QLocale&gt; availableLocales() const"/>
+            <function name="availableVoices" fullname="QTextToSpeech::availableVoices" href="qtexttospeech.html#availableVoices" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="74" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QList&lt;QVoice&gt;" signature="QList&lt;QVoice&gt; availableVoices() const"/>
+            <function name="engine" fullname="QTextToSpeech::engine" href="qtexttospeech.html#engine-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="64" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="engine" type="QString" signature="QString engine() const"/>
+            <function name="engineChanged" fullname="QTextToSpeech::engineChanged" href="qtexttospeech.html#engine-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="96" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="engine" type="void" signature="void engineChanged(const QString &amp;engine)">
+                <parameter type="const QString &amp;" name="engine" default=""/>
+            </function>
+            <function name="errorOccurred" fullname="QTextToSpeech::errorOccurred" href="qtexttospeech.html#errorOccurred" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="98" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void errorOccurred(QTextToSpeech::ErrorReason reason, const QString &amp;errorString)">
+                <parameter type="QTextToSpeech::ErrorReason" name="reason" default=""/>
+                <parameter type="const QString &amp;" name="errorString" default=""/>
+            </function>
+            <function name="errorReason" fullname="QTextToSpeech::errorReason" href="qtexttospeech.html#errorReason" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="67" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QTextToSpeech::ErrorReason" signature="QTextToSpeech::ErrorReason errorReason() const"/>
+            <function name="errorString" fullname="QTextToSpeech::errorString" href="qtexttospeech.html#errorString" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="68" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString errorString() const"/>
+            <function name="locale" fullname="QTextToSpeech::locale" href="qtexttospeech.html#locale-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="71" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="locale" type="QLocale" signature="QLocale locale() const"/>
+            <function name="localeChanged" fullname="QTextToSpeech::localeChanged" href="qtexttospeech.html#locale-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="99" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="locale" type="void" signature="void localeChanged(const QLocale &amp;locale)">
+                <parameter type="const QLocale &amp;" name="locale" default=""/>
+            </function>
+            <function name="pause" fullname="QTextToSpeech::pause" href="qtexttospeech.html#pause" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="85" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void pause(QTextToSpeech::BoundaryHint boundaryHint)">
+                <parameter type="QTextToSpeech::BoundaryHint" name="boundaryHint" default="QTextToSpeech::BoundaryHint::Default"/>
+            </function>
+            <function name="pitch" fullname="QTextToSpeech::pitch" href="qtexttospeech.html#pitch-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="77" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="pitch" type="double" signature="double pitch() const"/>
+            <function name="pitchChanged" fullname="QTextToSpeech::pitchChanged" href="qtexttospeech.html#pitch-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="101" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="pitch" type="void" signature="void pitchChanged(double pitch)">
+                <parameter type="double" name="pitch" default=""/>
+            </function>
+            <function name="rate" fullname="QTextToSpeech::rate" href="qtexttospeech.html#rate-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="76" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="rate" type="double" signature="double rate() const"/>
+            <function name="rateChanged" fullname="QTextToSpeech::rateChanged" href="qtexttospeech.html#rate-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="100" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="rate" type="void" signature="void rateChanged(double rate)">
+                <parameter type="double" name="rate" default=""/>
+            </function>
+            <function name="resume" fullname="QTextToSpeech::resume" href="qtexttospeech.html#resume" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="86" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void resume()"/>
+            <function name="say" fullname="QTextToSpeech::say" href="qtexttospeech.html#say" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="83" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void say(const QString &amp;text)">
+                <parameter type="const QString &amp;" name="text" default=""/>
+            </function>
+            <function name="setEngine" fullname="QTextToSpeech::setEngine" href="qtexttospeech.html#setEngine" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="63" documented="true" since="6.4" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="engine" type="bool" signature="bool setEngine(const QString &amp;engine, const QVariantMap &amp;params)">
+                <parameter type="const QString &amp;" name="engine" default=""/>
+                <parameter type="const QVariantMap &amp;" name="params" default="QVariantMap()"/>
+            </function>
+            <function name="setLocale" fullname="QTextToSpeech::setLocale" href="qtexttospeech.html#locale-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="88" meta="slot" virtual="non" const="false" static="false" final="false" override="false" associated-property="locale" type="void" signature="void setLocale(const QLocale &amp;locale)">
+                <parameter type="const QLocale &amp;" name="locale" default=""/>
+            </function>
+            <function name="setPitch" fullname="QTextToSpeech::setPitch" href="qtexttospeech.html#pitch-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="91" meta="slot" virtual="non" const="false" static="false" final="false" override="false" associated-property="pitch" type="void" signature="void setPitch(double pitch)">
+                <parameter type="double" name="pitch" default=""/>
+            </function>
+            <function name="setRate" fullname="QTextToSpeech::setRate" href="qtexttospeech.html#rate-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="90" meta="slot" virtual="non" const="false" static="false" final="false" override="false" associated-property="rate" type="void" signature="void setRate(double rate)">
+                <parameter type="double" name="rate" default=""/>
+            </function>
+            <function name="setVoice" fullname="QTextToSpeech::setVoice" href="qtexttospeech.html#voice-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="93" meta="slot" virtual="non" const="false" static="false" final="false" override="false" associated-property="voice" type="void" signature="void setVoice(const QVoice &amp;voice)">
+                <parameter type="const QVoice &amp;" name="voice" default=""/>
+            </function>
+            <function name="setVolume" fullname="QTextToSpeech::setVolume" href="qtexttospeech.html#volume-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="92" meta="slot" virtual="non" const="false" static="false" final="false" override="false" associated-property="volume" type="void" signature="void setVolume(double volume)">
+                <parameter type="double" name="volume" default=""/>
+            </function>
+            <function name="state" fullname="QTextToSpeech::state" href="qtexttospeech.html#state-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="66" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="state" type="QTextToSpeech::State" signature="QTextToSpeech::State state() const"/>
+            <function name="stateChanged" fullname="QTextToSpeech::stateChanged" href="qtexttospeech.html#state-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="97" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="state" type="void" signature="void stateChanged(QTextToSpeech::State state)">
+                <parameter type="QTextToSpeech::State" name="state" default=""/>
+            </function>
+            <function name="stop" fullname="QTextToSpeech::stop" href="qtexttospeech.html#stop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="84" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void stop(QTextToSpeech::BoundaryHint boundaryHint)">
+                <parameter type="QTextToSpeech::BoundaryHint" name="boundaryHint" default="QTextToSpeech::BoundaryHint::Default"/>
+            </function>
+            <function name="voice" fullname="QTextToSpeech::voice" href="qtexttospeech.html#voice-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="73" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="voice" type="QVoice" signature="QVoice voice() const"/>
+            <function name="voiceChanged" fullname="QTextToSpeech::voiceChanged" href="qtexttospeech.html#voice-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="103" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="voice" type="void" signature="void voiceChanged(const QVoice &amp;voice)">
+                <parameter type="const QVoice &amp;" name="voice" default=""/>
+            </function>
+            <function name="volume" fullname="QTextToSpeech::volume" href="qtexttospeech.html#volume-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="78" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="volume" type="double" signature="double volume() const"/>
+            <function name="volumeChanged" fullname="QTextToSpeech::volumeChanged" href="qtexttospeech.html#volume-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="102" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="volume" type="void" signature="void volumeChanged(double volume)">
+                <parameter type="double" name="volume" default=""/>
+            </function>
+            <function name="~QTextToSpeech" fullname="QTextToSpeech::~QTextToSpeech" href="qtexttospeech.html#dtor.QTextToSpeech" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="61" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="true" type="" signature="~QTextToSpeech() override"/>
+            <enum name="BoundaryHint" fullname="QTextToSpeech::BoundaryHint" href="qtexttospeech.html#BoundaryHint-enum" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="49" documented="true" scoped="true">
+                <value name="Default" value="0"/>
+                <value name="Immediate" value="1"/>
+                <value name="Word" value="2"/>
+                <value name="Sentence" value="3"/>
+            </enum>
+            <enum name="ErrorReason" fullname="QTextToSpeech::ErrorReason" href="qtexttospeech.html#ErrorReason-enum" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="40" documented="true" scoped="true">
+                <value name="NoError" value="0"/>
+                <value name="Initialization" value="1"/>
+                <value name="Configuration" value="2"/>
+                <value name="Input" value="3"/>
+                <value name="Playback" value="4"/>
+            </enum>
+            <enum name="State" fullname="QTextToSpeech::State" href="qtexttospeech.html#State-enum" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="32" documented="true">
+                <value name="Ready" value="0"/>
+                <value name="Speaking" value="1"/>
+                <value name="Paused" value="2"/>
+                <value name="Error" value="3"/>
+            </enum>
+            <property name="engine" fullname="QTextToSpeech::engine" href="qtexttospeech.html#engine-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="23" since="6.4" documented="true" brief="The engine used to synthesize text to speech">
+                <getter name="engine"/>
+                <setter name="setEngine"/>
+                <notifier name="engineChanged"/>
+            </property>
+            <property name="locale" fullname="QTextToSpeech::locale" href="qtexttospeech.html#locale-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="28" documented="true" brief="The current locale in use">
+                <getter name="locale"/>
+                <setter name="setLocale"/>
+                <notifier name="localeChanged"/>
+            </property>
+            <property name="pitch" fullname="QTextToSpeech::pitch" href="qtexttospeech.html#pitch-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="27" documented="true" brief="The voice pitch, ranging from -1.0 to 1.0">
+                <getter name="pitch"/>
+                <setter name="setPitch"/>
+                <notifier name="pitchChanged"/>
+            </property>
+            <property name="rate" fullname="QTextToSpeech::rate" href="qtexttospeech.html#rate-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="26" documented="true" brief="The current voice rate, ranging from -1.0 to 1.0">
+                <getter name="rate"/>
+                <setter name="setRate"/>
+                <notifier name="rateChanged"/>
+            </property>
+            <property name="state" fullname="QTextToSpeech::state" href="qtexttospeech.html#state-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="24" documented="true" writable="false" brief="The current state of the speech synthesizer">
+                <getter name="state"/>
+                <notifier name="stateChanged"/>
+            </property>
+            <property name="voice" fullname="QTextToSpeech::voice" href="qtexttospeech.html#voice-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="29" documented="true" brief="The voice that will be used for the speech">
+                <getter name="voice"/>
+                <setter name="setVoice"/>
+                <notifier name="voiceChanged"/>
+            </property>
+            <property name="volume" fullname="QTextToSpeech::volume" href="qtexttospeech.html#volume-prop" status="active" access="public" location="qtexttospeech.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qtexttospeech.h" lineno="25" documented="true" brief="The current volume, ranging from 0.0 to 1.0">
+                <getter name="volume"/>
+                <setter name="setVolume"/>
+                <notifier name="volumeChanged"/>
+            </property>
+        </class>
+        <class name="QVoice" href="qvoice.html" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="18" documented="true" module="QtTextToSpeech" brief="Represents a particular voice">
+            <function name="QVoice" fullname="QVoice::QVoice" href="qvoice.html#QVoice" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="43" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVoice()"/>
+            <function name="QVoice" fullname="QVoice::QVoice" href="qvoice.html#QVoice-1" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="45" documented="true" meta="copy-constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QVoice(const QVoice &amp;other)">
+                <parameter type="const QVoice &amp;" name="other" default=""/>
+            </function>
+            <function name="QVoice" fullname="QVoice::QVoice" href="qvoice.html#QVoice-2" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="47" documented="true" meta="move-constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="" signature="QVoice(QVoice &amp;&amp;other)">
+                <parameter type="QVoice &amp;&amp;" name="other" default=""/>
+            </function>
+            <function name="age" fullname="QVoice::age" href="qvoice.html#age-prop" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="68" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="age" type="QVoice::Age" signature="QVoice::Age age() const"/>
+            <function name="ageName" fullname="QVoice::ageName" href="qvoice.html#ageName" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="71" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="QString" signature="QString ageName(QVoice::Age age)">
+                <parameter type="QVoice::Age" name="age" default=""/>
+            </function>
+            <function name="gender" fullname="QVoice::gender" href="qvoice.html#gender-prop" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="67" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="gender" type="QVoice::Gender" signature="QVoice::Gender gender() const"/>
+            <function name="genderName" fullname="QVoice::genderName" href="qvoice.html#genderName" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="70" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="QString" signature="QString genderName(QVoice::Gender gender)">
+                <parameter type="QVoice::Gender" name="gender" default=""/>
+            </function>
+            <function name="locale" fullname="QVoice::locale" href="qvoice.html#locale-prop" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="66" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="locale" type="QLocale" signature="QLocale locale() const"/>
+            <function name="name" fullname="QVoice::name" href="qvoice.html#name-prop" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="65" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="name" type="QString" signature="QString name() const"/>
+            <function name="operator!=" href="qvoice.html#operator-not-eq" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="55" documented="true" related="0" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool operator!=(const QVoice &amp;lhs, const QVoice &amp;rhs)">
+                <parameter type="const QVoice &amp;" name="lhs" default=""/>
+                <parameter type="const QVoice &amp;" name="rhs" default=""/>
+            </function>
+            <function name="operator&lt;&lt;" href="qvoice.html#operator-lt-lt" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="59" documented="true" related="1" since="6.4" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QDataStream &amp;" signature="QDataStream &amp; operator&lt;&lt;(QDataStream &amp;stream, const QVoice &amp;voice)">
+                <parameter type="QDataStream &amp;" name="stream" default=""/>
+                <parameter type="const QVoice &amp;" name="voice" default=""/>
+            </function>
+            <function name="operator&lt;&lt;" href="qvoice.html#operator-lt-lt-1" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="86" documented="true" related="2" since="6.4" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="QDebug" signature="QDebug operator&lt;&lt;(QDebug debug, const QVoice &amp;voice)">
+                <parameter type="QDebug" name="debug" default=""/>
+                <parameter type="const QVoice &amp;" name="voice" default=""/>
+            </function>
+            <function name="operator=" fullname="QVoice::operator=" href="qvoice.html#operator-eq" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="46" documented="true" meta="copy-assign" virtual="non" const="false" static="false" final="false" override="false" type="QVoice &amp;" signature="QVoice &amp; operator=(const QVoice &amp;other)">
+                <parameter type="const QVoice &amp;" name="other" default=""/>
+            </function>
+            <function name="operator=" fullname="QVoice::operator=" href="qvoice.html#operator-eq-1" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="48" documented="true" meta="move-assign" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="QVoice &amp;" signature="QVoice &amp; operator=(QVoice &amp;&amp;other)">
+                <parameter type="QVoice &amp;&amp;" name="other" default=""/>
+            </function>
+            <function name="operator==" href="qvoice.html#operator-eq-eq" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="53" documented="true" related="3" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool operator==(const QVoice &amp;lhs, const QVoice &amp;rhs)">
+                <parameter type="const QVoice &amp;" name="lhs" default=""/>
+                <parameter type="const QVoice &amp;" name="rhs" default=""/>
+            </function>
+            <function name="operator&gt;&gt;" href="qvoice.html#operator-gt-gt" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="61" documented="true" related="4" since="6.4" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QDataStream &amp;" signature="QDataStream &amp; operator&gt;&gt;(QDataStream &amp;stream, QVoice &amp;voice)">
+                <parameter type="QDataStream &amp;" name="stream" default=""/>
+                <parameter type="QVoice &amp;" name="voice" default=""/>
+            </function>
+            <function name="swap" fullname="QVoice::swap" href="qvoice.html#swap" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="50" documented="true" since="6.4" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void swap(QVoice &amp;other)">
+                <parameter type="QVoice &amp;" name="other" default=""/>
+            </function>
+            <function name="~QVoice" fullname="QVoice::~QVoice" href="qvoice.html#dtor.QVoice" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="44" documented="true" meta="destructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="~QVoice()"/>
+            <enum name="Age" fullname="QVoice::Age" href="qvoice.html#Age-enum" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="34" documented="true">
+                <value name="Child" value="0"/>
+                <value name="Teenager" value="1"/>
+                <value name="Adult" value="2"/>
+                <value name="Senior" value="3"/>
+                <value name="Other" value="4"/>
+            </enum>
+            <enum name="Gender" fullname="QVoice::Gender" href="qvoice.html#Gender-enum" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="27" documented="true">
+                <value name="Male" value="0"/>
+                <value name="Female" value="1"/>
+                <value name="Unknown" value="2"/>
+            </enum>
+            <property name="age" fullname="QVoice::age" href="qvoice.html#age-prop" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="23" documented="true" writable="false" brief="The age of a voice">
+                <getter name="age"/>
+            </property>
+            <property name="gender" fullname="QVoice::gender" href="qvoice.html#gender-prop" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="22" documented="true" writable="false" brief="The gender of a voice">
+                <getter name="gender"/>
+            </property>
+            <property name="locale" fullname="QVoice::locale" href="qvoice.html#locale-prop" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="24" since="6.4" documented="true" writable="false" brief="The locale of the voice">
+                <getter name="locale"/>
+            </property>
+            <property name="name" fullname="QVoice::name" href="qvoice.html#name-prop" status="active" access="public" location="qvoice.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTextToSpeech/../../../qtspeech/src/tts/qvoice.h" lineno="21" documented="true" writable="false" brief="The name of a voice">
+                <getter name="name"/>
+            </property>
+        </class>
+        <page name="qttexttospeech-index.html" href="qttexttospeech-index.html" status="active" location="qttexttospeech-index.qdoc" filepath="/home/qt/work/qt/qt5/qtspeech/src/tts/doc/src/qttexttospeech-index.qdoc" lineno="4" documented="true" subtype="page" title="Qt TextToSpeech" fulltitle="Qt TextToSpeech" subtitle="" brief="Qt TextToSpeech module enables access to text-to-speech engines">
+            <contents name="using-the-module" title="Using the Module" level="1"/>
+            <contents name="qml-api" title="QML API" level="2"/>
+            <contents name="c-api" title="C++ API" level="2"/>
+            <contents name="building-with-cmake" title="Building with CMake" level="3"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="3"/>
+            <contents name="overviews-and-important-topics" title="Overviews and Important Topics" level="1"/>
+            <contents name="qml-types" title="QML Types" level="1"/>
+            <contents name="c-classes" title="C++ Classes" level="1"/>
+            <contents name="reference-and-examples" title="Reference and Examples" level="1"/>
+            <contents name="licenses-and-attributions" title="Licenses and Attributions" level="1"/>
+        </page>
+        <page name="qttexttospeech-engines.html" href="qttexttospeech-engines.html" status="active" location="qttexttospeech-engines.qdoc" filepath="/home/qt/work/qt/qt5/qtspeech/src/tts/doc/src/qttexttospeech-engines.qdoc" lineno="4" documented="true" subtype="page" title="Qt TextToSpeech Engines" fulltitle="Qt TextToSpeech Engines" subtitle="" brief="Engine specific documentation">
+            <contents name="winrt" title="WinRT" level="1"/>
+            <contents name="sapi" title="SAPI" level="1"/>
+            <contents name="darwin" title="Darwin" level="1"/>
+            <contents name="macos" title="macOS" level="1"/>
+            <contents name="android" title="Android" level="1"/>
+            <contents name="flite" title="Flite" level="1"/>
+            <contents name="speech-dispatcher" title="speech-dispatcher" level="1"/>
+        </page>
+        <page name="quickspeech" href="qttexttospeech-quickspeech-example.html" status="active" location="quickspeech.qdoc" filepath="/home/qt/work/qt/qt5/qtspeech/examples/speech/quickspeech/doc/src/quickspeech.qdoc" lineno="4" documented="true" groups="category Data Processing &amp; I/O,qttexttospeech_examples" subtype="example" title="Quick Speech Example" fulltitle="Quick Speech Example" subtitle="" brief="Quick Speech example reads out user-provided text">
+            <contents name="initializing-a-texttospeech" title="Initializing a TextToSpeech" level="1"/>
+            <contents name="getting-the-status" title="Getting the status" level="1"/>
+            <contents name="highlighting-words-as-they-are-spoken" title="Highlighting words as they are spoken" level="1"/>
+            <contents name="controlling-speech" title="Controlling speech" level="1"/>
+            <contents name="the-speak-button" title="The speak button" level="2"/>
+            <contents name="the-pause-resume-and-stop-buttons" title="The pause, resume, and stop buttons" level="1"/>
+            <contents name="selecting-text-to-speech-options" title="Selecting text to speech options" level="1"/>
+            <contents name="selecting-engine-locale-and-voice" title="Selecting engine, locale, and voice" level="2"/>
+            <contents name="selecting-volume-pitch-and-rate" title="Selecting volume, pitch, and rate" level="2"/>
+            <contents name="updating-available-options" title="Updating available options" level="1"/>
+            <contents name="running-the-example" title="Running the Example" level="1"/>
+            <page name="quickspeech/Main.qml" href="qttexttospeech-quickspeech-main-qml.html" status="active" subtype="file" title="" fulltitle="Main.qml Example File" subtitle="quickspeech/Main.qml"/>
+            <page name="quickspeech/main/Main.qml" href="qttexttospeech-quickspeech-main-main-qml.html" status="active" subtype="file" title="" fulltitle="Main.qml Example File" subtitle="quickspeech/main/Main.qml"/>
+            <page name="quickspeech/main.cpp" href="qttexttospeech-quickspeech-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="quickspeech/main.cpp"/>
+            <page name="quickspeech/CMakeLists.txt" href="qttexttospeech-quickspeech-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="quickspeech/CMakeLists.txt"/>
+            <page name="quickspeech/qmldir" href="qttexttospeech-quickspeech-qmldir.html" status="active" subtype="file" title="" fulltitle="qmldir Example File" subtitle="quickspeech/qmldir"/>
+            <page name="quickspeech/quickspeech.pro" href="qttexttospeech-quickspeech-quickspeech-pro.html" status="active" subtype="file" title="" fulltitle="quickspeech.pro Example File" subtitle="quickspeech/quickspeech.pro"/>
+            <page name="quickspeech/main/qmldir" href="qttexttospeech-quickspeech-main-qmldir.html" status="active" subtype="file" title="" fulltitle="qmldir Example File" subtitle="quickspeech/main/qmldir"/>
+            <page name="quickspeech/main/quickspeech_qml_module_dir_map.qrc" href="qttexttospeech-quickspeech-main-quickspeech-qml-module-dir-map-qrc.html" status="active" subtype="file" title="" fulltitle="quickspeech_qml_module_dir_map.qrc Example File" subtitle="quickspeech/main/quickspeech_qml_module_dir_map.qrc"/>
+        </page>
+        <qmlclass name="TextToSpeech" qml-module-name="QtTextToSpeech" fullname="QtTextToSpeech.TextToSpeech" href="qml-qttexttospeech-texttospeech.html" status="active" access="public" documented="true" title="TextToSpeech" fulltitle="TextToSpeech" subtitle="" brief="Type provides access to text-to-speech engines">
+            <function name="availableEngines" fullname="QtTextToSpeech.TextToSpeech.availableEngines" href="qml-qttexttospeech-texttospeech.html#availableEngines-method" status="active" access="public" documented="true" meta="qmlmethod" type="list&lt;string&gt;"/>
+            <function name="availableLocales" fullname="QtTextToSpeech.TextToSpeech.availableLocales" href="qml-qttexttospeech-texttospeech.html#availableLocales-method" status="active" access="public" documented="true" meta="qmlmethod" type="list&lt;Voice&gt;"/>
+            <function name="availableVoices" fullname="QtTextToSpeech.TextToSpeech.availableVoices" href="qml-qttexttospeech-texttospeech.html#availableVoices-method" status="active" access="public" documented="true" meta="qmlmethod" type="list&lt;Voice&gt;"/>
+            <function name="errorOccured" fullname="QtTextToSpeech.TextToSpeech.errorOccured" href="qml-qttexttospeech-texttospeech.html#errorOccured-signal" status="active" access="public" documented="true" meta="qmlsignal" type="void">
+                <parameter type="enumeration" name="reason" default=""/>
+                <parameter type="string" name="errorString" default=""/>
+            </function>
+            <function name="errorReason" fullname="QtTextToSpeech.TextToSpeech.errorReason" href="qml-qttexttospeech-texttospeech.html#errorReason-method" status="active" access="public" documented="true" meta="qmlmethod" type="enumeration"/>
+            <function name="errorString" fullname="QtTextToSpeech.TextToSpeech.errorString" href="qml-qttexttospeech-texttospeech.html#errorString-method" status="active" access="public" documented="true" meta="qmlmethod" type="string"/>
+            <function name="pause" fullname="QtTextToSpeech.TextToSpeech.pause" href="qml-qttexttospeech-texttospeech.html#pause-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="BoundaryHint" name="boundaryHint" default=""/>
+            </function>
+            <function name="resume" fullname="QtTextToSpeech.TextToSpeech.resume" href="qml-qttexttospeech-texttospeech.html#resume-method" status="active" access="public" documented="true" meta="qmlmethod" type=""/>
+            <function name="say" fullname="QtTextToSpeech.TextToSpeech.say" href="qml-qttexttospeech-texttospeech.html#say-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="string" name="text" default=""/>
+            </function>
+            <function name="stop" fullname="QtTextToSpeech.TextToSpeech.stop" href="qml-qttexttospeech-texttospeech.html#stop-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="BoundaryHint" name="boundaryHint" default=""/>
+            </function>
+            <qmlproperty name="engine" fullname="QtTextToSpeech.TextToSpeech.engine" href="qml-qttexttospeech-texttospeech.html#engine-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="locale" fullname="QtTextToSpeech.TextToSpeech.locale" href="qml-qttexttospeech-texttospeech.html#locale-prop" status="active" access="public" documented="true" type="locale" attached="false" writable="true" brief="This property holds the current locale in use"/>
+            <qmlproperty name="pitch" fullname="QtTextToSpeech.TextToSpeech.pitch" href="qml-qttexttospeech-texttospeech.html#pitch-prop" status="active" access="public" documented="true" type="double" attached="false" writable="true"/>
+            <qmlproperty name="rate" fullname="QtTextToSpeech.TextToSpeech.rate" href="qml-qttexttospeech-texttospeech.html#rate-prop" status="active" access="public" documented="true" type="double" attached="false" writable="true" brief="This property holds the current voice rate, ranging from -1.0 to 1.0"/>
+            <qmlproperty name="state" fullname="QtTextToSpeech.TextToSpeech.state" href="qml-qttexttospeech-texttospeech.html#state-prop" status="active" access="public" documented="true" type="enumeration" attached="false" writable="true" brief="This property holds the current state of the speech synthesizer"/>
+            <qmlproperty name="voice" fullname="QtTextToSpeech.TextToSpeech.voice" href="qml-qttexttospeech-texttospeech.html#voice-prop" status="active" access="public" documented="true" type="Voice" attached="false" writable="true" brief="This property holds the voice that will be used for the speech"/>
+            <qmlproperty name="volume" fullname="QtTextToSpeech.TextToSpeech.volume" href="qml-qttexttospeech-texttospeech.html#volume-prop" status="active" access="public" documented="true" type="double" attached="false" writable="true" brief="This property holds the current volume, ranging from 0.0 to 1.0"/>
+        </qmlclass>
+        <qmlclass name="voice" qml-module-name="QtTextToSpeech" fullname="QtTextToSpeech.voice" href="qml-qttexttospeech-voice.html" status="active" access="public" documented="true" title="voice" fulltitle="voice" subtitle="" brief="Type represents a particular voice">
+            <qmlproperty name="gender" fullname="QtTextToSpeech.voice.gender" href="qml-qttexttospeech-voice.html#gender-prop" status="active" access="public" documented="true" type="enumeration" attached="false" writable="true" brief="This property holds the gender of the voice"/>
+            <qmlproperty name="locale" fullname="QtTextToSpeech.voice.locale" href="qml-qttexttospeech-voice.html#locale-prop" status="active" access="public" documented="true" type="locale" attached="false" writable="true" brief="This property holds the locale of the voice"/>
+        </qmlclass>
+        <group name="category Data Processing &amp; I/O" href="category-data-processing-i-o.html" status="internal" seen="false" title=""/>
+        <group name="changes-qt-5-to-6" href="changes-qt-5-to-6.html" status="internal" seen="false" title=""/>
+        <group name="modules" href="modules.html" status="internal" seen="false" title=""/>
+        <group name="qmlmodules" href="qmlmodules.html" status="internal" seen="false" title=""/>
+        <group name="qttexttospeech_examples" href="qttexttospeech-examples.html" status="active" location="qttexttospeech-examples.qdoc" filepath="/home/qt/work/qt/qt5/qtspeech/src/tts/doc/src/qttexttospeech-examples.qdoc" lineno="4" documented="true" seen="true" title="Qt TextToSpeech Examples" brief="Demonstrates the text-to-speech functionality provided by Qt"/>
+        <module name="QtTextToSpeech" href="qttexttospeech-module.html" status="active" location="qttexttospeech.qdoc" filepath="/home/qt/work/qt/qt5/qtspeech/src/tts/doc/src/qttexttospeech.qdoc" lineno="4" documented="true" groups="modules" seen="true" title="Qt TextToSpeech C++ Classes" brief="C++ API to access text-to-speech engines"/>
+        <qmlmodule name="QtTextToSpeech" qml-module-name="QtTextToSpeech" href="qttexttospeech-qmlmodule.html" status="active" location="qttexttospeech.qdoc" filepath="/home/qt/work/qt/qt5/qtspeech/src/tts/doc/src/qttexttospeech.qdoc" lineno="14" documented="true" groups="qmlmodules" seen="true" title="Qt TextToSpeech QML Types" brief="QML types to access text-to-speech functionality"/>
+    </namespace>
+</INDEX>

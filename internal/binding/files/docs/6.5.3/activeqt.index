@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="ActiveQt" version="6.5.3" project="ActiveQt" indexTitle="Active Qt">
+    <namespace name="" status="active" access="public" module="activeqt">
+        <function name="QAXCLASS" href="qaxfactory.html#QAXCLASS" status="active" access="public" documented="true" related="0" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXCLASS(Class)">
+            <parameter type="" name="Class" default=""/>
+        </function>
+        <function name="QAXFACTORY_BEGIN" href="qaxfactory.html#QAXFACTORY_BEGIN" status="active" access="public" documented="true" related="1" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXFACTORY_BEGIN(IDTypeLib, IDApp)">
+            <parameter type="" name="IDTypeLib" default=""/>
+            <parameter type="" name="IDApp" default=""/>
+        </function>
+        <function name="QAXFACTORY_DEFAULT" href="qaxfactory-obsolete.html#QAXFACTORY_DEFAULT" status="deprecated" access="public" documented="true" related="2" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXFACTORY_DEFAULT(Class, ClassID, InterfaceID, EventID, LibID, AppID)">
+            <parameter type="" name="Class" default=""/>
+            <parameter type="" name="ClassID" default=""/>
+            <parameter type="" name="InterfaceID" default=""/>
+            <parameter type="" name="EventID" default=""/>
+            <parameter type="" name="LibID" default=""/>
+            <parameter type="" name="AppID" default=""/>
+        </function>
+        <function name="QAXFACTORY_END" href="qaxfactory.html#QAXFACTORY_END" status="active" access="public" documented="true" related="3" meta="macrowithoutparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXFACTORY_END"/>
+        <function name="QAXFACTORY_EXPORT" href="qaxfactory.html#QAXFACTORY_EXPORT" status="active" access="public" documented="true" related="4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXFACTORY_EXPORT(Class, LibID, AppID)">
+            <parameter type="" name="Class" default=""/>
+            <parameter type="" name="LibID" default=""/>
+            <parameter type="" name="AppID" default=""/>
+        </function>
+        <function name="QAXTYPE" href="qaxfactory.html#QAXTYPE" status="active" access="public" documented="true" related="5" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXTYPE(Class)">
+            <parameter type="" name="Class" default=""/>
+        </function>
+        <page name="qaxserver-demo-simple.html" href="qaxserver-demo-simple.html" status="active" location="simple.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/examples/activeqt/simple/doc/src/simple.qdoc" lineno="4" documented="true" subtype="page" title="A standard ActiveX and the &quot;simple&quot; ActiveQt widget" fulltitle="A standard ActiveX and the &quot;simple&quot; ActiveQt widget" subtitle=""/>
+        <page name="activeqt-index.html" href="activeqt-index.html" status="active" location="activeqt-index.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/doc/src/activeqt-index.qdoc" lineno="23" documented="true" groups="qt-activex" subtype="page" title="Active Qt" fulltitle="Active Qt" subtitle="" brief="Provides ActiveX and COM integration on Windows">
+            <target name="activeqt-examples" title="ActiveQt Examples"/>
+            <keyword name="activeqt" title="ActiveQt"/>
+            <keyword name="activeqt-framework" title="ActiveQt Framework"/>
+            <contents name="using-the-module" title="Using the Module" level="1"/>
+            <contents name="building-with-cmake" title="Building with CMake" level="2"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="2"/>
+            <contents name="articles-and-guides" title="Articles and Guides" level="1"/>
+            <contents name="examples" title="Examples" level="1"/>
+            <contents name="reference" title="Reference" level="1"/>
+            <contents name="licenses-and-attributions" title="Licenses and Attributions" level="1"/>
+        </page>
+        <page name="activeqt-server.html" href="activeqt-server.html" status="active" location="qtaxserver.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/doc/src/qtaxserver.qdoc" lineno="19" documented="true" groups="qt-activex" subtype="page" title="Building ActiveX servers in Qt" fulltitle="Building ActiveX servers in Qt" subtitle="" brief="A Windows-only static library for turning a Qt binary into a COM server">
+            <contents name="using-the-library" title="Using the Library" level="1"/>
+            <contents name="out-of-process-vs-in-process" title="Out-of-Process vs. In-Process" level="2"/>
+            <contents name="typical-errors-during-the-post-build-steps" title="Typical Errors During the Post-Build Steps" level="2"/>
+            <contents name="the-server-executable-crashes" title="The Server Executable Crashes" level="3"/>
+            <contents name="the-server-executable-is-not-a-valid-win32-application" title="The Server Executable Is Not a Valid Win32 Application" level="3"/>
+            <contents name="unable-to-locate-dll" title="&quot;Unable to locate DLL&quot;" level="3"/>
+            <contents name="cannot-open-file" title="&quot;Cannot open file ...&quot;" level="3"/>
+            <contents name="the-control-cannot-be-instantiated" title="The Control Cannot be Instantiated" level="3"/>
+            <contents name="implementing-controls" title="Implementing Controls" level="1"/>
+            <contents name="data-types" title="Data Types" level="2"/>
+            <contents name="sub-objects" title="Sub-Objects" level="2"/>
+            <contents name="property-notification" title="Property Notification" level="2"/>
+            <contents name="serving-controls" title="Serving Controls" level="1"/>
+            <contents name="typical-compile-time-problems" title="Typical Compile-Time Problems" level="2"/>
+            <contents name="no-overloaded-function-takes-2-parameters" title="&quot;No overloaded function takes 2 parameters&quot;" level="3"/>
+            <contents name="syntax-error-bad-suffix-on-number" title="&quot;Syntax error: bad suffix on number&quot;" level="3"/>
+            <contents name="unresolved-external-symbol-ucm-instantiate" title="&quot;Unresolved external symbol _ucm_instantiate&quot;" level="3"/>
+            <contents name="ucm-initialize-already-defined-in" title="&quot;_ucm_initialize already defined in ...&quot;" level="3"/>
+            <contents name="distributing-qaxserver-binaries" title="Distributing QAxServer Binaries" level="2"/>
+            <contents name="installing-stand-alone-servers" title="Installing Stand-Alone Servers" level="3"/>
+            <contents name="installing-in-process-servers" title="Installing In-Process Servers" level="3"/>
+            <contents name="distributing-servers-over-the-internet" title="Distributing Servers over the Internet" level="3"/>
+            <contents name="using-the-controls" title="Using the Controls" level="1"/>
+            <contents name="supported-and-unsupported-activex-clients" title="Supported and Unsupported ActiveX Clients" level="2"/>
+            <contents name="supported-clients" title="Supported Clients" level="3"/>
+            <contents name="unsupported-clients" title="Unsupported Clients" level="3"/>
+            <contents name="typical-runtime-errors" title="Typical Runtime Errors" level="2"/>
+            <contents name="the-server-does-not-respond" title="The Server Does Not Respond" level="3"/>
+            <contents name="the-object-cannot-be-created" title="The Object Cannot Be Created" level="3"/>
+            <contents name="crashes-when-unloading-and-reloading-com-servers" title="Crashes when unloading and reloading COM servers" level="3"/>
+            <contents name="debugging-runtime-errors" title="Debugging Runtime Errors" level="2"/>
+            <contents name="class-information-and-tuning" title="Class Information and Tuning" level="1"/>
+            <contents name="developing-licensed-components" title="Developing Licensed Components" level="2"/>
+            <contents name="more-interfaces" title="More Interfaces" level="2"/>
+        </page>
+        <page name="activeqt/comapp" href="activeqt-activeqt-comapp-example.html" status="active" location="comapp.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/examples/activeqt/comapp/doc/src/comapp.qdoc" lineno="4" documented="true" groups="activeqt-examples,category Desktop" subtype="example" title="COM App Example (ActiveQt)" fulltitle="COM App Example (ActiveQt)" subtitle="" brief="COM App example shows how to use ActiveQt to develop a Qt application that can be automated via COM. Different QObject based classes are exposed as COM objects that communicate with the GUI of the running Qt application. The APIs of those COM objects has been designed to resemble the APIs of standard COM applications; i.e. those from Microsoft Office">
+            <page name="activeqt/comapp/main.cpp" href="activeqt-activeqt-comapp-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="activeqt/comapp/main.cpp"/>
+            <page name="activeqt/comapp/CMakeLists.txt" href="activeqt-activeqt-comapp-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="activeqt/comapp/CMakeLists.txt"/>
+            <page name="activeqt/comapp/comapp.pro" href="activeqt-activeqt-comapp-comapp-pro.html" status="active" subtype="file" title="" fulltitle="comapp.pro Example File" subtitle="activeqt/comapp/comapp.pro"/>
+        </page>
+        <class name="QAxAggregated" href="qaxaggregated.html" status="active" access="public" location="qaxaggregated.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxaggregated.h" lineno="17" documented="true" module="QAxServer" brief="Abstract base class for implementations of additional COM interfaces">
+            <function name="controllingUnknown" fullname="QAxAggregated::controllingUnknown" href="qaxaggregated.html#controllingUnknown" status="active" access="protected" location="qaxaggregated.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxaggregated.h" lineno="29" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="IUnknown *" signature="IUnknown * controllingUnknown() const"/>
+            <function name="object" fullname="QAxAggregated::object" href="qaxaggregated.html#object" status="active" access="protected" location="qaxaggregated.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxaggregated.h" lineno="32" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QObject *" signature="QObject * object() const"/>
+            <function name="queryInterface" fullname="QAxAggregated::queryInterface" href="qaxaggregated.html#queryInterface" status="active" access="public" location="qaxaggregated.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxaggregated.h" lineno="23" documented="true" meta="plain" virtual="pure" const="false" static="false" final="false" override="false" type="long" signature="long queryInterface(const QUuid &amp;iid, void **iface) = 0">
+                <parameter type="const QUuid &amp;" name="iid" default=""/>
+                <parameter type="void **" name="iface" default=""/>
+            </function>
+            <function name="widget" fullname="QAxAggregated::widget" href="qaxaggregated.html#widget" status="active" access="protected" location="qaxaggregated.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxaggregated.h" lineno="31" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QWidget *" signature="QWidget * widget() const"/>
+            <function name="~QAxAggregated" fullname="QAxAggregated::~QAxAggregated" href="qaxaggregated.html#dtor.QAxAggregated" status="active" access="protected" location="qaxaggregated.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxaggregated.h" lineno="27" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QAxAggregated()"/>
+        </class>
+        <class name="QAxBase" href="qaxbase.html" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="22" documented="true" module="QAxContainer" brief="Abstract class that provides an API to initialize and access a COM object">
+            <function name="QAxBase" fullname="QAxBase::QAxBase" href="qaxbase.html#QAxBase" status="active" access="protected" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="83" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAxBase()"/>
+            <function name="asVariant" fullname="QAxBase::asVariant" href="qaxbase.html#asVariant" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="69" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QVariant" signature="QVariant asVariant() const"/>
+            <function name="classContext" fullname="QAxBase::classContext" href="qaxbase.html#classContext" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="79" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="ulong" signature="ulong classContext() const"/>
+            <function name="clear" fullname="QAxBase::clear" href="qaxbase.html#clear" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="72" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void clear()"/>
+            <function name="control" fullname="QAxBase::control" href="qaxbase.html#control" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="29" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString control() const"/>
+            <function name="disableClassInfo" fullname="QAxBase::disableClassInfo" href="qaxbase.html#disableClassInfo" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="76" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void disableClassInfo()"/>
+            <function name="disableEventSink" fullname="QAxBase::disableEventSink" href="qaxbase.html#disableEventSink" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="77" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void disableEventSink()"/>
+            <function name="disableMetaObject" fullname="QAxBase::disableMetaObject" href="qaxbase.html#disableMetaObject" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="75" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void disableMetaObject()"/>
+            <function name="dynamicCall" fullname="QAxBase::dynamicCall" href="qaxbase.html#dynamicCall" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="33" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QVariant" signature="QVariant dynamicCall(const char *function, const QVariant &amp;var1, const QVariant &amp;var2, const QVariant &amp;var3, const QVariant &amp;var4, const QVariant &amp;var5, const QVariant &amp;var6, const QVariant &amp;var7, const QVariant &amp;var8)">
+                <parameter type="const char *" name="function" default=""/>
+                <parameter type="const QVariant &amp;" name="var1" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var2" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var3" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var4" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var5" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var6" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var7" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var8" default="QVariant()"/>
+            </function>
+            <function name="dynamicCall" fullname="QAxBase::dynamicCall" href="qaxbase.html#dynamicCall-1" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="41" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="QVariant" signature="QVariant dynamicCall(const char *function, QList&lt;QVariant&gt; &amp;vars)">
+                <parameter type="const char *" name="function" default=""/>
+                <parameter type="QList&lt;QVariant&gt; &amp;" name="vars" default=""/>
+            </function>
+            <function name="generateDocumentation" fullname="QAxBase::generateDocumentation" href="qaxbase.html#generateDocumentation" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="60" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QString" signature="QString generateDocumentation()"/>
+            <function name="initialize" fullname="QAxBase::initialize" href="qaxbase.html#initialize" status="active" access="protected" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="85" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="false" type="bool" signature="bool initialize(IUnknown **ptr)">
+                <parameter type="IUnknown **" name="ptr" default=""/>
+            </function>
+            <function name="initializeActive" fullname="QAxBase::initializeActive" href="qaxbase.html#initializeActive" status="active" access="protected" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="88" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool initializeActive(IUnknown **ptr)">
+                <parameter type="IUnknown **" name="ptr" default=""/>
+            </function>
+            <function name="initializeFromFile" fullname="QAxBase::initializeFromFile" href="qaxbase.html#initializeFromFile" status="active" access="protected" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="89" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool initializeFromFile(IUnknown **ptr)">
+                <parameter type="IUnknown **" name="ptr" default=""/>
+            </function>
+            <function name="initializeLicensed" fullname="QAxBase::initializeLicensed" href="qaxbase.html#initializeLicensed" status="active" access="protected" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="87" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool initializeLicensed(IUnknown **ptr)">
+                <parameter type="IUnknown **" name="ptr" default=""/>
+            </function>
+            <function name="initializeRemote" fullname="QAxBase::initializeRemote" href="qaxbase.html#initializeRemote" status="active" access="protected" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="86" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool initializeRemote(IUnknown **ptr)">
+                <parameter type="IUnknown **" name="ptr" default=""/>
+            </function>
+            <function name="isNull" fullname="QAxBase::isNull" href="qaxbase.html#isNull" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="65" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool isNull() const"/>
+            <function name="propertyBag" fullname="QAxBase::propertyBag" href="qaxbase.html#propertyBag" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="57" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QAxBase::PropertyBag" signature="QAxBase::PropertyBag propertyBag() const"/>
+            <function name="propertyWritable" fullname="QAxBase::propertyWritable" href="qaxbase.html#propertyWritable" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="62" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="bool" signature="bool propertyWritable(const char *prop) const">
+                <parameter type="const char *" name="prop" default=""/>
+            </function>
+            <function name="queryInterface" fullname="QAxBase::queryInterface" href="qaxbase.html#queryInterface" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="31" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="long" signature="long queryInterface(const QUuid &amp;uuid, void **iface) const">
+                <parameter type="const QUuid &amp;" name="uuid" default=""/>
+                <parameter type="void **" name="iface" default=""/>
+            </function>
+            <function name="querySubObject" fullname="QAxBase::querySubObject" href="qaxbase.html#querySubObject" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="42" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QAxObject *" signature="QAxObject * querySubObject(const char *name, const QVariant &amp;var1, const QVariant &amp;var2, const QVariant &amp;var3, const QVariant &amp;var4, const QVariant &amp;var5, const QVariant &amp;var6, const QVariant &amp;var7, const QVariant &amp;var8)">
+                <parameter type="const char *" name="name" default=""/>
+                <parameter type="const QVariant &amp;" name="var1" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var2" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var3" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var4" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var5" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var6" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var7" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var8" default="QVariant()"/>
+            </function>
+            <function name="querySubObject" fullname="QAxBase::querySubObject" href="qaxbase.html#querySubObject-1" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="50" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="QAxObject *" signature="QAxObject * querySubObject(const char *name, QList&lt;QVariant&gt; &amp;vars)">
+                <parameter type="const char *" name="name" default=""/>
+                <parameter type="QList&lt;QVariant&gt; &amp;" name="vars" default=""/>
+            </function>
+            <function name="setClassContext" fullname="QAxBase::setClassContext" href="qaxbase.html#setClassContext" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="80" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void setClassContext(ulong classContext)">
+                <parameter type="ulong" name="classContext" default=""/>
+            </function>
+            <function name="setPropertyBag" fullname="QAxBase::setPropertyBag" href="qaxbase.html#setPropertyBag" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="58" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void setPropertyBag(const QAxBase::PropertyBag &amp;bag)">
+                <parameter type="const QAxBase::PropertyBag &amp;" name="bag" default=""/>
+            </function>
+            <function name="setPropertyWritable" fullname="QAxBase::setPropertyWritable" href="qaxbase.html#setPropertyWritable" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="63" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="false" type="void" signature="void setPropertyWritable(const char *prop, bool ok)">
+                <parameter type="const char *" name="prop" default=""/>
+                <parameter type="bool" name="ok" default=""/>
+            </function>
+            <function name="verbs" fullname="QAxBase::verbs" href="qaxbase.html#verbs" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="67" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QStringList" signature="QStringList verbs() const"/>
+            <function name="~QAxBase" fullname="QAxBase::~QAxBase" href="qaxbase.html#dtor.QAxBase" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="27" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QAxBase()"/>
+            <typedef name="PropertyBag" fullname="QAxBase::PropertyBag" href="qaxbase.html#PropertyBag-typedef" status="active" access="public" location="qaxbase.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxbase.h" lineno="25" documented="true" aliasedtype="QMap&lt;QString, QVariant&gt;"/>
+        </class>
+        <class name="QAxBaseObject" href="qaxbaseobject.html" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="14" since="6.0" documented="true" bases="QObject" module="QAxContainer" brief="Static properties and signals for QAxObject">
+            <function name="exception" fullname="QAxBaseObject::exception" href="qaxbaseobject.html#exception" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="21" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void exception(int code, const QString &amp;source, const QString &amp;desc, const QString &amp;help)">
+                <parameter type="int" name="code" default=""/>
+                <parameter type="const QString &amp;" name="source" default=""/>
+                <parameter type="const QString &amp;" name="desc" default=""/>
+                <parameter type="const QString &amp;" name="help" default=""/>
+            </function>
+            <function name="propertyChanged" fullname="QAxBaseObject::propertyChanged" href="qaxbaseobject.html#propertyChanged" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="22" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void propertyChanged(const QString &amp;name)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+            </function>
+            <function name="signal" fullname="QAxBaseObject::signal" href="qaxbaseobject.html#signal" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="23" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void signal(const QString &amp;name, int argc, void *argv)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+                <parameter type="int" name="argc" default=""/>
+                <parameter type="void *" name="argv" default=""/>
+            </function>
+            <property name="classContext" fullname="QAxBaseObject::classContext" href="qaxbaseobject.html#classContext-prop" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="17" documented="true" brief="The context the ActiveX control will run in (default CLSCTX_SERVER)"/>
+            <property name="control" fullname="QAxBaseObject::control" href="qaxbaseobject.html#control-prop" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="18" documented="true" brief="The name of the COM object wrapped by this QAxBaseObject object"/>
+        </class>
+        <class name="QAxBaseWidget" href="qaxbasewidget.html" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="18" since="6.0" documented="true" bases="QAxObjectInterface,QWidget" module="QAxContainer" brief="Static properties and signals for QAxWidget">
+            <function name="exception" fullname="QAxBaseWidget::exception" href="qaxbasewidget.html#exception" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="26" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void exception(int code, const QString &amp;source, const QString &amp;desc, const QString &amp;help)">
+                <parameter type="int" name="code" default=""/>
+                <parameter type="const QString &amp;" name="source" default=""/>
+                <parameter type="const QString &amp;" name="desc" default=""/>
+                <parameter type="const QString &amp;" name="help" default=""/>
+            </function>
+            <function name="propertyChanged" fullname="QAxBaseWidget::propertyChanged" href="qaxbasewidget.html#propertyChanged" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="27" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void propertyChanged(const QString &amp;name)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+            </function>
+            <function name="signal" fullname="QAxBaseWidget::signal" href="qaxbasewidget.html#signal" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="28" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void signal(const QString &amp;name, int argc, void *argv)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+                <parameter type="int" name="argc" default=""/>
+                <parameter type="void *" name="argv" default=""/>
+            </function>
+            <property name="classContext" fullname="QAxBaseWidget::classContext" href="qaxbasewidget.html#classContext-prop" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="21" documented="true" brief="The context the ActiveX control will run in (default CLSCTX_SERVER)"/>
+            <property name="control" fullname="QAxBaseWidget::control" href="qaxbasewidget.html#control-prop" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="22" documented="true" brief="The name of the COM object wrapped by this QAxBaseWidget object"/>
+        </class>
+        <class name="QAxBindable" href="qaxbindable.html" status="active" access="public" location="qaxbindable.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxbindable.h" lineno="17" documented="true" module="QAxServer" brief="Interface between a QWidget and an ActiveX client">
+            <function name="QAxBindable" fullname="QAxBindable::QAxBindable" href="qaxbindable.html#QAxBindable-2" status="active" access="public" location="qaxbindable.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxbindable.h" lineno="22" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="" signature="QAxBindable()"/>
+            <function name="clientSite" fullname="QAxBindable::clientSite" href="qaxbindable.html#clientSite" status="active" access="protected" location="qaxbindable.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxbindable.h" lineno="35" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="IUnknown *" signature="IUnknown * clientSite() const"/>
+            <function name="createAggregate" fullname="QAxBindable::createAggregate" href="qaxbindable.html#createAggregate" status="active" access="public" location="qaxbindable.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxbindable.h" lineno="25" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="false" type="QAxAggregated *" signature="QAxAggregated * createAggregate()"/>
+            <function name="propertyChanged" fullname="QAxBindable::propertyChanged" href="qaxbindable.html#propertyChanged" status="active" access="protected" location="qaxbindable.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxbindable.h" lineno="33" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void propertyChanged(const char *property)">
+                <parameter type="const char *" name="property" default=""/>
+            </function>
+            <function name="readData" fullname="QAxBindable::readData" href="qaxbindable.html#readData" status="active" access="public" location="qaxbindable.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxbindable.h" lineno="28" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="false" type="bool" signature="bool readData(QIODevice *source, const QString &amp;format)">
+                <parameter type="QIODevice *" name="source" default=""/>
+                <parameter type="const QString &amp;" name="format" default=""/>
+            </function>
+            <function name="reportError" fullname="QAxBindable::reportError" href="qaxbindable.html#reportError" status="active" access="public" location="qaxbindable.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxbindable.h" lineno="26" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void reportError(int code, const QString &amp;src, const QString &amp;desc, const QString &amp;context)">
+                <parameter type="int" name="code" default=""/>
+                <parameter type="const QString &amp;" name="src" default=""/>
+                <parameter type="const QString &amp;" name="desc" default=""/>
+                <parameter type="const QString &amp;" name="context" default="QString()"/>
+            </function>
+            <function name="requestPropertyChange" fullname="QAxBindable::requestPropertyChange" href="qaxbindable.html#requestPropertyChange" status="active" access="protected" location="qaxbindable.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxbindable.h" lineno="32" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool requestPropertyChange(const char *property)">
+                <parameter type="const char *" name="property" default=""/>
+            </function>
+            <function name="writeData" fullname="QAxBindable::writeData" href="qaxbindable.html#writeData" status="active" access="public" location="qaxbindable.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxbindable.h" lineno="29" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="false" type="bool" signature="bool writeData(QIODevice *sink)">
+                <parameter type="QIODevice *" name="sink" default=""/>
+            </function>
+            <function name="~QAxBindable" fullname="QAxBindable::~QAxBindable" href="qaxbindable.html#dtor.QAxBindable" status="active" access="public" location="qaxbindable.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxbindable.h" lineno="23" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QAxBindable()"/>
+        </class>
+        <class name="QAxFactory" href="qaxfactory.html" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="28" documented="true" bases="QObject" module="QAxServer" brief="Defines a factory for the creation of COM components">
+            <function name="QAXCLASS" href="qaxfactory.html#QAXCLASS" status="active" access="public" documented="true" related="0" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXCLASS(Class)">
+                <parameter type="" name="Class" default=""/>
+            </function>
+            <function name="QAXFACTORY_BEGIN" href="qaxfactory.html#QAXFACTORY_BEGIN" status="active" access="public" documented="true" related="1" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXFACTORY_BEGIN(IDTypeLib, IDApp)">
+                <parameter type="" name="IDTypeLib" default=""/>
+                <parameter type="" name="IDApp" default=""/>
+            </function>
+            <function name="QAXFACTORY_DEFAULT" href="qaxfactory-obsolete.html#QAXFACTORY_DEFAULT" status="deprecated" access="public" documented="true" related="2" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXFACTORY_DEFAULT(Class, ClassID, InterfaceID, EventID, LibID, AppID)">
+                <parameter type="" name="Class" default=""/>
+                <parameter type="" name="ClassID" default=""/>
+                <parameter type="" name="InterfaceID" default=""/>
+                <parameter type="" name="EventID" default=""/>
+                <parameter type="" name="LibID" default=""/>
+                <parameter type="" name="AppID" default=""/>
+            </function>
+            <function name="QAXFACTORY_END" href="qaxfactory.html#QAXFACTORY_END" status="active" access="public" documented="true" related="3" meta="macrowithoutparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXFACTORY_END"/>
+            <function name="QAXFACTORY_EXPORT" href="qaxfactory.html#QAXFACTORY_EXPORT" status="active" access="public" documented="true" related="4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXFACTORY_EXPORT(Class, LibID, AppID)">
+                <parameter type="" name="Class" default=""/>
+                <parameter type="" name="LibID" default=""/>
+                <parameter type="" name="AppID" default=""/>
+            </function>
+            <function name="QAXTYPE" href="qaxfactory.html#QAXTYPE" status="active" access="public" documented="true" related="5" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAXTYPE(Class)">
+                <parameter type="" name="Class" default=""/>
+            </function>
+            <function name="QAxFactory" fullname="QAxFactory::QAxFactory" href="qaxfactory.html#QAxFactory-2" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="32" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="" signature="QAxFactory(const QUuid &amp;libid, const QUuid &amp;appid)">
+                <parameter type="const QUuid &amp;" name="libid" default=""/>
+                <parameter type="const QUuid &amp;" name="appid" default=""/>
+            </function>
+            <function name="appID" fullname="QAxFactory::appID" href="qaxfactory.html#appID" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="46" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="QUuid" signature="QUuid appID() const"/>
+            <function name="classID" fullname="QAxFactory::classID" href="qaxfactory.html#classID" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="41" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="QUuid" signature="QUuid classID(const QString &amp;key) const">
+                <parameter type="const QString &amp;" name="key" default=""/>
+            </function>
+            <function name="createObject" fullname="QAxFactory::createObject" href="qaxfactory.html#createObject" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="37" documented="true" meta="plain" virtual="pure" const="false" static="false" final="false" override="false" type="QObject *" signature="QObject * createObject(const QString &amp;key) = 0">
+                <parameter type="const QString &amp;" name="key" default=""/>
+            </function>
+            <function name="createObjectWrapper" fullname="QAxFactory::createObjectWrapper" href="qaxfactory.html#createObjectWrapper" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="39" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="false" type="bool" signature="bool createObjectWrapper(QObject *object, IDispatch **wrapper)">
+                <parameter type="QObject *" name="object" default=""/>
+                <parameter type="IDispatch **" name="wrapper" default=""/>
+            </function>
+            <function name="eventsID" fullname="QAxFactory::eventsID" href="qaxfactory.html#eventsID" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="43" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="QUuid" signature="QUuid eventsID(const QString &amp;key) const">
+                <parameter type="const QString &amp;" name="key" default=""/>
+            </function>
+            <function name="exposeToSuperClass" fullname="QAxFactory::exposeToSuperClass" href="qaxfactory.html#exposeToSuperClass" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="53" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="QString" signature="QString exposeToSuperClass(const QString &amp;key) const">
+                <parameter type="const QString &amp;" name="key" default=""/>
+            </function>
+            <function name="featureList" fullname="QAxFactory::featureList" href="qaxfactory.html#featureList" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="35" documented="true" meta="plain" virtual="pure" const="true" static="false" final="false" override="false" type="QStringList" signature="QStringList featureList() const = 0"/>
+            <function name="hasStockEvents" fullname="QAxFactory::hasStockEvents" href="qaxfactory.html#hasStockEvents" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="55" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="bool" signature="bool hasStockEvents(const QString &amp;key) const">
+                <parameter type="const QString &amp;" name="key" default=""/>
+            </function>
+            <function name="interfaceID" fullname="QAxFactory::interfaceID" href="qaxfactory.html#interfaceID" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="42" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="QUuid" signature="QUuid interfaceID(const QString &amp;key) const">
+                <parameter type="const QString &amp;" name="key" default=""/>
+            </function>
+            <function name="isServer" fullname="QAxFactory::isServer" href="qaxfactory.html#isServer" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="63" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="bool" signature="bool isServer()"/>
+            <function name="isService" fullname="QAxFactory::isService" href="qaxfactory.html#isService" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="56" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="bool" signature="bool isService() const"/>
+            <function name="metaObject" fullname="QAxFactory::metaObject" href="qaxfactory.html#metaObject" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="38" documented="true" meta="plain" virtual="pure" const="true" static="false" final="false" override="false" type="const QMetaObject *" signature="const QMetaObject * metaObject(const QString &amp;key) const = 0">
+                <parameter type="const QString &amp;" name="key" default=""/>
+            </function>
+            <function name="registerActiveObject" fullname="QAxFactory::registerActiveObject" href="qaxfactory.html#registerActiveObject" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="69" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="bool" signature="bool registerActiveObject(QObject *object)">
+                <parameter type="QObject *" name="object" default=""/>
+            </function>
+            <function name="registerClass" fullname="QAxFactory::registerClass" href="qaxfactory.html#registerClass" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="48" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="void" signature="void registerClass(const QString &amp;key, QSettings *settings) const">
+                <parameter type="const QString &amp;" name="key" default=""/>
+                <parameter type="QSettings *" name="settings" default=""/>
+            </function>
+            <function name="serverDirPath" fullname="QAxFactory::serverDirPath" href="qaxfactory.html#serverDirPath" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="64" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="QString" signature="QString serverDirPath()"/>
+            <function name="serverFilePath" fullname="QAxFactory::serverFilePath" href="qaxfactory.html#serverFilePath" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="65" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="QString" signature="QString serverFilePath()"/>
+            <function name="startServer" fullname="QAxFactory::startServer" href="qaxfactory.html#startServer" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="66" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="bool" signature="bool startServer(QAxFactory::ServerType type)">
+                <parameter type="QAxFactory::ServerType" name="type" default="MultipleInstances"/>
+            </function>
+            <function name="stayTopLevel" fullname="QAxFactory::stayTopLevel" href="qaxfactory.html#stayTopLevel" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="54" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="bool" signature="bool stayTopLevel(const QString &amp;key) const">
+                <parameter type="const QString &amp;" name="key" default=""/>
+            </function>
+            <function name="stopServer" fullname="QAxFactory::stopServer" href="qaxfactory.html#stopServer" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="67" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="bool" signature="bool stopServer()"/>
+            <function name="typeLibID" fullname="QAxFactory::typeLibID" href="qaxfactory.html#typeLibID" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="45" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="QUuid" signature="QUuid typeLibID() const"/>
+            <function name="unregisterClass" fullname="QAxFactory::unregisterClass" href="qaxfactory.html#unregisterClass" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="49" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="void" signature="void unregisterClass(const QString &amp;key, QSettings *settings) const">
+                <parameter type="const QString &amp;" name="key" default=""/>
+                <parameter type="QSettings *" name="settings" default=""/>
+            </function>
+            <function name="validateLicenseKey" fullname="QAxFactory::validateLicenseKey" href="qaxfactory.html#validateLicenseKey" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="51" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="bool" signature="bool validateLicenseKey(const QString &amp;key, const QString &amp;licenseKey) const">
+                <parameter type="const QString &amp;" name="key" default=""/>
+                <parameter type="const QString &amp;" name="licenseKey" default=""/>
+            </function>
+            <function name="~QAxFactory" fullname="QAxFactory::~QAxFactory" href="qaxfactory.html#dtor.QAxFactory" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="33" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="true" type="" signature="~QAxFactory() override"/>
+            <enum name="ServerType" fullname="QAxFactory::ServerType" href="qaxfactory.html#ServerType-enum" status="active" access="public" location="qaxfactory.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/control/qaxfactory.h" lineno="58" documented="true">
+                <value name="SingleInstance" value="0"/>
+                <value name="MultipleInstances" value="1"/>
+            </enum>
+        </class>
+        <class name="QAxObject" href="qaxobject.html" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="30" documented="true" bases="QAxBase,QAxBaseObject" module="QAxContainer" brief="QObject that wraps a COM object">
+            <function name="QAxObject" fullname="QAxObject::QAxObject" href="qaxobject.html#QAxObject" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="35" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" type="" signature="QAxObject(QObject *parent)">
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QAxObject" fullname="QAxObject::QAxObject" href="qaxobject.html#QAxObject-1" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="36" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="1" type="" signature="QAxObject(const QString &amp;c, QObject *parent)">
+                <parameter type="const QString &amp;" name="c" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QAxObject" fullname="QAxObject::QAxObject" href="qaxobject.html#QAxObject-2" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="37" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="2" type="" signature="QAxObject(IUnknown *iface, QObject *parent)">
+                <parameter type="IUnknown *" name="iface" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="connectNotify" fullname="QAxObject::connectNotify" href="qaxobject.html#connectNotify" status="active" access="protected" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="56" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void" signature="void connectNotify(const QMetaMethod &amp;signal) override">
+                <parameter type="const QMetaMethod &amp;" name="signal" default=""/>
+            </function>
+            <function name="doVerb" fullname="QAxObject::doVerb" href="qaxobject.html#doVerb" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="48" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool doVerb(const QString &amp;verb)">
+                <parameter type="const QString &amp;" name="verb" default=""/>
+            </function>
+            <function name="~QAxObject" fullname="QAxObject::~QAxObject" href="qaxobject.html#dtor.QAxObject" status="active" access="public" location="qaxobject.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobject.h" lineno="38" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="true" type="" signature="~QAxObject() override"/>
+        </class>
+        <class name="QAxObjectInterface" href="qaxobjectinterface.html" status="active" access="public" location="qaxobjectinterface.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobjectinterface.h" lineno="13" since="6.0" documented="true" module="QAxContainer" brief="Interface providing common properties of QAxObject and QAxWidget">
+            <function name="classContext" fullname="QAxObjectInterface::classContext" href="qaxobjectinterface.html#classContext" status="active" access="public" location="qaxobjectinterface.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobjectinterface.h" lineno="18" documented="true" meta="plain" virtual="pure" const="true" static="false" final="false" override="false" type="ulong" signature="ulong classContext() const = 0"/>
+            <function name="control" fullname="QAxObjectInterface::control" href="qaxobjectinterface.html#control" status="active" access="public" location="qaxobjectinterface.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobjectinterface.h" lineno="21" documented="true" meta="plain" virtual="pure" const="true" static="false" final="false" override="false" type="QString" signature="QString control() const = 0"/>
+            <function name="resetControl" fullname="QAxObjectInterface::resetControl" href="qaxobjectinterface.html#resetControl" status="active" access="public" location="qaxobjectinterface.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobjectinterface.h" lineno="22" documented="true" meta="plain" virtual="pure" const="false" static="false" final="false" override="false" type="void" signature="void resetControl() = 0"/>
+            <function name="setClassContext" fullname="QAxObjectInterface::setClassContext" href="qaxobjectinterface.html#setClassContext" status="active" access="public" location="qaxobjectinterface.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobjectinterface.h" lineno="19" documented="true" meta="plain" virtual="pure" const="false" static="false" final="false" override="false" type="void" signature="void setClassContext(ulong classContext) = 0">
+                <parameter type="ulong" name="classContext" default=""/>
+            </function>
+            <function name="setControl" fullname="QAxObjectInterface::setControl" href="qaxobjectinterface.html#setControl" status="active" access="public" location="qaxobjectinterface.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobjectinterface.h" lineno="23" documented="true" meta="plain" virtual="pure" const="false" static="false" final="false" override="false" type="bool" signature="bool setControl(const QString &amp;c) = 0">
+                <parameter type="const QString &amp;" name="c" default=""/>
+            </function>
+            <function name="~QAxObjectInterface" fullname="QAxObjectInterface::~QAxObjectInterface" href="qaxobjectinterface.html#dtor.QAxObjectInterface" status="active" access="public" location="qaxobjectinterface.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxobjectinterface.h" lineno="16" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QAxObjectInterface()"/>
+        </class>
+        <class name="QAxScript" href="qaxscript.html" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="57" documented="true" bases="QObject" module="QAxContainer" brief="Wrapper around script code">
+            <function name="QAxScript" fullname="QAxScript::QAxScript" href="qaxscript.html#QAxScript" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="67" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAxScript(const QString &amp;name, QAxScriptManager *manager)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+                <parameter type="QAxScriptManager *" name="manager" default=""/>
+            </function>
+            <function name="call" fullname="QAxScript::call" href="qaxscript.html#call" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="78" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QVariant" signature="QVariant call(const QString &amp;function, const QVariant &amp;var1, const QVariant &amp;var2, const QVariant &amp;var3, const QVariant &amp;var4, const QVariant &amp;var5, const QVariant &amp;var6, const QVariant &amp;var7, const QVariant &amp;var8)">
+                <parameter type="const QString &amp;" name="function" default=""/>
+                <parameter type="const QVariant &amp;" name="var1" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var2" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var3" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var4" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var5" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var6" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var7" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var8" default="QVariant()"/>
+            </function>
+            <function name="call" fullname="QAxScript::call" href="qaxscript.html#call-1" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="86" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="QVariant" signature="QVariant call(const QString &amp;function, QList&lt;QVariant&gt; &amp;arguments)">
+                <parameter type="const QString &amp;" name="function" default=""/>
+                <parameter type="QList&lt;QVariant&gt; &amp;" name="arguments" default=""/>
+            </function>
+            <function name="entered" fullname="QAxScript::entered" href="qaxscript.html#entered" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="89" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void entered()"/>
+            <function name="error" fullname="QAxScript::error" href="qaxscript.html#error" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="94" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void error(int code, const QString &amp;description, int sourcePosition, const QString &amp;sourceText)">
+                <parameter type="int" name="code" default=""/>
+                <parameter type="const QString &amp;" name="description" default=""/>
+                <parameter type="int" name="sourcePosition" default=""/>
+                <parameter type="const QString &amp;" name="sourceText" default=""/>
+            </function>
+            <function name="finished" fullname="QAxScript::finished" href="qaxscript.html#finished" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="90" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void finished()"/>
+            <function name="finished" fullname="QAxScript::finished" href="qaxscript.html#finished-1" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="91" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void finished(const QVariant &amp;result)">
+                <parameter type="const QVariant &amp;" name="result" default=""/>
+            </function>
+            <function name="finished" fullname="QAxScript::finished" href="qaxscript.html#finished-2" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="92" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="void" signature="void finished(int code, const QString &amp;source, const QString &amp;description, const QString &amp;help)">
+                <parameter type="int" name="code" default=""/>
+                <parameter type="const QString &amp;" name="source" default=""/>
+                <parameter type="const QString &amp;" name="description" default=""/>
+                <parameter type="const QString &amp;" name="help" default=""/>
+            </function>
+            <function name="functions" fullname="QAxScript::functions" href="qaxscript.html#functions" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="72" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QStringList" signature="QStringList functions(QAxScript::FunctionFlags flags) const">
+                <parameter type="QAxScript::FunctionFlags" name="flags" default="FunctionNames"/>
+            </function>
+            <function name="load" fullname="QAxScript::load" href="qaxscript.html#load" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="70" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool load(const QString &amp;code, const QString &amp;language)">
+                <parameter type="const QString &amp;" name="code" default=""/>
+                <parameter type="const QString &amp;" name="language" default="QString()"/>
+            </function>
+            <function name="scriptCode" fullname="QAxScript::scriptCode" href="qaxscript.html#scriptCode" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="74" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString scriptCode() const"/>
+            <function name="scriptEngine" fullname="QAxScript::scriptEngine" href="qaxscript.html#scriptEngine" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="76" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QAxScriptEngine *" signature="QAxScriptEngine * scriptEngine() const"/>
+            <function name="scriptName" fullname="QAxScript::scriptName" href="qaxscript.html#scriptName" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="75" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString scriptName() const"/>
+            <function name="stateChanged" fullname="QAxScript::stateChanged" href="qaxscript.html#stateChanged" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="93" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void stateChanged(int state)">
+                <parameter type="int" name="state" default=""/>
+            </function>
+            <function name="~QAxScript" fullname="QAxScript::~QAxScript" href="qaxscript.html#dtor.QAxScript" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="68" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="true" type="" signature="~QAxScript() override"/>
+            <enum name="FunctionFlags" fullname="QAxScript::FunctionFlags" href="qaxscript.html#FunctionFlags-enum" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="62" documented="true">
+                <value name="FunctionNames" value="0"/>
+                <value name="FunctionSignatures" value="1"/>
+            </enum>
+        </class>
+        <class name="QAxScriptEngine" href="qaxscriptengine.html" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="20" documented="true" bases="QAxObject" module="QAxContainer" brief="Wrapper around a script engine">
+            <function name="QAxScriptEngine" fullname="QAxScriptEngine::QAxScriptEngine" href="qaxscriptengine.html#QAxScriptEngine" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="32" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAxScriptEngine(const QString &amp;language, QAxScript *script)">
+                <parameter type="const QString &amp;" name="language" default=""/>
+                <parameter type="QAxScript *" name="script" default=""/>
+            </function>
+            <function name="addItem" fullname="QAxScriptEngine::addItem" href="qaxscriptengine.html#addItem" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="43" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addItem(const QString &amp;name)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+            </function>
+            <function name="hasIntrospection" fullname="QAxScriptEngine::hasIntrospection" href="qaxscriptengine.html#hasIntrospection" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="36" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool hasIntrospection() const"/>
+            <function name="initialize" fullname="QAxScriptEngine::initialize" href="qaxscriptengine.html#initialize" status="active" access="protected" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="48" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="bool" signature="bool initialize(IUnknown **ptr) override">
+                <parameter type="IUnknown **" name="ptr" default=""/>
+            </function>
+            <function name="isValid" fullname="QAxScriptEngine::isValid" href="qaxscriptengine.html#isValid" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="35" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool isValid() const"/>
+            <function name="queryInterface" fullname="QAxScriptEngine::queryInterface" href="qaxscriptengine.html#queryInterface" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="45" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="long" signature="long queryInterface(const QUuid &amp;uuid, void **iface) const">
+                <parameter type="const QUuid &amp;" name="uuid" default=""/>
+                <parameter type="void **" name="iface" default=""/>
+            </function>
+            <function name="scriptLanguage" fullname="QAxScriptEngine::scriptLanguage" href="qaxscriptengine.html#scriptLanguage" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="38" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString scriptLanguage() const"/>
+            <function name="setState" fullname="QAxScriptEngine::setState" href="qaxscriptengine.html#setState" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="41" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void setState(QAxScriptEngine::State st)">
+                <parameter type="QAxScriptEngine::State" name="st" default=""/>
+            </function>
+            <function name="state" fullname="QAxScriptEngine::state" href="qaxscriptengine.html#state" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="40" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QAxScriptEngine::State" signature="QAxScriptEngine::State state() const"/>
+            <function name="~QAxScriptEngine" fullname="QAxScriptEngine::~QAxScriptEngine" href="qaxscriptengine.html#dtor.QAxScriptEngine" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="33" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="true" type="" signature="~QAxScriptEngine() override"/>
+            <enum name="State" fullname="QAxScriptEngine::State" href="qaxscriptengine.html#State-enum" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="23" documented="true">
+                <value name="Uninitialized" value="0"/>
+                <value name="Initialized" value="5"/>
+                <value name="Started" value="1"/>
+                <value name="Connected" value="2"/>
+                <value name="Disconnected" value="3"/>
+                <value name="Closed" value="4"/>
+            </enum>
+        </class>
+        <class name="QAxScriptManager" href="qaxscriptmanager.html" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="110" documented="true" bases="QObject" module="QAxContainer" brief="Bridge between application objects and script code">
+            <function name="QAxScriptManager" fullname="QAxScriptManager::QAxScriptManager" href="qaxscriptmanager.html#QAxScriptManager" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="115" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" type="" signature="QAxScriptManager(QObject *parent)">
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="addObject" fullname="QAxScriptManager::addObject" href="qaxscriptmanager.html#addObject" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="118" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addObject(QAxBase *object)">
+                <parameter type="QAxBase *" name="object" default=""/>
+            </function>
+            <function name="addObject" fullname="QAxScriptManager::addObject" href="qaxscriptmanager.html#addObject-1" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="119" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void addObject(QObject *object)">
+                <parameter type="QObject *" name="object" default=""/>
+            </function>
+            <function name="call" fullname="QAxScriptManager::call" href="qaxscriptmanager.html#call" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="128" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QVariant" signature="QVariant call(const QString &amp;function, const QVariant &amp;var1, const QVariant &amp;var2, const QVariant &amp;var3, const QVariant &amp;var4, const QVariant &amp;var5, const QVariant &amp;var6, const QVariant &amp;var7, const QVariant &amp;var8)">
+                <parameter type="const QString &amp;" name="function" default=""/>
+                <parameter type="const QVariant &amp;" name="var1" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var2" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var3" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var4" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var5" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var6" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var7" default="QVariant()"/>
+                <parameter type="const QVariant &amp;" name="var8" default="QVariant()"/>
+            </function>
+            <function name="call" fullname="QAxScriptManager::call" href="qaxscriptmanager.html#call-1" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="136" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="QVariant" signature="QVariant call(const QString &amp;function, QList&lt;QVariant&gt; &amp;arguments)">
+                <parameter type="const QString &amp;" name="function" default=""/>
+                <parameter type="QList&lt;QVariant&gt; &amp;" name="arguments" default=""/>
+            </function>
+            <function name="error" fullname="QAxScriptManager::error" href="qaxscriptmanager.html#error" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="142" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void error(QAxScript *script, int code, const QString &amp;description, int sourcePosition, const QString &amp;sourceText)">
+                <parameter type="QAxScript *" name="script" default=""/>
+                <parameter type="int" name="code" default=""/>
+                <parameter type="const QString &amp;" name="description" default=""/>
+                <parameter type="int" name="sourcePosition" default=""/>
+                <parameter type="const QString &amp;" name="sourceText" default=""/>
+            </function>
+            <function name="functions" fullname="QAxScriptManager::functions" href="qaxscriptmanager.html#functions" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="121" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QStringList" signature="QStringList functions(QAxScript::FunctionFlags flags) const">
+                <parameter type="QAxScript::FunctionFlags" name="flags" default="QAxScript::FunctionNames"/>
+            </function>
+            <function name="load" fullname="QAxScriptManager::load" href="qaxscriptmanager.html#load" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="125" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QAxScript *" signature="QAxScript * load(const QString &amp;code, const QString &amp;name, const QString &amp;language)">
+                <parameter type="const QString &amp;" name="code" default=""/>
+                <parameter type="const QString &amp;" name="name" default=""/>
+                <parameter type="const QString &amp;" name="language" default=""/>
+            </function>
+            <function name="load" fullname="QAxScriptManager::load" href="qaxscriptmanager.html#load-1" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="126" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="QAxScript *" signature="QAxScript * load(const QString &amp;file, const QString &amp;name)">
+                <parameter type="const QString &amp;" name="file" default=""/>
+                <parameter type="const QString &amp;" name="name" default=""/>
+            </function>
+            <function name="registerEngine" fullname="QAxScriptManager::registerEngine" href="qaxscriptmanager.html#registerEngine" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="138" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="bool" signature="bool registerEngine(const QString &amp;name, const QString &amp;extension, const QString &amp;code)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+                <parameter type="const QString &amp;" name="extension" default=""/>
+                <parameter type="const QString &amp;" name="code" default="QString()"/>
+            </function>
+            <function name="script" fullname="QAxScriptManager::script" href="qaxscriptmanager.html#script" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="123" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QAxScript *" signature="QAxScript * script(const QString &amp;name) const">
+                <parameter type="const QString &amp;" name="name" default=""/>
+            </function>
+            <function name="scriptFileFilter" fullname="QAxScriptManager::scriptFileFilter" href="qaxscriptmanager.html#scriptFileFilter" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="139" documented="true" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="QString" signature="QString scriptFileFilter()"/>
+            <function name="scriptNames" fullname="QAxScriptManager::scriptNames" href="qaxscriptmanager.html#scriptNames" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="122" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QStringList" signature="QStringList scriptNames() const"/>
+            <function name="~QAxScriptManager" fullname="QAxScriptManager::~QAxScriptManager" href="qaxscriptmanager.html#dtor.QAxScriptManager" status="active" access="public" location="qaxscript.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxscript.h" lineno="116" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="true" type="" signature="~QAxScriptManager() override"/>
+        </class>
+        <class name="QAxSelect" href="qaxselect.html" status="active" access="public" location="qaxselect.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxselect.h" lineno="13" documented="true" bases="QDialog" module="QAxContainer" brief="Selection dialog for registered COM components">
+            <function name="QAxSelect" fullname="QAxSelect::QAxSelect" href="qaxselect.html#QAxSelect" status="active" access="public" location="qaxselect.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxselect.h" lineno="24" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" type="" signature="QAxSelect(QWidget *parent, Qt::WindowFlags flags)">
+                <parameter type="QWidget *" name="parent" default="nullptr"/>
+                <parameter type="Qt::WindowFlags" name="flags" default="Qt::WindowFlags()"/>
+            </function>
+            <function name="clsid" fullname="QAxSelect::clsid" href="qaxselect.html#clsid" status="active" access="public" location="qaxselect.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxselect.h" lineno="27" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QString" signature="QString clsid() const"/>
+            <function name="sandboxingLevel" fullname="QAxSelect::sandboxingLevel" href="qaxselect.html#sandboxingLevel" status="active" access="public" location="qaxselect.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxselect.h" lineno="28" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QAxSelect::SandboxingLevel" signature="QAxSelect::SandboxingLevel sandboxingLevel() const"/>
+            <function name="~QAxSelect" fullname="QAxSelect::~QAxSelect" href="qaxselect.html#dtor.QAxSelect" status="active" access="public" location="qaxselect.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxselect.h" lineno="25" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="true" type="" signature="~QAxSelect() override"/>
+            <enum name="SandboxingLevel" fullname="QAxSelect::SandboxingLevel" href="qaxselect.html#SandboxingLevel-enum" status="active" access="public" location="qaxselect.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxselect.h" lineno="17" documented="true">
+                <value name="SandboxingNone" value="0"/>
+                <value name="SandboxingProcess" value="1"/>
+                <value name="SandboxingLowIntegrity" value="2"/>
+                <value name="SandboxingAppContainer" value="3"/>
+            </enum>
+        </class>
+        <class name="QAxWidget" href="qaxwidget.html" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="35" documented="true" bases="QAxBase,QAxBaseWidget" module="QAxContainer" brief="QWidget that wraps an ActiveX control">
+            <function name="QAxWidget" fullname="QAxWidget::QAxWidget" href="qaxwidget.html#QAxWidget" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="38" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" type="" signature="QAxWidget(QWidget *parent, Qt::WindowFlags f)">
+                <parameter type="QWidget *" name="parent" default="nullptr"/>
+                <parameter type="Qt::WindowFlags" name="f" default="Qt::WindowFlags()"/>
+            </function>
+            <function name="QAxWidget" fullname="QAxWidget::QAxWidget" href="qaxwidget.html#QAxWidget-1" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="39" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="1" type="" signature="QAxWidget(const QString &amp;c, QWidget *parent, Qt::WindowFlags f)">
+                <parameter type="const QString &amp;" name="c" default=""/>
+                <parameter type="QWidget *" name="parent" default="nullptr"/>
+                <parameter type="Qt::WindowFlags" name="f" default="Qt::WindowFlags()"/>
+            </function>
+            <function name="QAxWidget" fullname="QAxWidget::QAxWidget" href="qaxwidget.html#QAxWidget-2" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="40" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="2" type="" signature="QAxWidget(IUnknown *iface, QWidget *parent, Qt::WindowFlags f)">
+                <parameter type="IUnknown *" name="iface" default=""/>
+                <parameter type="QWidget *" name="parent" default="nullptr"/>
+                <parameter type="Qt::WindowFlags" name="f" default="Qt::WindowFlags()"/>
+            </function>
+            <function name="changeEvent" fullname="QAxWidget::changeEvent" href="qaxwidget.html#changeEvent" status="active" access="protected" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="67" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void" signature="void changeEvent(QEvent *e) override">
+                <parameter type="QEvent *" name="e" default=""/>
+            </function>
+            <function name="clear" fullname="QAxWidget::clear" href="qaxwidget.html#clear" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="49" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void clear()"/>
+            <function name="connectNotify" fullname="QAxWidget::connectNotify" href="qaxwidget.html#connectNotify" status="active" access="protected" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="72" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void" signature="void connectNotify(const QMetaMethod &amp;signal) override">
+                <parameter type="const QMetaMethod &amp;" name="signal" default=""/>
+            </function>
+            <function name="createAggregate" fullname="QAxWidget::createAggregate" href="qaxwidget.html#createAggregate" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="55" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="false" type="QAxAggregated *" signature="QAxAggregated * createAggregate()"/>
+            <function name="createHostWindow" fullname="QAxWidget::createHostWindow" href="qaxwidget.html#createHostWindow" status="active" access="protected" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="64" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="false" type="bool" signature="bool createHostWindow(bool initialized)">
+                <parameter type="bool" name="initialized" default=""/>
+            </function>
+            <function name="createHostWindow" fullname="QAxWidget::createHostWindow" href="qaxwidget.html#createHostWindow-1" status="active" access="protected" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="65" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="bool" signature="bool createHostWindow(bool initialized, const QByteArray &amp;data)">
+                <parameter type="bool" name="initialized" default=""/>
+                <parameter type="const QByteArray &amp;" name="data" default=""/>
+            </function>
+            <function name="doVerb" fullname="QAxWidget::doVerb" href="qaxwidget.html#doVerb" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="50" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool doVerb(const QString &amp;verb)">
+                <parameter type="const QString &amp;" name="verb" default=""/>
+            </function>
+            <function name="initialize" fullname="QAxWidget::initialize" href="qaxwidget.html#initialize" status="active" access="protected" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="63" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="bool" signature="bool initialize(IUnknown **ptr) override">
+                <parameter type="IUnknown **" name="ptr" default=""/>
+            </function>
+            <function name="minimumSizeHint" fullname="QAxWidget::minimumSizeHint" href="qaxwidget.html#minimumSizeHint" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="53" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="QSize" signature="QSize minimumSizeHint() const override"/>
+            <function name="resetControl" fullname="QAxWidget::resetControl" href="qaxwidget.html#resetControl" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="48" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void" signature="void resetControl() override"/>
+            <function name="resizeEvent" fullname="QAxWidget::resizeEvent" href="qaxwidget.html#resizeEvent" status="active" access="protected" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="68" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void" signature="void resizeEvent(QResizeEvent *) override">
+                <parameter type="QResizeEvent *" name="" default=""/>
+            </function>
+            <function name="sizeHint" fullname="QAxWidget::sizeHint" href="qaxwidget.html#sizeHint" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="52" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="QSize" signature="QSize sizeHint() const override"/>
+            <function name="translateKeyEvent" fullname="QAxWidget::translateKeyEvent" href="qaxwidget.html#translateKeyEvent" status="active" access="protected" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="70" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="false" type="bool" signature="bool translateKeyEvent(int message, int keycode) const">
+                <parameter type="int" name="message" default=""/>
+                <parameter type="int" name="keycode" default=""/>
+            </function>
+            <function name="~QAxWidget" fullname="QAxWidget::~QAxWidget" href="qaxwidget.html#dtor.QAxWidget" status="active" access="public" location="qaxwidget.h" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/container/qaxwidget.h" lineno="41" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="true" type="" signature="~QAxWidget() override"/>
+        </class>
+        <page name="activeqt/qutlook" href="activeqt-activeqt-qutlook-example.html" status="active" location="qutlook.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/examples/activeqt/qutlook/doc/src/qutlook.qdoc" lineno="4" documented="true" groups="activeqt-examples,category Desktop" subtype="example" title="Qutlook Example (ActiveQt)" fulltitle="Qutlook Example (ActiveQt)" subtitle="" brief="Qutlook example demonstrates the use of ActiveQt to automate Outlook. The example makes use of the dumpcpp tool to generate a C++ namespace for the type library describing the Outlook Object Model">
+            <page name="activeqt/qutlook/addressview.cpp" href="activeqt-activeqt-qutlook-addressview-cpp.html" status="active" subtype="file" title="" fulltitle="addressview.cpp Example File" subtitle="activeqt/qutlook/addressview.cpp"/>
+            <page name="activeqt/qutlook/addressview.h" href="activeqt-activeqt-qutlook-addressview-h.html" status="active" subtype="file" title="" fulltitle="addressview.h Example File" subtitle="activeqt/qutlook/addressview.h"/>
+            <page name="activeqt/qutlook/main.cpp" href="activeqt-activeqt-qutlook-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="activeqt/qutlook/main.cpp"/>
+            <page name="activeqt/qutlook/CMakeLists.txt" href="activeqt-activeqt-qutlook-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="activeqt/qutlook/CMakeLists.txt"/>
+            <page name="activeqt/qutlook/qutlook.pro" href="activeqt-activeqt-qutlook-qutlook-pro.html" status="active" subtype="file" title="" fulltitle="qutlook.pro Example File" subtitle="activeqt/qutlook/qutlook.pro"/>
+        </page>
+        <page name="activeqt/simple" href="activeqt-activeqt-simple-example.html" status="active" location="simple.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/examples/activeqt/simple/doc/src/simple.qdoc" lineno="49" documented="true" groups="activeqt-examples,category Desktop" subtype="example" title="Simple Example (ActiveQt)" fulltitle="Simple Example (ActiveQt)" subtitle="" brief="Simple example demonstrates the use of QAxBindable and QAxFactory">
+            <page name="activeqt/simple/main.cpp" href="activeqt-activeqt-simple-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="activeqt/simple/main.cpp"/>
+            <page name="activeqt/simple/CMakeLists.txt" href="activeqt-activeqt-simple-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="activeqt/simple/CMakeLists.txt"/>
+            <page name="activeqt/simple/simple.pro" href="activeqt-activeqt-simple-simple-pro.html" status="active" subtype="file" title="" fulltitle="simple.pro Example File" subtitle="activeqt/simple/simple.pro"/>
+        </page>
+        <page name="qaxserver-demo-wrapper.html" href="qaxserver-demo-wrapper.html" status="active" location="wrapper.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/examples/activeqt/wrapper/doc/src/wrapper.qdoc" lineno="4" documented="true" subtype="page" title="Standard Qt widgets in an HTML page" fulltitle="Standard Qt widgets in an HTML page" subtitle=""/>
+        <page name="activeqt-dumpcpp.html" href="activeqt-dumpcpp.html" status="active" location="activeqt-dumpcpp.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/doc/src/activeqt-dumpcpp.qdoc" lineno="4" documented="true" groups="activeqt-tools" subtype="page" title="The dumpcpp Tool (ActiveQt)" fulltitle="The dumpcpp Tool (ActiveQt)" subtitle="">
+            <keyword name="dumpcpp"/>
+        </page>
+        <page name="activeqt-dumpdoc.html" href="activeqt-dumpdoc.html" status="active" location="activeqt-dumpdoc.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/doc/src/activeqt-dumpdoc.qdoc" lineno="4" documented="true" groups="activeqt-tools" subtype="page" title="The dumpdoc Tool (ActiveQt)" fulltitle="The dumpdoc Tool (ActiveQt)" subtitle="">
+            <keyword name="dumpdoc"/>
+        </page>
+        <page name="activeqt-container.html" href="activeqt-container.html" status="active" location="qtaxcontainer.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/doc/src/qtaxcontainer.qdoc" lineno="18" documented="true" groups="qt-activex" subtype="page" title="Using ActiveX controls and COM in Qt" fulltitle="Using ActiveX controls and COM in Qt" subtitle="" brief="A Windows-only extension for accessing ActiveX controls and COM objects">
+            <contents name="using-the-library" title="Using the Library" level="1"/>
+            <contents name="distributing-qaxcontainer-applications" title="Distributing QAxContainer Applications" level="2"/>
+            <contents name="instantiating-com-objects" title="Instantiating COM Objects" level="1"/>
+            <contents name="typical-error-messages" title="Typical Error Messages" level="2"/>
+            <contents name="requested-control-could-not-be-instantiated" title="Requested control could not be instantiated" level="3"/>
+            <contents name="accessing-the-object-api" title="Accessing the Object API" level="1"/>
+            <contents name="generating-a-c-namespace" title="Generating a C++ Namespace" level="2"/>
+            <contents name="call-by-name" title="Call-by-Name" level="2"/>
+            <contents name="calling-function-through-a-script-engine" title="Calling Function Through a Script Engine" level="2"/>
+            <contents name="calling-a-function-using-the-native-com-interfaces" title="Calling a Function Using the Native COM Interfaces" level="2"/>
+            <contents name="typical-error-messages" title="Typical Error Messages" level="2"/>
+            <contents name="qaxbase-internalinvoke-no-such-method" title="QAxBase::internalInvoke: No such method" level="3"/>
+            <contents name="error-calling-idispatch-member-non-optional-parameter-missing" title="Error calling IDispatch member: Non-optional parameter missing" level="3"/>
+            <contents name="error-calling-idispatch-member-type-mismatch-in-parameter-n" title="Error calling IDispatch member: Type mismatch in parameter n" level="3"/>
+            <contents name="qaxscriptmanager-call-no-script-provides-this-function" title="QAxScriptManager::call(): No script provides this function" level="3"/>
+        </page>
+        <page name="activeqt/wrapper" href="activeqt-activeqt-wrapper-example.html" status="active" location="wrapper.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/examples/activeqt/wrapper/doc/src/wrapper.qdoc" lineno="12" documented="true" groups="activeqt-examples,category Desktop" subtype="example" title="Wrapper Example (ActiveQt)" fulltitle="Wrapper Example (ActiveQt)" subtitle="" brief="Wrapper example demonstrates how to export existing QWidget classes as ActiveX controls, and the use of QAxFactory together with the QAXFACTORY_EXPORT() macro. ActiveX controls in this example are the standard button classes QPushButton, QCheckBox and QRadioButton as provided by Qt">
+            <page name="activeqt/wrapper/main.cpp" href="activeqt-activeqt-wrapper-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="activeqt/wrapper/main.cpp"/>
+            <page name="activeqt/wrapper/CMakeLists.txt" href="activeqt-activeqt-wrapper-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="activeqt/wrapper/CMakeLists.txt"/>
+            <page name="activeqt/wrapper/wrapper.pro" href="activeqt-activeqt-wrapper-wrapper-pro.html" status="active" subtype="file" title="" fulltitle="wrapper.pro Example File" subtitle="activeqt/wrapper/wrapper.pro"/>
+        </page>
+        <page name="activeqt/wrapper" href="activeqt-activeqt-wrapper-example.html" status="active" location="wrapper.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/examples/activeqt/wrapper/doc/src/wrapper.qdoc" lineno="12" documented="true" groups="activeqt-examples,category Desktop" subtype="example" title="Wrapper Example (ActiveQt)" fulltitle="Wrapper Example (ActiveQt)" subtitle="" brief="Wrapper example demonstrates how to export existing QWidget classes as ActiveX controls, and the use of QAxFactory together with the QAXFACTORY_EXPORT() macro. ActiveX controls in this example are the standard button classes QPushButton, QCheckBox and QRadioButton as provided by Qt">
+            <page name="activeqt/wrapper/main.cpp" href="activeqt-activeqt-wrapper-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="activeqt/wrapper/main.cpp"/>
+            <page name="activeqt/wrapper/CMakeLists.txt" href="activeqt-activeqt-wrapper-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="activeqt/wrapper/CMakeLists.txt"/>
+            <page name="activeqt/wrapper/wrapper.pro" href="activeqt-activeqt-wrapper-wrapper-pro.html" status="active" subtype="file" title="" fulltitle="wrapper.pro Example File" subtitle="activeqt/wrapper/wrapper.pro"/>
+        </page>
+        <group name="activeqt-examples" href="activeqt-examples.html" status="active" location="activeqt-index.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/doc/src/activeqt-index.qdoc" lineno="14" documented="true" groups="groups" seen="true" title="ActiveQt Examples and Tutorials" brief="List of ActiveQt examples and tutorials"/>
+        <group name="activeqt-tools" href="activeqt-tools.html" status="active" location="activeqt-index.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/doc/src/activeqt-index.qdoc" lineno="4" documented="true" seen="true" title="Tools for ActiveQt" brief="Tools to help integrate Qt applications with ActiveX components"/>
+        <group name="category Desktop" href="category-desktop.html" status="internal" seen="false" title=""/>
+        <group name="groups" href="groups.html" status="internal" seen="false" title=""/>
+        <group name="modules" href="modules.html" status="internal" seen="false" title=""/>
+        <group name="qt-activex" href="qt-activex.html" status="internal" seen="false" title=""/>
+        <module name="QAxContainer" href="qaxcontainer-module.html" status="active" location="qtaxcontainer.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/doc/src/qtaxcontainer.qdoc" lineno="3" documented="true" groups="modules" seen="true" title="QAxContainer C++ Classes" brief="Module is a Windows-only extension for accessing ActiveX controls and COM objects"/>
+        <module name="QAxServer" href="qaxserver-module.html" status="active" location="qtaxserver.qdoc" filepath="/home/qt/work/qt/qt5/qtactiveqt/src/activeqt/doc/src/qtaxserver.qdoc" lineno="4" documented="true" groups="modules" seen="true" title="QAxServer C++ Classes" brief="Module is a Windows-only static library that you can use to turn a standard Qt binary into a COM server"/>
+    </namespace>
+</INDEX>

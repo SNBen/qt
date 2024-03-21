@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt Labs Platform Reference Documentation" version="6.5.3" project="QtLabsPlatform" indexTitle="Qt Labs Platform">
+    <namespace name="" status="active" access="public" module="qtlabsplatform">
+        <page name="qtquicklabsplatform-changes-qt6.html" href="qtquicklabsplatform-changes-qt6.html" status="active" location="qt6-changes.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/labs/platform/doc/src/qt6-changes.qdoc" lineno="4" documented="true" groups="changes-qt-5-to-6" subtype="page" title="Changes to Qt Quick Labs Platform" fulltitle="Changes to Qt Quick Labs Platform" subtitle="" brief="Migrate Qt Quick Labs Platform to Qt 6">
+            <contents name="the-menu-type" title="The Menu type" level="1"/>
+            <contents name="the-menuitem-type" title="The MenuItem type" level="1"/>
+            <contents name="the-systemtrayicon-type" title="The SystemTrayIcon type" level="1"/>
+        </page>
+        <qmlclass name="ColorDialog" qml-module-name="Qt.labs.platform" qml-base-type="Qt.labs.platform::Dialog" fullname="Qt.labs.platform.ColorDialog" href="qml-qt-labs-platform-colordialog.html" status="active" access="public" documented="true" title="ColorDialog" fulltitle="ColorDialog" subtitle="" brief="A native color dialog">
+            <contents name="availability" title="Availability" level="2"/>
+            <qmlproperty name="color" fullname="Qt.labs.platform.ColorDialog.color" href="qml-qt-labs-platform-colordialog.html#color-prop" status="active" access="public" documented="true" type="color" attached="false" writable="true"/>
+            <qmlproperty name="currentColor" fullname="Qt.labs.platform.ColorDialog.currentColor" href="qml-qt-labs-platform-colordialog.html#currentColor-prop" status="active" access="public" documented="true" type="color" attached="false" writable="true"/>
+            <qmlproperty name="options" fullname="Qt.labs.platform.ColorDialog.options" href="qml-qt-labs-platform-colordialog.html#options-prop" status="active" access="public" documented="true" type="flags" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="Dialog" qml-module-name="Qt.labs.platform" fullname="Qt.labs.platform.Dialog" href="qml-qt-labs-platform-dialog.html" status="active" access="public" documented="true" title="Dialog" fulltitle="Dialog" subtitle="" brief="Base class of native dialogs">
+            <function name="accept" fullname="Qt.labs.platform.Dialog.accept" href="qml-qt-labs-platform-dialog.html#accept-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="accepted" fullname="Qt.labs.platform.Dialog.accepted" href="qml-qt-labs-platform-dialog.html#accepted-signal" status="active" access="public" documented="true" meta="qmlsignal" type="void"/>
+            <function name="close" fullname="Qt.labs.platform.Dialog.close" href="qml-qt-labs-platform-dialog.html#close-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="done" fullname="Qt.labs.platform.Dialog.done" href="qml-qt-labs-platform-dialog.html#done-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="int" name="result" default=""/>
+            </function>
+            <function name="open" fullname="Qt.labs.platform.Dialog.open" href="qml-qt-labs-platform-dialog.html#open-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="reject" fullname="Qt.labs.platform.Dialog.reject" href="qml-qt-labs-platform-dialog.html#reject-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="rejected" fullname="Qt.labs.platform.Dialog.rejected" href="qml-qt-labs-platform-dialog.html#rejected-signal" status="active" access="public" documented="true" meta="qmlsignal" type="void"/>
+            <qmlproperty name="data" fullname="Qt.labs.platform.Dialog.data" href="qml-qt-labs-platform-dialog.html#data-prop" status="active" access="public" documented="true" type="list&lt;QtObject&gt;" attached="false" writable="true"/>
+            <qmlproperty name="flags" fullname="Qt.labs.platform.Dialog.flags" href="qml-qt-labs-platform-dialog.html#flags-prop" status="active" access="public" documented="true" type="Qt::WindowFlags" attached="false" writable="true"/>
+            <qmlproperty name="modality" fullname="Qt.labs.platform.Dialog.modality" href="qml-qt-labs-platform-dialog.html#modality-prop" status="active" access="public" documented="true" type="Qt::WindowModality" attached="false" writable="true"/>
+            <qmlproperty name="parentWindow" fullname="Qt.labs.platform.Dialog.parentWindow" href="qml-qt-labs-platform-dialog.html#parentWindow-prop" status="active" access="public" documented="true" type="Window" attached="false" writable="true"/>
+            <qmlproperty name="result" fullname="Qt.labs.platform.Dialog.result" href="qml-qt-labs-platform-dialog.html#result-prop" status="active" access="public" documented="true" type="int" attached="false" writable="true"/>
+            <qmlproperty name="title" fullname="Qt.labs.platform.Dialog.title" href="qml-qt-labs-platform-dialog.html#title-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="visible" fullname="Qt.labs.platform.Dialog.visible" href="qml-qt-labs-platform-dialog.html#visible-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="FileDialog" qml-module-name="Qt.labs.platform" qml-base-type="Qt.labs.platform::Dialog" fullname="Qt.labs.platform.FileDialog" href="qml-qt-labs-platform-filedialog.html" status="active" access="public" documented="true" title="FileDialog" fulltitle="FileDialog" subtitle="" brief="A native file dialog">
+            <contents name="availability" title="Availability" level="2"/>
+            <qmlproperty name="acceptLabel" fullname="Qt.labs.platform.FileDialog.acceptLabel" href="qml-qt-labs-platform-filedialog.html#acceptLabel-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="currentFile" fullname="Qt.labs.platform.FileDialog.currentFile" href="qml-qt-labs-platform-filedialog.html#currentFile-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="currentFiles" fullname="Qt.labs.platform.FileDialog.currentFiles" href="qml-qt-labs-platform-filedialog.html#currentFiles-prop" status="active" access="public" documented="true" type="list&lt;url&gt;" attached="false" writable="true"/>
+            <qmlproperty name="defaultSuffix" fullname="Qt.labs.platform.FileDialog.defaultSuffix" href="qml-qt-labs-platform-filedialog.html#defaultSuffix-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="file" fullname="Qt.labs.platform.FileDialog.file" href="qml-qt-labs-platform-filedialog.html#file-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="fileMode" fullname="Qt.labs.platform.FileDialog.fileMode" href="qml-qt-labs-platform-filedialog.html#fileMode-prop" status="active" access="public" documented="true" type="enumeration" attached="false" writable="true"/>
+            <qmlproperty name="files" fullname="Qt.labs.platform.FileDialog.files" href="qml-qt-labs-platform-filedialog.html#files-prop" status="active" access="public" documented="true" type="list&lt;url&gt;" attached="false" writable="true"/>
+            <qmlproperty name="folder" fullname="Qt.labs.platform.FileDialog.folder" href="qml-qt-labs-platform-filedialog.html#folder-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="nameFilters" fullname="Qt.labs.platform.FileDialog.nameFilters" href="qml-qt-labs-platform-filedialog.html#nameFilters-prop" status="active" access="public" documented="true" type="list&lt;string&gt;" attached="false" writable="true"/>
+            <qmlproperty name="options" fullname="Qt.labs.platform.FileDialog.options" href="qml-qt-labs-platform-filedialog.html#options-prop" status="active" access="public" documented="true" type="flags" attached="false" writable="true"/>
+            <qmlproperty name="rejectLabel" fullname="Qt.labs.platform.FileDialog.rejectLabel" href="qml-qt-labs-platform-filedialog.html#rejectLabel-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="selectedNameFilter.extensions" fullname="Qt.labs.platform.FileDialog.selectedNameFilter.extensions" href="qml-qt-labs-platform-filedialog.html#selectedNameFilter.extensions-prop" status="active" access="public" documented="true" type="list&lt;string&gt;" attached="false" writable="true"/>
+            <qmlproperty name="selectedNameFilter.index" fullname="Qt.labs.platform.FileDialog.selectedNameFilter.index" href="qml-qt-labs-platform-filedialog.html#selectedNameFilter.index-prop" status="active" access="public" documented="true" type="int" attached="false" writable="true"/>
+            <qmlproperty name="selectedNameFilter.name" fullname="Qt.labs.platform.FileDialog.selectedNameFilter.name" href="qml-qt-labs-platform-filedialog.html#selectedNameFilter.name-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="selectedNameFilter" fullname="Qt.labs.platform.FileDialog.selectedNameFilter" href="qml-qt-labs-platform-filedialog.html#selectedNameFilter-prop" status="active" access="public" documented="true"/>
+        </qmlclass>
+        <qmlclass name="FolderDialog" qml-module-name="Qt.labs.platform" qml-base-type="Qt.labs.platform::Dialog" fullname="Qt.labs.platform.FolderDialog" href="qml-qt-labs-platform-folderdialog.html" status="active" access="public" documented="true" title="FolderDialog" fulltitle="FolderDialog" subtitle="" brief="A native folder dialog">
+            <contents name="availability" title="Availability" level="2"/>
+            <qmlproperty name="acceptLabel" fullname="Qt.labs.platform.FolderDialog.acceptLabel" href="qml-qt-labs-platform-folderdialog.html#acceptLabel-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="currentFolder" fullname="Qt.labs.platform.FolderDialog.currentFolder" href="qml-qt-labs-platform-folderdialog.html#currentFolder-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="folder" fullname="Qt.labs.platform.FolderDialog.folder" href="qml-qt-labs-platform-folderdialog.html#folder-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="options" fullname="Qt.labs.platform.FolderDialog.options" href="qml-qt-labs-platform-folderdialog.html#options-prop" status="active" access="public" documented="true" type="flags" attached="false" writable="true"/>
+            <qmlproperty name="rejectLabel" fullname="Qt.labs.platform.FolderDialog.rejectLabel" href="qml-qt-labs-platform-folderdialog.html#rejectLabel-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="FontDialog" qml-module-name="Qt.labs.platform" qml-base-type="Qt.labs.platform::Dialog" fullname="Qt.labs.platform.FontDialog" href="qml-qt-labs-platform-fontdialog.html" status="active" access="public" documented="true" title="FontDialog" fulltitle="FontDialog" subtitle="" brief="A native font dialog">
+            <contents name="availability" title="Availability" level="2"/>
+            <qmlproperty name="currentFont" fullname="Qt.labs.platform.FontDialog.currentFont" href="qml-qt-labs-platform-fontdialog.html#currentFont-prop" status="active" access="public" documented="true" type="font" attached="false" writable="true"/>
+            <qmlproperty name="font" fullname="Qt.labs.platform.FontDialog.font" href="qml-qt-labs-platform-fontdialog.html#font-prop" status="active" access="public" documented="true" type="font" attached="false" writable="true"/>
+            <qmlproperty name="options" fullname="Qt.labs.platform.FontDialog.options" href="qml-qt-labs-platform-fontdialog.html#options-prop" status="active" access="public" documented="true" type="flags" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="Menu" qml-module-name="Qt.labs.platform" fullname="Qt.labs.platform.Menu" href="qml-qt-labs-platform-menu.html" status="active" access="public" documented="true" title="Menu" fulltitle="Menu" subtitle="" brief="A native menu">
+            <contents name="submenus" title="Submenus" level="2"/>
+            <contents name="dynamically-generating-menu-items" title="Dynamically generating menu items" level="2"/>
+            <contents name="availability" title="Availability" level="2"/>
+            <function name="aboutToHide" fullname="Qt.labs.platform.Menu.aboutToHide" href="qml-qt-labs-platform-menu.html#aboutToHide-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="aboutToShow" fullname="Qt.labs.platform.Menu.aboutToShow" href="qml-qt-labs-platform-menu.html#aboutToShow-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="addItem" fullname="Qt.labs.platform.Menu.addItem" href="qml-qt-labs-platform-menu.html#addItem-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="MenuItem" name="item" default=""/>
+            </function>
+            <function name="addMenu" fullname="Qt.labs.platform.Menu.addMenu" href="qml-qt-labs-platform-menu.html#addMenu-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="Menu" name="submenu" default=""/>
+            </function>
+            <function name="clear" fullname="Qt.labs.platform.Menu.clear" href="qml-qt-labs-platform-menu.html#clear-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="close" fullname="Qt.labs.platform.Menu.close" href="qml-qt-labs-platform-menu.html#close-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="insertItem" fullname="Qt.labs.platform.Menu.insertItem" href="qml-qt-labs-platform-menu.html#insertItem-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="MenuItem" name="item" default=""/>
+            </function>
+            <function name="insertMenu" fullname="Qt.labs.platform.Menu.insertMenu" href="qml-qt-labs-platform-menu.html#insertMenu-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="Menu" name="submenu" default=""/>
+            </function>
+            <function name="open" fullname="Qt.labs.platform.Menu.open" href="qml-qt-labs-platform-menu.html#open-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="MenuItem" name="item" default=""/>
+            </function>
+            <function name="open" fullname="Qt.labs.platform.Menu.open" href="qml-qt-labs-platform-menu.html#open-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="Item" name="target" default=""/>
+                <parameter type="MenuItem" name="item" default=""/>
+            </function>
+            <function name="removeItem" fullname="Qt.labs.platform.Menu.removeItem" href="qml-qt-labs-platform-menu.html#removeItem-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="MenuItem" name="item" default=""/>
+            </function>
+            <function name="removeMenu" fullname="Qt.labs.platform.Menu.removeMenu" href="qml-qt-labs-platform-menu.html#removeMenu-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="Menu" name="submenu" default=""/>
+            </function>
+            <qmlproperty name="data" fullname="Qt.labs.platform.Menu.data" href="qml-qt-labs-platform-menu.html#data-prop" status="active" access="public" documented="true" type="list&lt;QtObject&gt;" attached="false" writable="true"/>
+            <qmlproperty name="enabled" fullname="Qt.labs.platform.Menu.enabled" href="qml-qt-labs-platform-menu.html#enabled-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="font" fullname="Qt.labs.platform.Menu.font" href="qml-qt-labs-platform-menu.html#font-prop" status="active" access="public" documented="true" type="font" attached="false" writable="true"/>
+            <qmlproperty name="icon.mask" fullname="Qt.labs.platform.Menu.icon.mask" href="qml-qt-labs-platform-menu.html#icon.mask-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="icon.name" fullname="Qt.labs.platform.Menu.icon.name" href="qml-qt-labs-platform-menu.html#icon.name-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="icon.source" fullname="Qt.labs.platform.Menu.icon.source" href="qml-qt-labs-platform-menu.html#icon.source-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="items" fullname="Qt.labs.platform.Menu.items" href="qml-qt-labs-platform-menu.html#items-prop" status="active" access="public" documented="true" type="list&lt;MenuItem&gt;" attached="false" writable="true"/>
+            <qmlproperty name="menuBar" fullname="Qt.labs.platform.Menu.menuBar" href="qml-qt-labs-platform-menu.html#menuBar-prop" status="active" access="public" documented="true" type="MenuBar" attached="false" writable="false"/>
+            <qmlproperty name="menuItem" fullname="Qt.labs.platform.Menu.menuItem" href="qml-qt-labs-platform-menu.html#menuItem-prop" status="active" access="public" documented="true" type="MenuItem" attached="false" writable="false"/>
+            <qmlproperty name="minimumWidth" fullname="Qt.labs.platform.Menu.minimumWidth" href="qml-qt-labs-platform-menu.html#minimumWidth-prop" status="active" access="public" documented="true" type="int" attached="false" writable="true"/>
+            <qmlproperty name="parentMenu" fullname="Qt.labs.platform.Menu.parentMenu" href="qml-qt-labs-platform-menu.html#parentMenu-prop" status="active" access="public" documented="true" type="Menu" attached="false" writable="false"/>
+            <qmlproperty name="systemTrayIcon" fullname="Qt.labs.platform.Menu.systemTrayIcon" href="qml-qt-labs-platform-menu.html#systemTrayIcon-prop" status="active" access="public" documented="true" type="SystemTrayIcon" attached="false" writable="false"/>
+            <qmlproperty name="title" fullname="Qt.labs.platform.Menu.title" href="qml-qt-labs-platform-menu.html#title-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="type" fullname="Qt.labs.platform.Menu.type" href="qml-qt-labs-platform-menu.html#type-prop" status="active" access="public" documented="true" type="enumeration" attached="false" writable="true"/>
+            <qmlproperty name="visible" fullname="Qt.labs.platform.Menu.visible" href="qml-qt-labs-platform-menu.html#visible-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="icon" fullname="Qt.labs.platform.Menu.icon" href="qml-qt-labs-platform-menu.html#icon-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true"/>
+        </qmlclass>
+        <qmlclass name="MenuBar" qml-module-name="Qt.labs.platform" fullname="Qt.labs.platform.MenuBar" href="qml-qt-labs-platform-menubar.html" status="active" access="public" documented="true" title="MenuBar" fulltitle="MenuBar" subtitle="" brief="A native menubar">
+            <function name="addMenu" fullname="Qt.labs.platform.MenuBar.addMenu" href="qml-qt-labs-platform-menubar.html#addMenu-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="Menu" name="menu" default=""/>
+            </function>
+            <function name="clear" fullname="Qt.labs.platform.MenuBar.clear" href="qml-qt-labs-platform-menubar.html#clear-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="insertMenu" fullname="Qt.labs.platform.MenuBar.insertMenu" href="qml-qt-labs-platform-menubar.html#insertMenu-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="Menu" name="menu" default=""/>
+            </function>
+            <function name="removeMenu" fullname="Qt.labs.platform.MenuBar.removeMenu" href="qml-qt-labs-platform-menubar.html#removeMenu-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="Menu" name="menu" default=""/>
+            </function>
+            <qmlproperty name="data" fullname="Qt.labs.platform.MenuBar.data" href="qml-qt-labs-platform-menubar.html#data-prop" status="active" access="public" documented="true" type="list&lt;QtObject&gt;" attached="false" writable="true"/>
+            <qmlproperty name="menus" fullname="Qt.labs.platform.MenuBar.menus" href="qml-qt-labs-platform-menubar.html#menus-prop" status="active" access="public" documented="true" type="list&lt;Menu&gt;" attached="false" writable="true"/>
+            <qmlproperty name="window" fullname="Qt.labs.platform.MenuBar.window" href="qml-qt-labs-platform-menubar.html#window-prop" status="active" access="public" documented="true" type="Window" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="MenuItem" qml-module-name="Qt.labs.platform" fullname="Qt.labs.platform.MenuItem" href="qml-qt-labs-platform-menuitem.html" status="active" access="public" documented="true" title="MenuItem" fulltitle="MenuItem" subtitle="" brief="A native menu item">
+            <function name="hovered" fullname="Qt.labs.platform.MenuItem.hovered" href="qml-qt-labs-platform-menuitem.html#hovered-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="toggle" fullname="Qt.labs.platform.MenuItem.toggle" href="qml-qt-labs-platform-menuitem.html#toggle-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="triggered" fullname="Qt.labs.platform.MenuItem.triggered" href="qml-qt-labs-platform-menuitem.html#triggered-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <qmlproperty name="checkable" fullname="Qt.labs.platform.MenuItem.checkable" href="qml-qt-labs-platform-menuitem.html#checkable-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="checked" fullname="Qt.labs.platform.MenuItem.checked" href="qml-qt-labs-platform-menuitem.html#checked-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="enabled" fullname="Qt.labs.platform.MenuItem.enabled" href="qml-qt-labs-platform-menuitem.html#enabled-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="font" fullname="Qt.labs.platform.MenuItem.font" href="qml-qt-labs-platform-menuitem.html#font-prop" status="active" access="public" documented="true" type="font" attached="false" writable="true"/>
+            <qmlproperty name="group" fullname="Qt.labs.platform.MenuItem.group" href="qml-qt-labs-platform-menuitem.html#group-prop" status="active" access="public" documented="true" type="MenuItemGroup" attached="false" writable="true"/>
+            <qmlproperty name="icon.mask" fullname="Qt.labs.platform.MenuItem.icon.mask" href="qml-qt-labs-platform-menuitem.html#icon.mask-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="icon.name" fullname="Qt.labs.platform.MenuItem.icon.name" href="qml-qt-labs-platform-menuitem.html#icon.name-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="icon.source" fullname="Qt.labs.platform.MenuItem.icon.source" href="qml-qt-labs-platform-menuitem.html#icon.source-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="menu" fullname="Qt.labs.platform.MenuItem.menu" href="qml-qt-labs-platform-menuitem.html#menu-prop" status="active" access="public" documented="true" type="Menu" attached="false" writable="false"/>
+            <qmlproperty name="role" fullname="Qt.labs.platform.MenuItem.role" href="qml-qt-labs-platform-menuitem.html#role-prop" status="active" access="public" documented="true" type="enumeration" attached="false" writable="true"/>
+            <qmlproperty name="separator" fullname="Qt.labs.platform.MenuItem.separator" href="qml-qt-labs-platform-menuitem.html#separator-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="shortcut" fullname="Qt.labs.platform.MenuItem.shortcut" href="qml-qt-labs-platform-menuitem.html#shortcut-prop" status="active" access="public" documented="true" type="keysequence" attached="false" writable="true"/>
+            <qmlproperty name="subMenu" fullname="Qt.labs.platform.MenuItem.subMenu" href="qml-qt-labs-platform-menuitem.html#subMenu-prop" status="active" access="public" documented="true" type="Menu" attached="false" writable="false"/>
+            <qmlproperty name="text" fullname="Qt.labs.platform.MenuItem.text" href="qml-qt-labs-platform-menuitem.html#text-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="visible" fullname="Qt.labs.platform.MenuItem.visible" href="qml-qt-labs-platform-menuitem.html#visible-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="icon" fullname="Qt.labs.platform.MenuItem.icon" href="qml-qt-labs-platform-menuitem.html#icon-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true"/>
+        </qmlclass>
+        <qmlclass name="MenuItemGroup" qml-module-name="Qt.labs.platform" fullname="Qt.labs.platform.MenuItemGroup" href="qml-qt-labs-platform-menuitemgroup.html" status="active" access="public" documented="true" title="MenuItemGroup" fulltitle="MenuItemGroup" subtitle="" brief="A group for managing native menu items">
+            <function name="addItem" fullname="Qt.labs.platform.MenuItemGroup.addItem" href="qml-qt-labs-platform-menuitemgroup.html#addItem-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="MenuItem" name="item" default=""/>
+            </function>
+            <function name="clear" fullname="Qt.labs.platform.MenuItemGroup.clear" href="qml-qt-labs-platform-menuitemgroup.html#clear-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="hovered" fullname="Qt.labs.platform.MenuItemGroup.hovered" href="qml-qt-labs-platform-menuitemgroup.html#hovered-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="MenuItem" name="item" default=""/>
+            </function>
+            <function name="removeItem" fullname="Qt.labs.platform.MenuItemGroup.removeItem" href="qml-qt-labs-platform-menuitemgroup.html#removeItem-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="MenuItem" name="item" default=""/>
+            </function>
+            <function name="triggered" fullname="Qt.labs.platform.MenuItemGroup.triggered" href="qml-qt-labs-platform-menuitemgroup.html#triggered-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="MenuItem" name="item" default=""/>
+            </function>
+            <qmlproperty name="checkedItem" fullname="Qt.labs.platform.MenuItemGroup.checkedItem" href="qml-qt-labs-platform-menuitemgroup.html#checkedItem-prop" status="active" access="public" documented="true" type="MenuItem" attached="false" writable="true"/>
+            <qmlproperty name="enabled" fullname="Qt.labs.platform.MenuItemGroup.enabled" href="qml-qt-labs-platform-menuitemgroup.html#enabled-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="exclusive" fullname="Qt.labs.platform.MenuItemGroup.exclusive" href="qml-qt-labs-platform-menuitemgroup.html#exclusive-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="items" fullname="Qt.labs.platform.MenuItemGroup.items" href="qml-qt-labs-platform-menuitemgroup.html#items-prop" status="active" access="public" documented="true" type="list&lt;MenuItem&gt;" attached="false" writable="true"/>
+            <qmlproperty name="visible" fullname="Qt.labs.platform.MenuItemGroup.visible" href="qml-qt-labs-platform-menuitemgroup.html#visible-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="MenuSeparator" qml-module-name="Qt.labs.platform" qml-base-type="Qt.labs.platform::MenuItem" fullname="Qt.labs.platform.MenuSeparator" href="qml-qt-labs-platform-menuseparator.html" status="active" access="public" documented="true" title="MenuSeparator" fulltitle="MenuSeparator" subtitle="" brief="A native menu separator"/>
+        <qmlclass name="MessageDialog" qml-module-name="Qt.labs.platform" qml-base-type="Qt.labs.platform::Dialog" fullname="Qt.labs.platform.MessageDialog" href="qml-qt-labs-platform-messagedialog.html" status="active" access="public" documented="true" title="MessageDialog" fulltitle="MessageDialog" subtitle="" brief="A native message dialog">
+            <function name="abortClicked" fullname="Qt.labs.platform.MessageDialog.abortClicked" href="qml-qt-labs-platform-messagedialog.html#abortClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="applyClicked" fullname="Qt.labs.platform.MessageDialog.applyClicked" href="qml-qt-labs-platform-messagedialog.html#applyClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="cancelClicked" fullname="Qt.labs.platform.MessageDialog.cancelClicked" href="qml-qt-labs-platform-messagedialog.html#cancelClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="clicked" fullname="Qt.labs.platform.MessageDialog.clicked" href="qml-qt-labs-platform-messagedialog.html#clicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="" name="button" default=""/>
+            </function>
+            <function name="closeClicked" fullname="Qt.labs.platform.MessageDialog.closeClicked" href="qml-qt-labs-platform-messagedialog.html#closeClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="discardClicked" fullname="Qt.labs.platform.MessageDialog.discardClicked" href="qml-qt-labs-platform-messagedialog.html#discardClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="helpClicked" fullname="Qt.labs.platform.MessageDialog.helpClicked" href="qml-qt-labs-platform-messagedialog.html#helpClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="ignoreClicked" fullname="Qt.labs.platform.MessageDialog.ignoreClicked" href="qml-qt-labs-platform-messagedialog.html#ignoreClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="noClicked" fullname="Qt.labs.platform.MessageDialog.noClicked" href="qml-qt-labs-platform-messagedialog.html#noClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="noToAllClicked" fullname="Qt.labs.platform.MessageDialog.noToAllClicked" href="qml-qt-labs-platform-messagedialog.html#noToAllClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="okClicked" fullname="Qt.labs.platform.MessageDialog.okClicked" href="qml-qt-labs-platform-messagedialog.html#okClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="openClicked" fullname="Qt.labs.platform.MessageDialog.openClicked" href="qml-qt-labs-platform-messagedialog.html#openClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="resetClicked" fullname="Qt.labs.platform.MessageDialog.resetClicked" href="qml-qt-labs-platform-messagedialog.html#resetClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="restoreDefaultsClicked" fullname="Qt.labs.platform.MessageDialog.restoreDefaultsClicked" href="qml-qt-labs-platform-messagedialog.html#restoreDefaultsClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="retryClicked" fullname="Qt.labs.platform.MessageDialog.retryClicked" href="qml-qt-labs-platform-messagedialog.html#retryClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="saveAllClicked" fullname="Qt.labs.platform.MessageDialog.saveAllClicked" href="qml-qt-labs-platform-messagedialog.html#saveAllClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="saveClicked" fullname="Qt.labs.platform.MessageDialog.saveClicked" href="qml-qt-labs-platform-messagedialog.html#saveClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="yesClicked" fullname="Qt.labs.platform.MessageDialog.yesClicked" href="qml-qt-labs-platform-messagedialog.html#yesClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="yesToAllClicked" fullname="Qt.labs.platform.MessageDialog.yesToAllClicked" href="qml-qt-labs-platform-messagedialog.html#yesToAllClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <qmlproperty name="buttons" fullname="Qt.labs.platform.MessageDialog.buttons" href="qml-qt-labs-platform-messagedialog.html#buttons-prop" status="active" access="public" documented="true" type="flags" attached="false" writable="true"/>
+            <qmlproperty name="detailedText" fullname="Qt.labs.platform.MessageDialog.detailedText" href="qml-qt-labs-platform-messagedialog.html#detailedText-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="informativeText" fullname="Qt.labs.platform.MessageDialog.informativeText" href="qml-qt-labs-platform-messagedialog.html#informativeText-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="text" fullname="Qt.labs.platform.MessageDialog.text" href="qml-qt-labs-platform-messagedialog.html#text-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+        </qmlclass>
+        <page name="qtlabsplatform-index.html" href="qtlabsplatform-index.html" status="active" location="qtlabsplatform-index.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/labs/platform/doc/src/qtlabsplatform-index.qdoc" lineno="4" documented="true" subtype="page" title="Qt Labs Platform" fulltitle="Qt Labs Platform" subtitle="" brief="Experimental Qt Labs Platform module provides QML types for native platform extensions">
+            <contents name="qml-types" title="QML Types" level="1"/>
+            <contents name="module-evolution" title="Module Evolution" level="1"/>
+            <contents name="related-information" title="Related Information" level="1"/>
+        </page>
+        <qmlclass name="StandardPaths" qml-module-name="Qt.labs.platform" fullname="Qt.labs.platform.StandardPaths" href="qml-qt-labs-platform-standardpaths.html" status="deprecated" access="public" documented="true" title="StandardPaths" fulltitle="StandardPaths" subtitle="" brief="Provides access to the standard system paths">
+            <function name="displayName" fullname="Qt.labs.platform.StandardPaths.displayName" href="qml-qt-labs-platform-standardpaths.html#displayName-method" status="active" access="public" documented="true" meta="qmlmethod" type="string">
+                <parameter type="StandardLocation" name="type" default=""/>
+            </function>
+            <function name="findExecutable" fullname="Qt.labs.platform.StandardPaths.findExecutable" href="qml-qt-labs-platform-standardpaths.html#findExecutable-method" status="active" access="public" documented="true" meta="qmlmethod" type="url">
+                <parameter type="string" name="executableName" default=""/>
+                <parameter type="list&lt;string&gt;" name="paths" default=""/>
+            </function>
+            <function name="locate" fullname="Qt.labs.platform.StandardPaths.locate" href="qml-qt-labs-platform-standardpaths.html#locate-method" status="active" access="public" documented="true" meta="qmlmethod" type="url">
+                <parameter type="StandardLocation" name="type" default=""/>
+                <parameter type="string" name="fileName" default=""/>
+                <parameter type="LocateOptions" name="options" default=""/>
+            </function>
+            <function name="locateAll" fullname="Qt.labs.platform.StandardPaths.locateAll" href="qml-qt-labs-platform-standardpaths.html#locateAll-method" status="active" access="public" documented="true" meta="qmlmethod" type="list&lt;url&gt;">
+                <parameter type="StandardLocation" name="type" default=""/>
+                <parameter type="string" name="fileName" default=""/>
+                <parameter type="LocateOptions" name="options" default=""/>
+            </function>
+            <function name="setTestModeEnabled" fullname="Qt.labs.platform.StandardPaths.setTestModeEnabled" href="qml-qt-labs-platform-standardpaths.html#setTestModeEnabled-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="bool" name="testMode" default=""/>
+            </function>
+            <function name="standardLocations" fullname="Qt.labs.platform.StandardPaths.standardLocations" href="qml-qt-labs-platform-standardpaths.html#standardLocations-method" status="active" access="public" documented="true" meta="qmlmethod" type="list&lt;url&gt;">
+                <parameter type="StandardLocation" name="type" default=""/>
+            </function>
+            <function name="writableLocation" fullname="Qt.labs.platform.StandardPaths.writableLocation" href="qml-qt-labs-platform-standardpaths.html#writableLocation-method" status="active" access="public" documented="true" meta="qmlmethod" type="url">
+                <parameter type="StandardLocation" name="type" default=""/>
+            </function>
+        </qmlclass>
+        <qmlclass name="SystemTrayIcon" qml-module-name="Qt.labs.platform" fullname="Qt.labs.platform.SystemTrayIcon" href="qml-qt-labs-platform-systemtrayicon.html" status="active" access="public" documented="true" title="SystemTrayIcon" fulltitle="SystemTrayIcon" subtitle="" brief="A system tray icon">
+            <contents name="tray-menu" title="Tray menu" level="2"/>
+            <contents name="notification-messages" title="Notification messages" level="2"/>
+            <contents name="availability" title="Availability" level="2"/>
+            <function name="activated" fullname="Qt.labs.platform.SystemTrayIcon.activated" href="qml-qt-labs-platform-systemtrayicon.html#activated-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="ActivationReason" name="reason" default=""/>
+            </function>
+            <function name="hide" fullname="Qt.labs.platform.SystemTrayIcon.hide" href="qml-qt-labs-platform-systemtrayicon.html#hide-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="messageClicked" fullname="Qt.labs.platform.SystemTrayIcon.messageClicked" href="qml-qt-labs-platform-systemtrayicon.html#messageClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type=""/>
+            <function name="show" fullname="Qt.labs.platform.SystemTrayIcon.show" href="qml-qt-labs-platform-systemtrayicon.html#show-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="showMessage" fullname="Qt.labs.platform.SystemTrayIcon.showMessage" href="qml-qt-labs-platform-systemtrayicon.html#showMessage-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="string" name="title" default=""/>
+                <parameter type="string" name="message" default=""/>
+                <parameter type="MessageIcon" name="icon" default=""/>
+                <parameter type="int" name="msecs" default=""/>
+            </function>
+            <qmlproperty name="available" fullname="Qt.labs.platform.SystemTrayIcon.available" href="qml-qt-labs-platform-systemtrayicon.html#available-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="false"/>
+            <qmlproperty name="geometry" fullname="Qt.labs.platform.SystemTrayIcon.geometry" href="qml-qt-labs-platform-systemtrayicon.html#geometry-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true" type="rect" attached="false" writable="true"/>
+            <qmlproperty name="icon.mask" fullname="Qt.labs.platform.SystemTrayIcon.icon.mask" href="qml-qt-labs-platform-systemtrayicon.html#icon.mask-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="icon.name" fullname="Qt.labs.platform.SystemTrayIcon.icon.name" href="qml-qt-labs-platform-systemtrayicon.html#icon.name-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="icon.source" fullname="Qt.labs.platform.SystemTrayIcon.icon.source" href="qml-qt-labs-platform-systemtrayicon.html#icon.source-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="menu" fullname="Qt.labs.platform.SystemTrayIcon.menu" href="qml-qt-labs-platform-systemtrayicon.html#menu-prop" status="active" access="public" documented="true" type="Menu" attached="false" writable="true"/>
+            <qmlproperty name="supportsMessages" fullname="Qt.labs.platform.SystemTrayIcon.supportsMessages" href="qml-qt-labs-platform-systemtrayicon.html#supportsMessages-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="false"/>
+            <qmlproperty name="tooltip" fullname="Qt.labs.platform.SystemTrayIcon.tooltip" href="qml-qt-labs-platform-systemtrayicon.html#tooltip-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="visible" fullname="Qt.labs.platform.SystemTrayIcon.visible" href="qml-qt-labs-platform-systemtrayicon.html#visible-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="icon" fullname="Qt.labs.platform.SystemTrayIcon.icon" href="qml-qt-labs-platform-systemtrayicon.html#icon-prop" status="active" access="public" since="Qt.labs.platform 1.1 (Qt 5.12)" documented="true"/>
+        </qmlclass>
+        <group name="changes-qt-5-to-6" href="changes-qt-5-to-6.html" status="internal" seen="false" title=""/>
+        <group name="qmlmodules" href="qmlmodules.html" status="internal" seen="false" title=""/>
+        <qmlmodule name="Qt.labs.platform" qml-module-name="Qt.labs.platform" href="qt-labs-platform-qmlmodule.html" status="active" location="qtlabsplatform-qmltypes.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/labs/platform/doc/src/qtlabsplatform-qmltypes.qdoc" lineno="4" documented="true" groups="qmlmodules" seen="true" title="Qt Labs Platform QML Types" brief="Provides QML types for native platform extensions">
+            <contents name="qml-types" title="QML Types" level="1"/>
+            <contents name="related-information" title="Related Information" level="1"/>
+        </qmlmodule>
+    </namespace>
+</INDEX>

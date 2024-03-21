@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt SVG Reference Documentation" version="6.5.3" project="QtSvg" indexTitle="Qt SVG">
+    <namespace name="" status="active" access="public" module="qtsvg">
+        <page name="qtsvg-changes-qt6.html" href="qtsvg-changes-qt6.html" status="active" location="qt6-changes.qdoc" filepath="/home/qt/work/qt/qt5/qtsvg/src/svg/doc/src/qt6-changes.qdoc" lineno="4" documented="true" groups="changes-qt-5-to-6" subtype="page" title="Changes to Qt SVG" fulltitle="Changes to Qt SVG" subtitle="" brief="Migrate Qt SVG to Qt 6">
+            <contents name="library-split" title="Library split" level="1"/>
+        </page>
+        <class name="QGraphicsSvgItem" href="qgraphicssvgitem.html" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="18" documented="true" groups="graphicsview-api" bases="QGraphicsObject" module="QtSvgWidgets" brief="QGraphicsItem that can be used to render the contents of SVG files">
+            <function name="QGraphicsSvgItem" fullname="QGraphicsSvgItem::QGraphicsSvgItem" href="qgraphicssvgitem.html#QGraphicsSvgItem" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="26" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QGraphicsSvgItem(QGraphicsItem *parent)">
+                <parameter type="QGraphicsItem *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QGraphicsSvgItem" fullname="QGraphicsSvgItem::QGraphicsSvgItem" href="qgraphicssvgitem.html#QGraphicsSvgItem-1" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="27" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QGraphicsSvgItem(const QString &amp;fileName, QGraphicsItem *parent)">
+                <parameter type="const QString &amp;" name="fileName" default=""/>
+                <parameter type="QGraphicsItem *" name="parent" default="nullptr"/>
+            </function>
+            <function name="boundingRect" fullname="QGraphicsSvgItem::boundingRect" href="qgraphicssvgitem.html#boundingRect" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="41" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="QRectF" signature="QRectF boundingRect() const override"/>
+            <function name="elementId" fullname="QGraphicsSvgItem::elementId" href="qgraphicssvgitem.html#elementId" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="33" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="elementId" type="QString" signature="QString elementId() const"/>
+            <function name="isCachingEnabled" fullname="QGraphicsSvgItem::isCachingEnabled" href="qgraphicssvgitem-obsolete.html#isCachingEnabled" status="deprecated" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="36" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool isCachingEnabled() const"/>
+            <function name="maximumCacheSize" fullname="QGraphicsSvgItem::maximumCacheSize" href="qgraphicssvgitem.html#maximumCacheSize" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="39" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="maximumCacheSize" type="QSize" signature="QSize maximumCacheSize() const"/>
+            <function name="paint" fullname="QGraphicsSvgItem::paint" href="qgraphicssvgitem.html#paint" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="43" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void" signature="void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override">
+                <parameter type="QPainter *" name="painter" default=""/>
+                <parameter type="const QStyleOptionGraphicsItem *" name="option" default=""/>
+                <parameter type="QWidget *" name="widget" default="nullptr"/>
+            </function>
+            <function name="renderer" fullname="QGraphicsSvgItem::renderer" href="qgraphicssvgitem.html#renderer" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="30" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QSvgRenderer *" signature="QSvgRenderer * renderer() const"/>
+            <function name="setCachingEnabled" fullname="QGraphicsSvgItem::setCachingEnabled" href="qgraphicssvgitem-obsolete.html#setCachingEnabled" status="deprecated" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="35" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void setCachingEnabled(bool caching)">
+                <parameter type="bool" name="caching" default=""/>
+            </function>
+            <function name="setElementId" fullname="QGraphicsSvgItem::setElementId" href="qgraphicssvgitem.html#setElementId" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="32" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="elementId" type="void" signature="void setElementId(const QString &amp;id)">
+                <parameter type="const QString &amp;" name="id" default=""/>
+            </function>
+            <function name="setMaximumCacheSize" fullname="QGraphicsSvgItem::setMaximumCacheSize" href="qgraphicssvgitem.html#setMaximumCacheSize" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="38" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="maximumCacheSize" type="void" signature="void setMaximumCacheSize(const QSize &amp;size)">
+                <parameter type="const QSize &amp;" name="size" default=""/>
+            </function>
+            <function name="setSharedRenderer" fullname="QGraphicsSvgItem::setSharedRenderer" href="qgraphicssvgitem.html#setSharedRenderer" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="29" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void setSharedRenderer(QSvgRenderer *renderer)">
+                <parameter type="QSvgRenderer *" name="renderer" default=""/>
+            </function>
+            <function name="type" fullname="QGraphicsSvgItem::type" href="qgraphicssvgitem.html#type" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="48" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="int" signature="int type() const override"/>
+            <property name="elementId" fullname="QGraphicsSvgItem::elementId" href="qgraphicssvgitem.html#elementId-prop" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="22" documented="true">
+                <getter name="elementId"/>
+                <setter name="setElementId"/>
+            </property>
+            <property name="maximumCacheSize" fullname="QGraphicsSvgItem::maximumCacheSize" href="qgraphicssvgitem.html#maximumCacheSize-prop" status="active" access="public" location="qgraphicssvgitem.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qgraphicssvgitem.h" lineno="23" documented="true">
+                <getter name="maximumCacheSize"/>
+                <setter name="setMaximumCacheSize"/>
+            </property>
+        </class>
+        <class threadsafety="reentrant" name="QSvgGenerator" href="qsvggenerator.html" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="22" documented="true" groups="painting" bases="QPaintDevice" module="QtSvg" brief="Paint device that is used to create SVG drawings">
+            <function name="QSvgGenerator" fullname="QSvgGenerator::QSvgGenerator" href="qsvggenerator.html#QSvgGenerator" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="42" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QSvgGenerator()"/>
+            <function name="QSvgGenerator" fullname="QSvgGenerator::QSvgGenerator" href="qsvggenerator.html#QSvgGenerator-1" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="43" documented="true" since="6.5" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" overload="true" overload-number="1" type="" signature="QSvgGenerator(QSvgGenerator::SvgVersion version)">
+                <parameter type="QSvgGenerator::SvgVersion" name="version" default=""/>
+            </function>
+            <function name="description" fullname="QSvgGenerator::description" href="qsvggenerator.html#description-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="52" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="description" type="QString" signature="QString description() const"/>
+            <function name="fileName" fullname="QSvgGenerator::fileName" href="qsvggenerator.html#fileName-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="63" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="fileName" type="QString" signature="QString fileName() const"/>
+            <function name="metric" fullname="QSvgGenerator::metric" href="qsvggenerator.html#metric" status="active" access="protected" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="75" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="int" signature="int metric(QPaintDevice::PaintDeviceMetric metric) const override">
+                <parameter type="QPaintDevice::PaintDeviceMetric" name="metric" default=""/>
+            </function>
+            <function name="outputDevice" fullname="QSvgGenerator::outputDevice" href="qsvggenerator.html#outputDevice-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="66" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="outputDevice" type="QIODevice *" signature="QIODevice * outputDevice() const"/>
+            <function name="paintEngine" fullname="QSvgGenerator::paintEngine" href="qsvggenerator.html#paintEngine" status="active" access="protected" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="74" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="QPaintEngine *" signature="QPaintEngine * paintEngine() const override"/>
+            <function name="resolution" fullname="QSvgGenerator::resolution" href="qsvggenerator.html#resolution-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="70" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="resolution" type="int" signature="int resolution() const"/>
+            <function name="setDescription" fullname="QSvgGenerator::setDescription" href="qsvggenerator.html#description-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="53" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="description" type="void" signature="void setDescription(const QString &amp;description)">
+                <parameter type="const QString &amp;" name="description" default=""/>
+            </function>
+            <function name="setFileName" fullname="QSvgGenerator::setFileName" href="qsvggenerator.html#fileName-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="64" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="fileName" type="void" signature="void setFileName(const QString &amp;fileName)">
+                <parameter type="const QString &amp;" name="fileName" default=""/>
+            </function>
+            <function name="setOutputDevice" fullname="QSvgGenerator::setOutputDevice" href="qsvggenerator.html#outputDevice-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="67" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="outputDevice" type="void" signature="void setOutputDevice(QIODevice *outputDevice)">
+                <parameter type="QIODevice *" name="outputDevice" default=""/>
+            </function>
+            <function name="setResolution" fullname="QSvgGenerator::setResolution" href="qsvggenerator.html#resolution-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="69" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="resolution" type="void" signature="void setResolution(int dpi)">
+                <parameter type="int" name="dpi" default=""/>
+            </function>
+            <function name="setSize" fullname="QSvgGenerator::setSize" href="qsvggenerator.html#size-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="56" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="size" type="void" signature="void setSize(const QSize &amp;size)">
+                <parameter type="const QSize &amp;" name="size" default=""/>
+            </function>
+            <function name="setTitle" fullname="QSvgGenerator::setTitle" href="qsvggenerator.html#title-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="50" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="title" type="void" signature="void setTitle(const QString &amp;title)">
+                <parameter type="const QString &amp;" name="title" default=""/>
+            </function>
+            <function name="setViewBox" fullname="QSvgGenerator::setViewBox" href="qsvggenerator.html#viewBox-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="60" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="viewBox" type="void" signature="void setViewBox(const QRect &amp;viewBox)">
+                <parameter type="const QRect &amp;" name="viewBox" default=""/>
+            </function>
+            <function name="setViewBox" fullname="QSvgGenerator::setViewBox" href="qsvggenerator.html#viewBox-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="61" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" associated-property="viewBox" type="void" signature="void setViewBox(const QRectF &amp;viewBox)">
+                <parameter type="const QRectF &amp;" name="viewBox" default=""/>
+            </function>
+            <function name="size" fullname="QSvgGenerator::size" href="qsvggenerator.html#size-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="55" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="size" type="QSize" signature="QSize size() const"/>
+            <function name="svgVersion" fullname="QSvgGenerator::svgVersion" href="qsvggenerator.html#svgVersion" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="72" documented="true" since="6.5" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QSvgGenerator::SvgVersion" signature="QSvgGenerator::SvgVersion svgVersion() const"/>
+            <function name="title" fullname="QSvgGenerator::title" href="qsvggenerator.html#title-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="49" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="title" type="QString" signature="QString title() const"/>
+            <function name="viewBox" fullname="QSvgGenerator::viewBox" href="qsvggenerator.html#viewBox" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="58" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QRect" signature="QRect viewBox() const"/>
+            <function name="viewBoxF" fullname="QSvgGenerator::viewBoxF" href="qsvggenerator.html#viewBox-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="59" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="viewBox" type="QRectF" signature="QRectF viewBoxF() const"/>
+            <function name="~QSvgGenerator" fullname="QSvgGenerator::~QSvgGenerator" href="qsvggenerator.html#dtor.QSvgGenerator" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="47" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QSvgGenerator()"/>
+            <enum name="SvgVersion" fullname="QSvgGenerator::SvgVersion" href="qsvggenerator.html#SvgVersion-enum" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="35" since="6.5" documented="true" scoped="true">
+                <value name="SvgTiny12" value="0"/>
+                <value name="Svg11" value="1"/>
+            </enum>
+            <property name="description" fullname="QSvgGenerator::description" href="qsvggenerator.html#description-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="30" documented="true" brief="The description of the generated SVG drawing">
+                <getter name="description"/>
+                <setter name="setDescription"/>
+            </property>
+            <property name="fileName" fullname="QSvgGenerator::fileName" href="qsvggenerator.html#fileName-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="31" documented="true" brief="The target filename for the generated SVG drawing">
+                <getter name="fileName"/>
+                <setter name="setFileName"/>
+            </property>
+            <property name="outputDevice" fullname="QSvgGenerator::outputDevice" href="qsvggenerator.html#outputDevice-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="32" documented="true" brief="The output device for the generated SVG drawing">
+                <getter name="outputDevice"/>
+                <setter name="setOutputDevice"/>
+            </property>
+            <property name="resolution" fullname="QSvgGenerator::resolution" href="qsvggenerator.html#resolution-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="33" documented="true" brief="The resolution of the generated output">
+                <getter name="resolution"/>
+                <setter name="setResolution"/>
+            </property>
+            <property name="size" fullname="QSvgGenerator::size" href="qsvggenerator.html#size-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="27" documented="true" brief="The size of the generated SVG drawing">
+                <getter name="size"/>
+                <setter name="setSize"/>
+            </property>
+            <property name="title" fullname="QSvgGenerator::title" href="qsvggenerator.html#title-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="29" documented="true" brief="The title of the generated SVG drawing">
+                <getter name="title"/>
+                <setter name="setTitle"/>
+            </property>
+            <property name="viewBox" fullname="QSvgGenerator::viewBox" href="qsvggenerator.html#viewBox-prop" status="active" access="public" location="qsvggenerator.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvggenerator.h" lineno="28" documented="true" brief="The viewBox of the generated SVG drawing">
+                <getter name="viewBoxF"/>
+                <setter name="setViewBox"/>
+                <setter name="setViewBox"/>
+            </property>
+        </class>
+        <class threadsafety="reentrant" name="QSvgRenderer" href="qsvgrenderer.html" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="23" documented="true" groups="painting" bases="QObject" module="QtSvg" brief="Used to draw the contents of SVG files onto paint devices">
+            <function name="QSvgRenderer" fullname="QSvgRenderer::QSvgRenderer" href="qsvgrenderer.html#QSvgRenderer" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="32" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QSvgRenderer(QObject *parent)">
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QSvgRenderer" fullname="QSvgRenderer::QSvgRenderer" href="qsvgrenderer.html#QSvgRenderer-1" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="33" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QSvgRenderer(const QString &amp;filename, QObject *parent)">
+                <parameter type="const QString &amp;" name="filename" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QSvgRenderer" fullname="QSvgRenderer::QSvgRenderer" href="qsvgrenderer.html#QSvgRenderer-2" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="34" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="" signature="QSvgRenderer(const QByteArray &amp;contents, QObject *parent)">
+                <parameter type="const QByteArray &amp;" name="contents" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QSvgRenderer" fullname="QSvgRenderer::QSvgRenderer" href="qsvgrenderer.html#QSvgRenderer-3" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="35" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="3" type="" signature="QSvgRenderer(QXmlStreamReader *contents, QObject *parent)">
+                <parameter type="QXmlStreamReader *" name="contents" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="animated" fullname="QSvgRenderer::animated" href="qsvgrenderer.html#animated" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="50" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool animated() const"/>
+            <function name="aspectRatioMode" fullname="QSvgRenderer::aspectRatioMode" href="qsvgrenderer.html#aspectRatioMode-prop" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="47" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="aspectRatioMode" type="Qt::AspectRatioMode" signature="Qt::AspectRatioMode aspectRatioMode() const"/>
+            <function name="boundsOnElement" fullname="QSvgRenderer::boundsOnElement" href="qsvgrenderer.html#boundsOnElement" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="57" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QRectF" signature="QRectF boundsOnElement(const QString &amp;id) const">
+                <parameter type="const QString &amp;" name="id" default=""/>
+            </function>
+            <function name="defaultSize" fullname="QSvgRenderer::defaultSize" href="qsvgrenderer.html#defaultSize" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="40" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QSize" signature="QSize defaultSize() const"/>
+            <function name="elementExists" fullname="QSvgRenderer::elementExists" href="qsvgrenderer.html#elementExists" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="58" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool elementExists(const QString &amp;id) const">
+                <parameter type="const QString &amp;" name="id" default=""/>
+            </function>
+            <function name="framesPerSecond" fullname="QSvgRenderer::framesPerSecond" href="qsvgrenderer.html#framesPerSecond-prop" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="51" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="framesPerSecond" type="int" signature="int framesPerSecond() const"/>
+            <function name="isValid" fullname="QSvgRenderer::isValid" href="qsvgrenderer.html#isValid" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="38" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool isValid() const"/>
+            <function name="load" fullname="QSvgRenderer::load" href="qsvgrenderer.html#load" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="62" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool load(const QString &amp;filename)">
+                <parameter type="const QString &amp;" name="filename" default=""/>
+            </function>
+            <function name="load" fullname="QSvgRenderer::load" href="qsvgrenderer.html#load-1" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="63" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="bool" signature="bool load(const QByteArray &amp;contents)">
+                <parameter type="const QByteArray &amp;" name="contents" default=""/>
+            </function>
+            <function name="load" fullname="QSvgRenderer::load" href="qsvgrenderer.html#load-2" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="64" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="bool" signature="bool load(QXmlStreamReader *contents)">
+                <parameter type="QXmlStreamReader *" name="contents" default=""/>
+            </function>
+            <function name="render" fullname="QSvgRenderer::render" href="qsvgrenderer.html#render" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="65" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void render(QPainter *painter)">
+                <parameter type="QPainter *" name="painter" default=""/>
+            </function>
+            <function name="render" fullname="QSvgRenderer::render" href="qsvgrenderer.html#render-1" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="66" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void render(QPainter *painter, const QRectF &amp;bounds)">
+                <parameter type="QPainter *" name="painter" default=""/>
+                <parameter type="const QRectF &amp;" name="bounds" default=""/>
+            </function>
+            <function name="render" fullname="QSvgRenderer::render" href="qsvgrenderer.html#render-2" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="68" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="void" signature="void render(QPainter *painter, const QString &amp;elementId, const QRectF &amp;bounds)">
+                <parameter type="QPainter *" name="painter" default=""/>
+                <parameter type="const QString &amp;" name="elementId" default=""/>
+                <parameter type="const QRectF &amp;" name="bounds" default="QRectF()"/>
+            </function>
+            <function name="repaintNeeded" fullname="QSvgRenderer::repaintNeeded" href="qsvgrenderer.html#repaintNeeded" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="72" documented="true" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void repaintNeeded()"/>
+            <function name="setAspectRatioMode" fullname="QSvgRenderer::setAspectRatioMode" href="qsvgrenderer.html#aspectRatioMode-prop" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="48" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="aspectRatioMode" type="void" signature="void setAspectRatioMode(Qt::AspectRatioMode mode)">
+                <parameter type="Qt::AspectRatioMode" name="mode" default=""/>
+            </function>
+            <function name="setFramesPerSecond" fullname="QSvgRenderer::setFramesPerSecond" href="qsvgrenderer.html#framesPerSecond-prop" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="52" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="framesPerSecond" type="void" signature="void setFramesPerSecond(int num)">
+                <parameter type="int" name="num" default=""/>
+            </function>
+            <function name="setViewBox" fullname="QSvgRenderer::setViewBox" href="qsvgrenderer.html#viewBox-prop" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="44" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="viewBox" type="void" signature="void setViewBox(const QRect &amp;viewbox)">
+                <parameter type="const QRect &amp;" name="viewbox" default=""/>
+            </function>
+            <function name="setViewBox" fullname="QSvgRenderer::setViewBox" href="qsvgrenderer.html#viewBox-prop" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="45" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" associated-property="viewBox" type="void" signature="void setViewBox(const QRectF &amp;viewbox)">
+                <parameter type="const QRectF &amp;" name="viewbox" default=""/>
+            </function>
+            <function name="transformForElement" fullname="QSvgRenderer::transformForElement" href="qsvgrenderer.html#transformForElement" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="59" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QTransform" signature="QTransform transformForElement(const QString &amp;id) const">
+                <parameter type="const QString &amp;" name="id" default=""/>
+            </function>
+            <function name="viewBox" fullname="QSvgRenderer::viewBox" href="qsvgrenderer.html#viewBox" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="42" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QRect" signature="QRect viewBox() const"/>
+            <function name="viewBoxF" fullname="QSvgRenderer::viewBoxF" href="qsvgrenderer.html#viewBox-prop" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="43" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="viewBox" type="QRectF" signature="QRectF viewBoxF() const"/>
+            <function name="~QSvgRenderer" fullname="QSvgRenderer::~QSvgRenderer" href="qsvgrenderer.html#dtor.QSvgRenderer" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="36" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QSvgRenderer()"/>
+            <property name="aspectRatioMode" fullname="QSvgRenderer::aspectRatioMode" href="qsvgrenderer.html#aspectRatioMode-prop" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="30" documented="true" brief="How rendering adheres to the SVG view box aspect ratio">
+                <getter name="aspectRatioMode"/>
+                <setter name="setAspectRatioMode"/>
+            </property>
+            <property name="framesPerSecond" fullname="QSvgRenderer::framesPerSecond" href="qsvgrenderer.html#framesPerSecond-prop" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="28" documented="true" brief="The number of frames per second to be shown">
+                <getter name="framesPerSecond"/>
+                <setter name="setFramesPerSecond"/>
+            </property>
+            <property name="viewBox" fullname="QSvgRenderer::viewBox" href="qsvgrenderer.html#viewBox-prop" status="active" access="public" location="qsvgrenderer.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtSvg/../../../qtsvg/src/svg/qsvgrenderer.h" lineno="27" documented="true" brief="The rectangle specifying the visible area of the document in logical coordinates">
+                <getter name="viewBoxF"/>
+                <setter name="setViewBox"/>
+                <setter name="setViewBox"/>
+            </property>
+        </class>
+        <class name="QSvgWidget" href="qsvgwidget.html" status="active" access="public" location="qsvgwidget.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qsvgwidget.h" lineno="18" documented="true" groups="painting" bases="QWidget" module="QtSvgWidgets" brief="Widget that is used to display the contents of Scalable Vector Graphics (SVG) files">
+            <function name="QSvgWidget" fullname="QSvgWidget::QSvgWidget" href="qsvgwidget.html#QSvgWidget" status="active" access="public" location="qsvgwidget.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qsvgwidget.h" lineno="22" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QSvgWidget(QWidget *parent)">
+                <parameter type="QWidget *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QSvgWidget" fullname="QSvgWidget::QSvgWidget" href="qsvgwidget.html#QSvgWidget-1" status="active" access="public" location="qsvgwidget.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qsvgwidget.h" lineno="23" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QSvgWidget(const QString &amp;file, QWidget *parent)">
+                <parameter type="const QString &amp;" name="file" default=""/>
+                <parameter type="QWidget *" name="parent" default="nullptr"/>
+            </function>
+            <function name="load" fullname="QSvgWidget::load" href="qsvgwidget.html#load" status="active" access="public" location="qsvgwidget.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qsvgwidget.h" lineno="30" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void load(const QString &amp;file)">
+                <parameter type="const QString &amp;" name="file" default=""/>
+            </function>
+            <function name="load" fullname="QSvgWidget::load" href="qsvgwidget.html#load-1" status="active" access="public" location="qsvgwidget.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qsvgwidget.h" lineno="31" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void load(const QByteArray &amp;contents)">
+                <parameter type="const QByteArray &amp;" name="contents" default=""/>
+            </function>
+            <function name="paintEvent" fullname="QSvgWidget::paintEvent" href="qsvgwidget.html#paintEvent" status="active" access="protected" location="qsvgwidget.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qsvgwidget.h" lineno="33" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void" signature="void paintEvent(QPaintEvent *event) override">
+                <parameter type="QPaintEvent *" name="event" default=""/>
+            </function>
+            <function name="renderer" fullname="QSvgWidget::renderer" href="qsvgwidget.html#renderer" status="active" access="public" location="qsvgwidget.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qsvgwidget.h" lineno="26" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QSvgRenderer *" signature="QSvgRenderer * renderer() const"/>
+            <function name="sizeHint" fullname="QSvgWidget::sizeHint" href="qsvgwidget.html#sizeHint" status="active" access="public" location="qsvgwidget.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qsvgwidget.h" lineno="28" documented="true" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="QSize" signature="QSize sizeHint() const override"/>
+            <function name="~QSvgWidget" fullname="QSvgWidget::~QSvgWidget" href="qsvgwidget.html#dtor.QSvgWidget" status="active" access="public" location="qsvgwidget.h" filepath="/home/qt/work/qt/qt5/qtsvg/src/svgwidgets/qsvgwidget.h" lineno="24" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QSvgWidget()"/>
+        </class>
+        <page name="qtsvg-index.html" href="qtsvg-index.html" status="active" location="qtsvg-index.qdoc" filepath="/home/qt/work/qt/qt5/qtsvg/src/svg/doc/src/qtsvg-index.qdoc" lineno="4" documented="true" subtype="page" title="Qt SVG" fulltitle="Qt SVG" subtitle="" brief="Qt SVG provides functionality for handling SVG images">
+            <contents name="using-the-module" title="Using the Module" level="1"/>
+            <contents name="building-with-cmake" title="Building with CMake" level="2"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="2"/>
+            <contents name="articles-and-guides" title="Articles and Guides" level="1"/>
+            <contents name="examples" title="Examples" level="1"/>
+            <contents name="references" title="References" level="1"/>
+            <contents name="module-evolution" title="Module Evolution" level="1"/>
+            <contents name="licenses-and-attributions" title="Licenses and Attributions" level="1"/>
+        </page>
+        <page name="svgrendering.html" href="svgrendering.html" status="active" location="svgrendering.qdoc" filepath="/home/qt/work/qt/qt5/qtsvg/src/svg/doc/src/svgrendering.qdoc" lineno="4" documented="true" subtype="page" title="Rendering SVG Files" fulltitle="Rendering SVG Files" subtitle="" brief="Rendering SVG files with the Qt SVG module">
+            <contents name="rendering-svg-files" title="Rendering SVG Files" level="1"/>
+        </page>
+        <page name="svggenerator" href="qtsvg-svggenerator-example.html" status="active" location="svggenerator.qdoc" filepath="/home/qt/work/qt/qt5/qtsvg/examples/svg/svggenerator/doc/src/svggenerator.qdoc" lineno="4" documented="true" subtype="example" title="SVG Generator Example" fulltitle="SVG Generator Example" subtitle="">
+            <contents name="the-displaywidget-class" title="The DisplayWidget Class" level="1"/>
+            <contents name="the-window-class" title="The Window Class" level="1"/>
+            <contents name="further-reading" title="Further Reading" level="1"/>
+            <page name="svggenerator/displaywidget.cpp" href="qtsvg-svggenerator-displaywidget-cpp.html" status="active" subtype="file" title="" fulltitle="displaywidget.cpp Example File" subtitle="svggenerator/displaywidget.cpp"/>
+            <page name="svggenerator/displaywidget.h" href="qtsvg-svggenerator-displaywidget-h.html" status="active" subtype="file" title="" fulltitle="displaywidget.h Example File" subtitle="svggenerator/displaywidget.h"/>
+            <page name="svggenerator/window.cpp" href="qtsvg-svggenerator-window-cpp.html" status="active" subtype="file" title="" fulltitle="window.cpp Example File" subtitle="svggenerator/window.cpp"/>
+            <page name="svggenerator/window.h" href="qtsvg-svggenerator-window-h.html" status="active" subtype="file" title="" fulltitle="window.h Example File" subtitle="svggenerator/window.h"/>
+            <page name="svggenerator/forms/window.ui" href="qtsvg-svggenerator-forms-window-ui.html" status="active" subtype="file" title="" fulltitle="window.ui Example File" subtitle="svggenerator/forms/window.ui"/>
+            <page name="svggenerator/main.cpp" href="qtsvg-svggenerator-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="svggenerator/main.cpp"/>
+            <page name="svggenerator/CMakeLists.txt" href="qtsvg-svggenerator-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="svggenerator/CMakeLists.txt"/>
+            <page name="svggenerator/svggenerator.pro" href="qtsvg-svggenerator-svggenerator-pro.html" status="active" subtype="file" title="" fulltitle="svggenerator.pro Example File" subtitle="svggenerator/svggenerator.pro"/>
+            <page name="svggenerator/svggenerator.qrc" href="qtsvg-svggenerator-svggenerator-qrc.html" status="active" subtype="file" title="" fulltitle="svggenerator.qrc Example File" subtitle="svggenerator/svggenerator.qrc"/>
+        </page>
+        <page name="svgviewer" href="qtsvg-svgviewer-example.html" status="active" location="svgviewer.qdoc" filepath="/home/qt/work/qt/qt5/qtsvg/examples/svg/svgviewer/doc/src/svgviewer.qdoc" lineno="4" documented="true" subtype="example" title="SVG Viewer Example" fulltitle="SVG Viewer Example" subtitle="">
+            <page name="svgviewer/exportdialog.cpp" href="qtsvg-svgviewer-exportdialog-cpp.html" status="active" subtype="file" title="" fulltitle="exportdialog.cpp Example File" subtitle="svgviewer/exportdialog.cpp"/>
+            <page name="svgviewer/exportdialog.h" href="qtsvg-svgviewer-exportdialog-h.html" status="active" subtype="file" title="" fulltitle="exportdialog.h Example File" subtitle="svgviewer/exportdialog.h"/>
+            <page name="svgviewer/mainwindow.cpp" href="qtsvg-svgviewer-mainwindow-cpp.html" status="active" subtype="file" title="" fulltitle="mainwindow.cpp Example File" subtitle="svgviewer/mainwindow.cpp"/>
+            <page name="svgviewer/mainwindow.h" href="qtsvg-svgviewer-mainwindow-h.html" status="active" subtype="file" title="" fulltitle="mainwindow.h Example File" subtitle="svgviewer/mainwindow.h"/>
+            <page name="svgviewer/svgview.cpp" href="qtsvg-svgviewer-svgview-cpp.html" status="active" subtype="file" title="" fulltitle="svgview.cpp Example File" subtitle="svgviewer/svgview.cpp"/>
+            <page name="svgviewer/svgview.h" href="qtsvg-svgviewer-svgview-h.html" status="active" subtype="file" title="" fulltitle="svgview.h Example File" subtitle="svgviewer/svgview.h"/>
+            <page name="svgviewer/files/bubbles.svg" href="qtsvg-svgviewer-files-bubbles-svg.html" status="active" subtype="file" title="" fulltitle="bubbles.svg Example File" subtitle="svgviewer/files/bubbles.svg"/>
+            <page name="svgviewer/files/cubic.svg" href="qtsvg-svgviewer-files-cubic-svg.html" status="active" subtype="file" title="" fulltitle="cubic.svg Example File" subtitle="svgviewer/files/cubic.svg"/>
+            <page name="svgviewer/files/spheres.svg" href="qtsvg-svgviewer-files-spheres-svg.html" status="active" subtype="file" title="" fulltitle="spheres.svg Example File" subtitle="svgviewer/files/spheres.svg"/>
+            <page name="svgviewer/main.cpp" href="qtsvg-svgviewer-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="svgviewer/main.cpp"/>
+            <page name="svgviewer/CMakeLists.txt" href="qtsvg-svgviewer-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="svgviewer/CMakeLists.txt"/>
+            <page name="svgviewer/svgviewer.pro" href="qtsvg-svgviewer-svgviewer-pro.html" status="active" subtype="file" title="" fulltitle="svgviewer.pro Example File" subtitle="svgviewer/svgviewer.pro"/>
+            <page name="svgviewer/svgviewer.qrc" href="qtsvg-svgviewer-svgviewer-qrc.html" status="active" subtype="file" title="" fulltitle="svgviewer.qrc Example File" subtitle="svgviewer/svgviewer.qrc"/>
+        </page>
+        <page name="richtext/textobject" href="qtsvg-richtext-textobject-example.html" status="active" location="textobject.qdoc" filepath="/home/qt/work/qt/qt5/qtsvg/examples/svg/richtext/textobject/doc/src/textobject.qdoc" lineno="4" documented="true" subtype="example" title="Text Object Example" fulltitle="Text Object Example" subtitle="">
+            <contents name="svgtextobject-class-definition" title="SvgTextObject Class Definition" level="1"/>
+            <contents name="svgtextobject-class-implementation" title="SvgTextObject Class Implementation" level="1"/>
+            <contents name="window-class-definition" title="Window Class Definition" level="1"/>
+            <contents name="window-class-implementation" title="Window Class Implementation" level="1"/>
+            <page name="richtext/textobject/svgtextobject.cpp" href="qtsvg-richtext-textobject-svgtextobject-cpp.html" status="active" subtype="file" title="" fulltitle="svgtextobject.cpp Example File" subtitle="richtext/textobject/svgtextobject.cpp"/>
+            <page name="richtext/textobject/svgtextobject.h" href="qtsvg-richtext-textobject-svgtextobject-h.html" status="active" subtype="file" title="" fulltitle="svgtextobject.h Example File" subtitle="richtext/textobject/svgtextobject.h"/>
+            <page name="richtext/textobject/window.cpp" href="qtsvg-richtext-textobject-window-cpp.html" status="active" subtype="file" title="" fulltitle="window.cpp Example File" subtitle="richtext/textobject/window.cpp"/>
+            <page name="richtext/textobject/window.h" href="qtsvg-richtext-textobject-window-h.html" status="active" subtype="file" title="" fulltitle="window.h Example File" subtitle="richtext/textobject/window.h"/>
+            <page name="richtext/textobject/files/heart.svg" href="qtsvg-richtext-textobject-files-heart-svg.html" status="active" subtype="file" title="" fulltitle="heart.svg Example File" subtitle="richtext/textobject/files/heart.svg"/>
+            <page name="richtext/textobject/main.cpp" href="qtsvg-richtext-textobject-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="richtext/textobject/main.cpp"/>
+            <page name="richtext/textobject/CMakeLists.txt" href="qtsvg-richtext-textobject-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="richtext/textobject/CMakeLists.txt"/>
+            <page name="richtext/textobject/resources.qrc" href="qtsvg-richtext-textobject-resources-qrc.html" status="active" subtype="file" title="" fulltitle="resources.qrc Example File" subtitle="richtext/textobject/resources.qrc"/>
+            <page name="richtext/textobject/textobject.pro" href="qtsvg-richtext-textobject-textobject-pro.html" status="active" subtype="file" title="" fulltitle="textobject.pro Example File" subtitle="richtext/textobject/textobject.pro"/>
+        </page>
+        <page name="qtsvg-attribution-xsvg.html" href="qtsvg-attribution-xsvg.html" status="active" location="codeattributions.qdoc" filepath="/home/qt/work/qt/qt5/qtsvg/src/svg/codeattributions.qdoc" lineno="1" documented="true" groups="attributions-libs,attributions-qtsvg,attributions-qtsvg-libs" subtype="attribution" title="XSVG" fulltitle="XSVG" subtitle="" brief="Historical Permission Notice and Disclaimer - sell variant">
+            <target name="xsvg"/>
+        </page>
+        <group name="attributions-libs" href="attributions-libs.html" status="internal" seen="false" title=""/>
+        <group name="attributions-qtsvg" href="attributions-qtsvg.html" status="internal" seen="false" title=""/>
+        <group name="attributions-qtsvg-libs" href="attributions-qtsvg-libs.html" status="internal" seen="false" title=""/>
+        <group name="changes-qt-5-to-6" href="changes-qt-5-to-6.html" status="internal" seen="false" title=""/>
+        <group name="graphicsview-api" href="graphicsview-api.html" status="internal" seen="false" title=""/>
+        <group name="modules" href="modules.html" status="internal" seen="false" title=""/>
+        <group name="painting" href="painting.html" status="internal" seen="false" title=""/>
+        <module name="QtSvg" href="qtsvg-module.html" status="active" location="qtsvg.qdoc" filepath="/home/qt/work/qt/qt5/qtsvg/src/svg/doc/src/qtsvg.qdoc" lineno="4" documented="true" groups="modules" seen="true" title="Qt SVG C++ Classes" brief="Qt SVG module provides functionality for handling SVG images"/>
+        <module name="QtSvgWidgets" href="qtsvgwidgets-module.html" status="active" location="qtsvg.qdoc" filepath="/home/qt/work/qt/qt5/qtsvg/src/svg/doc/src/qtsvg.qdoc" lineno="28" documented="true" seen="true" title="Qt SVG Widgets C++ Classes"/>
+    </namespace>
+</INDEX>

@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt Test Reference Documentation" version="6.5.3" project="QtTestLib" indexTitle="Qt Test">
+    <namespace name="" status="active" access="public" module="qttestlib">
+        <function name="QBENCHMARK" href="qtest.html#QBENCHMARK" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="933" documented="true" related="0" meta="macrowithoutparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QBENCHMARK"/>
+        <function name="QBENCHMARK_ONCE" href="qtest.html#QBENCHMARK_ONCE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="950" documented="true" related="1" meta="macrowithoutparams" virtual="non" const="false" static="false" final="false" override="false" type="" brief="For measuring performance of a code block by running it once" signature="QBENCHMARK_ONCE"/>
+        <function name="QCOMPARE" href="qtest.html#QCOMPARE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="83" documented="true" related="2" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE(actual, expected)">
+            <parameter type="" name="actual" default=""/>
+            <parameter type="" name="expected" default=""/>
+        </function>
+        <function name="QCOMPARE_EQ" href="qtest.html#QCOMPARE_EQ" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="140" documented="true" related="3" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_EQ(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QCOMPARE_GE" href="qtest.html#QCOMPARE_GE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="251" documented="true" related="4" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_GE(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QCOMPARE_GT" href="qtest.html#QCOMPARE_GT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="230" documented="true" related="5" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_GT(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QCOMPARE_LE" href="qtest.html#QCOMPARE_LE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="209" documented="true" related="6" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_LE(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QCOMPARE_LT" href="qtest.html#QCOMPARE_LT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="188" documented="true" related="7" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_LT(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QCOMPARE_NE" href="qtest.html#QCOMPARE_NE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="167" documented="true" related="8" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_NE(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QEXPECT_FAIL" href="qtest.html#QEXPECT_FAIL" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="776" documented="true" related="9" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QEXPECT_FAIL(dataIndex, comment, mode)">
+            <parameter type="" name="dataIndex" default=""/>
+            <parameter type="" name="comment" default=""/>
+            <parameter type="" name="mode" default=""/>
+        </function>
+        <function name="QFAIL" href="qtest.html#QFAIL" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="683" documented="true" related="10" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QFAIL(message)">
+            <parameter type="" name="message" default=""/>
+        </function>
+        <function name="QFETCH" href="qtest.html#QFETCH" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="620" documented="true" related="11" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QFETCH(type, name)">
+            <parameter type="" name="type" default=""/>
+            <parameter type="" name="name" default=""/>
+        </function>
+        <function name="QFETCH_GLOBAL" href="qtest.html#QFETCH_GLOBAL" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="644" documented="true" related="12" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QFETCH_GLOBAL(type, name)">
+            <parameter type="" name="type" default=""/>
+            <parameter type="" name="name" default=""/>
+        </function>
+        <function name="QFINDTESTDATA" href="qtest.html#QFINDTESTDATA" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="817" documented="true" related="13" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QFINDTESTDATA(filename)">
+            <parameter type="" name="filename" default=""/>
+        </function>
+        <function name="QSKIP" href="qtest.html#QSKIP" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="719" documented="true" related="14" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QSKIP(description)">
+            <parameter type="" name="description" default=""/>
+        </function>
+        <function name="QTEST" href="qtest.html#QTEST" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="698" documented="true" related="15" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTEST(actual, testElement)">
+            <parameter type="" name="actual" default=""/>
+            <parameter type="" name="testElement" default=""/>
+        </function>
+        <function name="QTEST_APPLESS_MAIN" href="qtest.html#QTEST_APPLESS_MAIN" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="905" documented="true" related="16" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTEST_APPLESS_MAIN(TestClass)">
+            <parameter type="" name="TestClass" default=""/>
+        </function>
+        <function name="QTEST_GUILESS_MAIN" href="qtest.html#QTEST_GUILESS_MAIN" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="917" documented="true" related="17" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTEST_GUILESS_MAIN(TestClass)">
+            <parameter type="" name="TestClass" default=""/>
+        </function>
+        <function name="QTEST_MAIN" href="qtest.html#QTEST_MAIN" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="876" documented="true" related="18" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTEST_MAIN(TestClass)">
+            <parameter type="" name="TestClass" default=""/>
+        </function>
+        <function name="QTRY_COMPARE" href="qtest.html#QTRY_COMPARE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="443" documented="true" related="19" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE(actual, expected)">
+            <parameter type="" name="actual" default=""/>
+            <parameter type="" name="expected" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_EQ" href="qtest.html#QTRY_COMPARE_EQ" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="473" documented="true" related="20" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_EQ(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_EQ_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_EQ_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="458" documented="true" related="21" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_EQ_WITH_TIMEOUT(left, right, timeout)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+            <parameter type="" name="timeout" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_GE" href="qtest.html#QTRY_COMPARE_GE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="608" documented="true" related="22" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_GE(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_GE_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_GE_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="593" documented="true" related="23" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_GE_WITH_TIMEOUT(left, right, timeout)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+            <parameter type="" name="timeout" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_GT" href="qtest.html#QTRY_COMPARE_GT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="581" documented="true" related="24" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_GT(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_GT_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_GT_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="566" documented="true" related="25" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_GT_WITH_TIMEOUT(left, right, timeout)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+            <parameter type="" name="timeout" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_LE" href="qtest.html#QTRY_COMPARE_LE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="554" documented="true" related="26" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_LE(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_LE_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_LE_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="539" documented="true" related="27" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_LE_WITH_TIMEOUT(left, right, timeout)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+            <parameter type="" name="timeout" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_LT" href="qtest.html#QTRY_COMPARE_LT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="527" documented="true" related="28" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_LT(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_LT_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_LT_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="512" documented="true" related="29" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_LT_WITH_TIMEOUT(left, right, timeout)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+            <parameter type="" name="timeout" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_NE" href="qtest.html#QTRY_COMPARE_NE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="500" documented="true" related="30" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_NE(left, right)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_NE_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_NE_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="485" documented="true" related="31" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_NE_WITH_TIMEOUT(left, right, timeout)">
+            <parameter type="" name="left" default=""/>
+            <parameter type="" name="right" default=""/>
+            <parameter type="" name="timeout" default=""/>
+        </function>
+        <function name="QTRY_COMPARE_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="426" documented="true" related="32" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_WITH_TIMEOUT(actual, expected, timeout)">
+            <parameter type="" name="actual" default=""/>
+            <parameter type="" name="expected" default=""/>
+            <parameter type="" name="timeout" default=""/>
+        </function>
+        <function name="QTRY_VERIFY" href="qtest.html#QTRY_VERIFY" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="370" documented="true" related="33" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_VERIFY(condition)">
+            <parameter type="" name="condition" default=""/>
+        </function>
+        <function name="QTRY_VERIFY2" href="qtest.html#QTRY_VERIFY2" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="405" documented="true" related="34" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_VERIFY2(condition, message)">
+            <parameter type="" name="condition" default=""/>
+            <parameter type="" name="message" default=""/>
+        </function>
+        <function name="QTRY_VERIFY2_WITH_TIMEOUT" href="qtest.html#QTRY_VERIFY2_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="384" documented="true" related="35" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_VERIFY2_WITH_TIMEOUT(condition, message, timeout)">
+            <parameter type="" name="condition" default=""/>
+            <parameter type="" name="message" default=""/>
+            <parameter type="" name="timeout" default=""/>
+        </function>
+        <function name="QTRY_VERIFY_WITH_TIMEOUT" href="qtest.html#QTRY_VERIFY_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="351" documented="true" related="36" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_VERIFY_WITH_TIMEOUT(condition, timeout)">
+            <parameter type="" name="condition" default=""/>
+            <parameter type="" name="timeout" default=""/>
+        </function>
+        <function name="QVERIFY" href="qtest.html#QVERIFY" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="14" documented="true" related="37" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVERIFY(condition)">
+            <parameter type="" name="condition" default=""/>
+        </function>
+        <function name="QVERIFY2" href="qtest.html#QVERIFY2" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="43" documented="true" related="38" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVERIFY2(condition, message)">
+            <parameter type="" name="condition" default=""/>
+            <parameter type="" name="message" default=""/>
+        </function>
+        <function name="QVERIFY_EXCEPTION_THROWN" href="qtest-obsolete.html#QVERIFY_EXCEPTION_THROWN" status="deprecated" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="272" documented="true" related="39" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVERIFY_EXCEPTION_THROWN(expression, exceptiontype)">
+            <parameter type="" name="expression" default=""/>
+            <parameter type="" name="exceptiontype" default=""/>
+        </function>
+        <function name="QVERIFY_THROWS_EXCEPTION" href="qtest.html#QVERIFY_THROWS_EXCEPTION" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="279" documented="true" related="40" since="6.3" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVERIFY_THROWS_EXCEPTION(exceptiontype, ...)">
+            <parameter type="" name="exceptiontype" default=""/>
+            <parameter type="..." name="" default=""/>
+        </function>
+        <function name="QVERIFY_THROWS_NO_EXCEPTION" href="qtest.html#QVERIFY_THROWS_NO_EXCEPTION" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="317" documented="true" related="41" since="6.3" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVERIFY_THROWS_NO_EXCEPTION(...)">
+            <parameter type="..." name="" default=""/>
+        </function>
+        <function name="QWARN" href="qtest-obsolete.html#QWARN" threadsafety="thread safe" status="deprecated" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="673" documented="true" related="42" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QWARN(message)">
+            <parameter type="" name="message" default=""/>
+        </function>
+        <page name="https://www.itk.org/Wiki/CMake_Testing_With_CTest" href="https://www.itk.org/Wiki/CMake_Testing_With_CTest" status="active" location="qt-webpages.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qt-webpages.qdoc" lineno="18" documented="true" subtype="externalpage" title="CMake/Testing With CTest" fulltitle="CMake/Testing With CTest" subtitle=""/>
+        <page name="qttestlib-attribution-catch2.html" href="qttestlib-attribution-catch2.html" status="active" location="codeattributions.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/codeattributions.qdoc" lineno="502" documented="true" groups="attributions-libs,attributions-qttestlib,attributions-qttestlib-libs" subtype="attribution" title="Catch2, version 2.13.10" fulltitle="Catch2, version 2.13.10" subtitle="" brief="Boost Software License 1.0">
+            <target name="catch2"/>
+        </page>
+        <page name="testlib-changes-qt6.html" href="testlib-changes-qt6.html" status="active" location="qt6-changes.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qt6-changes.qdoc" lineno="4" documented="true" groups="changes-qt-5-to-6" subtype="page" title="Changes to Qt Test" fulltitle="Changes to Qt Test" subtitle="" brief="Touch-related functionality changes">
+            <contents name="touch-related-functionality" title="Touch-related functionality" level="1"/>
+            <contents name="the-qtoucheventsequence-class" title="The QTouchEventSequence class" level="2"/>
+        </page>
+        <page name="qttestlib-tutorial1-example.html" href="qttestlib-tutorial1-example.html" status="active" location="qttestlib-tutorial1.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttestlib-tutorial1.qdoc" lineno="5" documented="true" subtype="page" title="Chapter 1: Writing a Unit Test" fulltitle="Chapter 1: Writing a Unit Test" subtitle="" brief="How to write a unit test">
+            <contents name="writing-a-test" title="Writing a Test" level="1"/>
+            <contents name="preparing-the-stand-alone-executable" title="Preparing the Stand-Alone Executable" level="1"/>
+            <contents name="building-the-executable" title="Building the Executable" level="1"/>
+            <contents name="building-with-cmake" title="Building with CMake" level="2"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="2"/>
+            <contents name="running-the-executable" title="Running the Executable" level="1"/>
+        </page>
+        <page name="qttestlib-tutorial2-example.html" href="qttestlib-tutorial2-example.html" status="active" location="qttestlib-tutorial2.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttestlib-tutorial2.qdoc" lineno="5" documented="true" subtype="page" title="Chapter 2: Data Driven Testing" fulltitle="Chapter 2: Data Driven Testing" subtitle="" brief="How to create data driven tests">
+            <contents name="writing-the-data-function" title="Writing the Data Function" level="1"/>
+            <contents name="rewriting-the-test-function" title="Rewriting the Test Function" level="1"/>
+            <contents name="preparing-the-stand-alone-executable" title="Preparing the Stand-Alone Executable" level="1"/>
+            <contents name="building-the-executable" title="Building the Executable" level="1"/>
+            <contents name="building-with-cmake" title="Building with CMake" level="2"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="2"/>
+            <contents name="running-the-executable" title="Running the Executable" level="1"/>
+        </page>
+        <page name="qttestlib-tutorial3-example.html" href="qttestlib-tutorial3-example.html" status="active" location="qttestlib-tutorial3.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttestlib-tutorial3.qdoc" lineno="5" documented="true" subtype="page" title="Chapter 3: Simulating GUI Events" fulltitle="Chapter 3: Simulating GUI Events" subtitle="" brief="How to simulate GUI events">
+            <contents name="writing-a-gui-test" title="Writing a GUI Test" level="1"/>
+            <contents name="preparing-the-stand-alone-executable" title="Preparing the Stand-Alone Executable" level="1"/>
+            <contents name="building-the-executable" title="Building the Executable" level="1"/>
+            <contents name="building-with-cmake" title="Building with CMake" level="2"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="2"/>
+            <contents name="running-the-executable" title="Running the Executable" level="1"/>
+        </page>
+        <page name="qttestlib-tutorial4-example.html" href="qttestlib-tutorial4-example.html" status="active" location="qttestlib-tutorial4.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttestlib-tutorial4.qdoc" lineno="5" documented="true" subtype="page" title="Chapter 4: Replaying GUI Events" fulltitle="Chapter 4: Replaying GUI Events" subtitle="" brief="How to replay GUI events">
+            <contents name="writing-the-data-function" title="Writing the Data Function" level="1"/>
+            <contents name="rewriting-the-test-function" title="Rewriting the Test Function" level="1"/>
+            <contents name="preparing-the-stand-alone-executable" title="Preparing the Stand-Alone Executable" level="1"/>
+            <contents name="building-the-executable" title="Building the Executable" level="1"/>
+            <contents name="building-with-cmake" title="Building with CMake" level="2"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="2"/>
+            <contents name="running-the-executable" title="Running the Executable" level="1"/>
+        </page>
+        <page name="qttestlib-tutorial5-example.html" href="qttestlib-tutorial5-example.html" status="active" location="qttestlib-tutorial5.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttestlib-tutorial5.qdoc" lineno="5" documented="true" subtype="page" title="Chapter 5: Writing a Benchmark" fulltitle="Chapter 5: Writing a Benchmark" subtitle="" brief="How to write a benchmark">
+            <contents name="writing-a-benchmark" title="Writing a Benchmark" level="1"/>
+            <contents name="data-functions" title="Data Functions" level="1"/>
+            <contents name="building-the-executable" title="Building the Executable" level="1"/>
+            <contents name="building-with-cmake" title="Building with CMake" level="2"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="2"/>
+            <contents name="running-the-executable" title="Running the Executable" level="1"/>
+        </page>
+        <page name="qttestlib-tutorial6.html" href="qttestlib-tutorial6.html" status="active" location="qttestlib-tutorial6.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttestlib-tutorial6.qdoc" lineno="5" documented="true" subtype="page" title="Chapter 6: Skipping Tests with QSKIP" fulltitle="Chapter 6: Skipping Tests with QSKIP" subtitle="" brief="How to skip tests in certain cases">
+            <contents name="using-qskip-description-in-a-test-function" title="Using QSKIP(description) in a test function" level="2"/>
+            <contents name="using-qskip-in-a-data-function" title="Using QSKIP in a _data function" level="2"/>
+            <contents name="using-qskip-from-inittestcase-or-inittestcase-data" title="Using QSKIP from initTestCase() or initTestCase_data()" level="2"/>
+        </page>
+        <page name="https://www.qt.io/product/quality-assurance/coco" href="https://www.qt.io/product/quality-assurance/coco" status="active" location="qt-webpages.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qt-webpages.qdoc" lineno="3" documented="true" subtype="externalpage" title="Coco" fulltitle="Coco" subtitle=""/>
+        <page name="qttestlib-attribution-cycle.html" href="qttestlib-attribution-cycle.html" status="active" location="codeattributions.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/codeattributions.qdoc" lineno="67" documented="true" groups="attributions-libs,attributions-qttestlib,attributions-qttestlib-libs" subtype="attribution" title="Cycle" fulltitle="Cycle" subtitle="" brief="MIT License">
+            <target name="cycle"/>
+        </page>
+        <page name="https://github.com/google/googletest/tree/master/googlemock" href="https://github.com/google/googletest/tree/master/googlemock" status="active" location="qt-webpages.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qt-webpages.qdoc" lineno="13" documented="true" subtype="externalpage" title="Googletest Mocking (gMock) Framework" fulltitle="Googletest Mocking (gMock) Framework" subtitle=""/>
+        <page name="qttestlib-attribution-linuxperf.html" href="qttestlib-attribution-linuxperf.html" status="active" location="codeattributions.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/codeattributions.qdoc" lineno="118" documented="true" groups="attributions-libs,attributions-qttestlib,attributions-qttestlib-libs" subtype="attribution" title="Linux Performance Events, version 3.7" fulltitle="Linux Performance Events, version 3.7" subtitle="" brief="GNU General Public License v2.0 only with Linux Syscall Note">
+            <target name="linuxperf"/>
+        </page>
+        <class name="QAbstractItemModelTester" href="qabstractitemmodeltester.html" status="active" access="public" location="qabstractitemmodeltester.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qabstractitemmodeltester.h" lineno="33" documented="true" bases="QObject" module="QtTest" brief="Helps testing QAbstractItemModel subclasses">
+            <contents name="usage" title="Usage" level="1"/>
+            <function name="QAbstractItemModelTester" fullname="QAbstractItemModelTester::QAbstractItemModelTester" href="qabstractitemmodeltester.html#QAbstractItemModelTester" status="active" access="public" location="qabstractitemmodeltester.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qabstractitemmodeltester.h" lineno="45" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QAbstractItemModelTester(QAbstractItemModel *model, QObject *parent)">
+                <parameter type="QAbstractItemModel *" name="model" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="QAbstractItemModelTester" fullname="QAbstractItemModelTester::QAbstractItemModelTester" href="qabstractitemmodeltester.html#QAbstractItemModelTester-1" status="active" access="public" location="qabstractitemmodeltester.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qabstractitemmodeltester.h" lineno="46" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QAbstractItemModelTester(QAbstractItemModel *model, QAbstractItemModelTester::FailureReportingMode mode, QObject *parent)">
+                <parameter type="QAbstractItemModel *" name="model" default=""/>
+                <parameter type="QAbstractItemModelTester::FailureReportingMode" name="mode" default=""/>
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="failureReportingMode" fullname="QAbstractItemModelTester::failureReportingMode" href="qabstractitemmodeltester.html#failureReportingMode" status="active" access="public" location="qabstractitemmodeltester.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qabstractitemmodeltester.h" lineno="49" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QAbstractItemModelTester::FailureReportingMode" signature="QAbstractItemModelTester::FailureReportingMode failureReportingMode() const"/>
+            <function name="model" fullname="QAbstractItemModelTester::model" href="qabstractitemmodeltester.html#model" status="active" access="public" location="qabstractitemmodeltester.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qabstractitemmodeltester.h" lineno="48" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QAbstractItemModel *" signature="QAbstractItemModel * model() const"/>
+            <function name="setUseFetchMore" fullname="QAbstractItemModelTester::setUseFetchMore" href="qabstractitemmodeltester.html#setUseFetchMore" status="active" access="public" location="qabstractitemmodeltester.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qabstractitemmodeltester.h" lineno="50" documented="true" since="6.4" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void setUseFetchMore(bool value)">
+                <parameter type="bool" name="value" default=""/>
+            </function>
+            <enum name="FailureReportingMode" fullname="QAbstractItemModelTester::FailureReportingMode" href="qabstractitemmodeltester.html#FailureReportingMode-enum" status="active" access="public" location="qabstractitemmodeltester.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qabstractitemmodeltester.h" lineno="39" documented="true" scoped="true">
+                <value name="QtTest" value="0"/>
+                <value name="Warning" value="1"/>
+                <value name="Fatal" value="2"/>
+            </enum>
+        </class>
+        <struct name="QMetaTypeId" href="qmetatypeid.html" status="ignored" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="195"/>
+        <class name="QSignalSpy" href="qsignalspy.html" status="active" access="public" location="qsignalspy.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qsignalspy.h" lineno="19" documented="true" bases="QList,QObject" module="QtTest" brief="Enables introspection of signal emission">
+            <contents name="verifying-signal-emissions" title="Verifying Signal Emissions" level="1"/>
+            <function name="QSignalSpy" fullname="QSignalSpy::QSignalSpy" href="qsignalspy.html#QSignalSpy" status="active" access="public" location="qsignalspy.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qsignalspy.h" lineno="22" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" explicit="true" type="" signature="QSignalSpy(const QObject *object, const char *signal)">
+                <parameter type="const QObject *" name="object" default=""/>
+                <parameter type="const char *" name="signal" default=""/>
+            </function>
+            <function name="QSignalSpy" fullname="QSignalSpy::QSignalSpy" href="qsignalspy.html#QSignalSpy-1" status="active" access="public" location="qsignalspy.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qsignalspy.h" lineno="55" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QSignalSpy(const QObject *object, PointerToMemberFunction signal)">
+                <parameter type="const QObject *" name="object" default=""/>
+                <parameter type="PointerToMemberFunction" name="signal" default=""/>
+            </function>
+            <function name="QSignalSpy" fullname="QSignalSpy::QSignalSpy" href="qsignalspy.html#QSignalSpy-2" status="active" access="public" location="qsignalspy.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qsignalspy.h" lineno="84" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="" signature="QSignalSpy(const QObject *obj, const QMetaMethod &amp;signal)">
+                <parameter type="const QObject *" name="obj" default=""/>
+                <parameter type="const QMetaMethod &amp;" name="signal" default=""/>
+            </function>
+            <function name="isValid" fullname="QSignalSpy::isValid" href="qsignalspy.html#isValid" status="active" access="public" location="qsignalspy.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qsignalspy.h" lineno="94" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool isValid() const"/>
+            <function name="signal" fullname="QSignalSpy::signal" href="qsignalspy.html#signal" status="active" access="public" location="qsignalspy.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qsignalspy.h" lineno="95" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QByteArray" signature="QByteArray signal() const"/>
+            <function name="wait" fullname="QSignalSpy::wait" href="qsignalspy.html#wait" status="active" access="public" location="qsignalspy.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qsignalspy.h" lineno="97" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool wait(int timeout)">
+                <parameter type="int" name="timeout" default="5000"/>
+            </function>
+        </class>
+        <class name="QSpontaneKeyEvent" href="qspontanekeyevent.html" status="ignored" access="public" location="qtestspontaneevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestspontaneevent.h" lineno="16"/>
+        <namespace name="QTest" href="qtest.html" status="active" access="public" location="qttestglobal.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qttestglobal.h" lineno="27" documented="true" module="QtTest" brief="Contains all the functions and declarations that are related to Qt Test">
+            <function name="QBENCHMARK" href="qtest.html#QBENCHMARK" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="933" documented="true" related="0" meta="macrowithoutparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QBENCHMARK"/>
+            <function name="QBENCHMARK_ONCE" href="qtest.html#QBENCHMARK_ONCE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="950" documented="true" related="1" meta="macrowithoutparams" virtual="non" const="false" static="false" final="false" override="false" type="" brief="For measuring performance of a code block by running it once" signature="QBENCHMARK_ONCE"/>
+            <function name="QCOMPARE" href="qtest.html#QCOMPARE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="83" documented="true" related="2" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE(actual, expected)">
+                <parameter type="" name="actual" default=""/>
+                <parameter type="" name="expected" default=""/>
+            </function>
+            <function name="QCOMPARE_EQ" href="qtest.html#QCOMPARE_EQ" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="140" documented="true" related="3" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_EQ(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QCOMPARE_GE" href="qtest.html#QCOMPARE_GE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="251" documented="true" related="4" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_GE(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QCOMPARE_GT" href="qtest.html#QCOMPARE_GT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="230" documented="true" related="5" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_GT(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QCOMPARE_LE" href="qtest.html#QCOMPARE_LE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="209" documented="true" related="6" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_LE(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QCOMPARE_LT" href="qtest.html#QCOMPARE_LT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="188" documented="true" related="7" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_LT(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QCOMPARE_NE" href="qtest.html#QCOMPARE_NE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="167" documented="true" related="8" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QCOMPARE_NE(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QEXPECT_FAIL" href="qtest.html#QEXPECT_FAIL" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="776" documented="true" related="9" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QEXPECT_FAIL(dataIndex, comment, mode)">
+                <parameter type="" name="dataIndex" default=""/>
+                <parameter type="" name="comment" default=""/>
+                <parameter type="" name="mode" default=""/>
+            </function>
+            <function name="QFAIL" href="qtest.html#QFAIL" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="683" documented="true" related="10" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QFAIL(message)">
+                <parameter type="" name="message" default=""/>
+            </function>
+            <function name="QFETCH" href="qtest.html#QFETCH" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="620" documented="true" related="11" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QFETCH(type, name)">
+                <parameter type="" name="type" default=""/>
+                <parameter type="" name="name" default=""/>
+            </function>
+            <function name="QFETCH_GLOBAL" href="qtest.html#QFETCH_GLOBAL" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="644" documented="true" related="12" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QFETCH_GLOBAL(type, name)">
+                <parameter type="" name="type" default=""/>
+                <parameter type="" name="name" default=""/>
+            </function>
+            <function name="QFINDTESTDATA" href="qtest.html#QFINDTESTDATA" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="817" documented="true" related="13" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QFINDTESTDATA(filename)">
+                <parameter type="" name="filename" default=""/>
+            </function>
+            <function name="QSKIP" href="qtest.html#QSKIP" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="719" documented="true" related="14" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QSKIP(description)">
+                <parameter type="" name="description" default=""/>
+            </function>
+            <function name="QTEST" href="qtest.html#QTEST" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="698" documented="true" related="15" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTEST(actual, testElement)">
+                <parameter type="" name="actual" default=""/>
+                <parameter type="" name="testElement" default=""/>
+            </function>
+            <function name="QTEST_APPLESS_MAIN" href="qtest.html#QTEST_APPLESS_MAIN" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="905" documented="true" related="16" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTEST_APPLESS_MAIN(TestClass)">
+                <parameter type="" name="TestClass" default=""/>
+            </function>
+            <function name="QTEST_GUILESS_MAIN" href="qtest.html#QTEST_GUILESS_MAIN" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="917" documented="true" related="17" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTEST_GUILESS_MAIN(TestClass)">
+                <parameter type="" name="TestClass" default=""/>
+            </function>
+            <function name="QTEST_MAIN" href="qtest.html#QTEST_MAIN" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="876" documented="true" related="18" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTEST_MAIN(TestClass)">
+                <parameter type="" name="TestClass" default=""/>
+            </function>
+            <function name="QTRY_COMPARE" href="qtest.html#QTRY_COMPARE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="443" documented="true" related="19" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE(actual, expected)">
+                <parameter type="" name="actual" default=""/>
+                <parameter type="" name="expected" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_EQ" href="qtest.html#QTRY_COMPARE_EQ" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="473" documented="true" related="20" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_EQ(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_EQ_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_EQ_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="458" documented="true" related="21" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_EQ_WITH_TIMEOUT(left, right, timeout)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+                <parameter type="" name="timeout" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_GE" href="qtest.html#QTRY_COMPARE_GE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="608" documented="true" related="22" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_GE(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_GE_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_GE_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="593" documented="true" related="23" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_GE_WITH_TIMEOUT(left, right, timeout)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+                <parameter type="" name="timeout" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_GT" href="qtest.html#QTRY_COMPARE_GT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="581" documented="true" related="24" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_GT(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_GT_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_GT_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="566" documented="true" related="25" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_GT_WITH_TIMEOUT(left, right, timeout)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+                <parameter type="" name="timeout" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_LE" href="qtest.html#QTRY_COMPARE_LE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="554" documented="true" related="26" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_LE(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_LE_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_LE_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="539" documented="true" related="27" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_LE_WITH_TIMEOUT(left, right, timeout)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+                <parameter type="" name="timeout" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_LT" href="qtest.html#QTRY_COMPARE_LT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="527" documented="true" related="28" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_LT(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_LT_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_LT_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="512" documented="true" related="29" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_LT_WITH_TIMEOUT(left, right, timeout)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+                <parameter type="" name="timeout" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_NE" href="qtest.html#QTRY_COMPARE_NE" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="500" documented="true" related="30" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_NE(left, right)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_NE_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_NE_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="485" documented="true" related="31" since="6.4" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_NE_WITH_TIMEOUT(left, right, timeout)">
+                <parameter type="" name="left" default=""/>
+                <parameter type="" name="right" default=""/>
+                <parameter type="" name="timeout" default=""/>
+            </function>
+            <function name="QTRY_COMPARE_WITH_TIMEOUT" href="qtest.html#QTRY_COMPARE_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="426" documented="true" related="32" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_COMPARE_WITH_TIMEOUT(actual, expected, timeout)">
+                <parameter type="" name="actual" default=""/>
+                <parameter type="" name="expected" default=""/>
+                <parameter type="" name="timeout" default=""/>
+            </function>
+            <function name="QTRY_VERIFY" href="qtest.html#QTRY_VERIFY" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="370" documented="true" related="33" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_VERIFY(condition)">
+                <parameter type="" name="condition" default=""/>
+            </function>
+            <function name="QTRY_VERIFY2" href="qtest.html#QTRY_VERIFY2" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="405" documented="true" related="34" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_VERIFY2(condition, message)">
+                <parameter type="" name="condition" default=""/>
+                <parameter type="" name="message" default=""/>
+            </function>
+            <function name="QTRY_VERIFY2_WITH_TIMEOUT" href="qtest.html#QTRY_VERIFY2_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="384" documented="true" related="35" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_VERIFY2_WITH_TIMEOUT(condition, message, timeout)">
+                <parameter type="" name="condition" default=""/>
+                <parameter type="" name="message" default=""/>
+                <parameter type="" name="timeout" default=""/>
+            </function>
+            <function name="QTRY_VERIFY_WITH_TIMEOUT" href="qtest.html#QTRY_VERIFY_WITH_TIMEOUT" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="351" documented="true" related="36" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTRY_VERIFY_WITH_TIMEOUT(condition, timeout)">
+                <parameter type="" name="condition" default=""/>
+                <parameter type="" name="timeout" default=""/>
+            </function>
+            <function name="QVERIFY" href="qtest.html#QVERIFY" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="14" documented="true" related="37" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVERIFY(condition)">
+                <parameter type="" name="condition" default=""/>
+            </function>
+            <function name="QVERIFY2" href="qtest.html#QVERIFY2" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="43" documented="true" related="38" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVERIFY2(condition, message)">
+                <parameter type="" name="condition" default=""/>
+                <parameter type="" name="message" default=""/>
+            </function>
+            <function name="QVERIFY_EXCEPTION_THROWN" href="qtest-obsolete.html#QVERIFY_EXCEPTION_THROWN" status="deprecated" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="272" documented="true" related="39" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVERIFY_EXCEPTION_THROWN(expression, exceptiontype)">
+                <parameter type="" name="expression" default=""/>
+                <parameter type="" name="exceptiontype" default=""/>
+            </function>
+            <function name="QVERIFY_THROWS_EXCEPTION" href="qtest.html#QVERIFY_THROWS_EXCEPTION" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="279" documented="true" related="40" since="6.3" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVERIFY_THROWS_EXCEPTION(exceptiontype, ...)">
+                <parameter type="" name="exceptiontype" default=""/>
+                <parameter type="..." name="" default=""/>
+            </function>
+            <function name="QVERIFY_THROWS_NO_EXCEPTION" href="qtest.html#QVERIFY_THROWS_NO_EXCEPTION" status="active" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="317" documented="true" related="41" since="6.3" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QVERIFY_THROWS_NO_EXCEPTION(...)">
+                <parameter type="..." name="" default=""/>
+            </function>
+            <function name="QWARN" href="qtest-obsolete.html#QWARN" threadsafety="thread safe" status="deprecated" access="public" location="qtestcase.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/qtestcase.qdoc" lineno="673" documented="true" related="42" meta="macrowithparams" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QWARN(message)">
+                <parameter type="" name="message" default=""/>
+            </function>
+            <function name="addColumn" fullname="QTest::addColumn" href="qtest.html#addColumn" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="453" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addColumn(const char *name, T *dummy)">
+                <parameter type="const char *" name="name" default=""/>
+                <parameter type="T *" name="dummy" default="0"/>
+            </function>
+            <function name="addRow" fullname="QTest::addRow" href="qtest.html#addRow" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="460" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QTestData &amp;" signature="QTestData &amp; addRow(const char *format, ...)">
+                <parameter type="const char *" name="format" default=""/>
+                <parameter type="..." name="" default=""/>
+            </function>
+            <function name="benchmarkMetricName" fullname="QTest::benchmarkMetricName" href="qtest.html#benchmarkMetricName" status="active" access="public" location="qbenchmarkmetric_p.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/6.5.3/QtTest/private/../../../../../src/testlib/qbenchmarkmetric_p.h" lineno="26" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="const char *" signature="const char * benchmarkMetricName(QTest::QBenchmarkMetric metric)">
+                <parameter type="QTest::QBenchmarkMetric" name="metric" default=""/>
+            </function>
+            <function name="benchmarkMetricUnit" fullname="QTest::benchmarkMetricUnit" href="qtest.html#benchmarkMetricUnit" status="active" access="public" location="qbenchmarkmetric_p.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/6.5.3/QtTest/private/../../../../../src/testlib/qbenchmarkmetric_p.h" lineno="27" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="const char *" signature="const char * benchmarkMetricUnit(QTest::QBenchmarkMetric metric)">
+                <parameter type="QTest::QBenchmarkMetric" name="metric" default=""/>
+            </function>
+            <function name="compare_helper" fullname="QTest::compare_helper" href="qtest-obsolete.html#compare_helper" status="deprecated" access="private" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="436" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool compare_helper(bool success, const char *failureMsg, char *actualVal, char *expectedVal, const char *actual, const char *expected, const char *file, int line)">
+                <parameter type="bool" name="success" default=""/>
+                <parameter type="const char *" name="failureMsg" default=""/>
+                <parameter type="char *" name="actualVal" default=""/>
+                <parameter type="char *" name="expectedVal" default=""/>
+                <parameter type="const char *" name="actual" default=""/>
+                <parameter type="const char *" name="expected" default=""/>
+                <parameter type="const char *" name="file" default=""/>
+                <parameter type="int" name="line" default=""/>
+            </function>
+            <function name="createTouchDevice" fullname="QTest::createTouchDevice" href="qtest.html#createTouchDevice" status="active" access="public" location="qtestsupport_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtGui/../../src/gui/kernel/qtestsupport_gui.h" lineno="28" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QPointingDevice *" signature="QPointingDevice * createTouchDevice(QInputDevice::DeviceType devType, QInputDevice::Capabilities caps)">
+                <parameter type="QInputDevice::DeviceType" name="devType" default="QInputDevice::DeviceType::TouchScreen"/>
+                <parameter type="QInputDevice::Capabilities" name="caps" default="QInputDevice::Capability::Position"/>
+            </function>
+            <function name="currentAppName" fullname="QTest::currentAppName" href="qtest.html#currentAppName" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="419" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="const char *" signature="const char * currentAppName()"/>
+            <function name="currentDataTag" fullname="QTest::currentDataTag" href="qtest.html#currentDataTag" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="422" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="const char *" signature="const char * currentDataTag()"/>
+            <function name="currentTestFailed" fullname="QTest::currentTestFailed" href="qtest.html#currentTestFailed" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="423" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool currentTestFailed()"/>
+            <function name="currentTestFunction" fullname="QTest::currentTestFunction" href="qtest.html#currentTestFunction" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="421" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="const char *" signature="const char * currentTestFunction()"/>
+            <function name="currentTestResolved" fullname="QTest::currentTestResolved" href="qtest.html#currentTestResolved" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="424" documented="true" since="6.5" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool currentTestResolved()"/>
+            <function name="failOnWarning" fullname="QTest::failOnWarning" href="qtest.html#failOnWarning" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="405" documented="true" since="6.3" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void failOnWarning(const QRegularExpression &amp;messagePattern)">
+                <parameter type="const QRegularExpression &amp;" name="messagePattern" default=""/>
+            </function>
+            <function name="failOnWarning" fullname="QTest::failOnWarning" href="qtest.html#failOnWarning-1" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="403" documented="true" since="6.3" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void failOnWarning(const char *message)">
+                <parameter type="const char *" name="message" default=""/>
+            </function>
+            <function name="ignoreMessage" fullname="QTest::ignoreMessage" href="qtest.html#ignoreMessage" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="399" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void ignoreMessage(QtMsgType type, const char *message)">
+                <parameter type="QtMsgType" name="type" default=""/>
+                <parameter type="const char *" name="message" default=""/>
+            </function>
+            <function name="ignoreMessage" fullname="QTest::ignoreMessage" href="qtest.html#ignoreMessage-1" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="401" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void ignoreMessage(QtMsgType type, const QRegularExpression &amp;messagePattern)">
+                <parameter type="QtMsgType" name="type" default=""/>
+                <parameter type="const QRegularExpression &amp;" name="messagePattern" default=""/>
+            </function>
+            <function name="keyClick" fullname="QTest::keyClick" href="qtest.html#keyClick" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="276" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void keyClick(QWidget *widget, Qt::Key key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="Qt::Key" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyClick" fullname="QTest::keyClick" href="qtest.html#keyClick-1" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="125" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void keyClick(QWindow *window, Qt::Key key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="Qt::Key" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyClick" fullname="QTest::keyClick" href="qtest.html#keyClick-2" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="127" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="void" signature="void keyClick(QWindow *window, char key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="char" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyClick" fullname="QTest::keyClick" href="qtest.html#keyClick-3" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="270" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="3" type="void" signature="void keyClick(QWidget *widget, char key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="char" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyClicks" fullname="QTest::keyClicks" href="qtest.html#keyClicks" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="259" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void keyClicks(QWidget *widget, const QString &amp;sequence, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="const QString &amp;" name="sequence" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyEvent" fullname="QTest::keyEvent" href="qtest.html#keyEvent" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="255" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void keyEvent(QTest::KeyAction action, QWidget *widget, Qt::Key key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QTest::KeyAction" name="action" default=""/>
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="Qt::Key" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyEvent" fullname="QTest::keyEvent" href="qtest.html#keyEvent-1" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="118" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void keyEvent(QTest::KeyAction action, QWindow *window, char ascii, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QTest::KeyAction" name="action" default=""/>
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="char" name="ascii" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyEvent" fullname="QTest::keyEvent" href="qtest.html#keyEvent-2" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="121" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="void" signature="void keyEvent(QTest::KeyAction action, QWindow *window, Qt::Key key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QTest::KeyAction" name="action" default=""/>
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="Qt::Key" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyEvent" fullname="QTest::keyEvent" href="qtest.html#keyEvent-3" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="252" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="3" type="void" signature="void keyEvent(QTest::KeyAction action, QWidget *widget, char ascii, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QTest::KeyAction" name="action" default=""/>
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="char" name="ascii" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyPress" fullname="QTest::keyPress" href="qtest.html#keyPress" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="272" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void keyPress(QWidget *widget, Qt::Key key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="Qt::Key" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyPress" fullname="QTest::keyPress" href="qtest.html#keyPress-1" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="133" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void keyPress(QWindow *window, char key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="char" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyPress" fullname="QTest::keyPress" href="qtest.html#keyPress-2" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="135" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="void" signature="void keyPress(QWindow *window, Qt::Key key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="Qt::Key" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyPress" fullname="QTest::keyPress" href="qtest.html#keyPress-3" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="266" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="3" type="void" signature="void keyPress(QWidget *widget, char key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="char" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyRelease" fullname="QTest::keyRelease" href="qtest.html#keyRelease" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="274" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void keyRelease(QWidget *widget, Qt::Key key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="Qt::Key" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyRelease" fullname="QTest::keyRelease" href="qtest.html#keyRelease-1" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="129" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void keyRelease(QWindow *window, char key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="char" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyRelease" fullname="QTest::keyRelease" href="qtest.html#keyRelease-2" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="131" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="void" signature="void keyRelease(QWindow *window, Qt::Key key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="Qt::Key" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keyRelease" fullname="QTest::keyRelease" href="qtest.html#keyRelease-3" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="268" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="3" type="void" signature="void keyRelease(QWidget *widget, char key, Qt::KeyboardModifiers modifier, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="char" name="key" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="Qt::NoModifier"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="keySequence" fullname="QTest::keySequence" href="qtest.html#keySequence" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="139" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void keySequence(QWindow *window, const QKeySequence &amp;keySequence)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="const QKeySequence &amp;" name="keySequence" default=""/>
+            </function>
+            <function name="keySequence" fullname="QTest::keySequence" href="qtest.html#keySequence-1" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="280" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void keySequence(QWidget *widget, const QKeySequence &amp;keySequence)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="const QKeySequence &amp;" name="keySequence" default=""/>
+            </function>
+            <function name="mouseClick" fullname="QTest::mouseClick" href="qtest.html#mouseClick" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="231" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void mouseClick(QWidget *widget, Qt::MouseButton button, Qt::KeyboardModifiers modifier, QPoint pos, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="mouseClick" fullname="QTest::mouseClick" href="qtest.html#mouseClick-1" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="137" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void mouseClick(QWindow *window, Qt::MouseButton button, Qt::KeyboardModifiers stateKey, QPoint pos, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="stateKey" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="mouseDClick" fullname="QTest::mouseDClick" href="qtest.html#mouseDClick" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="235" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void mouseDClick(QWidget *widget, Qt::MouseButton button, Qt::KeyboardModifiers modifier, QPoint pos, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="mouseDClick" fullname="QTest::mouseDClick" href="qtest.html#mouseDClick-1" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="141" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void mouseDClick(QWindow *window, Qt::MouseButton button, Qt::KeyboardModifiers stateKey, QPoint pos, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="stateKey" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="mouseMove" fullname="QTest::mouseMove" href="qtest.html#mouseMove" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="239" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void mouseMove(QWidget *widget, QPoint pos, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="mouseMove" fullname="QTest::mouseMove" href="qtest.html#mouseMove-1" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="145" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void mouseMove(QWindow *window, QPoint pos, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="mousePress" fullname="QTest::mousePress" href="qtest.html#mousePress" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="223" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void mousePress(QWidget *widget, Qt::MouseButton button, Qt::KeyboardModifiers modifier, QPoint pos, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="mousePress" fullname="QTest::mousePress" href="qtest.html#mousePress-1" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="129" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void mousePress(QWindow *window, Qt::MouseButton button, Qt::KeyboardModifiers stateKey, QPoint pos, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="stateKey" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="mouseRelease" fullname="QTest::mouseRelease" href="qtest.html#mouseRelease" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="227" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void mouseRelease(QWidget *widget, Qt::MouseButton button, Qt::KeyboardModifiers modifier, QPoint pos, int delay)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifier" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="mouseRelease" fullname="QTest::mouseRelease" href="qtest.html#mouseRelease-1" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="133" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void mouseRelease(QWindow *window, Qt::MouseButton button, Qt::KeyboardModifiers stateKey, QPoint pos, int delay)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="stateKey" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="newRow" fullname="QTest::newRow" href="qtest.html#newRow" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="459" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QTestData &amp;" signature="QTestData &amp; newRow(const char *dataTag)">
+                <parameter type="const char *" name="dataTag" default=""/>
+            </function>
+            <function name="qExec" fullname="QTest::qExec" href="qtest.html#qExec" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="376" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="int" signature="int qExec(QObject *testObject, int argc, char **argv)">
+                <parameter type="QObject *" name="testObject" default=""/>
+                <parameter type="int" name="argc" default="0"/>
+                <parameter type="char **" name="argv" default="nullptr"/>
+            </function>
+            <function name="qExec" fullname="QTest::qExec" href="qtest.html#qExec-1" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="377" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="int" signature="int qExec(QObject *testObject, const QStringList &amp;arguments)">
+                <parameter type="QObject *" name="testObject" default=""/>
+                <parameter type="const QStringList &amp;" name="arguments" default=""/>
+            </function>
+            <function name="qExtractTestData" fullname="QTest::qExtractTestData" href="qtest.html#qExtractTestData" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="409" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QSharedPointer&lt;QTemporaryDir&gt;" signature="QSharedPointer&lt;QTemporaryDir&gt; qExtractTestData(const QString &amp;dirName)">
+                <parameter type="const QString &amp;" name="dirName" default=""/>
+            </function>
+            <function name="qRegisterTestCase" fullname="QTest::qRegisterTestCase" href="qtest.html#qRegisterTestCase" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="381" documented="true" since="6.5" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void qRegisterTestCase(const QString &amp;name, QTest::TestEntryFunction entryFunction)">
+                <parameter type="const QString &amp;" name="name" default=""/>
+                <parameter type="QTest::TestEntryFunction" name="entryFunction" default=""/>
+            </function>
+            <function name="qSleep" fullname="QTest::qSleep" href="qtest.html#qSleep" status="active" access="public" location="qtestsupport_core.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtCore/../../src/corelib/kernel/qtestsupport_core.h" lineno="15" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void qSleep(int ms)">
+                <parameter type="int" name="ms" default=""/>
+            </function>
+            <function name="qWait" fullname="QTest::qWait" href="qtest.html#qWait" status="active" access="public" location="qtestsupport_core.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtCore/../../src/corelib/kernel/qtestsupport_core.h" lineno="54" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void qWait(int ms)">
+                <parameter type="int" name="ms" default=""/>
+            </function>
+            <function name="qWaitFor" fullname="QTest::qWaitFor" href="qtest.html#qWaitFor" status="active" access="public" location="qtestsupport_core.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtCore/../../src/corelib/kernel/qtestsupport_core.h" lineno="18" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool qWaitFor(Functor predicate, int timeout)">
+                <parameter type="Functor" name="predicate" default=""/>
+                <parameter type="int" name="timeout" default="5000"/>
+            </function>
+            <function name="qWaitForWindowActive" fullname="QTest::qWaitForWindowActive" href="qtest.html#qWaitForWindowActive" status="active" access="public" location="qtestsupport_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtGui/../../src/gui/kernel/qtestsupport_gui.h" lineno="25" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool qWaitForWindowActive(QWindow *window, int timeout)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="int" name="timeout" default="5000"/>
+            </function>
+            <function name="qWaitForWindowActive" fullname="QTest::qWaitForWindowActive" href="qtest.html#qWaitForWindowActive-1" status="active" access="public" location="qtestsupport_widgets.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtWidgets/../../src/widgets/kernel/qtestsupport_widgets.h" lineno="17" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="bool" signature="bool qWaitForWindowActive(QWidget *widget, int timeout)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="int" name="timeout" default="5000"/>
+            </function>
+            <function name="qWaitForWindowExposed" fullname="QTest::qWaitForWindowExposed" href="qtest.html#qWaitForWindowExposed" status="active" access="public" location="qtestsupport_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtGui/../../src/gui/kernel/qtestsupport_gui.h" lineno="26" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool qWaitForWindowExposed(QWindow *window, int timeout)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="int" name="timeout" default="5000"/>
+            </function>
+            <function name="qWaitForWindowExposed" fullname="QTest::qWaitForWindowExposed" href="qtest.html#qWaitForWindowExposed-1" status="active" access="public" location="qtestsupport_widgets.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtWidgets/../../src/widgets/kernel/qtestsupport_widgets.h" lineno="18" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="bool" signature="bool qWaitForWindowExposed(QWidget *widget, int timeout)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="int" name="timeout" default="5000"/>
+            </function>
+            <function name="qWarn" fullname="QTest::qWarn" href="qtest-obsolete.html#qWarn" status="deprecated" access="private" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="397" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void qWarn(const char *message, const char *file, int line)">
+                <parameter type="const char *" name="message" default=""/>
+                <parameter type="const char *" name="file" default="nullptr"/>
+                <parameter type="int" name="line" default="0"/>
+            </function>
+            <function name="setBenchmarkResult" fullname="QTest::setBenchmarkResult" href="qtest.html#setBenchmarkResult" status="active" access="public" location="qbenchmark.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qbenchmark.h" lineno="50" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void setBenchmarkResult(qreal result, QTest::QBenchmarkMetric metric)">
+                <parameter type="qreal" name="result" default=""/>
+                <parameter type="QTest::QBenchmarkMetric" name="metric" default=""/>
+            </function>
+            <function name="toHexRepresentation" fullname="QTest::toHexRepresentation" href="qtest.html#toHexRepresentation" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="364" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="char *" signature="char * toHexRepresentation(const char *ba, qsizetype length)">
+                <parameter type="const char *" name="ba" default=""/>
+                <parameter type="qsizetype" name="length" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="350" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="char *" signature="char * toString(const T &amp;value)">
+                <parameter type="const T &amp;" name="value" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-1" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="356" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="char *" signature="char * toString(const QPair&lt;T1, T2&gt; &amp;pair)">
+                <parameter type="const QPair&lt;T1, T2&gt; &amp;" name="pair" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-2" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="359" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="2" type="char *" signature="char * toString(const std::pair&lt;T1, T2&gt; &amp;pair)">
+                <parameter type="const std::pair&lt;T1, T2&gt; &amp;" name="pair" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-3" status="active" access="public" location="qtestcase.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestcase.h" lineno="362" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="3" type="char *" signature="char * toString(const std::tuple&lt;Types...&gt; &amp;tuple)">
+                <parameter type="const std::tuple&lt;Types...&gt; &amp;" name="tuple" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-5" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="51" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="5" type="char *" signature="char * toString(const QStringView &amp;string)">
+                <parameter type="const QStringView &amp;" name="string" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-6" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="56" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="6" type="char *" signature="char * toString(const QString &amp;string)">
+                <parameter type="const QString &amp;" name="string" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-7" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="61" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="7" type="char *" signature="char * toString(const QLatin1StringView &amp;string)">
+                <parameter type="const QLatin1StringView &amp;" name="string" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-8" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="66" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="8" type="char *" signature="char * toString(const QByteArray &amp;ba)">
+                <parameter type="const QByteArray &amp;" name="ba" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-10" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="82" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="10" type="char *" signature="char * toString(const QTime &amp;time)">
+                <parameter type="const QTime &amp;" name="time" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-11" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="89" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="11" type="char *" signature="char * toString(const QDate &amp;date)">
+                <parameter type="const QDate &amp;" name="date" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-12" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="96" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="12" type="char *" signature="char * toString(const QDateTime &amp;dateTime)">
+                <parameter type="const QDateTime &amp;" name="dateTime" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-13" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="104" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="13" type="char *" signature="char * toString(const QCborError &amp;c)">
+                <parameter type="const QCborError &amp;" name="c" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-14" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="110" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="14" type="char *" signature="char * toString(const QChar &amp;character)">
+                <parameter type="const QChar &amp;" name="character" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-16" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="130" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="16" type="char *" signature="char * toString(const QPoint &amp;point)">
+                <parameter type="const QPoint &amp;" name="point" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-17" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="137" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="17" type="char *" signature="char * toString(const QSize &amp;size)">
+                <parameter type="const QSize &amp;" name="size" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-18" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="144" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="18" type="char *" signature="char * toString(const QRect &amp;rectangle)">
+                <parameter type="const QRect &amp;" name="rectangle" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-19" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="152" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="19" type="char *" signature="char * toString(const QPointF &amp;point)">
+                <parameter type="const QPointF &amp;" name="point" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-20" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="159" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="20" type="char *" signature="char * toString(const QSizeF &amp;size)">
+                <parameter type="const QSizeF &amp;" name="size" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-21" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="166" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="21" type="char *" signature="char * toString(const QRectF &amp;rectangle)">
+                <parameter type="const QRectF &amp;" name="rectangle" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-22" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="174" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="22" type="char *" signature="char * toString(const QUrl &amp;url)">
+                <parameter type="const QUrl &amp;" name="url" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-23" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="181" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="23" type="char *" signature="char * toString(const QUuid &amp;uuid)">
+                <parameter type="const QUuid &amp;" name="uuid" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-24" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="186" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="24" type="char *" signature="char * toString(const QVariant &amp;variant)">
+                <parameter type="const QVariant &amp;" name="variant" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-31" status="active" access="public" location="qtest.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest.h" lineno="386" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="31" type="char *" signature="char * toString(std::nullptr_t)">
+                <parameter type="std::nullptr_t" name="" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-34" status="active" access="public" location="qtest_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest_gui.h" lineno="84" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="34" type="char *" signature="char * toString(const QVector2D &amp;v)">
+                <parameter type="const QVector2D &amp;" name="v" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-35" status="active" access="public" location="qtest_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest_gui.h" lineno="92" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="35" type="char *" signature="char * toString(const QVector3D &amp;v)">
+                <parameter type="const QVector3D &amp;" name="v" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-36" status="active" access="public" location="qtest_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest_gui.h" lineno="100" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="36" type="char *" signature="char * toString(const QVector4D &amp;v)">
+                <parameter type="const QVector4D &amp;" name="v" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-37" status="active" access="public" location="qtest_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest_gui.h" lineno="110" documented="true" since="6.5" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="37" type="char *" signature="char * toString(const QKeySequence &amp;ks)">
+                <parameter type="const QKeySequence &amp;" name="ks" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-38" status="active" access="public" location="qtest_widgets.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest_widgets.h" lineno="66" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="38" type="char *" signature="char * toString(QSizePolicy::Policy p)">
+                <parameter type="QSizePolicy::Policy" name="p" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-39" status="active" access="public" location="qtest_widgets.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest_widgets.h" lineno="71" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="39" type="char *" signature="char * toString(QSizePolicy::ControlTypes cts)">
+                <parameter type="QSizePolicy::ControlTypes" name="cts" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-40" status="active" access="public" location="qtest_widgets.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest_widgets.h" lineno="76" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="40" type="char *" signature="char * toString(QSizePolicy::ControlType ct)">
+                <parameter type="QSizePolicy::ControlType" name="ct" default=""/>
+            </function>
+            <function name="toString" fullname="QTest::toString" href="qtest.html#toString-41" status="active" access="public" location="qtest_widgets.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtest_widgets.h" lineno="81" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="41" type="char *" signature="char * toString(QSizePolicy sp)">
+                <parameter type="QSizePolicy" name="sp" default=""/>
+            </function>
+            <function name="touchEvent" fullname="QTest::touchEvent" href="qtest.html#touchEvent" status="active" access="public" location="qtesttouch.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtesttouch.h" lineno="34" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QTest::QTouchEventWidgetSequence" signature="QTest::QTouchEventWidgetSequence touchEvent(QWidget *widget, QPointingDevice *device, bool autoCommit)">
+                <parameter type="QWidget *" name="widget" default=""/>
+                <parameter type="QPointingDevice *" name="device" default=""/>
+                <parameter type="bool" name="autoCommit" default="true"/>
+            </function>
+            <function name="touchEvent" fullname="QTest::touchEvent" href="qtest.html#touchEvent-1" status="active" access="public" location="qtesttouch.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtesttouch.h" lineno="42" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="QTest::QTouchEventSequence" signature="QTest::QTouchEventSequence touchEvent(QWindow *window, QPointingDevice *device, bool autoCommit)">
+                <parameter type="QWindow *" name="window" default=""/>
+                <parameter type="QPointingDevice *" name="device" default=""/>
+                <parameter type="bool" name="autoCommit" default="true"/>
+            </function>
+            <class name="QTouchEventSequence" fullname="QTest::QTouchEventSequence" href="qtest-qtoucheventsequence.html" status="active" access="public" location="qtestsupport_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtGui/../../src/gui/kernel/qtestsupport_gui.h" lineno="31" documented="true" module="QtTest" brief="Used to simulate a sequence of touch events">
+                <function name="commit" fullname="QTest::QTouchEventSequence::commit" href="qtest-qtoucheventsequence.html#commit" status="active" access="public" location="qtestsupport_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtGui/../../src/gui/kernel/qtestsupport_gui.h" lineno="40" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="false" type="bool" signature="bool commit(bool processEvents)">
+                    <parameter type="bool" name="processEvents" default="true"/>
+                </function>
+                <function name="move" fullname="QTest::QTouchEventSequence::move" href="qtest-qtoucheventsequence.html#move" status="active" access="public" location="qtestsupport_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtGui/../../src/gui/kernel/qtestsupport_gui.h" lineno="36" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QTest::QTouchEventSequence &amp;" signature="QTest::QTouchEventSequence &amp; move(int touchId, const QPoint &amp;pt, QWindow *window)">
+                    <parameter type="int" name="touchId" default=""/>
+                    <parameter type="const QPoint &amp;" name="pt" default=""/>
+                    <parameter type="QWindow *" name="window" default="nullptr"/>
+                </function>
+                <function name="press" fullname="QTest::QTouchEventSequence::press" href="qtest-qtoucheventsequence.html#press" status="active" access="public" location="qtestsupport_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtGui/../../src/gui/kernel/qtestsupport_gui.h" lineno="35" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QTest::QTouchEventSequence &amp;" signature="QTest::QTouchEventSequence &amp; press(int touchId, const QPoint &amp;pt, QWindow *window)">
+                    <parameter type="int" name="touchId" default=""/>
+                    <parameter type="const QPoint &amp;" name="pt" default=""/>
+                    <parameter type="QWindow *" name="window" default="nullptr"/>
+                </function>
+                <function name="release" fullname="QTest::QTouchEventSequence::release" href="qtest-qtoucheventsequence.html#release" status="active" access="public" location="qtestsupport_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtGui/../../src/gui/kernel/qtestsupport_gui.h" lineno="37" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QTest::QTouchEventSequence &amp;" signature="QTest::QTouchEventSequence &amp; release(int touchId, const QPoint &amp;pt, QWindow *window)">
+                    <parameter type="int" name="touchId" default=""/>
+                    <parameter type="const QPoint &amp;" name="pt" default=""/>
+                    <parameter type="QWindow *" name="window" default="nullptr"/>
+                </function>
+                <function name="stationary" fullname="QTest::QTouchEventSequence::stationary" href="qtest-qtoucheventsequence.html#stationary" status="active" access="public" location="qtestsupport_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtGui/../../src/gui/kernel/qtestsupport_gui.h" lineno="38" documented="true" meta="plain" virtual="virtual" const="false" static="false" final="false" override="false" type="QTest::QTouchEventSequence &amp;" signature="QTest::QTouchEventSequence &amp; stationary(int touchId)">
+                    <parameter type="int" name="touchId" default=""/>
+                </function>
+                <function name="~QTouchEventSequence" fullname="QTest::QTouchEventSequence::~QTouchEventSequence" href="qtest-qtoucheventsequence.html#dtor.QTouchEventSequence" status="active" access="public" location="qtestsupport_gui.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtGui/../../src/gui/kernel/qtestsupport_gui.h" lineno="34" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QTouchEventSequence()"/>
+            </class>
+            <enum name="KeyAction" fullname="QTest::KeyAction" href="qtest.html#KeyAction-enum" status="active" access="public" location="qtestkeyboard.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestkeyboard.h" lineno="37" documented="true">
+                <value name="Press" value="0"/>
+                <value name="Release" value="1"/>
+                <value name="Click" value="2"/>
+                <value name="Shortcut" value="3"/>
+            </enum>
+            <enum name="MouseAction" fullname="QTest::MouseAction" href="qtest.html#MouseAction-enum" status="active" access="public" location="qtestmouse.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestmouse.h" lineno="42" documented="true">
+                <value name="MousePress" value="0"/>
+                <value name="MouseRelease" value="1"/>
+                <value name="MouseClick" value="2"/>
+                <value name="MouseDClick" value="3"/>
+                <value name="MouseMove" value="4"/>
+            </enum>
+            <enum name="QBenchmarkMetric" fullname="QTest::QBenchmarkMetric" href="qtest.html#QBenchmarkMetric-enum" status="active" access="public" location="qbenchmarkmetric.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qbenchmarkmetric.h" lineno="15" documented="true">
+                <value name="FramesPerSecond" value="0"/>
+                <value name="BitsPerSecond" value="1"/>
+                <value name="BytesPerSecond" value="2"/>
+                <value name="WalltimeMilliseconds" value="3"/>
+                <value name="CPUTicks" value="4"/>
+                <value name="InstructionReads" value="5"/>
+                <value name="Events" value="6"/>
+                <value name="WalltimeNanoseconds" value="7"/>
+                <value name="BytesAllocated" value="8"/>
+                <value name="CPUMigrations" value="9"/>
+                <value name="CPUCycles" value="10"/>
+                <value name="BusCycles" value="11"/>
+                <value name="StalledCycles" value="12"/>
+                <value name="Instructions" value="13"/>
+                <value name="BranchInstructions" value="14"/>
+                <value name="BranchMisses" value="15"/>
+                <value name="CacheReferences" value="16"/>
+                <value name="CacheReads" value="17"/>
+                <value name="CacheWrites" value="18"/>
+                <value name="CachePrefetches" value="19"/>
+                <value name="CacheMisses" value="20"/>
+                <value name="CacheReadMisses" value="21"/>
+                <value name="CacheWriteMisses" value="22"/>
+                <value name="CachePrefetchMisses" value="23"/>
+                <value name="ContextSwitches" value="24"/>
+                <value name="PageFaults" value="25"/>
+                <value name="MinorPageFaults" value="26"/>
+                <value name="MajorPageFaults" value="27"/>
+                <value name="AlignmentFaults" value="28"/>
+                <value name="EmulationFaults" value="29"/>
+                <value name="RefCPUCycles" value="30"/>
+            </enum>
+            <enum name="TestFailMode" fullname="QTest::TestFailMode" href="qtest.html#TestFailMode-enum" status="active" access="public" location="qttestglobal.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qttestglobal.h" lineno="29" documented="true">
+                <value name="Abort" value="1"/>
+                <value name="Continue" value="2"/>
+            </enum>
+        </namespace>
+        <class name="QTestData" href="qtestdata.html" status="ignored" access="public" location="qtestdata.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestdata.h" lineno="18"/>
+        <class name="QTestDelayEvent" href="qtestdelayevent.html" status="ignored" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="116"/>
+        <class name="QTestEvent" href="qtestevent.html" status="ignored" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="31"/>
+        <class name="QTestEventList" href="qtesteventlist.html" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="130" documented="true" bases="QList" module="QtTest" brief="List of GUI events">
+            <function name="QTestEventList" fullname="QTestEventList::QTestEventList" href="qtesteventlist.html#QTestEventList" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="133" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QTestEventList()"/>
+            <function name="QTestEventList" fullname="QTestEventList::QTestEventList" href="qtesteventlist.html#QTestEventList-1" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="134" documented="true" meta="copy-constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QTestEventList(const QTestEventList &amp;other)">
+                <parameter type="const QTestEventList &amp;" name="other" default=""/>
+            </function>
+            <function name="addDelay" fullname="QTestEventList::addDelay" href="qtesteventlist.html#addDelay" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="179" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addDelay(int msecs)">
+                <parameter type="int" name="msecs" default=""/>
+            </function>
+            <function name="addKeyClick" fullname="QTestEventList::addKeyClick" href="qtesteventlist.html#addKeyClick" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="142" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addKeyClick(Qt::Key qtKey, Qt::KeyboardModifiers modifiers, int msecs)">
+                <parameter type="Qt::Key" name="qtKey" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="Qt::NoModifier"/>
+                <parameter type="int" name="msecs" default="-1"/>
+            </function>
+            <function name="addKeyClick" fullname="QTestEventList::addKeyClick" href="qtesteventlist.html#addKeyClick-1" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="152" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void addKeyClick(char ascii, Qt::KeyboardModifiers modifiers, int msecs)">
+                <parameter type="char" name="ascii" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="Qt::NoModifier"/>
+                <parameter type="int" name="msecs" default="-1"/>
+            </function>
+            <function name="addKeyClicks" fullname="QTestEventList::addKeyClicks" href="qtesteventlist.html#addKeyClicks" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="158" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addKeyClicks(const QString &amp;keys, Qt::KeyboardModifiers modifiers, int msecs)">
+                <parameter type="const QString &amp;" name="keys" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="Qt::NoModifier"/>
+                <parameter type="int" name="msecs" default="-1"/>
+            </function>
+            <function name="addKeyPress" fullname="QTestEventList::addKeyPress" href="qtesteventlist.html#addKeyPress" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="144" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addKeyPress(Qt::Key qtKey, Qt::KeyboardModifiers modifiers, int msecs)">
+                <parameter type="Qt::Key" name="qtKey" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="Qt::NoModifier"/>
+                <parameter type="int" name="msecs" default="-1"/>
+            </function>
+            <function name="addKeyPress" fullname="QTestEventList::addKeyPress" href="qtesteventlist.html#addKeyPress-1" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="154" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void addKeyPress(char ascii, Qt::KeyboardModifiers modifiers, int msecs)">
+                <parameter type="char" name="ascii" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="Qt::NoModifier"/>
+                <parameter type="int" name="msecs" default="-1"/>
+            </function>
+            <function name="addKeyRelease" fullname="QTestEventList::addKeyRelease" href="qtesteventlist.html#addKeyRelease" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="146" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addKeyRelease(Qt::Key qtKey, Qt::KeyboardModifiers modifiers, int msecs)">
+                <parameter type="Qt::Key" name="qtKey" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="Qt::NoModifier"/>
+                <parameter type="int" name="msecs" default="-1"/>
+            </function>
+            <function name="addKeyRelease" fullname="QTestEventList::addKeyRelease" href="qtesteventlist.html#addKeyRelease-1" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="156" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="void" signature="void addKeyRelease(char ascii, Qt::KeyboardModifiers modifiers, int msecs)">
+                <parameter type="char" name="ascii" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="Qt::NoModifier"/>
+                <parameter type="int" name="msecs" default="-1"/>
+            </function>
+            <function name="addMouseClick" fullname="QTestEventList::addMouseClick" href="qtesteventlist.html#addMouseClick" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="169" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addMouseClick(Qt::MouseButton button, Qt::KeyboardModifiers modifiers, QPoint pos, int delay)">
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="addMouseDClick" fullname="QTestEventList::addMouseDClick" href="qtesteventlist.html#addMouseDClick" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="172" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addMouseDClick(Qt::MouseButton button, Qt::KeyboardModifiers modifiers, QPoint pos, int delay)">
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="addMouseMove" fullname="QTestEventList::addMouseMove" href="qtesteventlist.html#addMouseMove" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="175" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addMouseMove(QPoint pos, int delay)">
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="addMousePress" fullname="QTestEventList::addMousePress" href="qtesteventlist.html#addMousePress" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="163" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addMousePress(Qt::MouseButton button, Qt::KeyboardModifiers modifiers, QPoint pos, int delay)">
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="addMouseRelease" fullname="QTestEventList::addMouseRelease" href="qtesteventlist.html#addMouseRelease" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="166" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void addMouseRelease(Qt::MouseButton button, Qt::KeyboardModifiers modifiers, QPoint pos, int delay)">
+                <parameter type="Qt::MouseButton" name="button" default=""/>
+                <parameter type="Qt::KeyboardModifiers" name="modifiers" default="..."/>
+                <parameter type="QPoint" name="pos" default="QPoint()"/>
+                <parameter type="int" name="delay" default="-1"/>
+            </function>
+            <function name="clear" fullname="QTestEventList::clear" href="qtesteventlist.html#clear" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="138" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void clear()"/>
+            <function name="simulate" fullname="QTestEventList::simulate" href="qtesteventlist.html#simulate" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="183" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void simulate(QWidget *w)">
+                <parameter type="QWidget *" name="w" default=""/>
+            </function>
+            <function name="~QTestEventList" fullname="QTestEventList::~QTestEventList" href="qtesteventlist.html#dtor.QTestEventList" status="active" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="136" documented="true" meta="destructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="~QTestEventList()"/>
+        </class>
+        <class name="QTestEventLoop" href="qtesteventloop.html" status="ignored" access="public" location="qtesteventloop.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtesteventloop.h" lineno="19" bases="QObject"/>
+        <class name="QTestKeyClicksEvent" href="qtestkeyclicksevent.html" status="ignored" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="71"/>
+        <class name="QTestKeyEvent" href="qtestkeyevent.html" status="ignored" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="43"/>
+        <class name="QTestMouseEvent" href="qtestmouseevent.html" status="ignored" access="public" location="qtestevent.h" filepath="/home/qt/work/qt/qt5/qtbase/include/QtTest/../../src/testlib/qtestevent.h" lineno="91"/>
+        <page name="qttest-index.html" href="qttest-index.html" status="active" location="qttest-index.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttest-index.qdoc" lineno="3" documented="true" subtype="page" title="Qt Test" fulltitle="Qt Test" subtitle="" brief="Provides classes for unit testing Qt applications and libraries">
+            <contents name="using-the-module" title="Using the Module" level="1"/>
+            <contents name="building-with-cmake" title="Building with CMake" level="2"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="2"/>
+            <contents name="articles-and-guides" title="Articles and Guides" level="1"/>
+            <contents name="reference" title="Reference" level="1"/>
+            <contents name="module-evolution" title="Module Evolution" level="1"/>
+            <contents name="licenses-and-attributions" title="Licenses and Attributions" level="1"/>
+        </page>
+        <page name="qttest-best-practices.qdoc" href="qttest-best-practices-qdoc.html" status="active" location="qttest-best-practices.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttest-best-practices.qdoc" lineno="4" documented="true" subtype="page" title="Qt Test Best Practices" fulltitle="Qt Test Best Practices" subtitle="" brief="Guidelines for creating Qt tests">
+            <contents name="general-principles" title="General Principles" level="1"/>
+            <contents name="verify-tests" title="Verify Tests" level="2"/>
+            <contents name="give-test-functions-descriptive-names" title="Give Test Functions Descriptive Names" level="2"/>
+            <contents name="write-self-contained-test-functions" title="Write Self-contained Test Functions" level="2"/>
+            <contents name="test-the-full-stack" title="Test the Full Stack" level="2"/>
+            <contents name="make-tests-complete-quickly" title="Make Tests Complete Quickly" level="2"/>
+            <contents name="use-data-driven-testing" title="Use Data-driven Testing" level="2"/>
+            <contents name="use-coverage-tools" title="Use Coverage Tools" level="2"/>
+            <contents name="select-appropriate-mechanisms-to-exclude-tests" title="Select Appropriate Mechanisms to Exclude Tests" level="2"/>
+            <contents name="avoid-q-assert" title="Avoid Q_ASSERT" level="2"/>
+            <contents name="writing-reliable-tests" title="Writing Reliable Tests" level="1"/>
+            <contents name="avoid-side-effects-in-verification-steps" title="Avoid Side-effects in Verification Steps" level="2"/>
+            <contents name="avoid-fixed-timeouts" title="Avoid Fixed Timeouts" level="2"/>
+            <contents name="beware-of-timing-dependent-behavior" title="Beware of Timing-dependent Behavior" level="2"/>
+            <contents name="avoid-bitmap-capture-and-comparison" title="Avoid Bitmap Capture and Comparison" level="2"/>
+            <contents name="improving-test-output" title="Improving Test Output" level="1"/>
+            <contents name="test-for-warnings" title="Test for Warnings" level="2"/>
+            <contents name="avoid-printing-debug-messages-from-autotests" title="Avoid Printing Debug Messages from Autotests" level="2"/>
+            <contents name="write-well-structured-diagnostic-code" title="Write Well-structured Diagnostic Code" level="2"/>
+            <contents name="writing-testable-code" title="Writing Testable Code" level="1"/>
+            <contents name="break-dependencies" title="Break Dependencies" level="2"/>
+            <contents name="compile-all-classes-into-libraries" title="Compile All Classes into Libraries" level="2"/>
+            <contents name="setting-up-test-machines" title="Setting up Test Machines" level="1"/>
+            <contents name="screen-savers" title="Screen Savers" level="2"/>
+            <contents name="system-dialogs" title="System Dialogs" level="2"/>
+            <contents name="display-usage" title="Display Usage" level="2"/>
+            <contents name="window-managers" title="Window Managers" level="2"/>
+        </page>
+        <page name="qtest-overview.html" href="qtest-overview.html" status="active" location="qttestlib-manual.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttestlib-manual.qdoc" lineno="5" documented="true" groups="frameworks-technologies,qt-basic-concepts" subtype="page" title="Qt Test Overview" fulltitle="Qt Test Overview" subtitle="" brief="Overview of the Qt unit testing framework">
+            <target name="testlib-benchmarking-measurement"/>
+            <keyword name="qtestlib"/>
+            <contents name="creating-a-test" title="Creating a Test" level="1"/>
+            <contents name="increasing-test-function-timeout" title="Increasing Test Function Timeout" level="1"/>
+            <contents name="building-a-test" title="Building a Test" level="1"/>
+            <contents name="building-with-cmake-and-ctest" title="Building with CMake and CTest" level="2"/>
+            <contents name="building-with-qmake" title="Building with qmake" level="2"/>
+            <contents name="building-with-other-tools" title="Building with Other Tools" level="2"/>
+            <contents name="qt-test-command-line-arguments" title="Qt Test Command Line Arguments" level="1"/>
+            <contents name="syntax" title="Syntax" level="2"/>
+            <contents name="options" title="Options" level="2"/>
+            <contents name="logging-options" title="Logging Options" level="3"/>
+            <contents name="test-log-detail-options" title="Test Log Detail Options" level="3"/>
+            <contents name="testing-options" title="Testing Options" level="3"/>
+            <contents name="benchmarking-options" title="Benchmarking Options" level="3"/>
+            <contents name="miscellaneous-options" title="Miscellaneous Options" level="3"/>
+            <contents name="qt-test-environment-variables" title="Qt Test Environment Variables" level="1"/>
+            <contents name="creating-a-benchmark" title="Creating a Benchmark" level="1"/>
+            <contents name="selecting-the-measurement-back-end" title="Selecting the Measurement Back-end" level="2"/>
+            <contents name="using-global-test-data" title="Using Global Test Data" level="1"/>
+        </page>
+        <page name="qtest-tutorial.html" href="qtest-tutorial.html" status="active" location="qttestlib-manual.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttestlib-manual.qdoc" lineno="556" documented="true" groups="best-practices" subtype="page" title="Qt Test Tutorial" fulltitle="Qt Test Tutorial" subtitle="" brief="A short introduction to testing with Qt Test"/>
+        <page name="qttestlib-attribution-valgrind.html" href="qttestlib-attribution-valgrind.html" status="active" location="codeattributions.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/codeattributions.qdoc" lineno="1" documented="true" groups="attributions-libs,attributions-qttestlib,attributions-qttestlib-libs" subtype="attribution" title="Valgrind, version 3.20.0" fulltitle="Valgrind, version 3.20.0" subtitle="" brief="BSD 4-clause &quot;Original&quot; or &quot;Old&quot; License">
+            <target name="valgrind"/>
+        </page>
+        <page name="https://gcc.gnu.org/onlinedocs/gcc/Gcov.html" href="https://gcc.gnu.org/onlinedocs/gcc/Gcov.html" status="active" location="qt-webpages.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qt-webpages.qdoc" lineno="8" documented="true" subtype="externalpage" title="gcov" fulltitle="gcov" subtitle=""/>
+        <group name="attributions-libs" href="attributions-libs.html" status="internal" seen="false" title=""/>
+        <group name="attributions-qttestlib" href="attributions-qttestlib.html" status="internal" seen="false" title=""/>
+        <group name="attributions-qttestlib-libs" href="attributions-qttestlib-libs.html" status="internal" seen="false" title=""/>
+        <group name="best-practices" href="best-practices.html" status="internal" seen="false" title=""/>
+        <group name="changes-qt-5-to-6" href="changes-qt-5-to-6.html" status="internal" seen="false" title=""/>
+        <group name="frameworks-technologies" href="frameworks-technologies.html" status="internal" seen="false" title=""/>
+        <group name="modules" href="modules.html" status="internal" seen="false" title=""/>
+        <group name="qt-basic-concepts" href="qt-basic-concepts.html" status="internal" seen="false" title=""/>
+        <module name="QtTest" href="qttest-module.html" status="active" location="qttest.qdoc" filepath="/home/qt/work/qt/qt5/qtbase/src/testlib/doc/src/qttest.qdoc" lineno="4" documented="true" groups="modules" seen="true" title="Qt Test C++ Classes" brief="Provides classes for unit testing Qt applications and libraries">
+            <keyword name="qttest" title="QtTest"/>
+        </module>
+    </namespace>
+</INDEX>

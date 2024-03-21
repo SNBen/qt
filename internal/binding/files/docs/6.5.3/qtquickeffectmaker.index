@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt Quick Effect Maker Documentation" version="6.5.3" project="QtQuickEffectMaker" indexTitle="Qt Quick Effect Maker">
+    <namespace name="" status="active" access="public" module="qtquickeffectmaker">
+        <page name="qqem-concept.html" href="qqem-concept.html" status="active" location="qqem-concept.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/src/doc/src/concepts/qqem-concept.qdoc" lineno="3" documented="true" subtype="page" title="About Qt Quick Effect Maker" fulltitle="About Qt Quick Effect Maker" subtitle=""/>
+        <page name="qqem-toc.html" href="qqem-toc.html" status="active" location="qtquickeffectmaker.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/src/doc/src/qtquickeffectmaker.qdoc" lineno="64" documented="true" subtype="page" title="All topics" fulltitle="All topics" subtitle=""/>
+        <page name="qqem-creating-blur-effect.html" href="qqem-creating-blur-effect.html" status="active" location="qqem-creating-blur-effect.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/src/doc/src/how-tos/qqem-creating-blur-effect.qdoc" lineno="3" documented="true" subtype="page" title="Creating a blur effect" fulltitle="Creating a blur effect" subtitle="">
+            <contents name="adjusting-item-borders" title="Adjusting item borders" level="3"/>
+        </page>
+        <page name="qqem-create-first-effect.html" href="qqem-create-first-effect.html" status="active" location="qqem-create-effect.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/src/doc/src/getting-started/qqem-create-effect.qdoc" lineno="3" documented="true" subtype="page" title="Creating your first effect" fulltitle="Creating your first effect" subtitle=""/>
+        <page name="qqem-installing.html" href="qqem-installing.html" status="active" location="qqem-installing.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/src/doc/src/getting-started/qqem-installing.qdoc" lineno="3" documented="true" subtype="page" title="Installing Qt Quick Effect Maker" fulltitle="Installing Qt Quick Effect Maker" subtitle="">
+            <contents name="installing-qt-quick-effect-maker-standalone" title="Installing Qt Quick Effect Maker standalone" level="1"/>
+            <contents name="opening-qt-quick-effect-maker-standalone" title="Opening Qt Quick Effect Maker standalone" level="1"/>
+            <contents name="opening-qt-quick-effect-maker-from-qt-design-studio" title="Opening Qt Quick Effect Maker from Qt Design Studio" level="1"/>
+            <contents name="creating-an-effect-file-in-qt-design-studio" title="Creating an effect file in Qt Design Studio" level="1"/>
+        </page>
+        <page name="qqem-porting-shadertoy.html" href="qqem-porting-shadertoy.html" status="active" location="qqem-port-shadertoy.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/src/doc/src/how-tos/qqem-port-shadertoy.qdoc" lineno="3" documented="true" subtype="page" title="Porting ShaderToy shaders for Qt Quick Effect Maker" fulltitle="Porting ShaderToy shaders for Qt Quick Effect Maker" subtitle=""/>
+        <page name="qqem-porting-shadertoy.html" href="qqem-porting-shadertoy.html" status="active" location="qqem-porting-shadertoy.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/src/doc/src/how-tos/qqem-porting-shadertoy.qdoc" lineno="3" documented="true" subtype="page" title="Porting Shadertoy effects to Qt Quick Effect Maker" fulltitle="Porting Shadertoy effects to Qt Quick Effect Maker" subtitle="">
+            <contents name="using-a-shadertoy-effect-in-qt-quick-effect-maker" title="Using a Shadertoy effect in Qt Quick Effect Maker" level="1"/>
+        </page>
+        <page name="qtquickeffectmaker-index.html" href="qtquickeffectmaker-index.html" status="active" location="qtquickeffectmaker.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/src/doc/src/qtquickeffectmaker.qdoc" lineno="3" documented="true" subtype="page" title="Qt Quick Effect Maker" fulltitle="Qt Quick Effect Maker" subtitle="">
+            <contents name="feature-overview" title="Feature overview" level="1"/>
+            <contents name="getting-started" title="Getting started" level="1"/>
+            <contents name="how-to-s" title="How-to's" level="1"/>
+            <contents name="examples" title="Examples" level="1"/>
+        </page>
+        <page name="qqem-troubleshooting.html" href="qqem-troubleshooting.html" status="active" location="qqem-troubleshooting.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/src/doc/src/reference/qqem-troubleshooting.qdoc" lineno="3" documented="true" subtype="page" title="Troubleshooting" fulltitle="Troubleshooting" subtitle=""/>
+        <page name="wiggly" href="qtquickeffectmaker-wiggly-example.html" status="active" location="wiggly.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/examples/quickeffectmaker/wiggly/doc/src/wiggly.qdoc" lineno="4" documented="true" groups="category Graphics &amp; Multimedia,quickeffectmaker-examples" subtype="example" title="Wiggly" fulltitle="Wiggly" subtitle="" brief="Demonstrates how to use an effect created with the Qt Quick Effect Maker (QQEM)">
+            <contents name="running-the-example" title="Running the Example" level="1"/>
+            <contents name="application-basics" title="Application basics" level="1"/>
+            <contents name="modifying-the-effect-in-qqem" title="Modifying the effect in QQEM" level="1"/>
+            <page name="wiggly/main.qml" href="qtquickeffectmaker-wiggly-main-qml.html" status="active" subtype="file" title="" fulltitle="main.qml Example File" subtitle="wiggly/main.qml"/>
+            <page name="wiggly/WigglyEffect/WigglyEffect.qml" href="qtquickeffectmaker-wiggly-wigglyeffect-wigglyeffect-qml.html" status="active" subtype="file" title="" fulltitle="WigglyEffect.qml Example File" subtitle="wiggly/WigglyEffect/WigglyEffect.qml"/>
+            <page name="wiggly/main.cpp" href="qtquickeffectmaker-wiggly-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="wiggly/main.cpp"/>
+            <page name="wiggly/CMakeLists.txt" href="qtquickeffectmaker-wiggly-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="wiggly/CMakeLists.txt"/>
+            <page name="wiggly/qml.qrc" href="qtquickeffectmaker-wiggly-qml-qrc.html" status="active" subtype="file" title="" fulltitle="qml.qrc Example File" subtitle="wiggly/qml.qrc"/>
+            <page name="wiggly/wiggly.pro" href="qtquickeffectmaker-wiggly-wiggly-pro.html" status="active" subtype="file" title="" fulltitle="wiggly.pro Example File" subtitle="wiggly/wiggly.pro"/>
+        </page>
+        <group name="category Graphics &amp; Multimedia" href="category-graphics-multimedia.html" status="internal" seen="false" title=""/>
+        <group name="quickeffectmaker-examples" href="quickeffectmaker-examples.html" status="active" location="qtquickeffectmaker.qdoc" filepath="/home/qt/work/qt/qt5/qtquickeffectmaker/src/doc/src/qtquickeffectmaker.qdoc" lineno="57" documented="true" seen="true" title="Qt Quick Effect Maker examples" brief="Example usage of Qt Quick Effect Maker"/>
+    </namespace>
+</INDEX>

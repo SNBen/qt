@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt Qml Models Reference Documentation" version="6.5.3" project="QtQmlModels">
+    <namespace name="" status="active" access="public" module="qtqmlmodels">
+        <qmlclass name="DelegateChoice" qml-module-name="Qt.labs.qmlmodels" fullname="Qt.labs.qmlmodels.DelegateChoice" href="qml-qt-labs-qmlmodels-delegatechoice.html" status="active" access="public" documented="true" title="DelegateChoice" fulltitle="DelegateChoice" subtitle="" brief="Encapsulates a delegate and when to use it">
+            <qmlproperty name="column" fullname="Qt.labs.qmlmodels.DelegateChoice.column" href="qml-qt-labs-qmlmodels-delegatechoice.html#column-prop" status="active" access="public" documented="true" type="int" attached="false" writable="true"/>
+            <qmlproperty name="delegate" fullname="Qt.labs.qmlmodels.DelegateChoice.delegate" href="qml-qt-labs-qmlmodels-delegatechoice.html#delegate-prop" status="active" access="public" documented="true" type="Component" attached="false" writable="true"/>
+            <qmlproperty name="index" fullname="Qt.labs.qmlmodels.DelegateChoice.index" href="qml-qt-labs-qmlmodels-delegatechoice.html#index-prop" status="active" access="public" documented="true" type="int" attached="false" writable="true"/>
+            <qmlproperty name="roleValue" fullname="Qt.labs.qmlmodels.DelegateChoice.roleValue" href="qml-qt-labs-qmlmodels-delegatechoice.html#roleValue-prop" status="active" access="public" documented="true" type="variant" attached="false" writable="true"/>
+            <qmlproperty name="row" fullname="Qt.labs.qmlmodels.DelegateChoice.row" href="qml-qt-labs-qmlmodels-delegatechoice.html#row-prop" status="active" access="public" documented="true" type="int" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="DelegateChooser" qml-module-name="Qt.labs.qmlmodels" fullname="Qt.labs.qmlmodels.DelegateChooser" href="qml-qt-labs-qmlmodels-delegatechooser.html" status="active" access="public" documented="true" title="DelegateChooser" fulltitle="DelegateChooser" subtitle="" brief="Allows a view to use different delegates for different types of items in the model">
+            <qmlproperty name="choices" fullname="Qt.labs.qmlmodels.DelegateChooser.choices" href="qml-qt-labs-qmlmodels-delegatechooser.html#choices-prop" status="active" access="public" documented="true" type="list&lt;DelegateChoice&gt;" attached="false" writable="true"/>
+            <qmlproperty name="role" fullname="Qt.labs.qmlmodels.DelegateChooser.role" href="qml-qt-labs-qmlmodels-delegatechooser.html#role-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="DelegateModel" qml-module-name="QtQml.Models" fullname="QtQml.Models.DelegateModel" href="qml-qtqml-models-delegatemodel.html" status="active" access="public" documented="true" title="DelegateModel" fulltitle="DelegateModel" subtitle="" brief="Encapsulates a model and delegate">
+            <function name="modelIndex" fullname="QtQml.Models.DelegateModel.modelIndex" href="qml-qtqml-models-delegatemodel.html#modelIndex-method" status="active" access="public" documented="true" meta="qmlmethod" type="QModelIndex">
+                <parameter type="int" name="index" default=""/>
+            </function>
+            <function name="parentModelIndex" fullname="QtQml.Models.DelegateModel.parentModelIndex" href="qml-qtqml-models-delegatemodel.html#parentModelIndex-method" status="active" access="public" documented="true" meta="qmlmethod" type="QModelIndex"/>
+            <qmlproperty name="count" fullname="QtQml.Models.DelegateModel.count" href="qml-qtqml-models-delegatemodel.html#count-prop" status="active" access="public" documented="true" type="int" attached="false" writable="true"/>
+            <qmlproperty name="delegate" fullname="QtQml.Models.DelegateModel.delegate" href="qml-qtqml-models-delegatemodel.html#delegate-prop" status="active" access="public" documented="true" type="Component" attached="false" writable="true"/>
+            <qmlproperty name="filterOnGroup" fullname="QtQml.Models.DelegateModel.filterOnGroup" href="qml-qtqml-models-delegatemodel.html#filterOnGroup-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="groups" fullname="QtQml.Models.DelegateModel.groups" href="qml-qtqml-models-delegatemodel.html#groups-attached-prop" status="active" access="public" documented="true" type="stringlist" attached="true" writable="true"/>
+            <qmlproperty name="groups" fullname="QtQml.Models.DelegateModel.groups" href="qml-qtqml-models-delegatemodel.html#groups-prop" status="active" access="public" documented="true" type="list&lt;DelegateModelGroup&gt;" attached="false" writable="true">
+                <keyword name="dm-groups-property"/>
+            </qmlproperty>
+            <qmlproperty name="inItems" fullname="QtQml.Models.DelegateModel.inItems" href="qml-qtqml-models-delegatemodel.html#inItems-attached-prop" status="active" access="public" documented="true" type="bool" attached="true" writable="true"/>
+            <qmlproperty name="inPersistedItems" fullname="QtQml.Models.DelegateModel.inPersistedItems" href="qml-qtqml-models-delegatemodel.html#inPersistedItems-attached-prop" status="active" access="public" documented="true" type="bool" attached="true" writable="true"/>
+            <qmlproperty name="isUnresolved" fullname="QtQml.Models.DelegateModel.isUnresolved" href="qml-qtqml-models-delegatemodel.html#isUnresolved-attached-prop" status="active" access="public" documented="true" type="bool" attached="true" writable="true"/>
+            <qmlproperty name="items" fullname="QtQml.Models.DelegateModel.items" href="qml-qtqml-models-delegatemodel.html#items-prop" status="active" access="public" documented="true" type="DelegateModelGroup" attached="false" writable="true"/>
+            <qmlproperty name="itemsIndex" fullname="QtQml.Models.DelegateModel.itemsIndex" href="qml-qtqml-models-delegatemodel.html#itemsIndex-attached-prop" status="active" access="public" documented="true" type="int" attached="true" writable="true"/>
+            <qmlproperty name="model" fullname="QtQml.Models.DelegateModel.model" href="qml-qtqml-models-delegatemodel.html#model-attached-prop" status="active" access="public" documented="true" type="model" attached="true" writable="true"/>
+            <qmlproperty name="model" fullname="QtQml.Models.DelegateModel.model" href="qml-qtqml-models-delegatemodel.html#model-prop" status="active" access="public" documented="true" type="model" attached="false" writable="true">
+                <keyword name="dm-model-property"/>
+            </qmlproperty>
+            <qmlproperty name="parts" fullname="QtQml.Models.DelegateModel.parts" href="qml-qtqml-models-delegatemodel.html#parts-prop" status="active" access="public" documented="true" type="object" attached="false" writable="true"/>
+            <qmlproperty name="persistedItems" fullname="QtQml.Models.DelegateModel.persistedItems" href="qml-qtqml-models-delegatemodel.html#persistedItems-prop" status="active" access="public" documented="true" type="DelegateModelGroup" attached="false" writable="true"/>
+            <qmlproperty name="persistedItemsIndex" fullname="QtQml.Models.DelegateModel.persistedItemsIndex" href="qml-qtqml-models-delegatemodel.html#persistedItemsIndex-attached-prop" status="active" access="public" documented="true" type="int" attached="true" writable="true"/>
+            <qmlproperty name="rootIndex" fullname="QtQml.Models.DelegateModel.rootIndex" href="qml-qtqml-models-delegatemodel.html#rootIndex-prop" status="active" access="public" documented="true" type="QModelIndex" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="DelegateModelGroup" qml-module-name="QtQml.Models" fullname="QtQml.Models.DelegateModelGroup" href="qml-qtqml-models-delegatemodelgroup.html" status="active" access="public" documented="true" groups="qtquick-models" title="DelegateModelGroup" fulltitle="DelegateModelGroup" subtitle="" brief="Encapsulates a filtered set of visual data items">
+            <function name="addGroups" fullname="QtQml.Models.DelegateModelGroup.addGroups" href="qml-qtqml-models-delegatemodelgroup.html#addGroups-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="int" name="count" default=""/>
+                <parameter type="stringlist" name="groups" default=""/>
+            </function>
+            <function name="changed" fullname="QtQml.Models.DelegateModelGroup.changed" href="qml-qtqml-models-delegatemodelgroup.html#changed-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="array" name="removed" default=""/>
+                <parameter type="array" name="inserted" default=""/>
+            </function>
+            <function name="create" fullname="QtQml.Models.DelegateModelGroup.create" href="qml-qtqml-models-delegatemodelgroup.html#create-method" status="active" access="public" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+            </function>
+            <function name="create" fullname="QtQml.Models.DelegateModelGroup.create" href="qml-qtqml-models-delegatemodelgroup.html#create-method" status="active" access="public" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="jsdict" name="data" default=""/>
+                <parameter type="array" name="groups" default="undefined"/>
+            </function>
+            <function name="create" fullname="QtQml.Models.DelegateModelGroup.create" href="qml-qtqml-models-delegatemodelgroup.html#create-method" status="active" access="public" meta="qmlmethod" type="">
+                <parameter type="jsdict" name="data" default=""/>
+                <parameter type="array" name="groups" default="undefined"/>
+            </function>
+            <function name="get" fullname="QtQml.Models.DelegateModelGroup.get" href="qml-qtqml-models-delegatemodelgroup.html#get-method" status="active" access="public" documented="true" meta="qmlmethod" type="object">
+                <parameter type="int" name="index" default=""/>
+            </function>
+            <function name="insert" fullname="QtQml.Models.DelegateModelGroup.insert" href="qml-qtqml-models-delegatemodelgroup.html#insert-method" status="active" access="public" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="jsdict" name="data" default=""/>
+                <parameter type="array" name="groups" default="undefined"/>
+            </function>
+            <function name="insert" fullname="QtQml.Models.DelegateModelGroup.insert" href="qml-qtqml-models-delegatemodelgroup.html#insert-method" status="active" access="public" meta="qmlmethod" type="">
+                <parameter type="jsdict" name="data" default=""/>
+                <parameter type="var" name="groups" default="undefined"/>
+            </function>
+            <function name="move" fullname="QtQml.Models.DelegateModelGroup.move" href="qml-qtqml-models-delegatemodelgroup.html#move-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="var" name="from" default=""/>
+                <parameter type="var" name="to" default=""/>
+                <parameter type="int" name="count" default=""/>
+            </function>
+            <function name="remove" fullname="QtQml.Models.DelegateModelGroup.remove" href="qml-qtqml-models-delegatemodelgroup.html#remove-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="int" name="count" default=""/>
+            </function>
+            <function name="removeGroups" fullname="QtQml.Models.DelegateModelGroup.removeGroups" href="qml-qtqml-models-delegatemodelgroup.html#removeGroups-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="int" name="count" default=""/>
+                <parameter type="stringlist" name="groups" default=""/>
+            </function>
+            <function name="resolve" fullname="QtQml.Models.DelegateModelGroup.resolve" href="qml-qtqml-models-delegatemodelgroup.html#resolve-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="from" default=""/>
+                <parameter type="int" name="to" default=""/>
+            </function>
+            <function name="setGroups" fullname="QtQml.Models.DelegateModelGroup.setGroups" href="qml-qtqml-models-delegatemodelgroup.html#setGroups-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="int" name="count" default=""/>
+                <parameter type="stringlist" name="groups" default=""/>
+            </function>
+            <qmlproperty name="count" fullname="QtQml.Models.DelegateModelGroup.count" href="qml-qtqml-models-delegatemodelgroup.html#count-prop" status="active" access="public" documented="true" type="int" attached="false" writable="false"/>
+            <qmlproperty name="includeByDefault" fullname="QtQml.Models.DelegateModelGroup.includeByDefault" href="qml-qtqml-models-delegatemodelgroup.html#includeByDefault-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="name" fullname="QtQml.Models.DelegateModelGroup.name" href="qml-qtqml-models-delegatemodelgroup.html#name-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="Instantiator" qml-module-name="QtQml.Models" fullname="QtQml.Models.Instantiator" href="qml-qtqml-models-instantiator.html" status="active" access="public" documented="true" groups="qtquick-models" title="Instantiator" fulltitle="Instantiator" subtitle="" brief="Dynamically creates objects">
+            <function name="objectAdded" fullname="QtQml.Models.Instantiator.objectAdded" href="qml-qtqml-models-instantiator.html#objectAdded-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="QtObject" name="object" default=""/>
+            </function>
+            <function name="objectAt" fullname="QtQml.Models.Instantiator.objectAt" href="qml-qtqml-models-instantiator.html#objectAt-method" status="active" access="public" documented="true" meta="qmlmethod" type="QtObject">
+                <parameter type="int" name="index" default=""/>
+            </function>
+            <function name="objectRemoved" fullname="QtQml.Models.Instantiator.objectRemoved" href="qml-qtqml-models-instantiator.html#objectRemoved-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="QtObject" name="object" default=""/>
+            </function>
+            <qmlproperty name="active" fullname="QtQml.Models.Instantiator.active" href="qml-qtqml-models-instantiator.html#active-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="asynchronous" fullname="QtQml.Models.Instantiator.asynchronous" href="qml-qtqml-models-instantiator.html#asynchronous-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="count" fullname="QtQml.Models.Instantiator.count" href="qml-qtqml-models-instantiator.html#count-prop" status="active" access="public" documented="true" type="int" attached="false" writable="false"/>
+            <qmlproperty name="delegate" fullname="QtQml.Models.Instantiator.delegate" href="qml-qtqml-models-instantiator.html#delegate-prop" status="active" access="public" documented="true" type="QtQml::Component" attached="false" writable="true"/>
+            <qmlproperty name="model" fullname="QtQml.Models.Instantiator.model" href="qml-qtqml-models-instantiator.html#model-prop" status="active" access="public" documented="true" type="variant" attached="false" writable="true"/>
+            <qmlproperty name="object" fullname="QtQml.Models.Instantiator.object" href="qml-qtqml-models-instantiator.html#object-prop" status="active" access="public" documented="true" type="QtObject" attached="false" writable="false"/>
+        </qmlclass>
+        <qmlclass name="ItemSelectionModel" qml-module-name="QtQml.Models" fullname="QtQml.Models.ItemSelectionModel" href="qml-qtqml-models-itemselectionmodel.html" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="4" documented="true" groups="qtquick-models" title="ItemSelectionModel" fulltitle="ItemSelectionModel" subtitle="" brief="Instantiates a QItemSelectionModel to be used in conjunction with a QAbstractItemModel and any view supporting it">
+            <function name="clear" fullname="QtQml.Models.ItemSelectionModel.clear" href="qml-qtqml-models-itemselectionmodel.html#clear-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="168" documented="true" meta="qmlmethod" type="void"/>
+            <function name="clearCurrentIndex" fullname="QtQml.Models.ItemSelectionModel.clearCurrentIndex" href="qml-qtqml-models-itemselectionmodel.html#clearCurrentIndex-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="186" documented="true" meta="qmlmethod" type="void"/>
+            <function name="clearSelection" fullname="QtQml.Models.ItemSelectionModel.clearSelection" href="qml-qtqml-models-itemselectionmodel.html#clearSelection-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="180" documented="true" meta="qmlmethod" type="void"/>
+            <function name="columnIntersectsSelection" fullname="QtQml.Models.ItemSelectionModel.columnIntersectsSelection" href="qml-qtqml-models-itemselectionmodel.html#columnIntersectsSelection-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="83" documented="true" meta="qmlmethod" type="bool">
+                <parameter type="int" name="column" default=""/>
+                <parameter type="QModelIndex" name="parent" default=""/>
+            </function>
+            <function name="currentChanged" fullname="QtQml.Models.ItemSelectionModel.currentChanged" href="qml-qtqml-models-itemselectionmodel.html#currentChanged-signal" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="205" documented="true" meta="qmlsignal" type="">
+                <parameter type="QModelIndex" name="current" default=""/>
+                <parameter type="QModelIndex" name="previous" default=""/>
+            </function>
+            <function name="isColumnSelected" fullname="QtQml.Models.ItemSelectionModel.isColumnSelected" href="qml-qtqml-models-itemselectionmodel.html#isColumnSelected-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="66" documented="true" meta="qmlmethod" type="bool">
+                <parameter type="int" name="column" default=""/>
+                <parameter type="QModelIndex" name="parent" default=""/>
+            </function>
+            <function name="isRowSelected" fullname="QtQml.Models.ItemSelectionModel.isRowSelected" href="qml-qtqml-models-itemselectionmodel.html#isRowSelected-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="56" documented="true" meta="qmlmethod" type="bool">
+                <parameter type="int" name="row" default=""/>
+                <parameter type="QModelIndex" name="parent" default=""/>
+            </function>
+            <function name="isSelected" fullname="QtQml.Models.ItemSelectionModel.isSelected" href="qml-qtqml-models-itemselectionmodel.html#isSelected-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="50" documented="true" meta="qmlmethod" type="bool">
+                <parameter type="QModelIndex" name="index" default=""/>
+            </function>
+            <function name="reset" fullname="QtQml.Models.ItemSelectionModel.reset" href="qml-qtqml-models-itemselectionmodel.html#reset-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="174" documented="true" meta="qmlmethod" type="void"/>
+            <function name="rowIntersectsSelection" fullname="QtQml.Models.ItemSelectionModel.rowIntersectsSelection" href="qml-qtqml-models-itemselectionmodel.html#rowIntersectsSelection-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="76" documented="true" meta="qmlmethod" type="bool">
+                <parameter type="int" name="row" default=""/>
+                <parameter type="QModelIndex" name="parent" default=""/>
+            </function>
+            <function name="select" fullname="QtQml.Models.ItemSelectionModel.select" href="qml-qtqml-models-itemselectionmodel.html#select-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="132" documented="true" meta="qmlmethod" type="void">
+                <parameter type="QModelIndex" name="index" default=""/>
+                <parameter type="SelectionFlags" name="command" default=""/>
+            </function>
+            <function name="select" fullname="QtQml.Models.ItemSelectionModel.select" href="qml-qtqml-models-itemselectionmodel.html#select-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="158" documented="true" meta="qmlmethod" type="void">
+                <parameter type="QItemSelection" name="selection" default=""/>
+                <parameter type="SelectionFlags" name="command" default=""/>
+            </function>
+            <function name="selectedColumns" fullname="QtQml.Models.ItemSelectionModel.selectedColumns" href="qml-qtqml-models-itemselectionmodel.html#selectedColumns-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="99" documented="true" meta="qmlmethod" type="QModelIndexList">
+                <parameter type="int" name="row" default=""/>
+            </function>
+            <function name="selectedRows" fullname="QtQml.Models.ItemSelectionModel.selectedRows" href="qml-qtqml-models-itemselectionmodel.html#selectedRows-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="90" documented="true" meta="qmlmethod" type="QModelIndexList">
+                <parameter type="int" name="column" default=""/>
+            </function>
+            <function name="selectionChanged" fullname="QtQml.Models.ItemSelectionModel.selectionChanged" href="qml-qtqml-models-itemselectionmodel.html#selectionChanged-signal" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="192" documented="true" meta="qmlsignal" type="">
+                <parameter type="QItemSelection" name="selected" default=""/>
+                <parameter type="QItemSelection" name="deselected" default=""/>
+            </function>
+            <function name="setCurrentIndex" fullname="QtQml.Models.ItemSelectionModel.setCurrentIndex" href="qml-qtqml-models-itemselectionmodel.html#setCurrentIndex-method" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="115" documented="true" meta="qmlmethod" type="void">
+                <parameter type="QModelIndex" name="index" default=""/>
+                <parameter type="SelectionFlags" name="command" default=""/>
+            </function>
+            <qmlproperty name="currentIndex" fullname="QtQml.Models.ItemSelectionModel.currentIndex" href="qml-qtqml-models-itemselectionmodel.html#currentIndex-prop" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="34" documented="true" type="QModelIndex" attached="false" writable="false"/>
+            <qmlproperty name="hasSelection" fullname="QtQml.Models.ItemSelectionModel.hasSelection" href="qml-qtqml-models-itemselectionmodel.html#hasSelection-prop" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="24" documented="true" type="bool" attached="false" writable="false"/>
+            <qmlproperty name="model" fullname="QtQml.Models.ItemSelectionModel.model" href="qml-qtqml-models-itemselectionmodel.html#model-prop" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="18" documented="true" type="QAbstractItemModel" attached="false" writable="true"/>
+            <qmlproperty name="selectedIndexes" fullname="QtQml.Models.ItemSelectionModel.selectedIndexes" href="qml-qtqml-models-itemselectionmodel.html#selectedIndexes-prop" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="43" documented="true" type="QModelIndexList" attached="false" writable="false"/>
+            <qmlproperty name="selection" fullname="QtQml.Models.ItemSelectionModel.selection" href="qml-qtqml-models-itemselectionmodel.html#selection-prop" status="active" access="public" location="qqmlitemselectionmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemselectionmodel.qdoc" lineno="108" documented="true" type="object" attached="false" writable="false"/>
+        </qmlclass>
+        <qmlclass name="ListElement" qml-module-name="QtQml.Models" fullname="QtQml.Models.ListElement" href="qml-qtqml-models-listelement.html" status="active" access="public" documented="true" groups="qtquick-models" title="ListElement" fulltitle="ListElement" subtitle="" brief="Defines a data item in a ListModel">
+            <contents name="referencing-roles" title="Referencing Roles" level="1"/>
+            <contents name="example-usage" title="Example Usage" level="1"/>
+        </qmlclass>
+        <qmlclass name="ListModel" qml-module-name="QtQml.Models" fullname="QtQml.Models.ListModel" href="qml-qtqml-models-listmodel.html" status="active" access="public" documented="true" groups="qtquick-models" title="ListModel" fulltitle="ListModel" subtitle="" brief="Defines a free-form list data source">
+            <contents name="example-usage" title="Example Usage" level="1"/>
+            <contents name="modifying-list-models" title="Modifying List Models" level="1"/>
+            <contents name="using-threaded-list-models-with-workerscript" title="Using Threaded List Models with WorkerScript" level="1"/>
+            <function name="append" fullname="QtQml.Models.ListModel.append" href="qml-qtqml-models-listmodel.html#append-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="jsobject" name="dict" default=""/>
+            </function>
+            <function name="clear" fullname="QtQml.Models.ListModel.clear" href="qml-qtqml-models-listmodel.html#clear-method" status="active" access="public" documented="true" meta="qmlmethod" type=""/>
+            <function name="get" fullname="QtQml.Models.ListModel.get" href="qml-qtqml-models-listmodel.html#get-method" status="active" access="public" documented="true" meta="qmlmethod" type="object">
+                <parameter type="int" name="index" default=""/>
+            </function>
+            <function name="insert" fullname="QtQml.Models.ListModel.insert" href="qml-qtqml-models-listmodel.html#insert-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="jsobject" name="dict" default=""/>
+            </function>
+            <function name="move" fullname="QtQml.Models.ListModel.move" href="qml-qtqml-models-listmodel.html#move-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="from" default=""/>
+                <parameter type="int" name="to" default=""/>
+                <parameter type="int" name="n" default=""/>
+            </function>
+            <function name="remove" fullname="QtQml.Models.ListModel.remove" href="qml-qtqml-models-listmodel.html#remove-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="int" name="count" default="1"/>
+            </function>
+            <function name="set" fullname="QtQml.Models.ListModel.set" href="qml-qtqml-models-listmodel.html#set-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="jsobject" name="dict" default=""/>
+            </function>
+            <function name="setProperty" fullname="QtQml.Models.ListModel.setProperty" href="qml-qtqml-models-listmodel.html#setProperty-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="string" name="property" default=""/>
+                <parameter type="variant" name="value" default=""/>
+            </function>
+            <function name="sync" fullname="QtQml.Models.ListModel.sync" href="qml-qtqml-models-listmodel.html#sync-method" status="active" access="public" documented="true" meta="qmlmethod" type=""/>
+            <qmlproperty name="count" fullname="QtQml.Models.ListModel.count" href="qml-qtqml-models-listmodel.html#count-prop" status="active" access="public" documented="true" type="int" attached="false" writable="false"/>
+            <qmlproperty name="dynamicRoles" fullname="QtQml.Models.ListModel.dynamicRoles" href="qml-qtqml-models-listmodel.html#dynamicRoles-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="ObjectModel" qml-module-name="QtQml.Models" fullname="QtQml.Models.ObjectModel" href="qml-qtqml-models-objectmodel.html" status="active" access="public" documented="true" groups="qtquick-models" title="ObjectModel" fulltitle="ObjectModel" subtitle="" brief="Defines a set of items to be used as a model">
+            <function name="append" fullname="QtQml.Models.ObjectModel.append" href="qml-qtqml-models-objectmodel.html#append-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="object" name="item" default=""/>
+            </function>
+            <function name="clear" fullname="QtQml.Models.ObjectModel.clear" href="qml-qtqml-models-objectmodel.html#clear-method" status="active" access="public" documented="true" meta="qmlmethod" type=""/>
+            <function name="get" fullname="QtQml.Models.ObjectModel.get" href="qml-qtqml-models-objectmodel.html#get-method" status="active" access="public" documented="true" meta="qmlmethod" type="object">
+                <parameter type="int" name="index" default=""/>
+            </function>
+            <function name="insert" fullname="QtQml.Models.ObjectModel.insert" href="qml-qtqml-models-objectmodel.html#insert-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="object" name="item" default=""/>
+            </function>
+            <function name="move" fullname="QtQml.Models.ObjectModel.move" href="qml-qtqml-models-objectmodel.html#move-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="from" default=""/>
+                <parameter type="int" name="to" default=""/>
+                <parameter type="int" name="n" default="1"/>
+            </function>
+            <function name="remove" fullname="QtQml.Models.ObjectModel.remove" href="qml-qtqml-models-objectmodel.html#remove-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="index" default=""/>
+                <parameter type="int" name="n" default="1"/>
+            </function>
+            <qmlproperty name="count" fullname="QtQml.Models.ObjectModel.count" href="qml-qtqml-models-objectmodel.html#count-prop" status="active" access="public" documented="true" type="int" attached="false" writable="false"/>
+            <qmlproperty name="index" fullname="QtQml.Models.ObjectModel.index" href="qml-qtqml-models-objectmodel.html#index-attached-prop" status="active" access="public" documented="true" type="int" attached="true" writable="true"/>
+        </qmlclass>
+        <qmlclass name="Package" qml-module-name="QtQml.Models" fullname="QtQml.Models.Package" href="qml-qtqml-models-package.html" status="active" access="public" documented="true" groups="qtquick-models" title="Package" fulltitle="Package" subtitle="" brief="Specifies a collection of named items">
+            <qmlproperty name="name" fullname="QtQml.Models.Package.name" href="qml-qtqml-models-package.html#name-attached-prop" status="active" access="public" documented="true" type="string" attached="true" writable="true"/>
+        </qmlclass>
+        <page name="qmodelindex-and-related-classes-in-qml.html" href="qmodelindex-and-related-classes-in-qml.html" status="active" location="qqmlitemmodels.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/qqmlitemmodels.qdoc" lineno="4" documented="true" subtype="page" title="QModelIndex and related Classes in QML" fulltitle="QModelIndex and related Classes in QML" subtitle="">
+            <contents name="qmodelindex-and-qpersistentmodelindex-types" title="QModelIndex and QPersistentModelIndex Types" level="1"/>
+            <contents name="qmodelindexlist-type" title="QModelIndexList Type" level="1"/>
+            <contents name="qitemselectionrange-type" title="QItemSelectionRange Type" level="1"/>
+            <contents name="qitemselection-type" title="QItemSelection Type" level="1"/>
+        </page>
+        <qmlclass name="TableModel" qml-module-name="Qt.labs.qmlmodels" fullname="Qt.labs.qmlmodels.TableModel" href="qml-qt-labs-qmlmodels-tablemodel.html" status="active" access="public" documented="true" title="TableModel" fulltitle="TableModel" subtitle="" brief="Encapsulates a simple table model">
+            <contents name="supported-row-data-structures" title="Supported Row Data Structures" level="1"/>
+            <contents name="using-delegatechooser-with-tablemodel" title="Using DelegateChooser with TableModel" level="1"/>
+            <function name="appendRow" fullname="Qt.labs.qmlmodels.TableModel.appendRow" href="qml-qt-labs-qmlmodels-tablemodel.html#appendRow-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="object" name="row" default=""/>
+            </function>
+            <function name="clear" fullname="Qt.labs.qmlmodels.TableModel.clear" href="qml-qt-labs-qmlmodels-tablemodel.html#clear-method" status="active" access="public" documented="true" meta="qmlmethod" type=""/>
+            <function name="data" fullname="Qt.labs.qmlmodels.TableModel.data" href="qml-qt-labs-qmlmodels-tablemodel.html#data-method" status="active" access="public" documented="true" meta="qmlmethod" type="variant">
+                <parameter type="QModelIndex" name="index" default=""/>
+                <parameter type="string" name="role" default=""/>
+            </function>
+            <function name="getRow" fullname="Qt.labs.qmlmodels.TableModel.getRow" href="qml-qt-labs-qmlmodels-tablemodel.html#getRow-method" status="active" access="public" documented="true" meta="qmlmethod" type="object">
+                <parameter type="int" name="rowIndex" default=""/>
+            </function>
+            <function name="index" fullname="Qt.labs.qmlmodels.TableModel.index" href="qml-qt-labs-qmlmodels-tablemodel.html#index-method" status="active" access="public" documented="true" meta="qmlmethod" type="QModelIndex">
+                <parameter type="int" name="row" default=""/>
+                <parameter type="int" name="column" default=""/>
+            </function>
+            <function name="insertRow" fullname="Qt.labs.qmlmodels.TableModel.insertRow" href="qml-qt-labs-qmlmodels-tablemodel.html#insertRow-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="rowIndex" default=""/>
+                <parameter type="object" name="row" default=""/>
+            </function>
+            <function name="moveRow" fullname="Qt.labs.qmlmodels.TableModel.moveRow" href="qml-qt-labs-qmlmodels-tablemodel.html#moveRow-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="fromRowIndex" default=""/>
+                <parameter type="int" name="toRowIndex" default=""/>
+                <parameter type="int" name="rows" default=""/>
+            </function>
+            <function name="removeRow" fullname="Qt.labs.qmlmodels.TableModel.removeRow" href="qml-qt-labs-qmlmodels-tablemodel.html#removeRow-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="rowIndex" default=""/>
+                <parameter type="int" name="rows" default="1"/>
+            </function>
+            <function name="setData" fullname="Qt.labs.qmlmodels.TableModel.setData" href="qml-qt-labs-qmlmodels-tablemodel.html#setData-method" status="active" access="public" documented="true" meta="qmlmethod" type="bool">
+                <parameter type="QModelIndex" name="index" default=""/>
+                <parameter type="string" name="role" default=""/>
+                <parameter type="variant" name="value" default=""/>
+            </function>
+            <function name="setRow" fullname="Qt.labs.qmlmodels.TableModel.setRow" href="qml-qt-labs-qmlmodels-tablemodel.html#setRow-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="int" name="rowIndex" default=""/>
+                <parameter type="object" name="row" default=""/>
+            </function>
+            <qmlproperty name="columnCount" fullname="Qt.labs.qmlmodels.TableModel.columnCount" href="qml-qt-labs-qmlmodels-tablemodel.html#columnCount-prop" status="active" access="public" documented="true" type="int" attached="false" writable="false"/>
+            <qmlproperty name="rowCount" fullname="Qt.labs.qmlmodels.TableModel.rowCount" href="qml-qt-labs-qmlmodels-tablemodel.html#rowCount-prop" status="active" access="public" documented="true" type="int" attached="false" writable="false"/>
+            <qmlproperty name="rows" fullname="Qt.labs.qmlmodels.TableModel.rows" href="qml-qt-labs-qmlmodels-tablemodel.html#rows-prop" status="active" access="public" documented="true" type="object" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="TableModelColumn" qml-module-name="Qt.labs.qmlmodels" fullname="Qt.labs.qmlmodels.TableModelColumn" href="qml-qt-labs-qmlmodels-tablemodelcolumn.html" status="active" access="public" documented="true" title="TableModelColumn" fulltitle="TableModelColumn" subtitle="" brief="Represents a column in a model">
+            <contents name="supported-roles" title="Supported Roles" level="1"/>
+        </qmlclass>
+        <group name="qmlmodules" href="qmlmodules.html" status="internal" seen="false" title=""/>
+        <group name="qtquick-models" href="qtquick-models.html" status="internal" seen="false" title=""/>
+        <qmlmodule name="Qt.labs.qmlmodels" qml-module-name="Qt.labs.qmlmodels" href="qt-labs-qmlmodels-qmlmodule.html" status="active" location="qmllabsmodels.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/labs/models/doc/src/qmllabsmodels.qdoc" lineno="4" documented="true" groups="qmlmodules" seen="true" title="Qt QML Models experimental QML Types" brief="Provides QML experimental types for data models"/>
+        <qmlmodule name="QtQml.Models" qml-module-name="QtQml.Models" href="qtqml-models-qmlmodule.html" status="active" location="qtqmlmodel.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlmodels/doc/src/qtqmlmodel.qdoc" lineno="4" documented="true" groups="qmlmodules" seen="true" title="Qt QML Models QML Types" brief="Provides QML types for data models">
+            <contents name="qml-types" title="QML Types" level="1"/>
+            <contents name="experimental-qml-types" title="Experimental QML Types" level="1"/>
+        </qmlmodule>
+    </namespace>
+</INDEX>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Integrating Qt with the native platform" version="6.5.3" project="QtPlatformIntegration" indexTitle="Platform Integration">
+    <namespace name="" status="active" access="public" module="qtplatformintegration">
+        <page name="platform-integration.html" href="platform-integration.html" status="active" location="platformintegration.qdoc" filepath="/home/qt/work/qt/qt5/qtdoc/doc/src/platformintegration/platformintegration.qdoc" lineno="4" documented="true" groups="explanations-platforms" subtype="page" title="Platform Integration" fulltitle="Platform Integration" subtitle="" brief="Integrating Qt with the native platform">
+            <contents name="type-conversions" title="Type Conversions" level="1"/>
+            <contents name="window-embedding" title="Window Embedding" level="1"/>
+            <contents name="event-handling" title="Event Handling" level="1"/>
+            <contents name="native-interfaces" title="Native Interfaces" level="1"/>
+            <contents name="platform-support" title="Platform Support" level="1"/>
+        </page>
+        <namespace name="QNativeInterface" href="qnativeinterface.html" status="active" access="public" location="platformintegration.h" filepath="/home/qt/work/qt/qt5/qtdoc/doc/src/platformintegration/platformintegration.h" lineno="2" since="6.0" documented="true" module="QtPlatformIntegration" brief="Contains the available native interfaces"/>
+        <page name="qpa.html" href="qpa.html" status="active" location="qpa.qdoc" filepath="/home/qt/work/qt/qt5/qtdoc/doc/src/platformintegration/qpa.qdoc" lineno="4" documented="true" subtype="page" title="Qt Platform Abstraction" fulltitle="Qt Platform Abstraction" subtitle="">
+            <contents name="api-overview" title="API Overview" level="1"/>
+            <contents name="qpa-plugins" title="QPA Plugins" level="1"/>
+            <contents name="selecting-a-qpa-plugin" title="Selecting a QPA plugin" level="2"/>
+            <contents name="writing-a-qpa-plugin" title="Writing a QPA plugin" level="2"/>
+        </page>
+        <group name="explanations-platforms" href="explanations-platforms.html" status="internal" seen="false" title=""/>
+        <group name="native-interfaces" href="native-interfaces.html" status="active" location="platformintegration.qdoc" filepath="/home/qt/work/qt/qt5/qtdoc/doc/src/platformintegration/platformintegration.qdoc" lineno="108" documented="true" seen="true" title="Native Interfaces">
+            <contents name="example-usage" title="Example Usage" level="1"/>
+            <contents name="accessing-underlying-native-handles" title="Accessing underlying native handles" level="2"/>
+            <contents name="adopting-existing-native-handles" title="Adopting existing native handles" level="2"/>
+            <contents name="accessing-platform-specific-apis" title="Accessing platform specific APIs" level="2"/>
+            <contents name="source-and-binary-compatibility" title="Source and Binary Compatibility" level="1"/>
+            <contents name="available-interfaces" title="Available Interfaces" level="1"/>
+            <contents name="qopenglcontext" title="QOpenGLContext" level="2"/>
+            <contents name="qoffscreensurface" title="QOffscreenSurface" level="2"/>
+            <contents name="qsgtexture" title="QSGTexture" level="2"/>
+        </group>
+        <group name="platform-type-conversions" href="platform-type-conversions.html" status="active" location="platformintegration.qdoc" filepath="/home/qt/work/qt/qt5/qtdoc/doc/src/platformintegration/platformintegration.qdoc" lineno="99" documented="true" seen="true" title="Type Conversions"/>
+        <module name="QtPlatformIntegration" href="qtplatformintegration-module.html" status="internal" seen="false" title=""/>
+    </namespace>
+</INDEX>

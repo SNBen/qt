@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt Shader Tools Reference Documentation" version="6.5.3" project="QtShaderTools" indexTitle="Shader Tools">
+    <namespace name="" status="active" access="public" module="qtshadertools">
+        <page name="qtshadertools-qsb.html" href="qtshadertools-qsb.html" status="active" location="qtshadertools-qsb.qdoc" filepath="/home/qt/work/qt/qt5/qtshadertools/src/shadertools/doc/src/qtshadertools-qsb.qdoc" lineno="4" documented="true" subtype="page" title="QSB Manual" fulltitle="QSB Manual" subtitle="">
+            <contents name="modes-of-operation" title="Modes of Operation" level="1"/>
+            <contents name="example" title="Example" level="1"/>
+            <contents name="shader-types" title="Shader Types" level="1"/>
+            <contents name="shading-languages-and-versions" title="Shading Languages and Versions" level="1"/>
+            <contents name="qt-quick-scene-graph-batching" title="Qt Quick Scene Graph Batching" level="1"/>
+            <contents name="invoking-external-tools" title="Invoking External Tools" level="1"/>
+            <contents name="other-options" title="Other Options" level="1"/>
+            <contents name="tessellation" title="Tessellation" level="1"/>
+            <contents name="working-with-glsl-features-specific-to-opengl" title="Working with GLSL Features Specific to OpenGL" level="1"/>
+        </page>
+        <page name="qtshadertools-index.html" href="qtshadertools-index.html" status="active" location="qtshadertools-index.qdoc" filepath="/home/qt/work/qt/qt5/qtshadertools/src/shadertools/doc/src/qtshadertools-index.qdoc" lineno="4" documented="true" subtype="page" title="Qt Shader Tools" fulltitle="Qt Shader Tools" subtitle="">
+            <contents name="articles-and-guides" title="Articles and Guides" level="1"/>
+            <contents name="licenses-and-attributions" title="Licenses and Attributions" level="1"/>
+        </page>
+        <page name="qtshadertools-build.html" href="qtshadertools-build.html" status="active" location="qtshadertools-build.qdoc" filepath="/home/qt/work/qt/qt5/qtshadertools/src/shadertools/doc/src/qtshadertools-build.qdoc" lineno="4" documented="true" groups="cmake-commands-qtshadertools" subtype="page" title="Qt Shader Tools Build System Integration" fulltitle="Qt Shader Tools Build System Integration" subtitle="" brief="Compiles shaders and adds them to a Qt resource">
+            <contents name="introduction" title="Introduction" level="1"/>
+            <contents name="first-example" title="First Example" level="1"/>
+            <contents name="configuration" title="Configuration" level="1"/>
+            <contents name="shader-type" title="Shader type" level="2"/>
+            <contents name="targets" title="Targets" level="2"/>
+            <contents name="qt-quick-specifics" title="Qt Quick specifics" level="2"/>
+            <contents name="invoking-external-tools" title="Invoking external tools" level="2"/>
+            <contents name="other-settings" title="Other settings" level="2"/>
+            <contents name="substituting-hand-crafted-shaders" title="Substituting Hand-Crafted Shaders" level="1"/>
+            <contents name="tessellation-example" title="Tessellation Example" level="2"/>
+        </page>
+        <page name="qtshadertools-overview.html" href="qtshadertools-overview.html" status="active" location="qtshadertools-overview.qdoc" filepath="/home/qt/work/qt/qt5/qtshadertools/src/shadertools/doc/src/qtshadertools-overview.qdoc" lineno="4" documented="true" groups="explanation" subtype="page" title="Qt Shader Tools Overview" fulltitle="Qt Shader Tools Overview" subtitle="" brief="Provides insight into the Qt Shader Tools module">
+            <contents name="typical-usage-with-qt-quick" title="Typical Usage with Qt Quick" level="1"/>
+            <contents name="typical-usage-with-qt-quick-3d" title="Typical Usage with Qt Quick 3D" level="1"/>
+        </page>
+        <page name="qtshadertools-attribution-SpirvCross.html" href="qtshadertools-attribution-spirvcross.html" status="active" location="codeattributions.qdoc" filepath="/home/qt/work/qt/qt5/qtshadertools/src/shadertools/codeattributions.qdoc" lineno="1055" documented="true" groups="attributions-libs,attributions-qtshadertools,attributions-qtshadertools-libs" subtype="attribution" title="SPIRV-Cross, version sdk-1.3.216.0" fulltitle="SPIRV-Cross, version sdk-1.3.216.0" subtitle="" brief="Apache License 2.0 and Khronos License">
+            <target name="spirvcross" title="SpirvCross"/>
+        </page>
+        <page name="qtshadertools-attribution-glslang.html" href="qtshadertools-attribution-glslang.html" status="active" location="codeattributions.qdoc" filepath="/home/qt/work/qt/qt5/qtshadertools/src/shadertools/codeattributions.qdoc" lineno="1" documented="true" groups="attributions-libs,attributions-qtshadertools,attributions-qtshadertools-libs" subtype="attribution" title="glslang, version 11.10.0" fulltitle="glslang, version 11.10.0" subtitle="" brief="BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License, and Khronos License, and Apache License 2.0, and GNU General Public License v3.0 or later with Bison exception 2.2, and NVIDIA 2002 License">
+            <target name="glslang"/>
+        </page>
+        <group name="attributions-libs" href="attributions-libs.html" status="internal" seen="false" title=""/>
+        <group name="attributions-qtshadertools" href="attributions-qtshadertools.html" status="internal" seen="false" title=""/>
+        <group name="attributions-qtshadertools-libs" href="attributions-qtshadertools-libs.html" status="internal" seen="false" title=""/>
+        <group name="cmake-commands-qtshadertools" href="cmake-commands-qtshadertools.html" status="internal" seen="false" title=""/>
+        <group name="explanation" href="explanation.html" status="internal" seen="false" title=""/>
+        <module name="QtShaderTools" href="qtshadertools-module.html" status="internal" seen="false" title=""/>
+    </namespace>
+</INDEX>

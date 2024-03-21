@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt Linguist Manual" version="" project="QtLinguist" indexTitle="Qt Linguist Manual">
+    <namespace name="" status="active" access="public" module="qtlinguist">
+        <page name="linguist-toc.html" href="linguist-toc.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="63" documented="true" subtype="page" title="All topics" fulltitle="All topics" subtitle=""/>
+        <page name="arrowpad" href="qtlinguist-arrowpad-example.html" status="active" location="arrowpad.qdoc" filepath="/home/qt/work/qt/qt5/qttools/examples/linguist/doc/src/arrowpad.qdoc" lineno="4" documented="true" groups="category Internationalization,examples-linguist" subtype="example" title="Arrow Pad Example" fulltitle="Arrow Pad Example" subtitle="" brief="Understanding the Qt Linguist contexts concept and using two or more languages">
+            <contents name="line-by-line-walkthrough" title="Line by Line Walkthrough" level="1"/>
+            <contents name="translating-to-french-and-dutch" title="Translating to French and Dutch" level="1"/>
+            <contents name="exercises" title="Exercises" level="1"/>
+            <page name="arrowpad/arrowpad.cpp" href="qtlinguist-arrowpad-arrowpad-cpp.html" status="active" subtype="file" title="" fulltitle="arrowpad.cpp Example File" subtitle="arrowpad/arrowpad.cpp"/>
+            <page name="arrowpad/arrowpad.h" href="qtlinguist-arrowpad-arrowpad-h.html" status="active" subtype="file" title="" fulltitle="arrowpad.h Example File" subtitle="arrowpad/arrowpad.h"/>
+            <page name="arrowpad/mainwindow.cpp" href="qtlinguist-arrowpad-mainwindow-cpp.html" status="active" subtype="file" title="" fulltitle="mainwindow.cpp Example File" subtitle="arrowpad/mainwindow.cpp"/>
+            <page name="arrowpad/mainwindow.h" href="qtlinguist-arrowpad-mainwindow-h.html" status="active" subtype="file" title="" fulltitle="mainwindow.h Example File" subtitle="arrowpad/mainwindow.h"/>
+            <page name="arrowpad/arrowpad_autogen/mocs_compilation.cpp" href="qtlinguist-arrowpad-arrowpad-autogen-mocs-compilation-cpp.html" status="active" subtype="file" title="" fulltitle="mocs_compilation.cpp Example File" subtitle="arrowpad/arrowpad_autogen/mocs_compilation.cpp"/>
+            <page name="arrowpad/main.cpp" href="qtlinguist-arrowpad-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="arrowpad/main.cpp"/>
+            <page name="arrowpad/CMakeLists.txt" href="qtlinguist-arrowpad-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="arrowpad/CMakeLists.txt"/>
+            <page name="arrowpad/arrowpad.pro" href="qtlinguist-arrowpad-arrowpad-pro.html" status="active" subtype="file" title="" fulltitle="arrowpad.pro Example File" subtitle="arrowpad/arrowpad.pro"/>
+        </page>
+        <page name="linguist-creating-ts-files.html" href="linguist-creating-ts-files.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="130" documented="true" subtype="page" title="Creating translation files" fulltitle="Creating translation files" subtitle=""/>
+        <page name="linguist-programmers.html" href="linguist-programmers.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="1176" documented="true" subtype="page" title="Developers" fulltitle="Developers" subtitle="">
+            <contents name="examples" title="Examples" level="1"/>
+        </page>
+        <page name="hellotr" href="qtlinguist-hellotr-example.html" status="active" location="hellotr.qdoc" filepath="/home/qt/work/qt/qt5/qttools/examples/linguist/doc/src/hellotr.qdoc" lineno="4" documented="true" groups="category Internationalization,examples-linguist" subtype="example" title="Hello tr() Example" fulltitle="Hello tr() Example" subtitle="" brief="Translating a small Hello World program to Latin">
+            <contents name="line-by-line-walkthrough" title="Line by Line Walkthrough" level="1"/>
+            <contents name="running-the-application-in-english" title="Running the Application in English" level="1"/>
+            <contents name="creating-a-latin-message-file" title="Creating a Latin Message File" level="1"/>
+            <contents name="translating-to-latin-with-qt-linguist" title="Translating to Latin with Qt Linguist" level="1"/>
+            <contents name="running-the-application-in-latin" title="Running the Application in Latin" level="1"/>
+            <page name="hellotr/hellotr_autogen/mocs_compilation.cpp" href="qtlinguist-hellotr-hellotr-autogen-mocs-compilation-cpp.html" status="active" subtype="file" title="" fulltitle="mocs_compilation.cpp Example File" subtitle="hellotr/hellotr_autogen/mocs_compilation.cpp"/>
+            <page name="hellotr/main.cpp" href="qtlinguist-hellotr-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="hellotr/main.cpp"/>
+            <page name="hellotr/CMakeLists.txt" href="qtlinguist-hellotr-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="hellotr/CMakeLists.txt"/>
+            <page name="hellotr/hellotr.pro" href="qtlinguist-hellotr-hellotr-pro.html" status="active" subtype="file" title="" fulltitle="hellotr.pro Example File" subtitle="hellotr/hellotr.pro"/>
+        </page>
+        <page name="i18n" href="qtlinguist-i18n-example.html" status="active" location="i18n.qdoc" filepath="/home/qt/work/qt/qt5/qttools/examples/linguist/doc/src/i18n.qdoc" lineno="4" documented="true" groups="category Internationalization,examples-linguist" subtype="example" title="I18N Example" fulltitle="I18N Example" subtitle="" brief="Demonstrates Qt's support for translated text">
+            <page name="i18n/languagechooser.cpp" href="qtlinguist-i18n-languagechooser-cpp.html" status="active" subtype="file" title="" fulltitle="languagechooser.cpp Example File" subtitle="i18n/languagechooser.cpp"/>
+            <page name="i18n/languagechooser.h" href="qtlinguist-i18n-languagechooser-h.html" status="active" subtype="file" title="" fulltitle="languagechooser.h Example File" subtitle="i18n/languagechooser.h"/>
+            <page name="i18n/mainwindow.cpp" href="qtlinguist-i18n-mainwindow-cpp.html" status="active" subtype="file" title="" fulltitle="mainwindow.cpp Example File" subtitle="i18n/mainwindow.cpp"/>
+            <page name="i18n/mainwindow.h" href="qtlinguist-i18n-mainwindow-h.html" status="active" subtype="file" title="" fulltitle="mainwindow.h Example File" subtitle="i18n/mainwindow.h"/>
+            <page name="i18n/i18n_autogen/mocs_compilation.cpp" href="qtlinguist-i18n-i18n-autogen-mocs-compilation-cpp.html" status="active" subtype="file" title="" fulltitle="mocs_compilation.cpp Example File" subtitle="i18n/i18n_autogen/mocs_compilation.cpp"/>
+            <page name="i18n/main.cpp" href="qtlinguist-i18n-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="i18n/main.cpp"/>
+            <page name="i18n/CMakeLists.txt" href="qtlinguist-i18n-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="i18n/CMakeLists.txt"/>
+            <page name="i18n/i18n.pro" href="qtlinguist-i18n-i18n-pro.html" status="active" subtype="file" title="" fulltitle="i18n.pro Example File" subtitle="i18n/i18n.pro"/>
+        </page>
+        <page name="qtlinguist-index.html" href="qtlinguist-index.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="4" documented="true" groups="internationalization,qttools" subtype="page" title="Qt Linguist Manual" fulltitle="Qt Linguist Manual" subtitle="" brief="Using Qt translation tools: lupdate, lrelease, and Qt Linguist">
+            <keyword name="qt-linguist" title="Qt Linguist"/>
+        </page>
+        <page name="linguist-ui.html" href="linguist-ui.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="615" documented="true" subtype="page" title="Qt Linguist user interface" fulltitle="Qt Linguist user interface" subtitle=""/>
+        <page name="linguist-manager.html" href="linguist-manager.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="94" documented="true" subtype="page" title="Release managers" fulltitle="Release managers" subtitle=""/>
+        <page name="linguist-reusing-translations.html" href="linguist-reusing-translations.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="1032" documented="true" subtype="page" title="Reusing translations" fulltitle="Reusing translations" subtitle="">
+            <contents name="batch-translation" title="Batch translation" level="1"/>
+            <contents name="creating-and-editing-phrase-books" title="Creating and editing phrase books" level="1"/>
+        </page>
+        <page name="linguist-selecting-context.html" href="linguist-selecting-context.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="866" documented="true" subtype="page" title="Selecting context to translate" fulltitle="Selecting context to translate" subtitle=""/>
+        <page name="linguist-selecting-strings.html" href="linguist-selecting-strings.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="927" documented="true" subtype="page" title="Selecting strings to translate" fulltitle="Selecting strings to translate" subtitle="">
+            <target name="string-translation-states" title="String Translation States"/>
+        </page>
+        <page name="linguist-ts-file-format.html" href="linguist-ts-file-format.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="1228" documented="true" subtype="page" title="TS file format" fulltitle="TS file format" subtitle="" brief="TS file format"/>
+        <page name="linguist-id-based-i18n.html" href="linguist-id-based-i18n.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="1246" documented="true" groups="internationalization" subtype="page" title="Text ID based translations" fulltitle="Text ID based translations" subtitle="" brief="Text ID based internationalization provides support for large scale projects with many target locales and many texts to translate">
+            <contents name="internationalizing-with-text-ids" title="Internationalizing with text IDs" level="1"/>
+            <contents name="localizing-with-text-ids" title="Localizing with text IDs" level="1"/>
+            <contents name="cmake-configuration" title="CMake configuration" level="1"/>
+            <contents name="advanced-use-with-qmake" title="Advanced use with qmake" level="1"/>
+        </page>
+        <page name="linguist-translating-multiple-languages.html" href="linguist-translating-multiple-languages.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="1150" documented="true" subtype="page" title="Translating multiple languages simultaneously" fulltitle="Translating multiple languages simultaneously" subtitle="">
+            <target name="multiple-languages" title="multiple languages"/>
+        </page>
+        <page name="linguist-translating-strings.html" href="linguist-translating-strings.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="654" documented="true" subtype="page" title="Translating strings" fulltitle="Translating strings" subtitle="">
+            <contents name="moving-between-translatable-strings" title="Moving between translatable strings" level="1"/>
+            <contents name="phrases-that-require-multiple-translations-depending-on-context" title="Phrases that require multiple translations depending on context" level="1"/>
+            <contents name="changing-keyboard-shortcuts" title="Changing keyboard shortcuts" level="1"/>
+            <contents name="alt-key-shortcuts" title="Alt key shortcuts" level="2"/>
+            <contents name="ctrl-key-shortcuts" title="Ctrl key shortcuts" level="2"/>
+            <contents name="handling-numbered-arguments-and-plural-forms" title="Handling numbered arguments and plural forms" level="1"/>
+            <contents name="changing-the-target-locale" title="Changing the target locale" level="1"/>
+        </page>
+        <page name="linguist-translators.html" href="linguist-translators.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="568" documented="true" subtype="page" title="Translators" fulltitle="Translators" subtitle=""/>
+        <page name="trollprint" href="qtlinguist-trollprint-example.html" status="active" location="trollprint.qdoc" filepath="/home/qt/work/qt/qt5/qttools/examples/linguist/doc/src/trollprint.qdoc" lineno="4" documented="true" groups="category Internationalization,examples-linguist" subtype="example" title="Troll Print Example" fulltitle="Troll Print Example" subtitle="" brief="Updating translations for later releases">
+            <contents name="line-by-line-walkthrough" title="Line by Line Walkthrough" level="1"/>
+            <contents name="running-troll-print-1-0-in-english-and-in-portuguese" title="Running Troll Print 1.0 in English and in Portuguese" level="1"/>
+            <contents name="troll-print-1-1" title="Troll Print 1.1" level="1"/>
+            <page name="trollprint/mainwindow.cpp" href="qtlinguist-trollprint-mainwindow-cpp.html" status="active" subtype="file" title="" fulltitle="mainwindow.cpp Example File" subtitle="trollprint/mainwindow.cpp"/>
+            <page name="trollprint/mainwindow.h" href="qtlinguist-trollprint-mainwindow-h.html" status="active" subtype="file" title="" fulltitle="mainwindow.h Example File" subtitle="trollprint/mainwindow.h"/>
+            <page name="trollprint/printpanel.cpp" href="qtlinguist-trollprint-printpanel-cpp.html" status="active" subtype="file" title="" fulltitle="printpanel.cpp Example File" subtitle="trollprint/printpanel.cpp"/>
+            <page name="trollprint/printpanel.h" href="qtlinguist-trollprint-printpanel-h.html" status="active" subtype="file" title="" fulltitle="printpanel.h Example File" subtitle="trollprint/printpanel.h"/>
+            <page name="trollprint/trollprint_autogen/mocs_compilation.cpp" href="qtlinguist-trollprint-trollprint-autogen-mocs-compilation-cpp.html" status="active" subtype="file" title="" fulltitle="mocs_compilation.cpp Example File" subtitle="trollprint/trollprint_autogen/mocs_compilation.cpp"/>
+            <page name="trollprint/main.cpp" href="qtlinguist-trollprint-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="trollprint/main.cpp"/>
+            <page name="trollprint/CMakeLists.txt" href="qtlinguist-trollprint-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="trollprint/CMakeLists.txt"/>
+            <page name="trollprint/trollprint.pro" href="qtlinguist-trollprint-trollprint-pro.html" status="active" subtype="file" title="" fulltitle="trollprint.pro Example File" subtitle="trollprint/trollprint.pro"/>
+        </page>
+        <page name="linguist-lrelease.html" href="linguist-lrelease.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="445" documented="true" subtype="page" title="Using lrelease" fulltitle="Using lrelease" subtitle="">
+            <target name="lrelease"/>
+            <contents name="lrelease-syntax" title="lrelease syntax" level="1"/>
+            <contents name="lrelease-options" title="lrelease options" level="2"/>
+            <contents name="examples" title="Examples" level="1"/>
+            <contents name="using-lrelease-with-cmake" title="Using lrelease with CMake" level="2"/>
+            <contents name="using-lrelease-with-qmake" title="Using lrelease with qmake" level="2"/>
+        </page>
+        <page name="linguist-lupdate.html" href="linguist-lupdate.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="178" documented="true" subtype="page" title="Using lupdate" fulltitle="Using lupdate" subtitle="">
+            <target name="lupdate"/>
+            <contents name="lupdate-syntax" title="lupdate syntax" level="1"/>
+            <contents name="lupdate-options" title="lupdate options" level="2"/>
+            <contents name="examples" title="Examples" level="1"/>
+            <contents name="using-lupdate-with-cmake" title="Using lupdate with CMake" level="2"/>
+            <contents name="using-lupdate-with-qmake" title="Using lupdate with qmake" level="2"/>
+            <contents name="xliff-format-files" title="XLIFF format files" level="1"/>
+        </page>
+        <page name="linguist-validating-translations.html" href="linguist-validating-translations.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="1106" documented="true" subtype="page" title="Validating translations" fulltitle="Validating translations" subtitle=""/>
+        <page name="linguist-viewing-strings-in-context.html" href="linguist-viewing-strings-in-context.html" status="active" location="linguist-manual.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-manual.qdoc" lineno="1010" documented="true" subtype="page" title="Viewing strings in context" fulltitle="Viewing strings in context" subtitle=""/>
+        <page name="qtlinguist-cmake-qt-add-lrelease.html" href="qtlinguist-cmake-qt-add-lrelease.html" status="active" location="cmake-macros.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/cmake-macros.qdoc" lineno="205" documented="true" groups="cmake-commands-qtlinguisttools" subtype="page" title="qt_add_lrelease" fulltitle="qt_add_lrelease" subtitle="" brief="Add targets to transform Qt Linguist .ts files into .qm files">
+            <target name="qt6-add-lrelease" title="qt6_add_lrelease"/>
+            <contents name="synopsis" title="Synopsis" level="1"/>
+            <contents name="description" title="Description" level="1"/>
+            <contents name="options" title="Options" level="1"/>
+            <contents name="processing-generated-qm-files" title="Processing Generated .qm Files" level="1"/>
+            <contents name="build-by-default" title="Build by Default" level="1"/>
+            <contents name="umbrella-target" title="Umbrella Target" level="1"/>
+            <contents name="examples" title="Examples" level="1"/>
+        </page>
+        <page name="qtlinguist-cmake-qt-add-lupdate.html" href="qtlinguist-cmake-qt-add-lupdate.html" status="active" location="cmake-macros.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/cmake-macros.qdoc" lineno="127" documented="true" groups="cmake-commands-qtlinguisttools" subtype="page" title="qt_add_lupdate" fulltitle="qt_add_lupdate" subtitle="" brief="Add targets to generate or update Qt Linguist .ts files">
+            <target name="qt6-add-lupdate" title="qt6_add_lupdate"/>
+            <contents name="synopsis" title="Synopsis" level="1"/>
+            <contents name="description" title="Description" level="1"/>
+            <contents name="sources-and-include-directories" title="Sources and Include Directories" level="1"/>
+            <contents name="options" title="Options" level="1"/>
+            <contents name="umbrella-target" title="Umbrella Target" level="1"/>
+            <contents name="examples" title="Examples" level="1"/>
+        </page>
+        <page name="qtlinguist-cmake-qt-add-translation.html" href="qtlinguist-cmake-qt-add-translation.html" status="active" location="cmake-macros.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/cmake-macros.qdoc" lineno="18" documented="true" groups="cmake-commands-qtlinguisttools" subtype="page" title="qt_add_translation" fulltitle="qt_add_translation" subtitle="" brief="Compiles Qt Linguist .ts files into .qm files">
+            <target name="qt6-add-translation" title="qt6_add_translation"/>
+            <contents name="synopsis" title="Synopsis" level="1"/>
+            <contents name="description" title="Description" level="1"/>
+            <contents name="options" title="Options" level="1"/>
+            <contents name="examples" title="Examples" level="1"/>
+        </page>
+        <page name="qtlinguist-cmake-qt-add-translations.html" href="qtlinguist-cmake-qt-add-translations.html" status="active" location="cmake-macros.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/cmake-macros.qdoc" lineno="296" documented="true" groups="cmake-commands-qtlinguisttools" subtype="page" title="qt_add_translations" fulltitle="qt_add_translations" subtitle="" brief="Add targets to update and transform Qt Linguist .ts files into .qm files">
+            <target name="qt6-add-translations" title="qt6_add_translations"/>
+            <contents name="synopsis" title="Synopsis" level="1"/>
+            <contents name="description" title="Description" level="1"/>
+            <contents name="sources-and-include-directories" title="Sources and Include Directories" level="1"/>
+            <contents name="options" title="Options" level="1"/>
+            <contents name="embedding-generated-qm-files-in-resources" title="Embedding Generated .qm Files in Resources" level="1"/>
+            <contents name="examples" title="Examples" level="1"/>
+        </page>
+        <page name="qtlinguist-cmake-qt-create-translation.html" href="qtlinguist-cmake-qt-create-translation.html" status="active" location="cmake-macros.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/cmake-macros.qdoc" lineno="73" documented="true" groups="cmake-commands-qtlinguisttools" subtype="page" title="qt_create_translation" fulltitle="qt_create_translation" subtitle="" brief="Sets up the Qt Linguist translation toolchain">
+            <target name="qt6-create-translation" title="qt6_create_translation"/>
+            <contents name="synopsis" title="Synopsis" level="1"/>
+            <contents name="description" title="Description" level="1"/>
+            <contents name="options" title="Options" level="1"/>
+            <contents name="examples" title="Examples" level="1"/>
+        </page>
+        <group name="all-examples" href="all-examples.html" status="internal" seen="false" title=""/>
+        <group name="category Internationalization" href="category-internationalization.html" status="internal" seen="false" title=""/>
+        <group name="cmake-commands-qtlinguisttools" href="cmake-commands-qtlinguisttools.html" status="active" location="cmake-macros.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/cmake-macros.qdoc" lineno="4" documented="true" seen="true" title="CMake Commands in Qt6 LinguistTools"/>
+        <group name="examples-linguist" href="examples-linguist.html" status="active" location="linguist-examples.qdoc" filepath="/home/qt/work/qt/qt5/qttools/src/linguist/linguist/doc/src/linguist-examples.qdoc" lineno="4" documented="true" groups="all-examples,internationalization" seen="true" title="Qt Linguist Examples" brief="Using Qt Linguist to internationalize your Qt application"/>
+        <group name="internationalization" href="internationalization.html" status="internal" seen="false" title=""/>
+        <group name="qttools" href="qttools.html" status="internal" seen="false" title=""/>
+    </namespace>
+</INDEX>

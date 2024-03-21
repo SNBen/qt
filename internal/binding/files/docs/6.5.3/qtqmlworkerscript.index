@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt Qml WorkerScript Reference Documentation" version="6.5.3" project="QtQmlWorkerScript">
+    <namespace name="" status="active" access="public" module="qtqmlworkerscript">
+        <qmlclass name="WorkerScript" qml-module-name="QtQml.WorkerScript" fullname="QtQml.WorkerScript.WorkerScript" href="qml-qtqml-workerscript-workerscript.html" status="active" access="public" documented="true" groups="qtquick-threading" title="WorkerScript" fulltitle="WorkerScript" subtitle="" brief="Enables the use of threads in a Qt Quick application">
+            <contents name="restrictions" title="Restrictions" level="3"/>
+            <function name="message" fullname="QtQml.WorkerScript.WorkerScript.message" href="qml-qtqml-workerscript-workerscript.html#message-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="jsobject" name="msg" default=""/>
+            </function>
+            <function name="sendMessage" fullname="QtQml.WorkerScript.WorkerScript.sendMessage" href="qml-qtqml-workerscript-workerscript.html#sendMessage-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="jsobject" name="message" default=""/>
+            </function>
+            <qmlproperty name="ready" fullname="QtQml.WorkerScript.WorkerScript.ready" href="qml-qtqml-workerscript-workerscript.html#ready-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="false"/>
+            <qmlproperty name="source" fullname="QtQml.WorkerScript.WorkerScript.source" href="qml-qtqml-workerscript-workerscript.html#source-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+        </qmlclass>
+        <group name="qmlmodules" href="qmlmodules.html" status="internal" seen="false" title=""/>
+        <group name="qtquick-threading" href="qtquick-threading.html" status="internal" seen="false" title=""/>
+        <qmlmodule name="QtQml.WorkerScript" qml-module-name="QtQml.WorkerScript" href="qtqml-workerscript-qmlmodule.html" status="active" location="qmlworkerscript.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/qmlworkerscript/doc/src/qmlworkerscript.qdoc" lineno="4" documented="true" groups="qmlmodules" seen="true" title="Qt QML WorkerScript QML Types" brief="Provides QML types for worker scripts"/>
+    </namespace>
+</INDEX>

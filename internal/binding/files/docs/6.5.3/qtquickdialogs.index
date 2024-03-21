@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt Quick Dialogs Reference Documentation" version="6.5.3" project="QtQuickDialogs" indexTitle="Qt Quick Dialogs">
+    <namespace name="" status="active" access="public" module="qtquickdialogs">
+        <qmlclass name="ColorDialog" qml-module-name="QtQuick.Dialogs" qml-base-type="QtQuick.Dialogs::Dialog" fullname="QtQuick.Dialogs.ColorDialog" href="qml-qtquick-dialogs-colordialog.html" status="active" access="public" since="6.4" documented="true" title="ColorDialog" fulltitle="ColorDialog" subtitle="" brief="A color dialog">
+            <contents name="availability" title="Availability" level="2"/>
+            <qmlproperty name="options" fullname="QtQuick.Dialogs.ColorDialog.options" href="qml-qtquick-dialogs-colordialog.html#options-prop" status="active" access="public" documented="true" type="flags" attached="false" writable="true"/>
+            <qmlproperty name="selectedColor" fullname="QtQuick.Dialogs.ColorDialog.selectedColor" href="qml-qtquick-dialogs-colordialog.html#selectedColor-prop" status="active" access="public" documented="true" type="color" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="Dialog" qml-module-name="QtQuick.Dialogs" fullname="QtQuick.Dialogs.Dialog" href="qml-qtquick-dialogs-dialog.html" status="active" access="public" since="6.2" documented="true" title="Dialog" fulltitle="Dialog" subtitle="" brief="Base class of native dialogs">
+            <function name="accept" fullname="QtQuick.Dialogs.Dialog.accept" href="qml-qtquick-dialogs-dialog.html#accept-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="accepted" fullname="QtQuick.Dialogs.Dialog.accepted" href="qml-qtquick-dialogs-dialog.html#accepted-signal" status="active" access="public" documented="true" meta="qmlsignal" type="void"/>
+            <function name="close" fullname="QtQuick.Dialogs.Dialog.close" href="qml-qtquick-dialogs-dialog.html#close-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="done" fullname="QtQuick.Dialogs.Dialog.done" href="qml-qtquick-dialogs-dialog.html#done-method" status="active" access="public" documented="true" meta="qmlmethod" type="void">
+                <parameter type="StandardCode" name="result" default=""/>
+            </function>
+            <function name="open" fullname="QtQuick.Dialogs.Dialog.open" href="qml-qtquick-dialogs-dialog.html#open-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="reject" fullname="QtQuick.Dialogs.Dialog.reject" href="qml-qtquick-dialogs-dialog.html#reject-method" status="active" access="public" documented="true" meta="qmlmethod" type="void"/>
+            <function name="rejected" fullname="QtQuick.Dialogs.Dialog.rejected" href="qml-qtquick-dialogs-dialog.html#rejected-signal" status="active" access="public" documented="true" meta="qmlsignal" type="void"/>
+            <qmlproperty name="data" fullname="QtQuick.Dialogs.Dialog.data" href="qml-qtquick-dialogs-dialog.html#data-prop" status="active" access="public" documented="true" type="list&lt;QtObject&gt;" attached="false" writable="true"/>
+            <qmlproperty name="flags" fullname="QtQuick.Dialogs.Dialog.flags" href="qml-qtquick-dialogs-dialog.html#flags-prop" status="active" access="public" documented="true" type="Qt::WindowFlags" attached="false" writable="true"/>
+            <qmlproperty name="modality" fullname="QtQuick.Dialogs.Dialog.modality" href="qml-qtquick-dialogs-dialog.html#modality-prop" status="active" access="public" documented="true" type="Qt::WindowModality" attached="false" writable="true"/>
+            <qmlproperty name="parentWindow" fullname="QtQuick.Dialogs.Dialog.parentWindow" href="qml-qtquick-dialogs-dialog.html#parentWindow-prop" status="active" access="public" documented="true" type="Window" attached="false" writable="true"/>
+            <qmlproperty name="result" fullname="QtQuick.Dialogs.Dialog.result" href="qml-qtquick-dialogs-dialog.html#result-prop" status="active" access="public" documented="true" type="StandardCode" attached="false" writable="true"/>
+            <qmlproperty name="title" fullname="QtQuick.Dialogs.Dialog.title" href="qml-qtquick-dialogs-dialog.html#title-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="visible" fullname="QtQuick.Dialogs.Dialog.visible" href="qml-qtquick-dialogs-dialog.html#visible-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="FileDialog" qml-module-name="QtQuick.Dialogs" qml-base-type="QtQuick.Dialogs::Dialog" fullname="QtQuick.Dialogs.FileDialog" href="qml-qtquick-dialogs-filedialog.html" status="active" access="public" since="6.2" documented="true" title="FileDialog" fulltitle="FileDialog" subtitle="" brief="A file dialog">
+            <contents name="availability" title="Availability" level="2"/>
+            <qmlproperty name="acceptLabel" fullname="QtQuick.Dialogs.FileDialog.acceptLabel" href="qml-qtquick-dialogs-filedialog.html#acceptLabel-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="currentFile" fullname="QtQuick.Dialogs.FileDialog.currentFile" href="qml-qtquick-dialogs-filedialog-obsolete.html#currentFile-prop" status="deprecated" access="public" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="currentFiles" fullname="QtQuick.Dialogs.FileDialog.currentFiles" href="qml-qtquick-dialogs-filedialog-obsolete.html#currentFiles-prop" status="deprecated" access="public" documented="true" type="list&lt;url&gt;" attached="false" writable="true"/>
+            <qmlproperty name="currentFolder" fullname="QtQuick.Dialogs.FileDialog.currentFolder" href="qml-qtquick-dialogs-filedialog.html#currentFolder-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="defaultSuffix" fullname="QtQuick.Dialogs.FileDialog.defaultSuffix" href="qml-qtquick-dialogs-filedialog.html#defaultSuffix-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="fileMode" fullname="QtQuick.Dialogs.FileDialog.fileMode" href="qml-qtquick-dialogs-filedialog.html#fileMode-prop" status="active" access="public" documented="true" type="enumeration" attached="false" writable="true"/>
+            <qmlproperty name="nameFilters" fullname="QtQuick.Dialogs.FileDialog.nameFilters" href="qml-qtquick-dialogs-filedialog.html#nameFilters-prop" status="active" access="public" documented="true" type="list&lt;string&gt;" attached="false" writable="true"/>
+            <qmlproperty name="options" fullname="QtQuick.Dialogs.FileDialog.options" href="qml-qtquick-dialogs-filedialog.html#options-prop" status="active" access="public" documented="true" type="flags" attached="false" writable="true"/>
+            <qmlproperty name="rejectLabel" fullname="QtQuick.Dialogs.FileDialog.rejectLabel" href="qml-qtquick-dialogs-filedialog.html#rejectLabel-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="selectedFile" fullname="QtQuick.Dialogs.FileDialog.selectedFile" href="qml-qtquick-dialogs-filedialog.html#selectedFile-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="selectedFiles" fullname="QtQuick.Dialogs.FileDialog.selectedFiles" href="qml-qtquick-dialogs-filedialog.html#selectedFiles-prop" status="active" access="public" documented="true" type="list&lt;url&gt;" attached="false" writable="true"/>
+            <qmlproperty name="selectedNameFilter.extensions" fullname="QtQuick.Dialogs.FileDialog.selectedNameFilter.extensions" href="qml-qtquick-dialogs-filedialog.html#selectedNameFilter.extensions-prop" status="active" access="public" documented="true" type="list&lt;string&gt;" attached="false" writable="true"/>
+            <qmlproperty name="selectedNameFilter.globs" fullname="QtQuick.Dialogs.FileDialog.selectedNameFilter.globs" href="qml-qtquick-dialogs-filedialog.html#selectedNameFilter.globs-prop" status="active" access="public" documented="true" type="list&lt;string&gt;" attached="false" writable="true"/>
+            <qmlproperty name="selectedNameFilter.index" fullname="QtQuick.Dialogs.FileDialog.selectedNameFilter.index" href="qml-qtquick-dialogs-filedialog.html#selectedNameFilter.index-prop" status="active" access="public" documented="true" type="int" attached="false" writable="true"/>
+            <qmlproperty name="selectedNameFilter.name" fullname="QtQuick.Dialogs.FileDialog.selectedNameFilter.name" href="qml-qtquick-dialogs-filedialog.html#selectedNameFilter.name-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="selectedNameFilter" fullname="QtQuick.Dialogs.FileDialog.selectedNameFilter" href="qml-qtquick-dialogs-filedialog.html#selectedNameFilter-prop" status="active" access="public" documented="true"/>
+        </qmlclass>
+        <qmlclass name="FolderDialog" qml-module-name="QtQuick.Dialogs" qml-base-type="QtQuick.Dialogs::Dialog" fullname="QtQuick.Dialogs.FolderDialog" href="qml-qtquick-dialogs-folderdialog.html" status="active" access="public" since="6.3" documented="true" title="FolderDialog" fulltitle="FolderDialog" subtitle="" brief="A native folder dialog">
+            <contents name="availability" title="Availability" level="2"/>
+            <qmlproperty name="acceptLabel" fullname="QtQuick.Dialogs.FolderDialog.acceptLabel" href="qml-qtquick-dialogs-folderdialog.html#acceptLabel-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="currentFolder" fullname="QtQuick.Dialogs.FolderDialog.currentFolder" href="qml-qtquick-dialogs-folderdialog.html#currentFolder-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="options" fullname="QtQuick.Dialogs.FolderDialog.options" href="qml-qtquick-dialogs-folderdialog.html#options-prop" status="active" access="public" documented="true" type="flags" attached="false" writable="true"/>
+            <qmlproperty name="rejectLabel" fullname="QtQuick.Dialogs.FolderDialog.rejectLabel" href="qml-qtquick-dialogs-folderdialog.html#rejectLabel-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="selectedFolder" fullname="QtQuick.Dialogs.FolderDialog.selectedFolder" href="qml-qtquick-dialogs-folderdialog.html#selectedFolder-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="FontDialog" qml-module-name="QtQuick.Dialogs" qml-base-type="QtQuick.Dialogs::Dialog" fullname="QtQuick.Dialogs.FontDialog" href="qml-qtquick-dialogs-fontdialog.html" status="active" access="public" since="6.2" documented="true" title="FontDialog" fulltitle="FontDialog" subtitle="" brief="A font dialog">
+            <contents name="availability" title="Availability" level="2"/>
+            <qmlproperty name="currentFont" fullname="QtQuick.Dialogs.FontDialog.currentFont" href="qml-qtquick-dialogs-fontdialog-obsolete.html#currentFont-prop" status="deprecated" access="public" documented="true" type="font" attached="false" writable="true"/>
+            <qmlproperty name="options" fullname="QtQuick.Dialogs.FontDialog.options" href="qml-qtquick-dialogs-fontdialog.html#options-prop" status="active" access="public" documented="true" type="flags" attached="false" writable="true"/>
+            <qmlproperty name="selectedFont" fullname="QtQuick.Dialogs.FontDialog.selectedFont" href="qml-qtquick-dialogs-fontdialog.html#selectedFont-prop" status="active" access="public" documented="true" type="font" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="MessageDialog" qml-module-name="QtQuick.Dialogs" qml-base-type="QtQuick.Dialogs::Dialog" fullname="QtQuick.Dialogs.MessageDialog" href="qml-qtquick-dialogs-messagedialog.html" status="active" access="public" since="6.3" documented="true" title="MessageDialog" fulltitle="MessageDialog" subtitle="" brief="A message dialog">
+            <contents name="availability" title="Availability" level="2"/>
+            <function name="buttonClicked" fullname="QtQuick.Dialogs.MessageDialog.buttonClicked" href="qml-qtquick-dialogs-messagedialog.html#buttonClicked-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="QPlatformDialogHelper::StandardButton" name="button" default=""/>
+                <parameter type="QPlatformDialogHelper::ButtonRole" name="role" default=""/>
+            </function>
+            <qmlproperty name="buttons" fullname="QtQuick.Dialogs.MessageDialog.buttons" href="qml-qtquick-dialogs-messagedialog.html#buttons-prop" status="active" access="public" documented="true" type="flags" attached="false" writable="true"/>
+            <qmlproperty name="detailedText" fullname="QtQuick.Dialogs.MessageDialog.detailedText" href="qml-qtquick-dialogs-messagedialog.html#detailedText-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="informativeText" fullname="QtQuick.Dialogs.MessageDialog.informativeText" href="qml-qtquick-dialogs-messagedialog.html#informativeText-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="text" fullname="QtQuick.Dialogs.MessageDialog.text" href="qml-qtquick-dialogs-messagedialog.html#text-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+        </qmlclass>
+        <page name="qtquickdialogs-index.html" href="qtquickdialogs-index.html" status="active" location="qtquickdialogs-index.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/quickdialogs/quickdialogs/doc/src/qtquickdialogs-index.qdoc" lineno="4" documented="true" subtype="page" title="Qt Quick Dialogs" fulltitle="Qt Quick Dialogs" subtitle="" brief="Provides QML types for creating and interacting with system dialogs">
+            <contents name="using-the-module" title="Using the Module" level="1"/>
+            <contents name="reference" title="Reference" level="1"/>
+            <contents name="related-modules" title="Related Modules" level="1"/>
+            <contents name="license-and-attributions" title="License and Attributions" level="1"/>
+        </page>
+        <group name="qmlmodules" href="qmlmodules.html" status="internal" seen="false" title=""/>
+        <qmlmodule name="QtQuick.Dialogs" qml-module-name="QtQuick.Dialogs" href="qtquick-dialogs-qmlmodule.html" status="active" location="qtquickdialogs-qmltypes.qdoc" filepath="/home/qt/work/qt/qt5/qtdeclarative/src/quickdialogs/quickdialogs/doc/src/qtquickdialogs-qmltypes.qdoc" lineno="4" documented="true" groups="qmlmodules" seen="true" title="Qt Quick Dialogs QML Types" brief="Provides QML types for creating and interacting with system dialogs">
+            <contents name="qml-types" title="QML Types" level="1"/>
+        </qmlmodule>
+    </namespace>
+</INDEX>

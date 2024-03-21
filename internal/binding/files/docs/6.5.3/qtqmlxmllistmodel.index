@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt QML XmlListModel Reference Documentation" version="6.5.3" project="QtQmlXmlListModel">
+    <namespace name="" status="active" access="public" module="qtqmlxmllistmodel">
+        <qmlclass name="XmlListModel" qml-module-name="QtQml.XmlListModel" fullname="QtQml.XmlListModel.XmlListModel" href="qml-qtqml-xmllistmodel-xmllistmodel.html" status="active" access="public" documented="true" title="XmlListModel" fulltitle="XmlListModel" subtitle="" brief="For specifying a read-only model using XML data">
+            <function name="errorString" fullname="QtQml.XmlListModel.XmlListModel.errorString" href="qml-qtqml-xmllistmodel-xmllistmodel.html#errorString-method" status="active" access="public" documented="true" meta="qmlmethod" type=""/>
+            <function name="reload" fullname="QtQml.XmlListModel.XmlListModel.reload" href="qml-qtqml-xmllistmodel-xmllistmodel.html#reload-method" status="active" access="public" documented="true" meta="qmlmethod" type=""/>
+            <qmlproperty name="count" fullname="QtQml.XmlListModel.XmlListModel.count" href="qml-qtqml-xmllistmodel-xmllistmodel.html#count-prop" status="active" access="public" documented="true" type="int" attached="false" writable="true"/>
+            <qmlproperty name="progress" fullname="QtQml.XmlListModel.XmlListModel.progress" href="qml-qtqml-xmllistmodel-xmllistmodel.html#progress-prop" status="active" access="public" documented="true" type="real" attached="false" writable="true"/>
+            <qmlproperty name="query" fullname="QtQml.XmlListModel.XmlListModel.query" href="qml-qtqml-xmllistmodel-xmllistmodel.html#query-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="roles" fullname="QtQml.XmlListModel.XmlListModel.roles" href="qml-qtqml-xmllistmodel-xmllistmodel.html#roles-prop" status="active" access="public" documented="true" type="list&lt;XmlListModelRole&gt;" attached="false" writable="true"/>
+            <qmlproperty name="source" fullname="QtQml.XmlListModel.XmlListModel.source" href="qml-qtqml-xmllistmodel-xmllistmodel.html#source-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+            <qmlproperty name="status" fullname="QtQml.XmlListModel.XmlListModel.status" href="qml-qtqml-xmllistmodel-xmllistmodel.html#status-prop" status="active" access="public" documented="true" type="enumeration" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="XmlListModelRole" qml-module-name="QtQml.XmlListModel" fullname="QtQml.XmlListModel.XmlListModelRole" href="qml-qtqml-xmllistmodel-xmllistmodelrole.html" status="active" access="public" documented="true" title="XmlListModelRole" fulltitle="XmlListModelRole" subtitle="" brief="For specifying a role to an XmlListModel">
+            <qmlproperty name="attributeName" fullname="QtQml.XmlListModel.XmlListModelRole.attributeName" href="qml-qtqml-xmllistmodel-xmllistmodelrole.html#attributeName-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="elementName" fullname="QtQml.XmlListModel.XmlListModelRole.elementName" href="qml-qtqml-xmllistmodel-xmllistmodelrole.html#elementName-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+            <qmlproperty name="name" fullname="QtQml.XmlListModel.XmlListModelRole.name" href="qml-qtqml-xmllistmodel-xmllistmodelrole.html#name-prop" status="active" access="public" documented="true" type="string" attached="false" writable="true"/>
+        </qmlclass>
+        <group name="qmlmodules" href="qmlmodules.html" status="internal" seen="false" title=""/>
+        <qmlmodule name="QtQml.XmlListModel" qml-module-name="QtQml.XmlListModel" href="qtqml-xmllistmodel-qmlmodule.html" status="active" documented="true" groups="qmlmodules" seen="true" title="Qt XmlListModel QML Types" brief="Provides QML types for creating models from XML data">
+            <keyword name="qt-xmllistmodel-qml-types" title="Qt XmlListModel QML Types"/>
+        </qmlmodule>
+    </namespace>
+</INDEX>

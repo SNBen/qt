@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://doc.qt.io/qt" title="Qt Quick 3D Physics Reference Documentation" version="6.5.3" project="QtQuick3DPhysics" indexTitle="Qt Quick 3D Physics">
+    <namespace name="" status="active" access="public" module="qtquick3dphysics">
+        <qmlclass name="BoxShape" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::CollisionShape" fullname="QtQuick3D.Physics.BoxShape" href="qml-qtquick3d-physics-boxshape.html" status="active" access="public" since="6.4" documented="true" title="BoxShape" fulltitle="BoxShape" subtitle="" brief="Defines a box collision shape">
+            <qmlproperty name="extents" fullname="QtQuick3D.Physics.BoxShape.extents" href="qml-qtquick3d-physics-boxshape.html#extents-prop" status="active" access="public" documented="true" type="vector3d" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="CapsuleShape" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::CollisionShape" fullname="QtQuick3D.Physics.CapsuleShape" href="qml-qtquick3d-physics-capsuleshape.html" status="active" access="public" since="6.4" documented="true" title="CapsuleShape" fulltitle="CapsuleShape" subtitle="" brief="Defines a pill-like shape">
+            <qmlproperty name="diameter" fullname="QtQuick3D.Physics.CapsuleShape.diameter" href="qml-qtquick3d-physics-capsuleshape.html#diameter-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+            <qmlproperty name="height" fullname="QtQuick3D.Physics.CapsuleShape.height" href="qml-qtquick3d-physics-capsuleshape.html#height-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="CharacterController" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::PhysicsBody" fullname="QtQuick3D.Physics.CharacterController" href="qml-qtquick3d-physics-charactercontroller.html" status="active" access="public" since="6.4" documented="true" title="CharacterController" fulltitle="CharacterController" subtitle="" brief="Controls the motion of a character">
+            <function name="teleport" fullname="QtQuick3D.Physics.CharacterController.teleport" href="qml-qtquick3d-physics-charactercontroller.html#teleport-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="vector3d" name="position" default=""/>
+            </function>
+            <qmlproperty name="collisions" fullname="QtQuick3D.Physics.CharacterController.collisions" href="qml-qtquick3d-physics-charactercontroller.html#collisions-prop" status="active" access="public" documented="true" type="Collisions" attached="false" writable="false"/>
+            <qmlproperty name="gravity" fullname="QtQuick3D.Physics.CharacterController.gravity" href="qml-qtquick3d-physics-charactercontroller.html#gravity-prop" status="active" access="public" documented="true" type="vector3d" attached="false" writable="true"/>
+            <qmlproperty name="midAirControl" fullname="QtQuick3D.Physics.CharacterController.midAirControl" href="qml-qtquick3d-physics-charactercontroller.html#midAirControl-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="movement" fullname="QtQuick3D.Physics.CharacterController.movement" href="qml-qtquick3d-physics-charactercontroller.html#movement-prop" status="active" access="public" documented="true" type="vector3d" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="CollisionShape" qml-module-name="QtQuick3D.Physics" fullname="QtQuick3D.Physics.CollisionShape" href="qml-qtquick3d-physics-collisionshape.html" status="active" access="public" since="6.4" documented="true" title="CollisionShape" fulltitle="CollisionShape" subtitle="" brief="Base type for collision shapes">
+            <qmlproperty name="enableDebugDraw" fullname="QtQuick3D.Physics.CollisionShape.enableDebugDraw" href="qml-qtquick3d-physics-collisionshape.html#enableDebugDraw-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="ConvexMeshShape" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::CollisionShape" fullname="QtQuick3D.Physics.ConvexMeshShape" href="qml-qtquick3d-physics-convexmeshshape.html" status="active" access="public" since="6.4" documented="true" title="ConvexMeshShape" fulltitle="ConvexMeshShape" subtitle="" brief="A convex collision shape based on a 3D mesh">
+            <qmlproperty name="source" fullname="QtQuick3D.Physics.ConvexMeshShape.source" href="qml-qtquick3d-physics-convexmeshshape.html#source-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="DynamicRigidBody" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::PhysicsBody" fullname="QtQuick3D.Physics.DynamicRigidBody" href="qml-qtquick3d-physics-dynamicrigidbody.html" status="active" access="public" since="6.4" documented="true" title="DynamicRigidBody" fulltitle="DynamicRigidBody" subtitle="" brief="A physical body that can move or be moved">
+            <function name="applyCentralForce" fullname="QtQuick3D.Physics.DynamicRigidBody.applyCentralForce" href="qml-qtquick3d-physics-dynamicrigidbody.html#applyCentralForce-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="vector3d" name="force" default=""/>
+            </function>
+            <function name="applyCentralImpulse" fullname="QtQuick3D.Physics.DynamicRigidBody.applyCentralImpulse" href="qml-qtquick3d-physics-dynamicrigidbody.html#applyCentralImpulse-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="vector3d" name="impulse" default=""/>
+            </function>
+            <function name="applyForce" fullname="QtQuick3D.Physics.DynamicRigidBody.applyForce" href="qml-qtquick3d-physics-dynamicrigidbody.html#applyForce-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="vector3d" name="force" default=""/>
+                <parameter type="vector3d" name="position" default=""/>
+            </function>
+            <function name="applyImpulse" fullname="QtQuick3D.Physics.DynamicRigidBody.applyImpulse" href="qml-qtquick3d-physics-dynamicrigidbody.html#applyImpulse-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="vector3d" name="impulse" default=""/>
+                <parameter type="vector3d" name="position" default=""/>
+            </function>
+            <function name="applyTorque" fullname="QtQuick3D.Physics.DynamicRigidBody.applyTorque" href="qml-qtquick3d-physics-dynamicrigidbody.html#applyTorque-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="vector3d" name="torque" default=""/>
+            </function>
+            <function name="applyTorqueImpulse" fullname="QtQuick3D.Physics.DynamicRigidBody.applyTorqueImpulse" href="qml-qtquick3d-physics-dynamicrigidbody.html#applyTorqueImpulse-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="vector3d" name="impulse" default=""/>
+            </function>
+            <function name="reset" fullname="QtQuick3D.Physics.DynamicRigidBody.reset" href="qml-qtquick3d-physics-dynamicrigidbody.html#reset-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="vector3d" name="position" default=""/>
+                <parameter type="vector3d" name="eulerRotation" default=""/>
+            </function>
+            <function name="setAngularVelocity" fullname="QtQuick3D.Physics.DynamicRigidBody.setAngularVelocity" href="qml-qtquick3d-physics-dynamicrigidbody.html#setAngularVelocity-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="vector3d" name="angularVelocity" default=""/>
+            </function>
+            <function name="setLinearVelocity" fullname="QtQuick3D.Physics.DynamicRigidBody.setLinearVelocity" href="qml-qtquick3d-physics-dynamicrigidbody.html#setLinearVelocity-method" status="active" access="public" documented="true" meta="qmlmethod" type="">
+                <parameter type="vector3d" name="linearVelocity" default=""/>
+            </function>
+            <qmlproperty name="angularAxisLock" fullname="QtQuick3D.Physics.DynamicRigidBody.angularAxisLock" href="qml-qtquick3d-physics-dynamicrigidbody.html#angularAxisLock-prop" status="active" access="public" documented="true" type="AxisLock" attached="false" writable="true"/>
+            <qmlproperty name="centerOfMassPosition" fullname="QtQuick3D.Physics.DynamicRigidBody.centerOfMassPosition" href="qml-qtquick3d-physics-dynamicrigidbody.html#centerOfMassPosition-prop" status="active" access="public" documented="true" type="vector3d" attached="false" writable="true"/>
+            <qmlproperty name="centerOfMassRotation" fullname="QtQuick3D.Physics.DynamicRigidBody.centerOfMassRotation" href="qml-qtquick3d-physics-dynamicrigidbody.html#centerOfMassRotation-prop" status="active" access="public" documented="true" type="quaternion" attached="false" writable="true"/>
+            <qmlproperty name="density" fullname="QtQuick3D.Physics.DynamicRigidBody.density" href="qml-qtquick3d-physics-dynamicrigidbody.html#density-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+            <qmlproperty name="gravityEnabled" fullname="QtQuick3D.Physics.DynamicRigidBody.gravityEnabled" href="qml-qtquick3d-physics-dynamicrigidbody.html#gravityEnabled-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="inertiaMatrix" fullname="QtQuick3D.Physics.DynamicRigidBody.inertiaMatrix" href="qml-qtquick3d-physics-dynamicrigidbody.html#inertiaMatrix-prop" status="active" access="public" documented="true" type="list&lt;float&gt;" attached="false" writable="true"/>
+            <qmlproperty name="inertiaTensor" fullname="QtQuick3D.Physics.DynamicRigidBody.inertiaTensor" href="qml-qtquick3d-physics-dynamicrigidbody.html#inertiaTensor-prop" status="active" access="public" documented="true" type="vector3d" attached="false" writable="true"/>
+            <qmlproperty name="isKinematic" fullname="QtQuick3D.Physics.DynamicRigidBody.isKinematic" href="qml-qtquick3d-physics-dynamicrigidbody.html#isKinematic-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="kinematicEulerRotation" fullname="QtQuick3D.Physics.DynamicRigidBody.kinematicEulerRotation" href="qml-qtquick3d-physics-dynamicrigidbody.html#kinematicEulerRotation-prop" status="active" access="public" since="6.5" documented="true" type="vector4d" attached="false" writable="true"/>
+            <qmlproperty name="kinematicPivot" fullname="QtQuick3D.Physics.DynamicRigidBody.kinematicPivot" href="qml-qtquick3d-physics-dynamicrigidbody.html#kinematicPivot-prop" status="active" access="public" since="6.5" documented="true" type="vector3d" attached="false" writable="true"/>
+            <qmlproperty name="kinematicPosition" fullname="QtQuick3D.Physics.DynamicRigidBody.kinematicPosition" href="qml-qtquick3d-physics-dynamicrigidbody.html#kinematicPosition-prop" status="active" access="public" since="6.5" documented="true" type="vector3d" attached="false" writable="true"/>
+            <qmlproperty name="kinematicRotation" fullname="QtQuick3D.Physics.DynamicRigidBody.kinematicRotation" href="qml-qtquick3d-physics-dynamicrigidbody.html#kinematicRotation-prop" status="active" access="public" since="6.5" documented="true" type="vector3d" attached="false" writable="true"/>
+            <qmlproperty name="linearAxisLock" fullname="QtQuick3D.Physics.DynamicRigidBody.linearAxisLock" href="qml-qtquick3d-physics-dynamicrigidbody.html#linearAxisLock-prop" status="active" access="public" documented="true" type="AxisLock" attached="false" writable="true"/>
+            <qmlproperty name="mass" fullname="QtQuick3D.Physics.DynamicRigidBody.mass" href="qml-qtquick3d-physics-dynamicrigidbody.html#mass-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+            <qmlproperty name="massMode" fullname="QtQuick3D.Physics.DynamicRigidBody.massMode" href="qml-qtquick3d-physics-dynamicrigidbody.html#massMode-prop" status="active" access="public" documented="true" type="MassMode" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="HeightFieldShape" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::CollisionShape" fullname="QtQuick3D.Physics.HeightFieldShape" href="qml-qtquick3d-physics-heightfieldshape.html" status="active" access="public" since="6.4" documented="true" title="HeightFieldShape" fulltitle="HeightFieldShape" subtitle="" brief="A collision shape where the elevation is defined by a height map">
+            <qmlproperty name="extents" fullname="QtQuick3D.Physics.HeightFieldShape.extents" href="qml-qtquick3d-physics-heightfieldshape.html#extents-prop" status="active" access="public" documented="true" type="vector3d" attached="false" writable="true"/>
+            <qmlproperty name="source" fullname="QtQuick3D.Physics.HeightFieldShape.source" href="qml-qtquick3d-physics-heightfieldshape.html#source-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+        </qmlclass>
+        <page name="qtquick3dphysics-attribution-PhysX.html" href="qtquick3dphysics-attribution-physx.html" status="active" location="codeattributions.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/src/quick3dphysics/codeattributions.qdoc" lineno="1" documented="true" groups="attributions-libs,attributions-qtquick3dphysics,attributions-qtquick3dphysics-libs" subtype="attribution" title="NVIDIA PhysX SDK, version PhysX_4.1.2.29882248" fulltitle="NVIDIA PhysX SDK, version PhysX_4.1.2.29882248" subtitle="" brief="BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License">
+            <target name="physx" title="PhysX"/>
+        </page>
+        <qmlclass name="PhysicsBody" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::PhysicsNode" fullname="QtQuick3D.Physics.PhysicsBody" href="qml-qtquick3d-physics-physicsbody.html" status="active" access="public" since="6.4" documented="true" title="PhysicsBody" fulltitle="PhysicsBody" subtitle="" brief="Base type for all concrete physical bodies">
+            <qmlproperty name="physicsMaterial" fullname="QtQuick3D.Physics.PhysicsBody.physicsMaterial" href="qml-qtquick3d-physics-physicsbody.html#physicsMaterial-prop" status="active" access="public" documented="true" type="PhysicsMaterial" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="PhysicsMaterial" qml-module-name="QtQuick3D.Physics" fullname="QtQuick3D.Physics.PhysicsMaterial" href="qml-qtquick3d-physics-physicsmaterial.html" status="active" access="public" since="6.4" documented="true" title="PhysicsMaterial" fulltitle="PhysicsMaterial" subtitle="" brief="Defines the physics material of a body">
+            <qmlproperty name="dynamicFriction" fullname="QtQuick3D.Physics.PhysicsMaterial.dynamicFriction" href="qml-qtquick3d-physics-physicsmaterial.html#dynamicFriction-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+            <qmlproperty name="restitution" fullname="QtQuick3D.Physics.PhysicsMaterial.restitution" href="qml-qtquick3d-physics-physicsmaterial.html#restitution-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+            <qmlproperty name="staticFriction" fullname="QtQuick3D.Physics.PhysicsMaterial.staticFriction" href="qml-qtquick3d-physics-physicsmaterial.html#staticFriction-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="PhysicsNode" qml-module-name="QtQuick3D.Physics" fullname="QtQuick3D.Physics.PhysicsNode" href="qml-qtquick3d-physics-physicsnode.html" status="active" access="public" since="6.4" documented="true" title="PhysicsNode" fulltitle="PhysicsNode" subtitle="" brief="Base type for all objects in the physics scene">
+            <function name="bodyContact" fullname="QtQuick3D.Physics.PhysicsNode.bodyContact" href="qml-qtquick3d-physics-physicsnode.html#bodyContact-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="PhysicsNode *" name="body" default=""/>
+                <parameter type="list&lt;vector3D&gt;" name="positions" default=""/>
+                <parameter type="list&lt;vector3D&gt;" name="impulses" default=""/>
+                <parameter type="list&lt;vector3D&gt;" name="normals" default=""/>
+            </function>
+            <function name="enteredTriggerBody" fullname="QtQuick3D.Physics.PhysicsNode.enteredTriggerBody" href="qml-qtquick3d-physics-physicsnode.html#enteredTriggerBody-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="TriggerBody *" name="body" default=""/>
+            </function>
+            <function name="exitedTriggerBody" fullname="QtQuick3D.Physics.PhysicsNode.exitedTriggerBody" href="qml-qtquick3d-physics-physicsnode.html#exitedTriggerBody-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="TriggerBody *" name="body" default=""/>
+            </function>
+            <qmlproperty name="collisionShapes" fullname="QtQuick3D.Physics.PhysicsNode.collisionShapes" href="qml-qtquick3d-physics-physicsnode.html#collisionShapes-prop" status="active" access="public" documented="true" type="list&lt;CollisionShape&gt;" attached="false" writable="true"/>
+            <qmlproperty name="receiveContactReports" fullname="QtQuick3D.Physics.PhysicsNode.receiveContactReports" href="qml-qtquick3d-physics-physicsnode.html#receiveContactReports-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="receiveTriggerReports" fullname="QtQuick3D.Physics.PhysicsNode.receiveTriggerReports" href="qml-qtquick3d-physics-physicsnode.html#receiveTriggerReports-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="sendContactReports" fullname="QtQuick3D.Physics.PhysicsNode.sendContactReports" href="qml-qtquick3d-physics-physicsnode.html#sendContactReports-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="sendTriggerReports" fullname="QtQuick3D.Physics.PhysicsNode.sendTriggerReports" href="qml-qtquick3d-physics-physicsnode.html#sendTriggerReports-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="PhysicsWorld" qml-module-name="QtQuick3D.Physics" fullname="QtQuick3D.Physics.PhysicsWorld" href="qml-qtquick3d-physics-physicsworld.html" status="active" access="public" since="6.4" documented="true" title="PhysicsWorld" fulltitle="PhysicsWorld" subtitle="" brief="Controls the physics simulation">
+            <function name="frameDone" fullname="QtQuick3D.Physics.PhysicsWorld.frameDone" href="qml-qtquick3d-physics-physicsworld.html#frameDone-signal" status="active" access="public" documented="true" since="6.5" meta="qmlsignal" type="">
+                <parameter type="float" name="timestep" default=""/>
+            </function>
+            <qmlproperty name="defaultDensity" fullname="QtQuick3D.Physics.PhysicsWorld.defaultDensity" href="qml-qtquick3d-physics-physicsworld.html#defaultDensity-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+            <qmlproperty name="enableCCD" fullname="QtQuick3D.Physics.PhysicsWorld.enableCCD" href="qml-qtquick3d-physics-physicsworld.html#enableCCD-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="forceDebugDraw" fullname="QtQuick3D.Physics.PhysicsWorld.forceDebugDraw" href="qml-qtquick3d-physics-physicsworld.html#forceDebugDraw-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="gravity" fullname="QtQuick3D.Physics.PhysicsWorld.gravity" href="qml-qtquick3d-physics-physicsworld.html#gravity-prop" status="active" access="public" documented="true" type="vector3d" attached="false" writable="true"/>
+            <qmlproperty name="maximumTimestep" fullname="QtQuick3D.Physics.PhysicsWorld.maximumTimestep" href="qml-qtquick3d-physics-physicsworld.html#maximumTimestep-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+            <qmlproperty name="minimumTimestep" fullname="QtQuick3D.Physics.PhysicsWorld.minimumTimestep" href="qml-qtquick3d-physics-physicsworld.html#minimumTimestep-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+            <qmlproperty name="running" fullname="QtQuick3D.Physics.PhysicsWorld.running" href="qml-qtquick3d-physics-physicsworld.html#running-prop" status="active" access="public" documented="true" type="bool" attached="false" writable="true"/>
+            <qmlproperty name="scene" fullname="QtQuick3D.Physics.PhysicsWorld.scene" href="qml-qtquick3d-physics-physicsworld.html#scene-prop" status="active" access="public" documented="true" type="Node" attached="false" writable="true"/>
+            <qmlproperty name="typicalLength" fullname="QtQuick3D.Physics.PhysicsWorld.typicalLength" href="qml-qtquick3d-physics-physicsworld.html#typicalLength-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+            <qmlproperty name="typicalSpeed" fullname="QtQuick3D.Physics.PhysicsWorld.typicalSpeed" href="qml-qtquick3d-physics-physicsworld.html#typicalSpeed-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+            <qmlproperty name="viewport" fullname="QtQuick3D.Physics.PhysicsWorld.viewport" href="qml-qtquick3d-physics-physicsworld.html#viewport-prop" status="active" access="public" documented="true" type="Node" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="PlaneShape" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::CollisionShape" fullname="QtQuick3D.Physics.PlaneShape" href="qml-qtquick3d-physics-planeshape.html" status="active" access="public" since="6.4" documented="true" title="PlaneShape" fulltitle="PlaneShape" subtitle="" brief="A collision shape that defines an infinite plane"/>
+        <page name="qtquick3dphysics-index.html" href="qtquick3dphysics-index.html" status="active" location="qtquick3dphysics-index.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/src/quick3dphysics/doc/src/qtquick3dphysics-index.qdoc" lineno="4" documented="true" subtype="page" title="Qt Quick 3D Physics" fulltitle="Qt Quick 3D Physics" subtitle="" brief="Provides API for physics on 3D items using QML">
+            <contents name="using-the-module" title="Using the Module" level="1"/>
+            <contents name="qml-api" title="QML API" level="2"/>
+            <contents name="articles-and-guides" title="Articles and Guides" level="1"/>
+            <contents name="examples" title="Examples" level="1"/>
+            <contents name="reference" title="Reference" level="1"/>
+            <contents name="related-modules" title="Related Modules" level="1"/>
+            <contents name="license-and-attributions" title="License and Attributions" level="1"/>
+        </page>
+        <page name="cannon" href="qtquick3dphysics-cannon-example.html" status="active" location="qtquick3dphysics-examples-cannon.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/examples/quick3dphysics/cannon/doc/src/qtquick3dphysics-examples-cannon.qdoc" lineno="4" documented="true" groups="category Data Visualization &amp; 3D,quick3dphysics-examples" subtype="example" title="Qt Quick 3D Physics - Cannon Example" fulltitle="Qt Quick 3D Physics - Cannon Example" subtitle="" brief="Demonstrates how to spawn physical objects">
+            <page name="cannon/Box.qml" href="qtquick3dphysics-cannon-box-qml.html" status="active" subtype="file" title="" fulltitle="Box.qml Example File" subtitle="cannon/Box.qml"/>
+            <page name="cannon/Crosshair.qml" href="qtquick3dphysics-cannon-crosshair-qml.html" status="active" subtype="file" title="" fulltitle="Crosshair.qml Example File" subtitle="cannon/Crosshair.qml"/>
+            <page name="cannon/Sphere.qml" href="qtquick3dphysics-cannon-sphere-qml.html" status="active" subtype="file" title="" fulltitle="Sphere.qml Example File" subtitle="cannon/Sphere.qml"/>
+            <page name="cannon/main.qml" href="qtquick3dphysics-cannon-main-qml.html" status="active" subtype="file" title="" fulltitle="main.qml Example File" subtitle="cannon/main.qml"/>
+            <page name="cannon/main.cpp" href="qtquick3dphysics-cannon-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="cannon/main.cpp"/>
+            <page name="cannon/CMakeLists.txt" href="qtquick3dphysics-cannon-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="cannon/CMakeLists.txt"/>
+            <page name="cannon/cannon.pro" href="qtquick3dphysics-cannon-cannon-pro.html" status="active" subtype="file" title="" fulltitle="cannon.pro Example File" subtitle="cannon/cannon.pro"/>
+            <page name="cannon/qml.qrc" href="qtquick3dphysics-cannon-qml-qrc.html" status="active" subtype="file" title="" fulltitle="qml.qrc Example File" subtitle="cannon/qml.qrc"/>
+        </page>
+        <page name="charactercontroller" href="qtquick3dphysics-charactercontroller-example.html" status="active" location="qtquick3dphysics-examples-charactercontroller.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/examples/quick3dphysics/charactercontroller/doc/src/qtquick3dphysics-examples-charactercontroller.qdoc" lineno="4" documented="true" groups="category Data Visualization &amp; 3D,quick3dphysics-examples" subtype="example" title="Qt Quick 3D Physics - CharacterController Example" fulltitle="Qt Quick 3D Physics - CharacterController Example" subtitle="" brief="Demonstrates the CharacterController type">
+            <contents name="the-scene" title="The scene" level="1"/>
+            <contents name="the-character-controller" title="The character controller" level="1"/>
+            <contents name="position-and-movement" title="Position and movement" level="2"/>
+            <page name="charactercontroller/Building.qml" href="qtquick3dphysics-charactercontroller-building-qml.html" status="active" subtype="file" title="" fulltitle="Building.qml Example File" subtitle="charactercontroller/Building.qml"/>
+            <page name="charactercontroller/Wasd.qml" href="qtquick3dphysics-charactercontroller-wasd-qml.html" status="active" subtype="file" title="" fulltitle="Wasd.qml Example File" subtitle="charactercontroller/Wasd.qml"/>
+            <page name="charactercontroller/main.qml" href="qtquick3dphysics-charactercontroller-main-qml.html" status="active" subtype="file" title="" fulltitle="main.qml Example File" subtitle="charactercontroller/main.qml"/>
+            <page name="charactercontroller/main.cpp" href="qtquick3dphysics-charactercontroller-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="charactercontroller/main.cpp"/>
+            <page name="charactercontroller/CMakeLists.txt" href="qtquick3dphysics-charactercontroller-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="charactercontroller/CMakeLists.txt"/>
+            <page name="charactercontroller/charactercontroller.pro" href="qtquick3dphysics-charactercontroller-charactercontroller-pro.html" status="active" subtype="file" title="" fulltitle="charactercontroller.pro Example File" subtitle="charactercontroller/charactercontroller.pro"/>
+            <page name="charactercontroller/qml.qrc" href="qtquick3dphysics-charactercontroller-qml-qrc.html" status="active" subtype="file" title="" fulltitle="qml.qrc Example File" subtitle="charactercontroller/qml.qrc"/>
+            <page name="charactercontroller/maps/Tape001_1K_Color.jpg" href="qtquick3dphysics-charactercontroller-maps-tape001-1k-color-jpg.html" status="active" subtype="image" title="" fulltitle="Tape001_1K_Color.jpg Image File" subtitle="charactercontroller/maps/Tape001_1K_Color.jpg"/>
+            <page name="charactercontroller/maps/Tape001_1K_NormalGL.jpg" href="qtquick3dphysics-charactercontroller-maps-tape001-1k-normalgl-jpg.html" status="active" subtype="image" title="" fulltitle="Tape001_1K_NormalGL.jpg Image File" subtitle="charactercontroller/maps/Tape001_1K_NormalGL.jpg"/>
+            <page name="charactercontroller/maps/Tape001_1K_Roughness.jpg" href="qtquick3dphysics-charactercontroller-maps-tape001-1k-roughness-jpg.html" status="active" subtype="image" title="" fulltitle="Tape001_1K_Roughness.jpg Image File" subtitle="charactercontroller/maps/Tape001_1K_Roughness.jpg"/>
+            <page name="charactercontroller/maps/Tiles107_1K_Color.jpg" href="qtquick3dphysics-charactercontroller-maps-tiles107-1k-color-jpg.html" status="active" subtype="image" title="" fulltitle="Tiles107_1K_Color.jpg Image File" subtitle="charactercontroller/maps/Tiles107_1K_Color.jpg"/>
+            <page name="charactercontroller/maps/Tiles107_1K_NormalGL.jpg" href="qtquick3dphysics-charactercontroller-maps-tiles107-1k-normalgl-jpg.html" status="active" subtype="image" title="" fulltitle="Tiles107_1K_NormalGL.jpg Image File" subtitle="charactercontroller/maps/Tiles107_1K_NormalGL.jpg"/>
+            <page name="charactercontroller/maps/Tiles107_1K_Roughness.jpg" href="qtquick3dphysics-charactercontroller-maps-tiles107-1k-roughness-jpg.html" status="active" subtype="image" title="" fulltitle="Tiles107_1K_Roughness.jpg Image File" subtitle="charactercontroller/maps/Tiles107_1K_Roughness.jpg"/>
+            <page name="charactercontroller/maps/Tiles108_1K_Color.jpg" href="qtquick3dphysics-charactercontroller-maps-tiles108-1k-color-jpg.html" status="active" subtype="image" title="" fulltitle="Tiles108_1K_Color.jpg Image File" subtitle="charactercontroller/maps/Tiles108_1K_Color.jpg"/>
+            <page name="charactercontroller/maps/sign.png" href="qtquick3dphysics-charactercontroller-maps-sign-png.html" status="active" subtype="image" title="" fulltitle="sign.png Image File" subtitle="charactercontroller/maps/sign.png"/>
+            <page name="charactercontroller/maps/sphere.png" href="qtquick3dphysics-charactercontroller-maps-sphere-png.html" status="active" subtype="image" title="" fulltitle="sphere.png Image File" subtitle="charactercontroller/maps/sphere.png"/>
+        </page>
+        <page name="compoundshapes" href="qtquick3dphysics-compoundshapes-example.html" status="active" location="qtquick3dphysics-examples-compoundshapes.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/examples/quick3dphysics/compoundshapes/doc/src/qtquick3dphysics-examples-compoundshapes.qdoc" lineno="4" documented="true" groups="category Data Visualization &amp; 3D,quick3dphysics-examples" subtype="example" title="Qt Quick 3D Physics - Compound Shapes Example" fulltitle="Qt Quick 3D Physics - Compound Shapes Example" subtitle="" brief="Demonstrates using complex collision shapes">
+            <contents name="setup" title="Setup" level="1"/>
+            <contents name="physical-objects" title="Physical objects" level="1"/>
+            <contents name="mesh-link" title="Mesh Link" level="1"/>
+            <contents name="capsule-link" title="Capsule Link" level="1"/>
+            <page name="compoundshapes/CapsuleLink.qml" href="qtquick3dphysics-compoundshapes-capsulelink-qml.html" status="active" subtype="file" title="" fulltitle="CapsuleLink.qml Example File" subtitle="compoundshapes/CapsuleLink.qml"/>
+            <page name="compoundshapes/MeshLink.qml" href="qtquick3dphysics-compoundshapes-meshlink-qml.html" status="active" subtype="file" title="" fulltitle="MeshLink.qml Example File" subtitle="compoundshapes/MeshLink.qml"/>
+            <page name="compoundshapes/main.qml" href="qtquick3dphysics-compoundshapes-main-qml.html" status="active" subtype="file" title="" fulltitle="main.qml Example File" subtitle="compoundshapes/main.qml"/>
+            <page name="compoundshapes/main.cpp" href="qtquick3dphysics-compoundshapes-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="compoundshapes/main.cpp"/>
+            <page name="compoundshapes/CMakeLists.txt" href="qtquick3dphysics-compoundshapes-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="compoundshapes/CMakeLists.txt"/>
+            <page name="compoundshapes/compoundshapes.pro" href="qtquick3dphysics-compoundshapes-compoundshapes-pro.html" status="active" subtype="file" title="" fulltitle="compoundshapes.pro Example File" subtitle="compoundshapes/compoundshapes.pro"/>
+            <page name="compoundshapes/qml.qrc" href="qtquick3dphysics-compoundshapes-qml-qrc.html" status="active" subtype="file" title="" fulltitle="qml.qrc Example File" subtitle="compoundshapes/qml.qrc"/>
+            <page name="compoundshapes/resources.qrc" href="qtquick3dphysics-compoundshapes-resources-qrc.html" status="active" subtype="file" title="" fulltitle="resources.qrc Example File" subtitle="compoundshapes/resources.qrc"/>
+        </page>
+        <page name="customshapes" href="qtquick3dphysics-customshapes-example.html" status="active" location="qtquick3dphysics-examples-customshapes.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/examples/quick3dphysics/customshapes/doc/src/qtquick3dphysics-examples-customshapes.qdoc" lineno="4" documented="true" groups="category Data Visualization &amp; 3D,quick3dphysics-examples" subtype="example" title="Qt Quick 3D Physics - Custom Shapes Example" fulltitle="Qt Quick 3D Physics - Custom Shapes Example" subtitle="" brief="Demonstrates using different shapes">
+            <contents name="environment" title="Environment" level="1"/>
+            <contents name="textures" title="Textures" level="1"/>
+            <contents name="scene" title="Scene" level="1"/>
+            <contents name="tablecloth" title="Tablecloth" level="1"/>
+            <contents name="cup" title="Cup" level="1"/>
+            <contents name="tower" title="Tower" level="1"/>
+            <contents name="dice" title="Dice" level="1"/>
+            <contents name="animation" title="Animation" level="1"/>
+            <contents name="controller" title="Controller" level="1"/>
+            <page name="customshapes/main.qml" href="qtquick3dphysics-customshapes-main-qml.html" status="active" subtype="file" title="" fulltitle="main.qml Example File" subtitle="customshapes/main.qml"/>
+            <page name="customshapes/main.cpp" href="qtquick3dphysics-customshapes-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="customshapes/main.cpp"/>
+            <page name="customshapes/CMakeLists.txt" href="qtquick3dphysics-customshapes-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="customshapes/CMakeLists.txt"/>
+            <page name="customshapes/customshapes.pro" href="qtquick3dphysics-customshapes-customshapes-pro.html" status="active" subtype="file" title="" fulltitle="customshapes.pro Example File" subtitle="customshapes/customshapes.pro"/>
+            <page name="customshapes/qml.qrc" href="qtquick3dphysics-customshapes-qml-qrc.html" status="active" subtype="file" title="" fulltitle="qml.qrc Example File" subtitle="customshapes/qml.qrc"/>
+            <page name="customshapes/resources.qrc" href="qtquick3dphysics-customshapes-resources-qrc.html" status="active" subtype="file" title="" fulltitle="resources.qrc Example File" subtitle="customshapes/resources.qrc"/>
+            <page name="customshapes/maps/cloth-heightmap.png" href="qtquick3dphysics-customshapes-maps-cloth-heightmap-png.html" status="active" subtype="image" title="" fulltitle="cloth-heightmap.png Image File" subtitle="customshapes/maps/cloth-heightmap.png"/>
+            <page name="customshapes/maps/numbers-normal.png" href="qtquick3dphysics-customshapes-maps-numbers-normal-png.html" status="active" subtype="image" title="" fulltitle="numbers-normal.png Image File" subtitle="customshapes/maps/numbers-normal.png"/>
+            <page name="customshapes/maps/numbers.png" href="qtquick3dphysics-customshapes-maps-numbers-png.html" status="active" subtype="image" title="" fulltitle="numbers.png Image File" subtitle="customshapes/maps/numbers.png"/>
+            <page name="customshapes/maps/weave.png" href="qtquick3dphysics-customshapes-maps-weave-png.html" status="active" subtype="image" title="" fulltitle="weave.png Image File" subtitle="customshapes/maps/weave.png"/>
+        </page>
+        <page name="impeller" href="qtquick3dphysics-impeller-example.html" status="active" location="qtquick3dphysics-examples-impeller.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/examples/quick3dphysics/impeller/doc/src/qtquick3dphysics-examples-impeller.qdoc" lineno="4" documented="true" groups="category Data Visualization &amp; 3D,quick3dphysics-examples" subtype="example" title="Qt Quick 3D Physics - Impeller Example" fulltitle="Qt Quick 3D Physics - Impeller Example" subtitle="" brief="Demonstrates using trigger bodies and collision info">
+            <contents name="setup" title="Setup" level="1"/>
+            <contents name="physical-objects" title="Physical objects" level="1"/>
+            <page name="impeller/main.qml" href="qtquick3dphysics-impeller-main-qml.html" status="active" subtype="file" title="" fulltitle="main.qml Example File" subtitle="impeller/main.qml"/>
+            <page name="impeller/main.cpp" href="qtquick3dphysics-impeller-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="impeller/main.cpp"/>
+            <page name="impeller/CMakeLists.txt" href="qtquick3dphysics-impeller-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="impeller/CMakeLists.txt"/>
+            <page name="impeller/impeller.pro" href="qtquick3dphysics-impeller-impeller-pro.html" status="active" subtype="file" title="" fulltitle="impeller.pro Example File" subtitle="impeller/impeller.pro"/>
+            <page name="impeller/qml.qrc" href="qtquick3dphysics-impeller-qml-qrc.html" status="active" subtype="file" title="" fulltitle="qml.qrc Example File" subtitle="impeller/qml.qrc"/>
+        </page>
+        <page name="mass" href="qtquick3dphysics-mass-example.html" status="active" location="qtquick3dphysics-examples-mass.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/examples/quick3dphysics/mass/doc/src/qtquick3dphysics-examples-mass.qdoc" lineno="4" documented="true" groups="category Data Visualization &amp; 3D,quick3dphysics-examples" subtype="example" title="Qt Quick 3D Physics - Mass Example" fulltitle="Qt Quick 3D Physics - Mass Example" subtitle="" brief="Demonstrates different ways of setting mass and inertia of a body">
+            <contents name="setup" title="Setup" level="1"/>
+            <contents name="physical-objects" title="Physical objects" level="1"/>
+            <contents name="shooting-balls" title="Shooting balls" level="2"/>
+            <page name="mass/RolyPoly.qml" href="qtquick3dphysics-mass-rolypoly-qml.html" status="active" subtype="file" title="" fulltitle="RolyPoly.qml Example File" subtitle="mass/RolyPoly.qml"/>
+            <page name="mass/Sphere.qml" href="qtquick3dphysics-mass-sphere-qml.html" status="active" subtype="file" title="" fulltitle="Sphere.qml Example File" subtitle="mass/Sphere.qml"/>
+            <page name="mass/main.qml" href="qtquick3dphysics-mass-main-qml.html" status="active" subtype="file" title="" fulltitle="main.qml Example File" subtitle="mass/main.qml"/>
+            <page name="mass/main.cpp" href="qtquick3dphysics-mass-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="mass/main.cpp"/>
+            <page name="mass/CMakeLists.txt" href="qtquick3dphysics-mass-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="mass/CMakeLists.txt"/>
+            <page name="mass/mass.pro" href="qtquick3dphysics-mass-mass-pro.html" status="active" subtype="file" title="" fulltitle="mass.pro Example File" subtitle="mass/mass.pro"/>
+            <page name="mass/qml.qrc" href="qtquick3dphysics-mass-qml-qrc.html" status="active" subtype="file" title="" fulltitle="qml.qrc Example File" subtitle="mass/qml.qrc"/>
+        </page>
+        <page name="material" href="qtquick3dphysics-material-example.html" status="active" location="qtquick3dphysics-examples-material.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/examples/quick3dphysics/material/doc/src/qtquick3dphysics-examples-material.qdoc" lineno="4" documented="true" groups="category Data Visualization &amp; 3D,quick3dphysics-examples" subtype="example" title="Qt Quick 3D Physics - Material Example" fulltitle="Qt Quick 3D Physics - Material Example" subtitle="" brief="Demonstrates using physical materials">
+            <page name="material/main.qml" href="qtquick3dphysics-material-main-qml.html" status="active" subtype="file" title="" fulltitle="main.qml Example File" subtitle="material/main.qml"/>
+            <page name="material/main.cpp" href="qtquick3dphysics-material-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="material/main.cpp"/>
+            <page name="material/CMakeLists.txt" href="qtquick3dphysics-material-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="material/CMakeLists.txt"/>
+            <page name="material/material.pro" href="qtquick3dphysics-material-material-pro.html" status="active" subtype="file" title="" fulltitle="material.pro Example File" subtitle="material/material.pro"/>
+            <page name="material/qml.qrc" href="qtquick3dphysics-material-qml-qrc.html" status="active" subtype="file" title="" fulltitle="qml.qrc Example File" subtitle="material/qml.qrc"/>
+        </page>
+        <page name="simple" href="qtquick3dphysics-simple-example.html" status="active" location="qtquick3dphysics-examples-simple.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/examples/quick3dphysics/simple/doc/src/qtquick3dphysics-examples-simple.qdoc" lineno="4" documented="true" groups="category Data Visualization &amp; 3D,quick3dphysics-examples" subtype="example" title="Qt Quick 3D Physics - Simple Example" fulltitle="Qt Quick 3D Physics - Simple Example" subtitle="" brief="Demonstrates setting up a simple physics scene">
+            <contents name="setup" title="Setup" level="1"/>
+            <contents name="scene" title="Scene" level="1"/>
+            <contents name="shapes" title="Shapes" level="1"/>
+            <contents name="plane" title="Plane" level="2"/>
+            <contents name="box" title="Box" level="2"/>
+            <contents name="sphere" title="Sphere" level="2"/>
+            <contents name="capsule" title="Capsule" level="2"/>
+            <page name="simple/main.qml" href="qtquick3dphysics-simple-main-qml.html" status="active" subtype="file" title="" fulltitle="main.qml Example File" subtitle="simple/main.qml"/>
+            <page name="simple/main.cpp" href="qtquick3dphysics-simple-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="simple/main.cpp"/>
+            <page name="simple/CMakeLists.txt" href="qtquick3dphysics-simple-cmakelists-txt.html" status="active" subtype="file" title="" fulltitle="CMakeLists.txt Example File" subtitle="simple/CMakeLists.txt"/>
+            <page name="simple/qml.qrc" href="qtquick3dphysics-simple-qml-qrc.html" status="active" subtype="file" title="" fulltitle="qml.qrc Example File" subtitle="simple/qml.qrc"/>
+            <page name="simple/simple.pro" href="qtquick3dphysics-simple-simple-pro.html" status="active" subtype="file" title="" fulltitle="simple.pro Example File" subtitle="simple/simple.pro"/>
+        </page>
+        <page name="qtquick3dphysics-changes-6-5.html" href="qtquick3dphysics-changes-6-5.html" status="active" location="qtquick3dphysics-changes-6-5.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/src/quick3dphysics/doc/src/qtquick3dphysics-changes-6-5.qdoc" lineno="4" documented="true" subtype="page" title="Qt Quick 3D Physics API Changes from Tech Preview" fulltitle="Qt Quick 3D Physics API Changes from Tech Preview" subtitle="" brief="List of API changes from Tech Preview"/>
+        <page name="qtquick3dphysics-cooking.html" href="qtquick3dphysics-cooking.html" status="active" location="qtquick3dphysics-cooking.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/src/quick3dphysics/doc/src/qtquick3dphysics-cooking.qdoc" lineno="4" documented="true" subtype="page" title="Qt Quick 3D Physics Cooking" fulltitle="Qt Quick 3D Physics Cooking" subtitle="" brief="An explanation of how Qt Quick 3D Physics handles meshes and cooking">
+            <contents name="cache-directory" title="Cache directory" level="1"/>
+            <contents name="cooker-tool" title="Cooker tool" level="1"/>
+        </page>
+        <page name="qtquick3dphysics-shapes-bodies.html" href="qtquick3dphysics-shapes-bodies.html" status="active" location="qtquick3dphysics-shapes-bodies.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/src/quick3dphysics/doc/src/qtquick3dphysics-shapes-bodies.qdoc" lineno="4" documented="true" subtype="page" title="Qt Quick 3D Physics Shapes and Bodies" fulltitle="Qt Quick 3D Physics Shapes and Bodies" subtitle="" brief="An overview of Qt Quick 3D Physics objects and their physical shapes">
+            <contents name="shapes" title="Shapes" level="1"/>
+            <contents name="bodies" title="Bodies" level="1"/>
+            <contents name="dynamic-body" title="Dynamic body" level="2"/>
+            <contents name="static-body" title="Static body" level="2"/>
+            <contents name="character-controller" title="Character controller" level="2"/>
+            <contents name="trigger-body" title="Trigger body" level="2"/>
+            <contents name="physics-materials" title="Physics Materials" level="1"/>
+        </page>
+        <page name="qtquick3dphysics-units.html" href="qtquick3dphysics-units.html" status="active" location="qtquick3dphysics-units.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/src/quick3dphysics/doc/src/qtquick3dphysics-units.qdoc" lineno="4" documented="true" subtype="page" title="Qt Quick 3D Physics Units" fulltitle="Qt Quick 3D Physics Units" subtitle="" brief="An explanation of how Qt Quick 3D Physics handles units and dimensions">
+            <contents name="default-units" title="Default units" level="1"/>
+            <contents name="custom-units" title="Custom units" level="1"/>
+        </page>
+        <qmlclass name="SphereShape" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::CollisionShape" fullname="QtQuick3D.Physics.SphereShape" href="qml-qtquick3d-physics-sphereshape.html" status="active" access="public" since="6.4" documented="true" title="SphereShape" fulltitle="SphereShape" subtitle="" brief="Defines a spherical collision shape">
+            <qmlproperty name="diameter" fullname="QtQuick3D.Physics.SphereShape.diameter" href="qml-qtquick3d-physics-sphereshape.html#diameter-prop" status="active" access="public" documented="true" type="float" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="StaticRigidBody" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::PhysicsBody" fullname="QtQuick3D.Physics.StaticRigidBody" href="qml-qtquick3d-physics-staticrigidbody.html" status="active" access="public" since="6.4" documented="true" title="StaticRigidBody" fulltitle="StaticRigidBody" subtitle="" brief="A physical body that does not move"/>
+        <qmlclass name="TriangleMeshShape" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::CollisionShape" fullname="QtQuick3D.Physics.TriangleMeshShape" href="qml-qtquick3d-physics-trianglemeshshape.html" status="active" access="public" since="6.4" documented="true" title="TriangleMeshShape" fulltitle="TriangleMeshShape" subtitle="" brief="A collision shape based on a 3D mesh">
+            <qmlproperty name="source" fullname="QtQuick3D.Physics.TriangleMeshShape.source" href="qml-qtquick3d-physics-trianglemeshshape.html#source-prop" status="active" access="public" documented="true" type="url" attached="false" writable="true"/>
+        </qmlclass>
+        <qmlclass name="TriggerBody" qml-module-name="QtQuick3D.Physics" qml-base-type="QtQuick3D.Physics::PhysicsNode" fullname="QtQuick3D.Physics.TriggerBody" href="qml-qtquick3d-physics-triggerbody.html" status="active" access="public" since="6.4" documented="true" title="TriggerBody" fulltitle="TriggerBody" subtitle="" brief="Reports when objects enter a given volume">
+            <function name="bodyEntered" fullname="QtQuick3D.Physics.TriggerBody.bodyEntered" href="qml-qtquick3d-physics-triggerbody.html#bodyEntered-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="PhysicsNode *" name="body" default=""/>
+            </function>
+            <function name="bodyExited" fullname="QtQuick3D.Physics.TriggerBody.bodyExited" href="qml-qtquick3d-physics-triggerbody.html#bodyExited-signal" status="active" access="public" documented="true" meta="qmlsignal" type="">
+                <parameter type="PhysicsNode *" name="body" default=""/>
+            </function>
+            <qmlproperty name="collisionCount" fullname="QtQuick3D.Physics.TriggerBody.collisionCount" href="qml-qtquick3d-physics-triggerbody.html#collisionCount-prop" status="active" access="public" documented="true" type="int" attached="false" writable="true"/>
+        </qmlclass>
+        <group name="attributions-libs" href="attributions-libs.html" status="internal" seen="false" title=""/>
+        <group name="attributions-qtquick3dphysics" href="attributions-qtquick3dphysics.html" status="internal" seen="false" title=""/>
+        <group name="attributions-qtquick3dphysics-libs" href="attributions-qtquick3dphysics-libs.html" status="internal" seen="false" title=""/>
+        <group name="category Data Visualization &amp; 3D" href="category-data-visualization-3d.html" status="internal" seen="false" title=""/>
+        <group name="quick3dphysics-examples" href="quick3dphysics-examples.html" status="active" location="qtquick3dphysics-examples.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/src/quick3dphysics/doc/src/qtquick3dphysics-examples.qdoc" lineno="4" documented="true" seen="true" title="Qt Quick 3D Physics Examples and Tutorials" brief="List of all examples and tutorials for Qt Quick 3D Physics"/>
+        <qmlmodule name="QtQuick3D.Physics" qml-module-name="QtQuick3D.Physics" href="qtquick3d-physics-qmlmodule.html" status="active" location="qtquick3dphysics-qmlmodule.qdoc" filepath="/home/qt/work/qt/qt5/qtquick3dphysics/src/quick3dphysics/doc/src/qtquick3dphysics-qmlmodule.qdoc" lineno="4" documented="true" seen="true" title="Qt Quick 3D Physics QML Types" brief="Provides the QML types to include physics items into a Qt Quick scene">
+            <contents name="qtquick3d-physics-qml-types" title="QtQuick3D Physics QML Types" level="1"/>
+        </qmlmodule>
+    </namespace>
+</INDEX>
